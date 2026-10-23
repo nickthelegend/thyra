@@ -1,0 +1,24 @@
+{
+  "name": "thyra",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Thyra: open a door in your own wall (WebXR mixed reality on Quest 3/3S, Meta Model API).",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.json",
+    "gateway": "node --env-file-if-exists=.env packages/gateway/src/main.ts",
+    "xr:typecheck": "npm --prefix packages/xr run typecheck",
+    "xr:build": "npm --prefix packages/xr run build",
+    "e2e": "node e2e/run.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.0",
+    "vitest": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=22.18"
+  }
+}

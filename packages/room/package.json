@@ -1,0 +1,9 @@
+{
+  "name": "@thyra/room",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "description": "Pure room geometry for Thyra: wall frames, plane-local door drawing, the room summary Muse Spark reads, and the Step-in state machine. No IWSDK, no three.js.",
+  "exports": { ".": "./src/index.ts" }
+}
