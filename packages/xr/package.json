@@ -15,6 +15,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource/host-grotesk": "^5.3.0",
+    "@fontsource/ubuntu-sans-mono": "^5.3.0",
     "@iwsdk/core": "1.1.0-rc.2",
     "@pmndrs/uikit": "^1.0.74",
     "@pmndrs/uikit-horizon": "^1.0.74",
@@ -22,8 +24,8 @@
     "three": "npm:super-three@0.185.0"
   },
   "devDependencies": {
-    "@iwsdk/reference": "1.1.0-rc.2",
     "@iwsdk/cli": "1.1.0-rc.2",
+    "@iwsdk/reference": "1.1.0-rc.2",
     "@iwsdk/vite-plugin-dev": "1.1.0-rc.2",
     "@meta-quest/metavr": "^1.8.1",
     "@types/three": "^0.185.0",
