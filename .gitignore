@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+.iwsdk/
+.mcp.json
+*.log
+.DS_Store
+coverage/
+artifacts/
+test-results/
+playwright-report/
+deployments/runs/
