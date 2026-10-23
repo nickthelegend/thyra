@@ -11,5 +11,5 @@
     "skipLibCheck": true,
     "types": ["node"]
   },
-  "include": ["packages/room/**/*.ts", "packages/pano/**/*.ts", "packages/gateway/**/*.ts", "e2e/**/*.ts"]
+  "include": ["packages/room/**/*.ts", "packages/pano/**/*.ts", "packages/gateway/**/*.ts", "e2e/**/*.ts", "scripts/**/*.ts"]
 }

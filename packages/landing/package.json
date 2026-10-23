@@ -1,0 +1,8 @@
+{
+  "name": "@thyra/landing",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "description": "Thyra landing page: a drawing sheet with a door schedule of real (emulator) runs. Static HTML, no build step.",
+  "scripts": { "data": "node ../../scripts/landing-data.ts" }
+}
