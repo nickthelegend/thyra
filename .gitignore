@@ -12,3 +12,5 @@ artifacts/
 test-results/
 playwright-report/
 deployments/runs/
+packages/xr/public/rooms/
+deployments/runs-e2e/
