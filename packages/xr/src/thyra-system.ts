@@ -128,6 +128,17 @@ export class ThyraSystem extends createSystem({
     this.renderer.localClippingEnabled = true;
     void this.refreshStatus();
     (window as unknown as { __thyra: unknown }).__thyra = this.debugApi();
+    // Angles of the door card's corners from the view axis (degrees), for the glasses FoV check.
+    (window as unknown as { __thyraCardCorners: unknown }).__thyraCardCorners = () => {
+      const m = this.card.panel.mesh;
+      const g = (m.geometry as PlaneGeometry).parameters;
+      const inv = this.player.head.matrixWorld.clone().invert();
+      m.updateMatrixWorld(true);
+      return [[-1, -1], [1, -1], [1, 1], [-1, 1]].map(([x, y]) => {
+        const p = new Vector3((x * g.width) / 2, (y * g.height) / 2, 0).applyMatrix4(m.matrixWorld).applyMatrix4(inv);
+        return { h: (Math.atan2(p.x, -p.z) * 180) / Math.PI, v: (Math.atan2(p.y, -p.z) * 180) / Math.PI };
+      });
+    };
   }
 
   // ------------------------------------------------------------------ status
@@ -796,6 +807,34 @@ export class ThyraSystem extends createSystem({
         const ly = (0.5 - (r.y + r.h / 2) / ch) * geo.height;
         m.updateMatrixWorld(true);
         return tuple(new Vector3(lx, ly, 0).applyMatrix4(m.matrixWorld));
+      },
+      /** Canvas pixel of a world point as the (left-eye) XR camera sees it, for pixel checks. */
+      project(p: Vec3): [number, number] | null {
+        const xrCam = self.renderer.xr.isPresenting ? self.renderer.xr.getCamera() : self.camera;
+        const cam = 'cameras' in xrCam && (xrCam as { cameras: unknown[] }).cameras.length ? (xrCam as unknown as { cameras: typeof self.camera[] }).cameras[0] : self.camera;
+        const v = new Vector3(...p).project(cam);
+        if (v.z > 1) return null;
+        const c = self.renderer.domElement;
+        return [((v.x + 1) / 2) * c.clientWidth, ((1 - v.y) / 2) * c.clientHeight];
+      },
+      /** Room switching in the emulator (IWER SEM): a built-in id, one of our GLTS rooms, or 'none'. */
+      async loadRoom(id: string): Promise<boolean> {
+        const sem = (window as unknown as { IWER_DEVICE?: { sem?: { deleteAll(): void; addEnvironment(id: string, url: string): void; loadDefaultEnvironment(id: string): Promise<void> } } }).IWER_DEVICE?.sem;
+        if (!sem) return false;
+        for (const p of [...self.portals]) self.closePortal(p);
+        if (id === 'none') {
+          sem.deleteAll();
+          return true;
+        }
+        if (id.startsWith('thyra_')) {
+          try {
+            sem.addEnvironment(id, new URL(`${import.meta.env.BASE_URL}rooms/${id}.glts`, location.href).href);
+          } catch {
+            // already registered
+          }
+        }
+        await sem.loadDefaultEnvironment(id);
+        return true;
       },
       /** World point on a wall at plane coords (u, v) for aiming. */
       wallPoint(planeId: string, u: number, v: number): Vec3 | null {
