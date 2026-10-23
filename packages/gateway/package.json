@@ -1,0 +1,9 @@
+{
+  "name": "@thyra/gateway",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "description": "Thyra's gateway: the only holder of MODEL_API_KEY. Proxies Muse Spark / Wonder, Muse Image and Muse Voice Transcribe, keeps run records, a per-IP rate limit and a daily $ cap. Node built-ins only.",
+  "scripts": { "start": "node --env-file-if-exists=../../.env src/main.ts" }
+}
