@@ -1,0 +1,9 @@
+{
+  "name": "@thyra/pano",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "description": "Panorama checks for Thyra: size, seam ΔE, horizon row, pole caps and the pano_mode fallback chain. Works on raw RGBA in the browser and in Node.",
+  "exports": { ".": "./src/index.ts" }
+}
