@@ -1,0 +1,283 @@
+{
+  "started": "2026-10-24T00:56:03.536Z",
+  "finished": "2026-10-24T00:58:13.057Z",
+  "device": "IWER metaQuest3 (emulator)",
+  "input": "hands only",
+  "fatal": "Command failed: node /Volumes/Extreme SSD/Projects/grokbot/projects/thyra/packages/xr/node_modules/@iwsdk/cli/dist/cli.js browser logs --input-json {\"count\":500}\n{\n  \"ok\": false,\n  \"error\": {\n    \"code\": \"cli_error\",\n    \"message\": \"browser_get_console_logs.count must be at most 200\"\n  }\n}\n",
+  "passed": 28,
+  "failed": 3,
+  "checks": [
+    {
+      "name": "gateway reached; every Meta model shows Setup required",
+      "ok": true
+    },
+    {
+      "name": "sunlit_living_room: scenario completed",
+      "ok": false,
+      "detail": "timed out waiting for room sunlit_living_room: {\"session\":true,\"walls\":[{\"id\":\"plane-26\",\"label\":\"wall\",\"origin\":[-2.5,1.350000023841858,-0.5],\"n\":[1,0,0],\"bounds\":{\"u0\":-2.901999950408936,\"u1\":2.901999950408936,\"v0\":-1.3519999980926516,\"v1\":1.3519999980926514}},{\"id\":\"plane-27\",\"label\":\"wall\",\"origin\":[2.5,1.350000023841858,-0.5],\"n\":[-1,0,0],\"bounds\":{\"u0\":-2.901999950408936,\"u1\":2.901999950408936,\"v0\":-1.3519999980926516,\"v1\":1.3519999980926514}},{\"id\":\"plane-28\",\"label\":\"wall\",\"origin\":[0,1.350000023841858,-3.4000000953674316],\"n\":[0,2.028159498697969e-7,0.9999999999999795],\"bounds\":{\"u0\":-2.502000093460083,\"u1\":2.502000093460083,\"v0\":"
+    },
+    {
+      "name": "thyra_studio: wall width 3.604 m vs truth 3.6",
+      "ok": true
+    },
+    {
+      "name": "thyra_studio: ceiling 2.400 m vs truth 2.4",
+      "ok": true
+    },
+    {
+      "name": "thyra_studio: floor area 15.12 m² vs truth 15.12",
+      "ok": true
+    },
+    {
+      "name": "thyra_studio: door is on wall plane-35, 1.10 × 2.00 m",
+      "ok": true
+    },
+    {
+      "name": "thyra_studio: corners within 5 mm of the wall plane (max 0.00 mm)",
+      "ok": true
+    },
+    {
+      "name": "thyra_studio: corner within 1 cm of the pinch (top-left 0.0 mm, right edge 0.0 mm)",
+      "ok": true
+    },
+    {
+      "name": "thyra_studio: opened with the CC0 sample, stamped \"Sample, not generated\"",
+      "ok": true
+    },
+    {
+      "name": "thyra_studio: room summary portal 1.1 × 2 m, sill 0",
+      "ok": true
+    },
+    {
+      "name": "thyra_studio: summary ceiling 2.4 vs truth",
+      "ok": true
+    },
+    {
+      "name": "thyra_studio: the world shows inside the door (ΔRGB in 87.9 vs outside 6.7)",
+      "ok": true,
+      "detail": {
+        "dIn": 87.86478720008621,
+        "dOut": 6.660430704334769
+      }
+    },
+    {
+      "name": "thyra_studio: Step-in floods the world (inside, flood 1)",
+      "ok": true
+    },
+    {
+      "name": "thyra_studio: moving 0.5 m away returns to the room",
+      "ok": true
+    },
+    {
+      "name": "thyra_studio: Close door removes it",
+      "ok": true
+    },
+    {
+      "name": "thyra_hall: scenario completed",
+      "ok": false,
+      "detail": "Command failed: node /Volumes/Extreme SSD/Projects/grokbot/projects/thyra/packages/xr/node_modules/@iwsdk/cli/dist/cli.js browser run e2e/.tmp/eval.mjs --timeout 90000\n{\n  \"ok\": false,\n  \"error\": {\n    \"code\": \"runtime_command_failed\",\n    \"message\": \"frame.evaluate: GLTSError: [GLTS:evaluate] Unable to execute GLTS script\\nURL: https://localhost:8443/rooms/thyra_hall.glts\\n    at T (https://localhost:8443/@id/__x00__virtual:iwsdk-dev-runtime/chunks/index-CMmj0avE.js:1:605)\\n    at kf.evaluate (https://localhost:8443/@id/__x00__virtual:iwsdk-dev-runtime/chunks/index-CMmj0avE.js:1:700547)\\n    at async #re (https://localhost:8443/@id/__x00__virtual:iwsdk-dev-runtime/chunks/index-CMmj0avE.js:1:715971)\\n    at async https://localhost:8443/@id/__x00__virtual:iwsdk-dev-runtime/chunks/index-CMmj0avE.js:1:715504\\n    at async If (https://localhost:8443/@id/__x00__virtual:iwsdk-dev-runtime/chunks/index-CMmj0avE.js:1:709473)\\n    at async #ne (https://localhost:8443/@id/__x00__virtual:iwsdk-dev-runtime/chunks/index-CMmj0avE.js:1:716886)\\n    at async uD (https://localhost:8443/@id/__x00__virtual:iwsdk-dev-runtime/chunks/injection-template-0HSd4CcE.js:984:1075728)\\n    at async gD.loadDefaultEnvironment (https://localhost:8443/@id/__x00__virtual:iwsdk-dev-runtime/chunks/injection-template-0HSd4CcE.js:984:1071587)\\n    at async Object.loadRoom (https://localhost:8443/src/thyra-system.ts:743:9)\\n    at async <anonymous>:396:30\",\n    \"details\": {\n      \"code\": \"browser_run_failed\",\n      \"outcome\": \"outcome_unknown\",\n      \"browser\": null\n    }\n  }\n}\n"
+    },
+    {
+      "name": "bedroom: door is on wall plane-52, 0.90 × 1.90 m",
+      "ok": true
+    },
+    {
+      "name": "bedroom: corners within 5 mm of the wall plane (max 0.00 mm)",
+      "ok": true
+    },
+    {
+      "name": "bedroom: corner within 1 cm of the pinch (top-left 0.0 mm, right edge 0.0 mm)",
+      "ok": true
+    },
+    {
+      "name": "bedroom: opened with the CC0 sample, stamped \"Sample, not generated\"",
+      "ok": true
+    },
+    {
+      "name": "bedroom: room summary portal 0.9 × 1.9 m, sill 0",
+      "ok": true
+    },
+    {
+      "name": "bedroom: the world shows inside the door (ΔRGB in 107.3 vs outside 8.8)",
+      "ok": true,
+      "detail": {
+        "dIn": 107.27307740234006,
+        "dOut": 8.835361804948565
+      }
+    },
+    {
+      "name": "bedroom: Step-in floods the world (inside, flood 1)",
+      "ok": true
+    },
+    {
+      "name": "bedroom: moving 0.5 m away returns to the room",
+      "ok": true
+    },
+    {
+      "name": "bedroom: Close door removes it",
+      "ok": true
+    },
+    {
+      "name": "guard: a 0.25 m door is rejected with a readable hint",
+      "ok": true,
+      "detail": "Too small: a door needs at least 0.40 × 0.60 m. Pinch and drag again."
+    },
+    {
+      "name": "multiple portals: three open doors on three walls",
+      "ok": true,
+      "detail": [
+        "P-03",
+        "P-04",
+        "P-05"
+      ]
+    },
+    {
+      "name": "guards scenario completed",
+      "ok": false,
+      "detail": "timed out waiting for door 4: {\"session\":true,\"walls\":[{\"id\":\"plane-65\",\"label\":\"wall\",\"origin\":[-2.5,1.350000023841858,-0.5],\"n\":[1,0,0],\"bounds\":{\"u0\":-2.901999950408936,\"u1\":2.901999950408936,\"v0\":-1.3519999980926516,\"v1\":1.3519999980926514}},{\"id\":\"plane-66\",\"label\":\"wall\",\"origin\":[2.5,1.350000023841858,-0.5],\"n\":[-1,0,0],\"bounds\":{\"u0\":-2.901999950408936,\"u1\":2.901999950408936,\"v0\":-1.3519999980926516,\"v1\":1.3519999980926514}},{\"id\":\"plane-67\",\"label\":\"wall\",\"origin\":[0,1.350000023841858,-3.4000000953674316],\"n\":[0,2.028159498697969e-7,0.9999999999999795],\"bounds\":{\"u0\":-2.502000093460083,\"u1\":2.502000093460083,\"v0\":"
+    },
+    {
+      "name": "no walls: the paper-wall prompt appears",
+      "ok": true
+    },
+    {
+      "name": "paper wall: a virtual wall is placed and labelled (paper wall (virtual))",
+      "ok": true
+    },
+    {
+      "name": "paper wall: a door opens on it",
+      "ok": true
+    }
+  ],
+  "metrics": {
+    "thyra_studio.registration_mm": {
+      "off_plane_max": 0,
+      "top_left_to_pinch": 0,
+      "right_edge": 0
+    },
+    "doors": [
+      {
+        "tag": "P-01",
+        "room": "thyra_studio (ours)",
+        "door": "1.10 × 2.00 m",
+        "destination": "a misty pine forest",
+        "plan": "Setup required",
+        "image": "Sample, not generated",
+        "pano_mode": "equirect",
+        "to_world_ms": 2377,
+        "off_plane_mm": 0
+      },
+      {
+        "tag": "P-02",
+        "room": "bedroom",
+        "door": "0.90 × 1.90 m",
+        "destination": "a misty pine forest",
+        "plan": "Setup required",
+        "image": "Sample, not generated",
+        "pano_mode": "equirect",
+        "to_world_ms": 2026,
+        "off_plane_mm": 0
+      }
+    ],
+    "summary_example": {
+      "portal": {
+        "w_m": 1.1,
+        "h_m": 2,
+        "bottom_m": 0,
+        "wall": {
+          "label": "wall",
+          "w_m": 3.6,
+          "h_m": 2.4
+        }
+      },
+      "viewer": {
+        "eye_height_m": 1.6,
+        "distance_to_portal_m": 2.6
+      },
+      "room": {
+        "ceiling_m": 2.4,
+        "floor_area_m2": 15.1,
+        "objects": [
+          {
+            "label": "couch",
+            "dims_m": [
+              2,
+              0.86,
+              0.94
+            ],
+            "side": "in front",
+            "distance_m": 0.52
+          },
+          {
+            "label": "table",
+            "dims_m": [
+              1,
+              0.42,
+              0.55
+            ],
+            "side": "in front",
+            "distance_m": 1.17
+          },
+          {
+            "label": "lamp",
+            "dims_m": [
+              0.4,
+              1.72,
+              0.4
+            ],
+            "side": "right",
+            "distance_m": 1.39
+          },
+          {
+            "label": "plant",
+            "dims_m": [
+              0.5,
+              1.3,
+              0.5
+            ],
+            "side": "in front",
+            "distance_m": 3.99
+          }
+        ]
+      },
+      "light": {
+        "available": false
+      },
+      "local_time": "06:26",
+      "destination_text": "a misty pine forest"
+    },
+    "thyra_studio.time_to_world_ms": {
+      "from_release": 2377,
+      "pano_mode": "equirect",
+      "note": "no key: includes a 0.9 s hold on the room read, then sample decode"
+    },
+    "bedroom.registration_mm": {
+      "off_plane_max": 0,
+      "top_left_to_pinch": 0,
+      "right_edge": 0
+    },
+    "bedroom.time_to_world_ms": {
+      "from_release": 2026,
+      "pano_mode": "equirect",
+      "note": "no key: includes a 0.9 s hold on the room read, then sample decode"
+    },
+    "perf_three_doors": {
+      "frames": 600,
+      "xrFrames": 600,
+      "cpuMs": {
+        "p50": 2.2000000178813934,
+        "p95": 2.800000011920929,
+        "max": 4.5
+      },
+      "drawCalls": {
+        "p50": 180,
+        "max": 228
+      },
+      "triangles": {
+        "p50": 165788,
+        "max": 165884
+      },
+      "gl": "ANGLE (Apple, ANGLE Metal Renderer: Apple M4, Unspecified Version)"
+    }
+  }
+}

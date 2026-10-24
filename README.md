@@ -99,7 +99,17 @@ Open the app URL in desktop Chrome: it runs in the IWER emulator on a synthetic 
 
 ## Numbers (emulator only)
 
-See [TESTING.md](TESTING.md). Nothing here is a device number; Meta model rows say Setup required.
+| What | Result |
+|---|---|
+| Unit tests | 44 / 44 (room, pano, gateway; one live call to api.meta.ai with an invalid key) |
+| Emulator e2e, hands only, 4 rooms | 56 / 56 checks, 0 console errors |
+| Meta VR Glasses profile (gaze + pinch) | 5 / 5, door card within ±17.7° / −30°…−6.5° |
+| Landing + 2D page at 375 / 1280 px | 12 / 12, no horizontal scroll |
+| Room read vs ground truth | wall width, ceiling, floor area within 4 mm / 0.00 m² in 3 rooms |
+| Frame time, 3 doors open | p95 3.3 ms CPU, 248 draw calls (emulator on an M4, not a Quest) |
+| Time to world | Setup required (needs the key); the no-key sample path takes about 2.0 s |
+
+Details, run files and the clip list: [TESTING.md](TESTING.md). Nothing here is a device number.
 
 ## Privacy
 

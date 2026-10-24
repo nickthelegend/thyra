@@ -1,0 +1,12 @@
+{
+  "device": "IWER metaVRGlasses (emulator)",
+  "passed": 0,
+  "failed": 1,
+  "checks": [
+    {
+      "name": "glasses scenario completed",
+      "ok": false,
+      "detail": "dev server did not come back"
+    }
+  ]
+}
