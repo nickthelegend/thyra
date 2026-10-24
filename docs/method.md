@@ -53,11 +53,12 @@ contract to whatever Spark wrote). The decoded image is checked on a 512-px copy
   carries IWSDK `DepthOccludable` (hard occlusion), so real objects in front of the wall (couch, hand) remove
   stencil pixels and the world never draws over them. 6 cm keeps wall-flush things and depth noise from cutting
   holes.
-- **World**: three's `GroundedSkybox` geometry (radius 30 m, ground at the floor, projection centre at the eye
-  height when the world opened) with a shader that tests stencil == *k*. The image's centre column faces the
-  door. Because the projection centre is fixed in the room, moving your head changes what the door frames,
-  including real parallax on the ground. `cylinder` mode: an open cylinder with sky/ground discs in the image's
-  own top/bottom row colours.
+- **World**: a 12 m inside-out sphere centred where your eyes were when the world opened, whose lower part is
+  pressed onto the floor plane only where the floor is nearer than the sphere: looking steeply down gives real
+  floor parallax, while the band just below the horizon stays round, so distant trunks and walls don't bend
+  over (as they do with a fully ground-projected skybox). A shader tests stencil == *k*; the image's centre
+  column faces the door. Because the centre is fixed in the room, moving your head changes what the door frames.
+  `cylinder` mode: an open cylinder with sky/ground discs in the image's own top/bottom row colours.
 - **Reveal**: a noise-thresholded dissolve with a lime edge (1.6 s); before it, sumi ink with a rising line.
 - **Light**: additive glows on the wall around the door and on the floor in front of it (rgb added, destination
   alpha kept, so passthrough still shows); colour from the plan's `ambient_spill`, or the image's horizon band
