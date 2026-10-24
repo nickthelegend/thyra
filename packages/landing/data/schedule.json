@@ -1,1 +1,119 @@
-{"source":"none yet","passed":0,"total":0,"rows":[],"summary":null,"summary_from":""}
+{
+  "source": "deployments/e2e/2026-10-24T01-29-31-552Z.json (IWER emulator; * no key: includes a 0.9 s hold on the room read + sample decode)",
+  "passed": 56,
+  "total": 56,
+  "rows": [
+    {
+      "tag": "P-01",
+      "room": "sunlit_living_room · emulator",
+      "door": "1.20 × 2.05 m",
+      "destination": "a misty pine forest",
+      "plan": "Setup required",
+      "image": "Sample, not generated",
+      "pano_mode": "equirect",
+      "to_world": "2.07 s*",
+      "off_plane": "0 mm"
+    },
+    {
+      "tag": "P-02",
+      "room": "thyra_studio (ours) · emulator",
+      "door": "1.10 × 2.00 m",
+      "destination": "a misty pine forest",
+      "plan": "Setup required",
+      "image": "Sample, not generated",
+      "pano_mode": "equirect",
+      "to_world": "2.04 s*",
+      "off_plane": "0 mm"
+    },
+    {
+      "tag": "P-03",
+      "room": "thyra_hall (ours) · emulator",
+      "door": "1.00 × 1.95 m",
+      "destination": "a misty pine forest",
+      "plan": "Setup required",
+      "image": "Sample, not generated",
+      "pano_mode": "equirect",
+      "to_world": "2.04 s*",
+      "off_plane": "0 mm"
+    },
+    {
+      "tag": "P-04",
+      "room": "bedroom · emulator",
+      "door": "0.90 × 1.90 m",
+      "destination": "a misty pine forest",
+      "plan": "Setup required",
+      "image": "Sample, not generated",
+      "pano_mode": "equirect",
+      "to_world": "2.11 s*",
+      "off_plane": "0 mm"
+    }
+  ],
+  "summary": {
+    "portal": {
+      "w_m": 1.1,
+      "h_m": 2,
+      "bottom_m": 0,
+      "wall": {
+        "label": "wall",
+        "w_m": 3.6,
+        "h_m": 2.4
+      }
+    },
+    "viewer": {
+      "eye_height_m": 1.6,
+      "distance_to_portal_m": 2.6
+    },
+    "room": {
+      "ceiling_m": 2.4,
+      "floor_area_m2": 15.1,
+      "objects": [
+        {
+          "label": "couch",
+          "dims_m": [
+            2,
+            0.86,
+            0.94
+          ],
+          "side": "in front",
+          "distance_m": 0.52
+        },
+        {
+          "label": "table",
+          "dims_m": [
+            1,
+            0.42,
+            0.55
+          ],
+          "side": "in front",
+          "distance_m": 1.17
+        },
+        {
+          "label": "lamp",
+          "dims_m": [
+            0.4,
+            1.72,
+            0.4
+          ],
+          "side": "right",
+          "distance_m": 1.39
+        },
+        {
+          "label": "plant",
+          "dims_m": [
+            0.5,
+            1.3,
+            0.5
+          ],
+          "side": "in front",
+          "distance_m": 3.99
+        }
+      ]
+    },
+    "light": {
+      "available": false
+    },
+    "local_time": "07:00",
+    "destination_text": "a misty pine forest"
+  },
+  "summary_from": "thyra_studio run, emulator"
+}
