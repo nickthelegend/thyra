@@ -537,7 +537,8 @@ export class ThyraSystem extends createSystem({
       this.card.draw();
     }
     if (p.pressedThisFrame && id) this.onCardAction(id);
-    return true;
+    // Only buttons capture the ray; a pinch on the card's background passes through to the wall.
+    return id !== null;
   }
 
   private onCardAction(id: string): void {
@@ -777,6 +778,7 @@ export class ThyraSystem extends createSystem({
           labelsSeen: [...self.labelsSeen],
           head: tuple(self.head),
           drawing: Boolean(self.drawing),
+          pointers: self.pointers.list.map((p) => ({ id: p.id, kind: p.kind, origin: tuple(p.origin), dir: tuple(p.dir), down: p.down })),
           hint: self.hint.mesh.visible ? self.hintText : null,
           card: self.card.panel.mesh.visible ? { view: self.card.view.kind, regions: self.card.panel.regions.map((r) => r.id) } : null,
           status: self.status,

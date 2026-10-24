@@ -18,7 +18,7 @@ import {
   MeshBasicMaterial,
   DoubleSide,
 } from '@iwsdk/core';
-import { GroundedSkybox } from 'three/addons/objects/GroundedSkybox.js';
+import { SphereGeometry } from '@iwsdk/core';
 import { type DoorRect, type WallFrame, dimensionLabel, fromPlane2 } from '@thyra/room';
 import type { PanoMode } from '@thyra/pano';
 import { BRAND } from './brand.js';
@@ -286,9 +286,7 @@ export class PortalView {
         mesh = new Mesh(geo, mat);
         mesh.rotation.y = yaw + Math.PI;
       } else {
-        mesh = new GroundedSkybox(texture, Math.max(0.5, eyeHeight), 30, 96);
-        (mesh.material as MeshBasicMaterial).dispose();
-        mesh.material = mat;
+        mesh = new Mesh(groundedSphere(12, Math.max(0.5, eyeHeight)), mat);
         mesh.rotation.y = yaw;
       }
       mesh.position.copy(eye);
@@ -464,6 +462,33 @@ export class PortalView {
       });
     }
   }
+}
+
+/**
+ * An inside-out sphere of radius R whose lower part is pressed onto a ground
+ * plane `height` below its centre, but only where that ground is nearer than
+ * the sphere: steep-down directions get real floor parallax, while the band
+ * just below the horizon stays spherical (so distant trunks and walls don't
+ * bend over, as they do with a fully ground-projected skybox).
+ */
+function groundedSphere(R: number, height: number): SphereGeometry {
+  const geo = new SphereGeometry(R, 128, 64);
+  geo.scale(1, 1, -1);
+  const pos = geo.getAttribute('position');
+  const v = new Vector3();
+  for (let i = 0; i < pos.count; i++) {
+    v.fromBufferAttribute(pos, i);
+    if (v.y >= 0) continue;
+    const dy = -v.y / R; // sine of the angle below the horizon
+    const t = height / dy; // distance along the ray to the ground
+    if (t < R) {
+      v.multiplyScalar(t / R);
+      pos.setXYZ(i, v.x, v.y, v.z);
+    }
+  }
+  pos.needsUpdate = true;
+  geo.computeBoundingSphere();
+  return geo;
 }
 
 function makePoints(n: number, mat: ShaderMaterial): Points {

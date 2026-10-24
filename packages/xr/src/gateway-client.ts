@@ -58,6 +58,8 @@ export interface PortalPlan {
 export const gateway = {
   base,
   async status(): Promise<GatewayStatus | null> {
+    // A static deploy with no gateway configured: don't probe /api on the static host.
+    if (!base && !import.meta.env.DEV) return null;
     try {
       const s = await call<GatewayStatus & { service?: string }>('/api/status', undefined, 4000);
       return s.service === 'thyra-gateway' ? s : null;
