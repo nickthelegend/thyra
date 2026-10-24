@@ -9,7 +9,7 @@ const room = createRoom({
   depth: 6.0,
   height: 2.1,
   z0: -5.0,
-  windows: [{ wall: 'back', at: 0, width: 0.8, sill: 0.9, head: 1.9 }],
+  windows: [{ wall: 'back', at: 0, width: 0.8, sill: 0.9, head: 1.9, sheers: false }],
   doors: [{ wall: 'front', at: 0 }],
   sun: { azimuth: 0 },
 });

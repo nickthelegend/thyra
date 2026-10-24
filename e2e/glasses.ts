@@ -3,6 +3,7 @@
  * selects; the door card must sit inside the glasses' view (±37°, +25°/−43°).
  * Temporarily switches dev.emulator.device in iwsdk.config.json and restores it.
  */
+import { execFileSync, spawn } from 'node:child_process';
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { cli, evalPage, P, sleep, snapshot, XR_DIR, type Vec3 } from './iwsdk.ts';
@@ -21,14 +22,16 @@ const gazeAt = (t: Vec3) => cli('xr', 'look-at', { device: 'headset', target: P(
 async function waitReady() {
   for (let i = 0; i < 60; i++) {
     try {
-      const st = cli<{ browserCommandReady?: boolean; session?: { browserCommandReady?: boolean } }>('dev', 'status');
-      if (JSON.stringify(st).includes('"browserCommandReady":true')) return;
+      const st = execFileSync('node', [`${XR_DIR}node_modules/@iwsdk/cli/dist/cli.js`, 'dev', 'status'], { cwd: XR_DIR, encoding: 'utf8' });
+      if (/"browserCommandReady":\s*true/.test(st)) return;
     } catch {}
     await sleep(2000);
   }
   throw new Error('dev server did not come back');
 }
 
+const startedMs = Date.now();
+const gw = spawn('node', [`${root}packages/gateway/src/main.ts`], { env: { ...process.env, MODEL_API_KEY: '', THYRA_RUNS_DIR: `${root}deployments/runs-e2e` }, stdio: 'ignore' });
 try {
   const cfg = JSON.parse(original);
   cfg.dev.emulator.device = 'metaVRGlasses';
@@ -82,13 +85,14 @@ try {
   check('gaze + pinch on the card opens the world', s2.portals[0].phase === 'open');
   await sleep(2500);
   cli('browser', 'screenshot', {}, ['--output-file', 'artifacts/e2e/glasses-open.png']);
-  const errors = cli<Array<{ level: string }>>('browser', 'logs', { count: 300 }).filter((l) => l.level === 'error');
-  check(`console: ${errors.length} errors`, errors.length === 0);
+  const errors = cli<Array<{ level: string; timestamp: number; message: string }>>('browser', 'logs', { count: 200 }).filter((l) => l.level === 'error' && l.timestamp >= startedMs);
+  check(`console: ${errors.length} errors`, errors.length === 0, errors.slice(0, 3).map((e) => e.message.slice(0, 160)));
   void snapshot;
 } catch (err) {
   check('glasses scenario completed', false, (err as Error).message);
 } finally {
   writeFileSync(cfgPath, original);
+  gw.kill();
 }
 const passed = checks.filter((c) => c.ok).length;
 mkdirSync(`${root}deployments/e2e`, { recursive: true });

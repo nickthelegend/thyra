@@ -43,7 +43,14 @@ const ROOMS: RoomCase[] = [
   { id: 'bedroom', wall: facing([-1, 0, 0]), door: { u0: -0.45, u1: 0.45, top: 1.9 } },
 ];
 
+let currentRoom = 'sunlit_living_room'; // the configured emulator room at page load
 async function loadRoom(id: string): Promise<Snapshot> {
+  if (id === currentRoom) {
+    cli('xr', 'set-device-state', {});
+    cli('xr', 'set-input-mode', { mode: 'hand' });
+    return waitFor((s) => s.walls.length >= 3 && s.floorY !== null, 15000, `room ${id}`);
+  }
+  currentRoom = id;
   const before = JSON.stringify(snapshot().walls.map((w) => w.bounds));
   const ok = evalPage<boolean>(`window.__thyra.loadRoom(${JSON.stringify(id)})`, 90_000);
   if (!ok) throw new Error('IWER SEM not available');
@@ -184,9 +191,10 @@ async function guards() {
   metrics.perf_three_doors = evalPage('window.__thyraPerf.result()');
   cli('xr', 'set-device-state', {});
   cli('xr', 'set-input-mode', { mode: 'hand' });
+  const tags = snapshot().portals.map((p) => p.tag);
   await drawDoor(s, back.id, 1.2, 2.0, 2.0);
-  const s4 = await waitFor((x) => x.portals.length === 3 && x.portals[2].tag === 'P-04', 5000, 'door 4');
-  check('max 3 doors: a fourth closes the oldest (P-01)', !s4.portals.some((p) => p.tag === 'P-01'), s4.portals.map((p) => p.tag));
+  const s4 = await waitFor((x) => x.portals.length === 3 && !x.portals.some((p) => p.tag === tags[0]), 5000, 'door 4');
+  check(`max 3 doors: a fourth closes the oldest (${tags[0]})`, s4.portals.length === 3 && !s4.portals.some((p) => p.tag === tags[0]), s4.portals.map((p) => p.tag));
   await pressCard('close');
 }
 
@@ -216,6 +224,7 @@ async function paperWall() {
 mkdirSync(`${XR_DIR}artifacts/e2e`, { recursive: true });
 const gw = spawn('node', [`${root}packages/gateway/src/main.ts`], { env: { ...process.env, MODEL_API_KEY: '', THYRA_RUNS_DIR: `${root}deployments/runs-e2e` }, stdio: 'ignore' });
 const started = new Date();
+const startedMs = Date.now();
 let fatal: string | null = null;
 try {
   const st = cli<{ browserCommandReady?: boolean }>('runtime', 'status');
@@ -248,7 +257,8 @@ try {
   } catch (err) {
     check('paper-wall scenario completed', false, (err as Error).message);
   }
-  const logs = cli<Array<{ level: string; message: string }>>('browser', 'logs', { count: 500 });
+  // only this run's messages (the CLI keeps a buffer across reloads and earlier sessions)
+  const logs = cli<Array<{ level: string; message: string; timestamp: number }>>('browser', 'logs', { count: 200 }).filter((l) => l.timestamp >= startedMs);
   const errors = logs.filter((l) => l.level === 'error');
   check(`console: ${errors.length} errors`, errors.length === 0, errors.slice(0, 3).map((e) => e.message.slice(0, 160)));
   metrics.console_warnings = logs.filter((l) => l.level === 'warn' || l.level === 'warning').map((l) => l.message.slice(0, 140));

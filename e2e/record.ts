@@ -4,14 +4,14 @@
  * grokbot/videos/thyra/<name>.mp4. Same prerequisites as e2e/run.ts.
  */
 import { execFileSync, spawn } from 'node:child_process';
-import { mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
+import { mkdirSync, rmSync, writeFileSync } from 'node:fs';
+import { createRequire } from 'node:module';
 import { fileURLToPath } from 'node:url';
 import { cli, evalPage, sleep, snapshot, XR_DIR, type Vec3 } from './iwsdk.ts';
 import { enterSession, HAND, pressCard, waitFor, wallPoint } from './scenario.ts';
 
 const root = fileURLToPath(new URL('..', import.meta.url));
 const VIDEOS = fileURLToPath(new URL('../../../videos/thyra/', import.meta.url));
-const CLI = `${XR_DIR}node_modules/@iwsdk/cli/dist/cli.js`;
 
 function quatLookAt(from: Vec3, to: Vec3): { x: number; y: number; z: number; w: number } {
   // rotation whose -Z axis points from `from` to `to`, +Y kept up
@@ -54,19 +54,44 @@ const head = (pos: Vec3 | null, look: Vec3 | null, seconds: number) => {
   cli('xr', 'animate-to', args);
 };
 
+/** Connects to the managed Chromium's loopback CDP endpoint directly, so recording never blocks the CLI queue. */
+async function cdpPage() {
+  const st = execFileSync('node', [`${XR_DIR}node_modules/@iwsdk/cli/dist/cli.js`, 'dev', 'status'], { cwd: XR_DIR, encoding: 'utf8' });
+  const ep = st.match(/"browserAutomation":\s*\{[^}]*?"endpoint":\s*"([^"]+)"/)?.[1];
+  if (!ep) throw new Error('start the dev server with --allow-browser-automation');
+  const require = createRequire(`${XR_DIR}package.json`);
+  const { chromium } = require('playwright') as { chromium: { connectOverCDP(u: string): Promise<CdpBrowser> } };
+  const browser = await chromium.connectOverCDP(ep);
+  const page = browser.contexts().flatMap((c) => c.pages()).find((p) => p.url().startsWith('https://localhost:8443'));
+  if (!page) throw new Error('app page not found over CDP');
+  return { browser, page };
+}
+type CdpSession = { on(e: string, f: (x: { data: string; sessionId: number; metadata: { timestamp: number } }) => void): void; send(m: string, p?: object): Promise<unknown>; detach(): Promise<void> };
+type CdpPage = { url(): string; context(): { newCDPSession(p: CdpPage): Promise<CdpSession> } };
+type CdpBrowser = { contexts(): Array<{ pages(): CdpPage[] }>; close(): Promise<void> };
+
 async function record(name: string, seconds: number, choreography: () => Promise<void>) {
-  mkdirSync(`${XR_DIR}e2e/.tmp`, { recursive: true });
-  writeFileSync(`${XR_DIR}e2e/.tmp/rec.json`, JSON.stringify({ name, seconds }));
-  const rec = spawn('node', [CLI, 'browser', 'run', 'e2e/screencast.mjs', '--timeout', String((seconds + 30) * 1000)], { cwd: XR_DIR, stdio: 'ignore' });
-  const done = new Promise((r) => rec.on('exit', r));
-  await sleep(1200);
-  const t0 = Date.now();
-  await choreography();
-  const left = seconds * 1000 - (Date.now() - t0) - 1200;
-  if (left > 0) await sleep(left);
-  await done;
   const dir = `${XR_DIR}artifacts/rec/${name}`;
-  const ts = JSON.parse(readFileSync(`${dir}/frames.json`, 'utf8')) as number[];
+  mkdirSync(dir, { recursive: true });
+  const { browser, page } = await cdpPage();
+  const cdp = await page.context().newCDPSession(page);
+  const ts: number[] = [];
+  cdp.on('Page.screencastFrame', (f) => {
+    writeFileSync(`${dir}/f${String(ts.length).padStart(5, '0')}.jpg`, Buffer.from(f.data, 'base64'));
+    ts.push(f.metadata.timestamp);
+    void cdp.send('Page.screencastFrameAck', { sessionId: f.sessionId }).catch(() => {});
+  });
+  await cdp.send('Page.startScreencast', { format: 'jpeg', quality: 88, maxWidth: 1280, maxHeight: 720, everyNthFrame: 1 });
+  const t0 = Date.now();
+  try {
+    await choreography();
+    const left = seconds * 1000 - (Date.now() - t0);
+    if (left > 0) await sleep(left);
+  } finally {
+    await cdp.send('Page.stopScreencast').catch(() => {});
+    await cdp.detach().catch(() => {});
+    await browser.close().catch(() => {}); // disconnects only; the managed browser keeps running
+  }
   if (ts.length < 10) throw new Error(`only ${ts.length} frames captured for ${name}`);
   // concat list with real frame durations (the screencast is variable-rate)
   const lines: string[] = [];
@@ -77,7 +102,7 @@ async function record(name: string, seconds: number, choreography: () => Promise
   writeFileSync(`${dir}/list.txt`, lines.join('\n'));
   mkdirSync(VIDEOS, { recursive: true });
   const out = `${VIDEOS}${name}.mp4`;
-  execFileSync('ffmpeg', ['-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', `${dir}/list.txt`, '-vf', 'fps=30,scale=trunc(iw/2)*2:trunc(ih/2)*2,format=yuv420p', '-c:v', 'libx264', '-crf', '20', '-movflags', '+faststart', out]);
+  execFileSync('ffmpeg', ['-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', `${dir}/list.txt`, '-vf', 'fps=30,crop=iw:ih-28:0:28,scale=trunc(iw/2)*2:trunc(ih/2)*2,format=yuv420p', '-c:v', 'libx264', '-crf', '20', '-movflags', '+faststart', out]);
   const dur = execFileSync('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', out], { encoding: 'utf8' }).trim();
   rmSync(dir, { recursive: true, force: true });
   console.log(`${name}: ${ts.length} frames, ${Number(dur).toFixed(1)} s → ${out}`);
@@ -101,38 +126,40 @@ try {
   const want = (n: string) => which.length === 0 || which.includes(n);
 
   if (want('thyra-01-tear-open')) {
-    await record('thyra-01-tear-open', 30, async () => {
-      cli('xr', 'look-at', { device: HAND, target: (([x, y, z]) => ({ x, y, z }))(wallPoint(s, back.id, -1.6, fv + 1.2)) });
+    head([0.15, 1.6, -1.25], [0, 1.35, -3.4], 0.1);
+    await sleep(600);
+    await record('thyra-01-tear-open', 32, async () => {
+      cli('xr', 'look-at', { device: HAND, target: (([x, y, z]) => ({ x, y, z }))(wallPoint(s, back.id, -1.4, fv + 1.0)) });
       await sleep(2500);
-      sweep(wallPoint(s, back.id, -0.75, fv + 2.25), 1.2);
-      await sleep(1600);
+      sweep(wallPoint(s, back.id, -0.8, fv + 2.3), 1.2);
+      await sleep(1500);
       cli('xr', 'set-select-value', { device: HAND, value: 1, duration: 0.15 });
       await sleep(400);
-      sweep(wallPoint(s, back.id, 0.75, fv + 0.02), 2.2);
-      await sleep(2600);
+      sweep(wallPoint(s, back.id, 0.8, fv + 0.02), 2.4);
+      await sleep(2800);
       cli('xr', 'set-select-value', { device: HAND, value: 0, duration: 0.15 });
       await sleep(2200);
       await pressCard('dest-misty_pines');
       await waitFor((x) => x.portals[0]?.phase === 'open', 20000, 'open');
-      await sleep(3000);
-      head([0.5, 1.6, -0.3], [0, 1.2, -3.4], 3);
       await sleep(3200);
-      head([-0.5, 1.6, -0.6], [0, 1.2, -3.4], 3.5);
-      await sleep(3600);
+      head([0.75, 1.6, -1.0], [0, 1.25, -3.4], 3.5);
+      await sleep(3700);
+      head([-0.6, 1.65, -1.3], [0, 1.3, -3.4], 4);
+      await sleep(4200);
     });
   }
   s = snapshot();
   if (want('thyra-02-parallax') && s.portals.length) {
     await record('thyra-02-parallax', 24, async () => {
-      head([0, 1.6, 0], [0, 1.25, -3.4], 1.5);
+      head([0, 1.6, -1.2], [0, 1.25, -3.4], 1.5);
       await sleep(1800);
-      head([1.6, 1.6, -1.0], [0, 1.15, -3.4], 4);
+      head([1.5, 1.6, -1.6], [0, 1.2, -3.4], 4);
       await sleep(4300);
-      head([-1.6, 1.6, -1.0], [0, 1.15, -3.4], 6);
+      head([-1.5, 1.6, -1.6], [0, 1.2, -3.4], 6);
       await sleep(6300);
-      head([0, 1.75, -2.2], [0, 1.2, -3.4], 4);
+      head([0, 1.7, -2.5], [0, 1.25, -3.4], 4);
       await sleep(4300);
-      head([0, 1.3, -2.4], [0, 1.6, -3.4], 3);
+      head([0.2, 1.35, -2.6], [0, 1.6, -3.4], 3);
       await sleep(3200);
     });
   }
@@ -155,15 +182,16 @@ try {
     });
   }
   if (want('thyra-04-three-doors')) {
+    if (!snapshot().portals.length) throw new Error('clip 4 expects the door from clip 1');
     cli('xr', 'set-device-state', {});
     cli('xr', 'set-input-mode', { mode: 'hand' });
     s = snapshot();
     const right = s.walls.reduce((a, b) => (b.n[0] < a.n[0] ? b : a));
     const left = s.walls.reduce((a, b) => (b.n[0] > a.n[0] ? b : a));
-    await record('thyra-04-three-doors', 34, async () => {
+    await record('thyra-04-three-doors', 38, async () => {
       for (const [wall, u0, u1, top, dest, look] of [
-        [right, -1.75, -0.85, 2.15, 'dest-satara_night', [2.5, 1.3, -1.3]],
-        [left, 0.6, 1.6, 2.2, 'dest-the_sky_is_on_fire', [-2.5, 1.3, -0.9]],
+        [right, -1.95, -1.0, 2.15, 'dest-satara_night', [2.5, 1.3, -1.6]],
+        [left, -1.25, -2.15, 2.2, 'dest-the_sky_is_on_fire', [-2.5, 1.3, 1.2]],
       ] as const) {
         head([0, 1.6, 0], look as Vec3, 2.2);
         await sleep(2400);
@@ -178,12 +206,14 @@ try {
         cli('xr', 'set-select-value', { device: HAND, value: 0, duration: 0.15 });
         await sleep(1500);
         await pressCard(dest as string);
-        await sleep(4500);
+        await sleep(3800);
       }
-      head([0, 1.6, 0.4], [-2.5, 1.3, -1.2], 3);
-      await sleep(3200);
-      head([0, 1.6, 0.4], [2.5, 1.3, -1.4], 6);
-      await sleep(6200);
+      head([0.3, 1.6, -0.2], [-2.5, 1.3, 0.6], 2);
+      await sleep(2100);
+      head([0.3, 1.6, -0.2], [0, 1.3, -3.4], 3);
+      await sleep(3100);
+      head([0.3, 1.6, -0.2], [2.5, 1.3, -1.8], 3);
+      await sleep(3100);
     });
   }
 } finally {
