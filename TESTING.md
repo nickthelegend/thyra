@@ -1,25 +1,81 @@
 # Testing
 
-Every number here comes from a run file in this repo. **Emulator** = IWSDK 1.1.0-rc.2 agent mode (headless
-Playwright Chromium 1248 + IWER with SEM synthetic rooms) on an Apple M4 Mac, ANGLE Metal. **No device run
-yet** and **no Meta model run yet** (`MODEL_API_KEY` not set). Zero skipped tests.
+## Latest recorded verification (Oct 25, 2026)
 
-## Summary (Oct 25, 2026)
+These are recorded emulator runs on an Apple M4. No device run and no Meta model run has been completed.
+The latest recorded hands-only run is the 11:04 UTC file below; it was not executed as part of this documentation restore.
 
-| Suite | Command | Result | Run file |
-|---|---|---|---|
-| Unit (Vitest) | `npm test` | **46 / 46** passed (6 files: room 28, pano 7, gateway 11) | console |
-| Emulator e2e, Quest 3 profile, hands only | `node e2e/run.ts` | **56 / 56** checks passed in 2 min 11 s | [`deployments/e2e/2026-10-25T04-48-49-672Z.json`](deployments/e2e/2026-10-25T04-48-49-672Z.json) |
-| Emulator e2e, Meta VR Glasses profile (gaze + pinch) | `node e2e/glasses.ts` | **5 / 5** | [`deployments/e2e/glasses-2026-10-24T01-22-25-493Z.json`](deployments/e2e/glasses-2026-10-24T01-22-25-493Z.json) |
-| Landing + app 2D page at 375 / 1280 px | `node e2e/landing.ts https://localhost:8443/` | **12 / 12** | [`deployments/e2e/pages-2026-10-25T04-51-34-608Z.json`](deployments/e2e/pages-2026-10-25T04-51-34-608Z.json) |
-| Typecheck | `npm run typecheck`, `npm run xr:typecheck` | clean | |
-| Production build | `npm run xr:build` | builds (11 MB `dist/`, emulator injected off-Quest) | |
+| What | Recorded result | Evidence |
+|---|---|---|
+| Unit tests | **46 / 46 passed**, last recorded full run | commit `7a346bb` |
+| Root TypeScript check | Passed; 0 diagnostics | recorded check, Oct 25, 2026 |
+| XR TypeScript check | Passed; 0 diagnostics | recorded check, Oct 25, 2026 |
+| Emulator e2e, hands only, 4 rooms | **56 / 56 passed**, 0 failed; **128.253 s** | [hands-only JSON](deployments/e2e/2026-10-25T11-04-22-665Z.json) |
+| Meta VR Glasses profile (gaze + pinch) | **5 / 5 passed**, 0 failed | [glasses JSON](deployments/e2e/glasses-2026-10-25T11-06-53-722Z.json) |
+| Landing + app 2D page at 375 / 1280 px | **12 / 12 passed**, 0 failed | [full pages JSON](deployments/e2e/pages-2026-10-25T04-51-34-608Z.json) |
+| Per-room time to world, sample path | **2.10 / 2.04 / 2.01 / 2.13 s*** (living room / studio / hall / bedroom) | hands-only JSON above |
+| Three open doors, CPU p50 / p95 / max | **2.50 / 3.00 / 3.40 ms** (rounded to two decimals), 600 frames | hands-only JSON above |
+| Three open doors, draw calls p50 / max; triangles p50 | **244 / 304** draws; **84,756** triangles | hands-only JSON above |
 
-Earlier run files in `deployments/e2e/` are kept as history; their failures were harness bugs fixed since
-(a room that was already loaded, a 200-line log limit, a GLTS window with sheers that didn't fit, a card
-visibility rule that was reverted).
+The hands-only duration is computed from `started` (`2026-10-25T11:04:22.665Z`) and `finished`
+(`2026-10-25T11:06:30.918Z`). Unit tests are the last recorded full run at `7a346bb`.
 
-## Unit tests (Vitest, no mocks)
+The later page files [10:57 UTC](deployments/e2e/pages-2026-10-25T10-57-54-442Z.json) and
+[10:59 UTC](deployments/e2e/pages-2026-10-25T10-59-46-291Z.json) each passed **6 / 6 landing-only checks**.
+They do not cover the app 2D page; the 04:51 UTC file above is the latest recorded full 12-check pages run.
+
+## Per-room measurements
+
+All values below come from the latest recorded [hands-only run](deployments/e2e/2026-10-25T11-04-22-665Z.json).
+Door sizes and release-to-world times come from `metrics.doors`; geometry, pixel ΔRGB and off-plane values
+come from the check names. A dash means the file has no corresponding geometry check.
+
+| Room | Door | To world* | Wall width (truth) | Ceiling (truth) | Floor area (truth) | Pixel ΔRGB inside / outside | Off-plane max |
+|---|---|---|---|---|---|---|---|
+| `sunlit_living_room` | 1.20 × 2.05 m | 2.10 s | 5.004 m (5 m) | 2.700 m (2.7 m) | 29.00 m² (29 m²) | 243.7 / 7.4 | 0.00 mm |
+| `thyra_studio` | 1.10 × 2.00 m | 2.04 s | 3.604 m (3.6 m) | 2.400 m (2.4 m) | 15.12 m² (15.12 m²) | 98.0 / 7.1 | 0.00 mm |
+| `thyra_hall` | 1.00 × 1.95 m | 2.01 s | 6.004 m (6 m) | 2.100 m (2.1 m) | 9.00 m² (9 m²) | 119.5 / 4.8 | 0.00 mm |
+| `bedroom` | 0.90 × 1.90 m | 2.13 s | — | — | — | 125.7 / 6.2 | 0.00 mm |
+
+*No-key sample path: includes a deliberate 0.9 s hold on the room read plus sample decoding and GPU upload.
+These times are not Muse Spark + Muse Image latency. Every door is stamped *Sample, not generated*;
+plan status is *Setup required*. `packages/landing/data/schedule.json` cites this same hands-only file,
+with these four rounded times and summary `local_time` 16:34.
+
+## Three-door frame measurements
+
+From `metrics.perf_three_doors` in the same hands-only file:
+
+| Metric | Recorded value |
+|---|---|
+| Frames / XR frames | 600 / 600 |
+| CPU p50 / p95 / max | 2.50 / 3.00 / 3.40 ms (rounded to two decimals) |
+| Draw calls p50 / max | 244 / 304 |
+| Triangles p50 | 84,756 |
+
+`window.__thyraPerf` samples CPU milliseconds from the ECS update start through `renderer.render` while
+three doors are open and the head pans across them. This is desktop headless Chromium on an Apple M4,
+not Quest CPU/GPU timing. The Quest target (p95 ≤ 13.9 ms at 72 Hz) remains unmeasured.
+
+## Emulator coverage and measurement method
+
+The hands-only suite uses IWER (IWSDK's browser-based immersive emulator) with SEM synthetic rooms and the
+Quest 3 profile. It switches between `sunlit_living_room`, `thyra_studio`, `thyra_hall` and `bedroom`. Per room:
+pick a wall, pinch-drag a door with the right hand ray, pinch a destination on the door card, open the sample
+world, compare pixels inside and outside the frame, step in by walking toward the door, exit and close it.
+It also checks the minimum door size, three-door limit and oldest-door replacement, no-wall paper placement,
+Setup required badges, and console errors. Emulated exact rays cannot establish real-hand registration quality.
+
+The glasses suite selects `metaVRGlasses`, checks that `gaze-tracking` is granted, draws a door using gaze
+and hand pinch, measures the door card's corner angles against the narrower glasses view, opens a sample
+world by gazing at a destination and pinching, and checks console errors. Its recorded card-angle check is:
+
+> door card inside the glasses view (max |h| 17.7°, v -30.1…-6.5°)
+
+The full pages suite checks the landing and app 2D page at 375 and 1280 px: horizontal scroll,
+rendered schedule/status badges, and console errors (12 checks total).
+
+## Unit test coverage (Vitest, no mocks)
 
 - `packages/room`: wall frames (axes, bounds, normal flipped toward the viewer, side walls), plane round trips,
   ray/wall hits and nearest-wall picking, polygon area, door rectangle (both drag directions, clamping, edge and
@@ -35,61 +91,7 @@ visibility rule that was reverted).
   without touching the network; `compose_portal` schema (unknown fields, bad hex, palette size, missing fields,
   range); the panorama contract is always appended; JPEG header size of the committed sample.
 
-## Emulator e2e (hands only)
-
-Four rooms in one session, switched at runtime through IWER SEM: `sunlit_living_room`, `bedroom` (built-in),
-and ours, `thyra_studio` and `thyra_hall` ([eval/rooms](eval/rooms)). Per room: wall picked, door drawn by
-pinch-drag with the right hand ray, a destination pinched on the door card, the world opened, a pixel check,
-Step-in by walking to the door, exit by walking back, *Close door*.
-
-| Metric | sunlit_living_room | thyra_studio | thyra_hall | bedroom |
-|---|---|---|---|---|
-| Room read vs ground truth: wall width | 5.004 m (5.0) | 3.604 m (3.6) | 6.004 m (6.0) | n/a |
-| ceiling | 2.700 m (2.7) | 2.400 m (2.4) | 2.100 m (2.1) | n/a |
-| floor area | 29.00 m² (29.0) | 15.12 m² (15.12) | 9.00 m² (9.0) | n/a |
-| Door drawn | 1.20 × 2.05 m | 1.10 × 2.00 m | 1.00 × 1.95 m | 0.90 × 1.90 m |
-| Corners off the wall plane (max) | 0.00 mm | 0.00 mm | 0.00 mm | 0.00 mm |
-| Corner vs pinch point | 0.0 mm | 0.0 mm | 0.0 mm | 0.0 mm |
-| Pixel check: ΔRGB inside the door vs a wall patch outside | 240.7 vs 7.7 | 95.6 vs 7.1 | 114.5 vs 12.9 | 110.8 vs 9.2 |
-| `pano_mode` (CC0 sample) | equirect | equirect | equirect | equirect |
-| Pinch release → world revealed* | 2.07 s | 2.04 s | 2.04 s | 2.11 s |
-
-\* No key: this includes a deliberate 0.9 s hold on the room read plus decoding the 4096×2048 sample and the
-GPU upload. It is **not** the Muse Spark + Muse Image time to world, which needs the key.
-
-Wall widths read 4 mm wider than the room spec because SEM's walls overlap by a 4 mm seam. Registration reads
-0.00 mm because emulated rays are exact; that says the plane math is right, not that a real hand is that steady.
-
-Also in the run: a 0.25 m door is rejected with "Too small: a door needs at least 0.40 × 0.60 m"; three open
-doors on three walls; a fourth closes the oldest; with no room (`none`) the paper-wall prompt appears, two floor
-pinches place a 2.0 m paper wall labelled `paper wall (virtual)`, and a door opens on it; every Meta model
-badge says Setup required; **0 console errors** during the run.
-
-### Frame time (emulator, not device)
-
-600 frames with three doors open while the head pans across them (`window.__thyraPerf`, CPU ms from the start
-of the ECS update to the end of `renderer.render`):
-
-| p50 | p95 | max | draw calls p50 / max | triangles p50 |
-|---|---|---|---|---|
-| 2.7 ms | 3.3 ms | 4.7 ms | 248 / 312 | 84,764 |
-
-Headless Chromium on a desktop GPU says nothing about Quest 3 GPU time; the spec's device target (p95 ≤ 13.9 ms
-at 72 Hz) is unmeasured. Draw calls are high (each door is ~17 meshes: mask, ink, world, trims, dimensions,
-glows, two particle systems); merging the trim and dimension strips is the first optimisation if a device run
-is slow.
-
-Console warnings seen (not errors): gaze tracking not granted in the Quest 3 profile (expected; it's optional),
-IWSDK notes that portal entities are parented under the level root by default, and a Canvas2D
-`willReadFrequently` hint.
-
-### Meta VR Glasses profile
-
-`metaVRGlasses` with gaze + hand pinch: the session grants `gaze-tracking`; gazing at the wall while pinching
-draws a 1.00 × 1.90 m door; the door card's corners sit at ±17.7° horizontally and −30.1°…−6.5° vertically
-(the glasses show ±37°, +25°/−43°); gazing at a card button and pinching opens the world; 0 console errors.
-
-## Emulator clips (test recordings, not the demo video)
+## Historical emulator clips (test recordings, not the demo video)
 
 CDP screencast of the managed page while `e2e/record.ts` runs a hands-only choreography (1280×692 after
 cropping the workspace toolbar, 30 fps). In `grokbot/videos/thyra/`:
