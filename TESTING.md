@@ -4,14 +4,14 @@ Every number here comes from a run file in this repo. **Emulator** = IWSDK 1.1.0
 Playwright Chromium 1248 + IWER with SEM synthetic rooms) on an Apple M4 Mac, ANGLE Metal. **No device run
 yet** and **no Meta model run yet** (`MODEL_API_KEY` not set). Zero skipped tests.
 
-## Summary (Oct 24, 2026)
+## Summary (Oct 25, 2026)
 
 | Suite | Command | Result | Run file |
 |---|---|---|---|
-| Unit (Vitest) | `npm test` | **44 / 44** passed (6 files: room 26, pano 7, gateway 11) | console |
-| Emulator e2e, Quest 3 profile, hands only | `node e2e/run.ts` | **56 / 56** checks passed in 2 min 6 s | [`deployments/e2e/2026-10-24T01-29-31-552Z.json`](deployments/e2e/2026-10-24T01-29-31-552Z.json) |
+| Unit (Vitest) | `npm test` | **46 / 46** passed (6 files: room 28, pano 7, gateway 11) | console |
+| Emulator e2e, Quest 3 profile, hands only | `node e2e/run.ts` | **56 / 56** checks passed in 2 min 11 s | [`deployments/e2e/2026-10-25T04-48-49-672Z.json`](deployments/e2e/2026-10-25T04-48-49-672Z.json) |
 | Emulator e2e, Meta VR Glasses profile (gaze + pinch) | `node e2e/glasses.ts` | **5 / 5** | [`deployments/e2e/glasses-2026-10-24T01-22-25-493Z.json`](deployments/e2e/glasses-2026-10-24T01-22-25-493Z.json) |
-| Landing + app 2D page at 375 / 1280 px | `node e2e/landing.ts https://localhost:8443/` | **12 / 12** | [`deployments/e2e/pages-2026-10-24T01-31-59-656Z.json`](deployments/e2e/pages-2026-10-24T01-31-59-656Z.json) |
+| Landing + app 2D page at 375 / 1280 px | `node e2e/landing.ts https://localhost:8443/` | **12 / 12** | [`deployments/e2e/pages-2026-10-25T04-51-34-608Z.json`](deployments/e2e/pages-2026-10-25T04-51-34-608Z.json) |
 | Typecheck | `npm run typecheck`, `npm run xr:typecheck` | clean | |
 | Production build | `npm run xr:build` | builds (11 MB `dist/`, emulator injected off-Quest) | |
 
@@ -23,7 +23,7 @@ visibility rule that was reverted).
 
 - `packages/room`: wall frames (axes, bounds, normal flipped toward the viewer, side walls), plane round trips,
   ray/wall hits and nearest-wall picking, polygon area, door rectangle (both drag directions, clamping, edge and
-  floor snapping, the 0.40 × 0.60 m minimum), the room summary (spec shape, object sides and distances, nulls
+  floor snapping, the 0.40 × 0.60 m minimum, doors that overlap vs stand side by side), the room summary (spec shape, object sides and distances, nulls
   when the floor is unknown), the Step-in state machine (proximity, reach-through, 1.2 s flood, 0.5 m exit,
   re-arm), status → badges.
 - `packages/pano`: sRGB → Lab, the CC0 samples read as `equirect`, a cropped copy → `equirect+seamfix`, a copy

@@ -101,7 +101,7 @@ Open the app URL in desktop Chrome: it runs in the IWER emulator on a synthetic 
 
 | What | Result |
 |---|---|
-| Unit tests | 44 / 44 (room, pano, gateway; one live call to api.meta.ai with an invalid key) |
+| Unit tests | 46 / 46 (room, pano, gateway; one live call to api.meta.ai with an invalid key) |
 | Emulator e2e, hands only, 4 rooms | 56 / 56 checks, 0 console errors |
 | Meta VR Glasses profile (gaze + pinch) | 5 / 5, door card within ±17.7° / −30°…−6.5° |
 | Landing + 2D page at 375 / 1280 px | 12 / 12, no horizontal scroll |

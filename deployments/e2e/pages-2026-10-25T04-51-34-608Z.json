@@ -1,0 +1,70 @@
+{
+  "passed": 12,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "landing @375px: no horizontal scroll (0px)",
+      "ok": true
+    },
+    {
+      "name": "landing @375px: door schedule rendered (4 rows)",
+      "ok": true,
+      "detail": "P-01\nsunlit_living_room · emulator\n1.20 × 2.05 m\na misty pine forest\nSetup requi"
+    },
+    {
+      "name": "landing @375px: no console errors",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "landing @1280px: no horizontal scroll (0px)",
+      "ok": true
+    },
+    {
+      "name": "landing @1280px: door schedule rendered (4 rows)",
+      "ok": true,
+      "detail": "P-01\tsunlit_living_room · emulator\t1.20 × 2.05 m\ta misty pine forest\tSetup requi"
+    },
+    {
+      "name": "landing @1280px: no console errors",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "app 2D page @375px: no horizontal scroll (0px)",
+      "ok": true
+    },
+    {
+      "name": "app 2D page @375px: status badges shown",
+      "ok": true,
+      "detail": [
+        "Muse Spark: Setup required (MODEL_API_KEY)",
+        "Muse Image: Setup required (MODEL_API_KEY)",
+        "Muse Voice: Setup required (MODEL_API_KEY)"
+      ]
+    },
+    {
+      "name": "app 2D page @375px: no console errors",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "app 2D page @1280px: no horizontal scroll (0px)",
+      "ok": true
+    },
+    {
+      "name": "app 2D page @1280px: status badges shown",
+      "ok": true,
+      "detail": [
+        "Muse Spark: Setup required (MODEL_API_KEY)",
+        "Muse Image: Setup required (MODEL_API_KEY)",
+        "Muse Voice: Setup required (MODEL_API_KEY)"
+      ]
+    },
+    {
+      "name": "app 2D page @1280px: no console errors",
+      "ok": true,
+      "detail": []
+    }
+  ]
+}
