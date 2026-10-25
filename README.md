@@ -99,24 +99,26 @@ Open the app URL in desktop Chrome: it runs in the IWER emulator on a synthetic 
 
 ## Numbers (emulator only)
 
-Latest verification attempt: Oct 25, 2026, in this worktree. Emulator suites did not start: the runner was stopped
-while waiting for the shared heavy slot. The sandbox also denied localhost listeners in unit tests. Older
-successful run files remain historical evidence, not a fresh pass.
+These are recorded emulator runs on an Apple M4, not a Quest; there is still no device run and no Meta model run.
 
-| What | Result |
-|---|---|
-| Unit tests | 39 / 46 passed; 7 skipped after gateway setup failed (`listen EPERM`); 1 of 6 test files failed; 20.19 s |
-| Root TypeScript check | Passed; 0 diagnostics |
-| XR TypeScript check | Passed; 0 diagnostics |
-| Emulator e2e, hands only, 4 rooms | Not started; runner stopped at slot acquisition; no new run file |
-| Meta VR Glasses profile (gaze + pinch) | Not started; no new run file |
-| Landing + app 2D page at 375 / 1280 px | Not started; no new 12-check run file |
-| Per-room time to world | No fresh measurement |
-| Frame time p50 / p95 / max; draw calls | No fresh measurement |
+| What | Recorded result | Evidence |
+|---|---|---|
+| Unit tests | **46 / 46 passed**, last recorded full run | commit `7a346bb` |
+| Root TypeScript check | Passed; 0 diagnostics | recorded check, Oct 25, 2026 |
+| XR TypeScript check | Passed; 0 diagnostics | recorded check, Oct 25, 2026 |
+| Emulator e2e, hands only, 4 rooms | **56 / 56 passed**, 0 failed; **128.253 s** | [hands-only JSON](deployments/e2e/2026-10-25T11-04-22-665Z.json) |
+| Meta VR Glasses profile (gaze + pinch) | **5 / 5 passed**, 0 failed | [glasses JSON](deployments/e2e/glasses-2026-10-25T11-06-53-722Z.json) |
+| Landing + app 2D page at 375 / 1280 px | **12 / 12 passed**, 0 failed | [full pages JSON](deployments/e2e/pages-2026-10-25T04-51-34-608Z.json) |
+| Per-room time to world, sample path | **2.10 / 2.04 / 2.01 / 2.13 s*** (living room / studio / hall / bedroom) | hands-only JSON above |
+| Three open doors, CPU p50 / p95 / max | **2.50 / 3.00 / 3.40 ms** (rounded to two decimals), 600 frames | hands-only JSON above |
+| Three open doors, draw calls p50 / max; triangles p50 | **244 / 304** draws; **84,756** triangles | hands-only JSON above |
 
-Details, historical run files and the clip list: [TESTING.md](TESTING.md). Emulator timings on an Apple M4
-are not Quest frame times. No device run or Meta model run has been completed; with `MODEL_API_KEY` unset,
-the sample path cannot measure Muse Spark + Muse Image latency.
+*No-key sample path: includes a deliberate 0.9 s room-read hold plus sample decoding and GPU upload;
+it does not measure Muse Spark + Muse Image latency. The latest recorded hands-only run is the 11:04 UTC
+file above, not a new run performed for this documentation restore. Later pages files at 10:57 and 10:59 UTC
+are landing-only, **6 / 6** each; the full pages result above covers both pages.
+
+Per-room geometry, pixel checks, glasses card angles, frame measurements and clips: [TESTING.md](TESTING.md).
 
 ## Privacy
 
