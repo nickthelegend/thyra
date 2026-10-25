@@ -37,13 +37,23 @@ export class Pointers {
       this.mouse.ndc.set(((e.clientX - r.left) / r.width) * 2 - 1, -((e.clientY - r.top) / r.height) * 2 + 1);
       this.mouse.active = true;
     };
-    canvas.addEventListener('pointermove', (e) => toNdc(e));
-    canvas.addEventListener('pointerdown', (e) => {
-      if (e.button !== 0) return;
+    // In the desktop emulator, IWER lays its own canvas (controller gizmos) over the app canvas during a
+    // session, so the app canvas never sees the mouse. Listen on the window and take events that land on a
+    // canvas over the app's rect: the app canvas itself, or the emulator's layer on top of it.
+    const onCanvas = (e: PointerEvent) => {
+      if (!(e.target instanceof HTMLCanvasElement)) return false;
+      const r = canvas.getBoundingClientRect();
+      return r.width > 0 && e.clientX >= r.left && e.clientX <= r.right && e.clientY >= r.top && e.clientY <= r.bottom;
+    };
+    window.addEventListener('pointermove', (e) => {
+      if (onCanvas(e)) toNdc(e);
+    }, true);
+    window.addEventListener('pointerdown', (e) => {
+      if (e.button !== 0 || !onCanvas(e)) return;
       toNdc(e);
       this.mouse.down = true;
       this.mouse.pressed = true;
-    });
+    }, true);
     window.addEventListener('pointerup', () => {
       if (this.mouse.down) this.mouse.released = true;
       this.mouse.down = false;
