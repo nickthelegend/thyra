@@ -1,5 +1,5 @@
 {
-  "source": "deployments/e2e/2026-10-25T04-48-49-672Z.json (IWER emulator; * no key: includes a 0.9 s hold on the room read + sample decode)",
+  "source": "deployments/e2e/2026-10-25T11-04-22-665Z.json (IWER emulator; * no key: includes a 0.9 s hold on the room read + sample decode)",
   "passed": 56,
   "total": 56,
   "rows": [
@@ -11,7 +11,7 @@
       "plan": "Setup required",
       "image": "Sample, not generated",
       "pano_mode": "equirect",
-      "to_world": "2.09 s*",
+      "to_world": "2.10 s*",
       "off_plane": "0 mm"
     },
     {
@@ -22,7 +22,7 @@
       "plan": "Setup required",
       "image": "Sample, not generated",
       "pano_mode": "equirect",
-      "to_world": "2.02 s*",
+      "to_world": "2.04 s*",
       "off_plane": "0 mm"
     },
     {
@@ -44,7 +44,7 @@
       "plan": "Setup required",
       "image": "Sample, not generated",
       "pano_mode": "equirect",
-      "to_world": "2.08 s*",
+      "to_world": "2.13 s*",
       "off_plane": "0 mm"
     }
   ],
@@ -112,7 +112,7 @@
     "light": {
       "available": false
     },
-    "local_time": "10:19",
+    "local_time": "16:34",
     "destination_text": "a misty pine forest"
   },
   "summary_from": "thyra_studio run, emulator"

@@ -4,42 +4,71 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 XR_DIR="$ROOT/packages/xr"
 HEAVY_SLOT="/Volumes/Extreme SSD/Projects/grokbot/tools/heavy-slot.sh"
+SLOT_ACQUIRED=0
+SERVER_STARTED=0
 
 cleanup() {
+  local exit_code=$?
+  trap - EXIT
+  trap '' INT TERM
   echo "Cleaning up..."
-  (cd "$XR_DIR" && node node_modules/@iwsdk/cli/dist/cli.js dev down 2>/dev/null || true)
-  "$HEAVY_SLOT" release thyra 2>/dev/null || true
+  if (( SERVER_STARTED )); then
+    (cd "$XR_DIR" && node node_modules/@iwsdk/cli/dist/cli.js dev down 2>/dev/null) || true
+  fi
+  if (( SLOT_ACQUIRED )); then
+    "$HEAVY_SLOT" release thyra 2>/dev/null || true
+  fi
+  exit "$exit_code"
 }
-trap cleanup EXIT INT TERM
+trap cleanup EXIT
+trap 'exit 130' INT
+trap 'exit 143' TERM
 
 echo "Acquiring heavy slot..."
 "$HEAVY_SLOT" acquire thyra
+SLOT_ACQUIRED=1
 
-echo "Stopping any existing dev server..."
-(cd "$XR_DIR" && node node_modules/@iwsdk/cli/dist/cli.js dev down 2>/dev/null || true)
+echo "Checking for an existing dev server..."
+node - "$XR_DIR" <<'NODE'
+const { execFileSync } = require('node:child_process');
+const status = JSON.parse(execFileSync('node', ['node_modules/@iwsdk/cli/dist/cli.js', 'dev', 'status'], {
+  cwd: process.argv[2], encoding: 'utf8', timeout: 10_000,
+}));
+if (!status.ok || status.data?.state?.running !== false || status.data?.state?.starting !== false) {
+  console.error('Cannot start: a dev server already exists or its status is unknown. Stop it from its owning session first.');
+  process.exit(1);
+}
+NODE
 
 echo "Starting dev server in agent mode..."
+# dev up detaches and returns after startup unless --foreground is passed.
+# Claim cleanup before startup so a partially failed launch is stopped too.
+SERVER_STARTED=1
 (cd "$XR_DIR" && node node_modules/@iwsdk/cli/dist/cli.js dev up --ai-mode agent --headless --allow-browser-automation)
 
 echo "Waiting for dev server readiness..."
-node -e '
+node - "$XR_DIR" <<'NODE'
 const { execFileSync } = require("node:child_process");
-const xrDir = "'"$XR_DIR"'";
-for (let i = 0; i < 60; i++) {
+const xrDir = process.argv[2];
+const deadline = Date.now() + 120_000;
+const sleeper = new Int32Array(new SharedArrayBuffer(4));
+while (Date.now() < deadline) {
   try {
-    const st = execFileSync("node", ["node_modules/@iwsdk/cli/dist/cli.js", "dev", "status"], { cwd: xrDir, encoding: "utf8" });
-    if (/"browserCommandReady":\s*true/.test(st)) {
+    const st = JSON.parse(execFileSync("node", ["node_modules/@iwsdk/cli/dist/cli.js", "dev", "status"], {
+      cwd: xrDir, encoding: "utf8", timeout: Math.min(10_000, deadline - Date.now()),
+    }));
+    if (st.ok && st.data?.state?.browserCommandReady === true) {
       console.log("Dev server ready!");
       process.exit(0);
     }
-  } catch (e) {
-    // ignore
+  } catch {
+    // A transient status failure is retried within the readiness deadline.
   }
-  execFileSync("sleep", ["2"]);
+  Atomics.wait(sleeper, 0, 0, Math.max(0, Math.min(2_000, deadline - Date.now())));
 }
 console.error("Timeout waiting for dev server ready");
 process.exit(1);
-'
+NODE
 
 echo "=== Running Quest 3 profile e2e ==="
 cd "$ROOT"
