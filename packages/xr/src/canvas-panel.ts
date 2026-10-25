@@ -63,13 +63,25 @@ export class CanvasPanel {
     ctx.stroke();
   }
 
+  private font(size: number, weight: number, mono?: boolean, tracking?: number): void {
+    const { ctx } = this;
+    ctx.font = `${weight} ${size}px ${mono ? BRAND.mono : BRAND.sans}`;
+    if ('letterSpacing' in ctx) (ctx as unknown as { letterSpacing: string }).letterSpacing = `${tracking ?? (mono ? 0 : -0.02 * size)}px`;
+  }
+
   text(s: string, x: number, y: number, size: number, opts: { color?: string; weight?: number; mono?: boolean; align?: CanvasTextAlign; maxWidth?: number; tracking?: number } = {}): number {
     const { ctx } = this;
-    ctx.font = `${opts.weight ?? (opts.mono ? 400 : 500)} ${size}px ${opts.mono ? BRAND.mono : BRAND.sans}`;
+    this.font(size, opts.weight ?? (opts.mono ? 400 : 500), opts.mono, opts.tracking);
     ctx.fillStyle = opts.color ?? BRAND.plaster;
     ctx.textAlign = opts.align ?? 'left';
     ctx.textBaseline = 'alphabetic';
-    if ('letterSpacing' in ctx) (ctx as unknown as { letterSpacing: string }).letterSpacing = `${opts.tracking ?? (opts.mono ? 0 : -0.02 * size)}px`;
+    // A line that is far too long (a long typed destination) is cut with an ellipsis instead of being squeezed
+    // by fillText's maxWidth into unreadable glyphs; up to 8 % over is still squeezed.
+    if (opts.maxWidth !== undefined && ctx.measureText(s).width > opts.maxWidth * 1.08) {
+      let cut = s;
+      while (cut.length > 1 && ctx.measureText(`${cut}…`).width > opts.maxWidth) cut = cut.slice(0, -1);
+      s = `${cut.trimEnd()}…`;
+    }
     ctx.fillText(s, x, y, opts.maxWidth);
     return ctx.measureText(s).width;
   }
@@ -77,7 +89,9 @@ export class CanvasPanel {
   /** Word-wrapped paragraph; returns the y after the last line. */
   para(s: string, x: number, y: number, size: number, maxWidth: number, lineHeight: number, opts: { color?: string; mono?: boolean; weight?: number; maxLines?: number } = {}): number {
     const { ctx } = this;
-    ctx.font = `${opts.weight ?? 400} ${size}px ${opts.mono ? BRAND.mono : BRAND.sans}`;
+    // measure with the same font AND letter spacing text() will draw with: the spacing left over from the
+    // previous call (e.g. a sans title's negative tracking) made mono lines measure ~70 px short and overflow
+    this.font(size, opts.weight ?? 400, opts.mono);
     const words = s.split(/\s+/);
     let line = '';
     let lines = 0;
@@ -150,6 +164,7 @@ export class CanvasPanel {
       ctx.lineTo(x, y + 12);
     }
     ctx.stroke();
+    this.font(26, 400, true); // the label's own font, not whatever was drawn last
     const w = this.ctx.measureText(label).width;
     ctx.fillStyle = 'rgba(23,22,20,1)';
     ctx.fillRect((x0 + x1) / 2 - w / 2 - 14, y - 18, w + 28, 36);
