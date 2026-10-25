@@ -1,25 +1,50 @@
 # Testing
 
-Every number here comes from a run file in this repo. **Emulator** = IWSDK 1.1.0-rc.2 agent mode (headless
-Playwright Chromium 1248 + IWER with SEM synthetic rooms) on an Apple M4 Mac, ANGLE Metal. **No device run
-yet** and **no Meta model run yet** (`MODEL_API_KEY` not set). Zero skipped tests.
+## Latest verification attempt (Oct 25, 2026)
 
-## Summary (Oct 25, 2026)
+This worktree ran all three lightweight checks before requesting the shared heavy slot. The unit command
+failed because this sandbox forbids binding a localhost server (`listen EPERM: operation not permitted
+127.0.0.1`). Gateway setup timed out; this was an environment failure, not a passing full unit suite.
 
-| Suite | Command | Result | Run file |
+| Suite | Command | Fresh result | Evidence |
 |---|---|---|---|
-| Unit (Vitest) | `npm test` | **46 / 46** passed (6 files: room 28, pano 7, gateway 11) | console |
-| Emulator e2e, Quest 3 profile, hands only | `node e2e/run.ts` | **56 / 56** checks passed in 2 min 11 s | [`deployments/e2e/2026-10-25T04-48-49-672Z.json`](deployments/e2e/2026-10-25T04-48-49-672Z.json) |
-| Emulator e2e, Meta VR Glasses profile (gaze + pinch) | `node e2e/glasses.ts` | **5 / 5** | [`deployments/e2e/glasses-2026-10-24T01-22-25-493Z.json`](deployments/e2e/glasses-2026-10-24T01-22-25-493Z.json) |
-| Landing + app 2D page at 375 / 1280 px | `node e2e/landing.ts https://localhost:8443/` | **12 / 12** | [`deployments/e2e/pages-2026-10-25T04-51-34-608Z.json`](deployments/e2e/pages-2026-10-25T04-51-34-608Z.json) |
-| Typecheck | `npm run typecheck`, `npm run xr:typecheck` | clean | |
-| Production build | `npm run xr:build` | builds (11 MB `dist/`, emulator injected off-Quest) | |
+| Unit (Vitest) | `npm test` | **39 / 46 passed; 7 skipped** after setup failure; 5 files passed, 1 failed; 2 unhandled listener errors; **20.19 s** | command output |
+| Root typecheck | `npm run typecheck` | **Passed; 0 diagnostics** | exit 0 |
+| XR typecheck | `npm run xr:typecheck` | **Passed; 0 diagnostics** | exit 0 |
+| Emulator e2e, Quest 3 profile, hands only | `node e2e/run.ts` via runner | Not started; no new run file | runner output |
+| Emulator e2e, Meta VR Glasses profile | `node e2e/glasses.ts` via runner | Not started; no new run file | runner output |
+| Landing + app 2D page at 375 / 1280 px | `node e2e/landing.ts https://localhost:8443/` via runner | Not started; no new 12-check run file | runner output |
 
-Earlier run files in `deployments/e2e/` are kept as history; their failures were harness bugs fixed since
-(a room that was already loaded, a 200-line log limit, a GLTS window with sheers that didn't fit, a card
-visibility rule that was reverted).
+`bash scripts/run-all-e2e.sh` stopped at **Acquiring heavy slot**, before its dev-server status or startup
+steps. The slot remained held by `mebae`; the waiter was interrupted (exit 130) because this sandbox also
+prevents the localhost listeners needed for verification. Its cleanup trap ran. Thyra never acquired the slot
+and started no dev server or browser. The slot owner files were checked afterward: no line starts with
+`thyra`; the other owner was left untouched. No fresh e2e duration, room timings, frame times or draw calls
+are available. The runner did not reach `node scripts/landing-data.ts`.
 
-## Unit tests (Vitest, no mocks)
+The worktree initially had no dependencies. Registry DNS was unavailable (`ENOTFOUND registry.npmjs.org`),
+so the existing dependency directories were copied from the main checkout after both lockfiles were checked
+identical. No lockfile or product code was changed.
+
+**No device run and no Meta model run.** `MODEL_API_KEY` is unset for emulator suites; the no-key path shows
+Setup required and a CC0 sample stamped *Sample, not generated*. An Apple M4 emulator frame time is not a
+Quest CPU or GPU frame time. The Quest target (p95 ≤ 13.9 ms at 72 Hz) remains unmeasured.
+
+## Historical emulator evidence
+
+The files in [`deployments/e2e/`](deployments/e2e/) are retained as history. They do not establish a fresh pass
+of the merged landing. The previous per-room timing and frame-time tables have been removed because they
+did not match their cited run; no guessed replacement metrics are reported.
+
+- Hands-only schedule source: [`2026-10-25T11-04-22-665Z.json`](deployments/e2e/2026-10-25T11-04-22-665Z.json).
+- Glasses: [`glasses-2026-10-25T11-06-53-722Z.json`](deployments/e2e/glasses-2026-10-25T11-06-53-722Z.json).
+- Pages: [`pages-2026-10-25T10-59-46-291Z.json`](deployments/e2e/pages-2026-10-25T10-59-46-291Z.json).
+
+`packages/landing/data/schedule.json` still cites the historical hands-only file above. Its four `to_world`
+strings were checked against that file's `to_world_ms / 1000`, rounded to two decimal places, and all match.
+It has not been regenerated or relabelled as a new run.
+
+## Unit test coverage (Vitest, no mocks)
 
 - `packages/room`: wall frames (axes, bounds, normal flipped toward the viewer, side walls), plane round trips,
   ray/wall hits and nearest-wall picking, polygon area, door rectangle (both drag directions, clamping, edge and
@@ -28,68 +53,38 @@ visibility rule that was reverted).
   re-arm), status → badges.
 - `packages/pano`: sRGB → Lab, the CC0 samples read as `equirect`, a cropped copy → `equirect+seamfix`, a copy
   rolled 20 % down → `cylinder`, aspect check, seam fix (seam ΔE drops below 2, pole spread drops).
-- `packages/gateway`: without the key every model reports Setup required and plan/panorama/transcribe answer
+- `packages/gateway` (7 HTTP tests blocked in this attempt): without the key every model reports Setup required and plan/panorama/transcribe answer
   503 `setup_required`; no-key run records are stamped, patched, listed and deleted; bad JSON / sources / rooms
   are rejected; **a live call to api.meta.ai with an invalid key** returns the real 401 as a readable 502 that
   never contains the key (also checked in the stored run record); per-IP rate limit; the daily cap refuses calls
   without touching the network; `compose_portal` schema (unknown fields, bad hex, palette size, missing fields,
   range); the panorama contract is always appended; JPEG header size of the committed sample.
 
-## Emulator e2e (hands only)
+## Emulator coverage and measurement method
 
-Four rooms in one session, switched at runtime through IWER SEM: `sunlit_living_room`, `bedroom` (built-in),
-and ours, `thyra_studio` and `thyra_hall` ([eval/rooms](eval/rooms)). Per room: wall picked, door drawn by
-pinch-drag with the right hand ray, a destination pinched on the door card, the world opened, a pixel check,
-Step-in by walking to the door, exit by walking back, *Close door*.
+The hands-only suite uses IWER (IWSDK's browser-based immersive emulator) with SEM synthetic rooms and the
+Quest 3 profile. It switches between `sunlit_living_room`, `thyra_studio`, `thyra_hall` and `bedroom`. Per room:
+pick a wall, pinch-drag a door with the right hand ray, pinch a destination on the door card, open the sample
+world, compare pixels inside and outside the frame, step in by walking toward the door, exit and close it.
+It also checks the minimum door size, three-door limit and oldest-door replacement, no-wall paper placement,
+Setup required badges, and console errors. Fresh passed/failed counts and duration remain unavailable.
 
-| Metric | sunlit_living_room | thyra_studio | thyra_hall | bedroom |
-|---|---|---|---|---|
-| Room read vs ground truth: wall width | 5.004 m (5.0) | 3.604 m (3.6) | 6.004 m (6.0) | n/a |
-| ceiling | 2.700 m (2.7) | 2.400 m (2.4) | 2.100 m (2.1) | n/a |
-| floor area | 29.00 m² (29.0) | 15.12 m² (15.12) | 9.00 m² (9.0) | n/a |
-| Door drawn | 1.20 × 2.05 m | 1.10 × 2.00 m | 1.00 × 1.95 m | 0.90 × 1.90 m |
-| Corners off the wall plane (max) | 0.00 mm | 0.00 mm | 0.00 mm | 0.00 mm |
-| Corner vs pinch point | 0.0 mm | 0.0 mm | 0.0 mm | 0.0 mm |
-| Pixel check: ΔRGB inside the door vs a wall patch outside | 240.7 vs 7.7 | 95.6 vs 7.1 | 114.5 vs 12.9 | 110.8 vs 9.2 |
-| `pano_mode` (CC0 sample) | equirect | equirect | equirect | equirect |
-| Pinch release → world revealed* | 2.07 s | 2.04 s | 2.04 s | 2.11 s |
+Fresh per-room release-to-world seconds are unavailable for all four rooms. In the no-key path this measure
+includes a deliberate 0.9 s hold on the room read plus sample decoding and GPU upload; it is not the Muse
+Spark + Muse Image time to world. Emulated exact rays cannot establish real-hand registration quality.
 
-\* No key: this includes a deliberate 0.9 s hold on the room read plus decoding the 4096×2048 sample and the
-GPU upload. It is **not** the Muse Spark + Muse Image time to world, which needs the key.
+The frame-time measurement samples 600 frames with three doors open while the head pans across them.
+`window.__thyraPerf` records CPU milliseconds from the ECS update start through `renderer.render`, with
+p50 / p95 / max, draw calls p50 / max and triangles p50. All fresh values are unavailable in this attempt.
+Desktop headless Chromium on an Apple M4 cannot establish Quest performance or GPU timing.
 
-Wall widths read 4 mm wider than the room spec because SEM's walls overlap by a 4 mm seam. Registration reads
-0.00 mm because emulated rays are exact; that says the plane math is right, not that a real hand is that steady.
+The glasses suite selects `metaVRGlasses`, checks that `gaze-tracking` is granted, draws a door using gaze
+and hand pinch, measures the door card's corner angles against the narrower glasses view, opens a sample
+world by gazing at a destination and pinching, and checks console errors. Fresh card angles and counts are
+unavailable. The pages suite must check both the landing and app 2D page at 375 and 1280 px: horizontal
+scroll, rendered schedule/status badges, and console errors (12 checks total).
 
-Also in the run: a 0.25 m door is rejected with "Too small: a door needs at least 0.40 × 0.60 m"; three open
-doors on three walls; a fourth closes the oldest; with no room (`none`) the paper-wall prompt appears, two floor
-pinches place a 2.0 m paper wall labelled `paper wall (virtual)`, and a door opens on it; every Meta model
-badge says Setup required; **0 console errors** during the run.
-
-### Frame time (emulator, not device)
-
-600 frames with three doors open while the head pans across them (`window.__thyraPerf`, CPU ms from the start
-of the ECS update to the end of `renderer.render`):
-
-| p50 | p95 | max | draw calls p50 / max | triangles p50 |
-|---|---|---|---|---|
-| 2.7 ms | 3.3 ms | 4.7 ms | 248 / 312 | 84,764 |
-
-Headless Chromium on a desktop GPU says nothing about Quest 3 GPU time; the spec's device target (p95 ≤ 13.9 ms
-at 72 Hz) is unmeasured. Draw calls are high (each door is ~17 meshes: mask, ink, world, trims, dimensions,
-glows, two particle systems); merging the trim and dimension strips is the first optimisation if a device run
-is slow.
-
-Console warnings seen (not errors): gaze tracking not granted in the Quest 3 profile (expected; it's optional),
-IWSDK notes that portal entities are parented under the level root by default, and a Canvas2D
-`willReadFrequently` hint.
-
-### Meta VR Glasses profile
-
-`metaVRGlasses` with gaze + hand pinch: the session grants `gaze-tracking`; gazing at the wall while pinching
-draws a 1.00 × 1.90 m door; the door card's corners sit at ±17.7° horizontally and −30.1°…−6.5° vertically
-(the glasses show ±37°, +25°/−43°); gazing at a card button and pinching opens the world; 0 console errors.
-
-## Emulator clips (test recordings, not the demo video)
+## Historical emulator clips (test recordings, not the demo video)
 
 CDP screencast of the managed page while `e2e/record.ts` runs a hands-only choreography (1280×692 after
 cropping the workspace toolbar, 30 fps). In `grokbot/videos/thyra/`:
