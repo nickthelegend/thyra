@@ -22,6 +22,7 @@ import {
   type GatewayStatus,
   type ObjectLike,
   type PlaneLike,
+  type DoorRect,
   type RoomSummary,
   type StepState,
   type Vec3,
@@ -34,6 +35,7 @@ import {
   pickWall,
   polygonArea,
   rayWall,
+  rectsOverlap,
   signedDistance,
   stepIn,
   toPlane2,
@@ -97,7 +99,7 @@ export class ThyraSystem extends createSystem({
 
   private portals: LivePortal[] = [];
   private portalSeq = 0;
-  private drawing: { pointerId: string; frame: WallFrame; start: [number, number]; view: PortalView; valid: boolean } | null = null;
+  private drawing: { pointerId: string; frame: WallFrame; start: [number, number]; view: PortalView; valid: boolean; over: string | null } | null = null;
   private cardFor: LivePortal | null = null;
   private card = new DoorCard();
   private hint = new CanvasPanel('Thyra hint', 1024, 180, 0.5);
@@ -322,9 +324,15 @@ export class ThyraSystem extends createSystem({
   private startDraw(p: Pointer, frame: WallFrame, uv: [number, number]): void {
     const view = new PortalView(++this.portalSeq, frame, this.floorY);
     view.addTo(this.scene);
-    this.drawing = { pointerId: p.id, frame, start: uv, view, valid: false };
+    this.drawing = { pointerId: p.id, frame, start: uv, view, valid: false, over: null };
     this.hintUntil = 0;
     view.setRect({ u0: uv[0], u1: uv[0], v0: uv[1], v1: uv[1] }, false);
+  }
+
+  /** The tag of an open door on the same wall that `rect` would overlap, if any. */
+  private overlapping(planeId: string, rect: DoorRect): string | null {
+    const other = this.portals.find((lp) => lp.view.frame.planeId === planeId && rectsOverlap(lp.view.rect, rect));
+    return other ? other.view.tag : null;
   }
 
   private floorV(frame: WallFrame): number | null {
@@ -336,8 +344,9 @@ export class ThyraSystem extends createSystem({
     const hit = rayWall(d.frame, tuple(p.origin), tuple(p.dir));
     if (hit) {
       const r = drawRect(d.start, hit.uv, d.frame.bounds, { floorV: this.floorV(d.frame) });
-      d.valid = r.valid;
-      d.view.setRect(r.rect, r.valid);
+      d.over = this.overlapping(d.frame.planeId, r.rect);
+      d.valid = r.valid && !d.over;
+      d.view.setRect(r.rect, d.valid);
     }
     if (p.releasedThisFrame || !p.down) this.endDraw();
   }
@@ -348,7 +357,11 @@ export class ThyraSystem extends createSystem({
     if (!d.valid) {
       d.view.dispose();
       this.portalSeq--;
-      this.toast('Too small: a door needs at least 0.40 × 0.60 m. Pinch and drag again.');
+      this.toast(
+        d.over
+          ? `That overlaps ${d.over}. Draw the new door beside it.`
+          : 'Too small: a door needs at least 0.40 × 0.60 m. Pinch and drag again.',
+      );
       return;
     }
     if (this.portals.length >= MAX_PORTALS) this.closePortal(this.portals[0]);

@@ -92,3 +92,8 @@ export function rectCenter(r: DoorRect): [number, number] {
 export function insideRect(r: DoorRect, uv: [number, number], margin = 0): boolean {
   return uv[0] >= r.u0 - margin && uv[0] <= r.u1 + margin && uv[1] >= r.v0 - margin && uv[1] <= r.v1 + margin;
 }
+
+/** Two doors on the same wall overlap (sharing an edge is fine: doors may stand side by side). */
+export function rectsOverlap(a: DoorRect, b: DoorRect): boolean {
+  return a.u0 < b.u1 && b.u0 < a.u1 && a.v0 < b.v1 && b.v0 < a.v1;
+}

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { dimensionLabel, drawRect, insideRect } from '../src/index.ts';
+import { dimensionLabel, drawRect, insideRect, rectsOverlap } from '../src/index.ts';
 
 const bounds = { u0: -2.5, u1: 2.5, v0: -1.35, v1: 1.35 };
 
@@ -39,5 +39,19 @@ describe('drawRect', () => {
     const r = { u0: 0, u1: 1, v0: 0, v1: 2 };
     expect(insideRect(r, [1.05, 1])).toBe(false);
     expect(insideRect(r, [1.05, 1], 0.1)).toBe(true);
+  });
+});
+
+describe('rectsOverlap', () => {
+  const door = { u0: -0.6, u1: 0.6, v0: -1.35, v1: 0.7 };
+  it('finds a door drawn over, inside or across another', () => {
+    expect(rectsOverlap(door, { ...door })).toBe(true);
+    expect(rectsOverlap(door, { u0: -0.4, u1: 0.4, v0: -0.75, v1: 0.25 })).toBe(true);
+    expect(rectsOverlap(door, { u0: 0.5, u1: 1.3, v0: -1.35, v1: 0.6 })).toBe(true);
+  });
+  it('lets doors stand side by side, touching edges included', () => {
+    expect(rectsOverlap(door, { u0: 0.6, u1: 1.4, v0: -1.35, v1: 0.6 })).toBe(false);
+    expect(rectsOverlap(door, { u0: 1.4, u1: 2.2, v0: -1.35, v1: 0.65 })).toBe(false);
+    expect(rectsOverlap(door, { u0: -0.6, u1: 0.6, v0: 0.7, v1: 1.35 })).toBe(false);
   });
 });
