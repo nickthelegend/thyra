@@ -65,17 +65,17 @@
         <li>
           <span class="n">01</span>
           <h3>Pinch &amp; drag</h3>
-          <p>Pinch your real wall on Quest 3 to drag open a dimensioned doorway snapped to floor and boundaries.</p>
+          <p>Pinch and drag a doorway snapped to your floor and wall boundaries.</p>
         </li>
         <li>
           <span class="n">02</span>
           <h3>Room meets Muse</h3>
-          <p>Muse Spark reads real room dimensions and writes a tailored prompt scaled to your space.</p>
+          <p>Muse Spark reads your room geometry and tailors a prompt to your space.</p>
         </li>
         <li>
           <span class="n">03</span>
           <h3>Step through</h3>
-          <p>Muse Image paints the world once behind your wall with real head-tracked parallax.</p>
+          <p>Muse Image paints the world behind your wall with head-tracked parallax.</p>
         </li>
       </ol>
     </section>
@@ -83,8 +83,8 @@
     <!-- Section 2: Proof in 3 numbers -->
     <section id="proof" class="sheet proof">
       <p class="eyebrow">Verification</p>
-      <h2>Measured on real geometry</h2>
-      <p class="sub">Tested with emulated hands across four synthetic rooms in Meta's Immersive Web emulator.</p>
+      <h2>Measured in synthetic rooms</h2>
+      <p class="sub">Tested with emulated hands across four rooms in Meta's Immersive Web emulator.</p>
       <div class="stats-grid">
         <div class="stat">
           <span class="stat-val">0 mm</span>
@@ -106,18 +106,14 @@
     <section id="honest" class="sheet dark">
       <p class="eyebrow">Transparency</p>
       <h2>What's live vs Setup required</h2>
-      <p class="sub dark-sub">No faked demos. Every capability is labelled by its true runtime state.</p>
       <div class="cols">
         <div>
-          <h3>Live today</h3>
-          <p>WebXR wall plane detection, pinch-drag door drawing, spatial audio, and head-tracked parallax portals.</p>
+          <p><strong>Live today:</strong> WebXR wall plane detection, pinch-drag door drawing, spatial audio, and head-tracked parallax portals.</p>
         </div>
         <div>
-          <h3>Setup required</h3>
-          <p>Muse Spark, Muse Image, and Muse Voice require <code>MODEL_API_KEY</code>; CC0 sample worlds load when no key is set.</p>
+          <p><strong>Setup required:</strong> Muse Spark, Image, and Voice require <code>MODEL_API_KEY</code>; CC0 sample worlds load when unkeyed.</p>
         </div>
       </div>
-      <p class="fine">The key lives only in the local gateway. The browser talks to <code>/api</code> with strict rate limits and daily budget caps.</p>
     </section>
 
     <!-- Section 4: Short CTA -->
@@ -165,7 +161,7 @@
           </div>
           <p class="muted" id="schedule-src"></p>
 
-          <div class="evidence-subhead" style="margin-top: 48px;">
+          <div class="evidence-subhead">
             <h3>Room summary telemetry</h3>
             <p class="sub">The exact geometry JSON payload delivered to Muse Spark on door release.</p>
           </div>
@@ -177,7 +173,7 @@
             <pre id="summary">loading…</pre>
           </div>
 
-          <div class="evidence-subhead" style="margin-top: 48px;">
+          <div class="evidence-subhead">
             <h3>Privacy &amp; data handling</h3>
           </div>
           <ul class="privacy">
@@ -185,6 +181,7 @@
             <li><b>Room geometry</b> (sizes, labels, distances): to Muse Spark via your gateway; kept in the run record.</li>
             <li><b>Your voice:</b> streamed to Muse Voice Transcribe, never stored. Without a key, browser speech recognition is labelled as the browser vendor's service.</li>
             <li><b>Destination, plan, panorama:</b> run record + image file on the gateway; <code>DELETE /api/runs/{id}</code> removes them. No analytics, no third-party scripts in the app.</li>
+            <li><b>Gateway security:</b> The <code>MODEL_API_KEY</code> lives only in the local gateway. The browser talks to <code>/api</code> with strict rate limits and daily budget caps.</li>
           </ul>
         </div>
       </details>
