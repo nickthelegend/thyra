@@ -14,3 +14,5 @@ playwright-report/
 deployments/runs/
 packages/xr/public/rooms/
 deployments/runs-e2e/
+# Loom's local state (event log, attachments, machine config)
+.loom/

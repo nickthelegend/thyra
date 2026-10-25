@@ -1,0 +1,450 @@
+{
+  "started": "2026-10-25T11:04:22.665Z",
+  "finished": "2026-10-25T11:06:30.918Z",
+  "device": "IWER metaQuest3 (emulator)",
+  "input": "hands only",
+  "fatal": null,
+  "passed": 56,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "gateway reached; every Meta model shows Setup required",
+      "ok": true
+    },
+    {
+      "name": "sunlit_living_room: wall width 5.004 m vs truth 5",
+      "ok": true
+    },
+    {
+      "name": "sunlit_living_room: ceiling 2.700 m vs truth 2.7",
+      "ok": true
+    },
+    {
+      "name": "sunlit_living_room: floor area 29.00 m² vs truth 29",
+      "ok": true
+    },
+    {
+      "name": "sunlit_living_room: door is on wall plane-13, 1.20 × 2.05 m",
+      "ok": true
+    },
+    {
+      "name": "sunlit_living_room: corners within 5 mm of the wall plane (max 0.00 mm)",
+      "ok": true
+    },
+    {
+      "name": "sunlit_living_room: corner within 1 cm of the pinch (top-left 0.0 mm, right edge 0.0 mm)",
+      "ok": true
+    },
+    {
+      "name": "sunlit_living_room: opened with the CC0 sample, stamped \"Sample, not generated\"",
+      "ok": true
+    },
+    {
+      "name": "sunlit_living_room: room summary portal 1.2 × 2.05 m, sill 0",
+      "ok": true
+    },
+    {
+      "name": "sunlit_living_room: summary ceiling 2.7 vs truth",
+      "ok": true
+    },
+    {
+      "name": "sunlit_living_room: the world shows inside the door (ΔRGB in 243.7 vs outside 7.4)",
+      "ok": true,
+      "detail": {
+        "dIn": 243.7164428356518,
+        "dOut": 7.357274698002464
+      }
+    },
+    {
+      "name": "sunlit_living_room: Step-in floods the world (inside, flood 1)",
+      "ok": true
+    },
+    {
+      "name": "sunlit_living_room: moving 0.5 m away returns to the room",
+      "ok": true
+    },
+    {
+      "name": "sunlit_living_room: Close door removes it",
+      "ok": true
+    },
+    {
+      "name": "thyra_studio: wall width 3.604 m vs truth 3.6",
+      "ok": true
+    },
+    {
+      "name": "thyra_studio: ceiling 2.400 m vs truth 2.4",
+      "ok": true
+    },
+    {
+      "name": "thyra_studio: floor area 15.12 m² vs truth 15.12",
+      "ok": true
+    },
+    {
+      "name": "thyra_studio: door is on wall plane-20, 1.10 × 2.00 m",
+      "ok": true
+    },
+    {
+      "name": "thyra_studio: corners within 5 mm of the wall plane (max 0.00 mm)",
+      "ok": true
+    },
+    {
+      "name": "thyra_studio: corner within 1 cm of the pinch (top-left 0.0 mm, right edge 0.0 mm)",
+      "ok": true
+    },
+    {
+      "name": "thyra_studio: opened with the CC0 sample, stamped \"Sample, not generated\"",
+      "ok": true
+    },
+    {
+      "name": "thyra_studio: room summary portal 1.1 × 2 m, sill 0",
+      "ok": true
+    },
+    {
+      "name": "thyra_studio: summary ceiling 2.4 vs truth",
+      "ok": true
+    },
+    {
+      "name": "thyra_studio: the world shows inside the door (ΔRGB in 98.0 vs outside 7.1)",
+      "ok": true,
+      "detail": {
+        "dIn": 98.04190973483294,
+        "dOut": 7.078561462846444
+      }
+    },
+    {
+      "name": "thyra_studio: Step-in floods the world (inside, flood 1)",
+      "ok": true
+    },
+    {
+      "name": "thyra_studio: moving 0.5 m away returns to the room",
+      "ok": true
+    },
+    {
+      "name": "thyra_studio: Close door removes it",
+      "ok": true
+    },
+    {
+      "name": "thyra_hall: wall width 6.004 m vs truth 6",
+      "ok": true
+    },
+    {
+      "name": "thyra_hall: ceiling 2.100 m vs truth 2.1",
+      "ok": true
+    },
+    {
+      "name": "thyra_hall: floor area 9.00 m² vs truth 9",
+      "ok": true
+    },
+    {
+      "name": "thyra_hall: door is on wall plane-32, 1.00 × 1.95 m",
+      "ok": true
+    },
+    {
+      "name": "thyra_hall: corners within 5 mm of the wall plane (max 0.00 mm)",
+      "ok": true
+    },
+    {
+      "name": "thyra_hall: corner within 1 cm of the pinch (top-left 0.0 mm, right edge 0.0 mm)",
+      "ok": true
+    },
+    {
+      "name": "thyra_hall: opened with the CC0 sample, stamped \"Sample, not generated\"",
+      "ok": true
+    },
+    {
+      "name": "thyra_hall: room summary portal 1 × 1.95 m, sill 0",
+      "ok": true
+    },
+    {
+      "name": "thyra_hall: summary ceiling 2.1 vs truth",
+      "ok": true
+    },
+    {
+      "name": "thyra_hall: the world shows inside the door (ΔRGB in 119.5 vs outside 4.8)",
+      "ok": true,
+      "detail": {
+        "dIn": 119.49132317763697,
+        "dOut": 4.814302474800046
+      }
+    },
+    {
+      "name": "thyra_hall: Step-in floods the world (inside, flood 1)",
+      "ok": true
+    },
+    {
+      "name": "thyra_hall: moving 0.5 m away returns to the room",
+      "ok": true
+    },
+    {
+      "name": "thyra_hall: Close door removes it",
+      "ok": true
+    },
+    {
+      "name": "bedroom: door is on wall plane-46, 0.90 × 1.90 m",
+      "ok": true
+    },
+    {
+      "name": "bedroom: corners within 5 mm of the wall plane (max 0.00 mm)",
+      "ok": true
+    },
+    {
+      "name": "bedroom: corner within 1 cm of the pinch (top-left 0.0 mm, right edge 0.0 mm)",
+      "ok": true
+    },
+    {
+      "name": "bedroom: opened with the CC0 sample, stamped \"Sample, not generated\"",
+      "ok": true
+    },
+    {
+      "name": "bedroom: room summary portal 0.9 × 1.9 m, sill 0",
+      "ok": true
+    },
+    {
+      "name": "bedroom: the world shows inside the door (ΔRGB in 125.7 vs outside 6.2)",
+      "ok": true,
+      "detail": {
+        "dIn": 125.71606999645275,
+        "dOut": 6.186760013894319
+      }
+    },
+    {
+      "name": "bedroom: Step-in floods the world (inside, flood 1)",
+      "ok": true
+    },
+    {
+      "name": "bedroom: moving 0.5 m away returns to the room",
+      "ok": true
+    },
+    {
+      "name": "bedroom: Close door removes it",
+      "ok": true
+    },
+    {
+      "name": "guard: a 0.25 m door is rejected with a readable hint",
+      "ok": true,
+      "detail": "Too small: a door needs at least 0.40 × 0.60 m. Pinch and drag again."
+    },
+    {
+      "name": "multiple portals: three open doors on three walls",
+      "ok": true,
+      "detail": [
+        "P-05",
+        "P-06",
+        "P-07"
+      ]
+    },
+    {
+      "name": "max 3 doors: a fourth closes the oldest (P-05)",
+      "ok": true,
+      "detail": [
+        "P-06",
+        "P-07",
+        "P-08"
+      ]
+    },
+    {
+      "name": "no walls: the paper-wall prompt appears",
+      "ok": true
+    },
+    {
+      "name": "paper wall: a virtual wall is placed and labelled (paper wall (virtual))",
+      "ok": true
+    },
+    {
+      "name": "paper wall: a door opens on it",
+      "ok": true
+    },
+    {
+      "name": "console: 0 errors",
+      "ok": true,
+      "detail": []
+    }
+  ],
+  "metrics": {
+    "sunlit_living_room.registration_mm": {
+      "off_plane_max": 0,
+      "top_left_to_pinch": 0,
+      "right_edge": 0
+    },
+    "doors": [
+      {
+        "tag": "P-01",
+        "room": "sunlit_living_room",
+        "door": "1.20 × 2.05 m",
+        "destination": "a misty pine forest",
+        "plan": "Setup required",
+        "image": "Sample, not generated",
+        "pano_mode": "equirect",
+        "to_world_ms": 2099,
+        "off_plane_mm": 0
+      },
+      {
+        "tag": "P-02",
+        "room": "thyra_studio (ours)",
+        "door": "1.10 × 2.00 m",
+        "destination": "a misty pine forest",
+        "plan": "Setup required",
+        "image": "Sample, not generated",
+        "pano_mode": "equirect",
+        "to_world_ms": 2041,
+        "off_plane_mm": 0
+      },
+      {
+        "tag": "P-03",
+        "room": "thyra_hall (ours)",
+        "door": "1.00 × 1.95 m",
+        "destination": "a misty pine forest",
+        "plan": "Setup required",
+        "image": "Sample, not generated",
+        "pano_mode": "equirect",
+        "to_world_ms": 2006,
+        "off_plane_mm": 0
+      },
+      {
+        "tag": "P-04",
+        "room": "bedroom",
+        "door": "0.90 × 1.90 m",
+        "destination": "a misty pine forest",
+        "plan": "Setup required",
+        "image": "Sample, not generated",
+        "pano_mode": "equirect",
+        "to_world_ms": 2126,
+        "off_plane_mm": 0
+      }
+    ],
+    "sunlit_living_room.time_to_world_ms": {
+      "from_release": 2099,
+      "pano_mode": "equirect",
+      "note": "no key: includes a 0.9 s hold on the room read, then sample decode"
+    },
+    "thyra_studio.registration_mm": {
+      "off_plane_max": 0,
+      "top_left_to_pinch": 0,
+      "right_edge": 0
+    },
+    "summary_example": {
+      "portal": {
+        "w_m": 1.1,
+        "h_m": 2,
+        "bottom_m": 0,
+        "wall": {
+          "label": "wall",
+          "w_m": 3.6,
+          "h_m": 2.4
+        }
+      },
+      "viewer": {
+        "eye_height_m": 1.6,
+        "distance_to_portal_m": 2.6
+      },
+      "room": {
+        "ceiling_m": 2.4,
+        "floor_area_m2": 15.1,
+        "objects": [
+          {
+            "label": "couch",
+            "dims_m": [
+              2,
+              0.86,
+              0.94
+            ],
+            "side": "in front",
+            "distance_m": 0.52
+          },
+          {
+            "label": "table",
+            "dims_m": [
+              1,
+              0.42,
+              0.55
+            ],
+            "side": "in front",
+            "distance_m": 1.17
+          },
+          {
+            "label": "lamp",
+            "dims_m": [
+              0.4,
+              1.72,
+              0.4
+            ],
+            "side": "right",
+            "distance_m": 1.39
+          },
+          {
+            "label": "plant",
+            "dims_m": [
+              0.5,
+              1.3,
+              0.5
+            ],
+            "side": "in front",
+            "distance_m": 3.99
+          }
+        ]
+      },
+      "light": {
+        "available": false
+      },
+      "local_time": "16:34",
+      "destination_text": "a misty pine forest"
+    },
+    "thyra_studio.time_to_world_ms": {
+      "from_release": 2041,
+      "pano_mode": "equirect",
+      "note": "no key: includes a 0.9 s hold on the room read, then sample decode"
+    },
+    "thyra_hall.registration_mm": {
+      "off_plane_max": 0,
+      "top_left_to_pinch": 0,
+      "right_edge": 0
+    },
+    "thyra_hall.time_to_world_ms": {
+      "from_release": 2006,
+      "pano_mode": "equirect",
+      "note": "no key: includes a 0.9 s hold on the room read, then sample decode"
+    },
+    "bedroom.registration_mm": {
+      "off_plane_max": 0,
+      "top_left_to_pinch": 0,
+      "right_edge": 0
+    },
+    "bedroom.time_to_world_ms": {
+      "from_release": 2126,
+      "pano_mode": "equirect",
+      "note": "no key: includes a 0.9 s hold on the room read, then sample decode"
+    },
+    "perf_three_doors": {
+      "frames": 600,
+      "xrFrames": 600,
+      "cpuMs": {
+        "p50": 2.5,
+        "p95": 3,
+        "max": 3.400000000372529
+      },
+      "drawCalls": {
+        "p50": 244,
+        "max": 304
+      },
+      "triangles": {
+        "p50": 84756,
+        "max": 84876
+      },
+      "gl": "ANGLE (Apple, ANGLE Metal Renderer: Apple M4, Unspecified Version)"
+    },
+    "console_warnings": [
+      "[iwsdk][gaze] 'gaze-tracking' was NOT granted for this session, so tracked gaze is unavailable. Check that the project requests xr.features.",
+      "[iwsdk][gaze] no XRInputSource with targetRayMode === \"gaze\" appeared within 3s of session start. Ordinary hand/controller far targeting rem",
+      "Entity 42 is being parented under active level root by default because it doesn't have a valid parent entity.",
+      "Entity 34 is being parented under active level root by default because it doesn't have a valid parent entity.",
+      "Entity 39 is being parented under active level root by default because it doesn't have a valid parent entity.",
+      "Entity 1 is being parented under active level root by default because it doesn't have a valid parent entity.",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.sp",
+      "Entity 46 is being parented under active level root by default because it doesn't have a valid parent entity.",
+      "Entity 51 is being parented under active level root by default because it doesn't have a valid parent entity.",
+      "Entity 48 is being parented under active level root by default because it doesn't have a valid parent entity.",
+      "Entity 50 is being parented under active level root by default because it doesn't have a valid parent entity.",
+      "Entity 43 is being parented under active level root by default because it doesn't have a valid parent entity."
+    ]
+  }
+}

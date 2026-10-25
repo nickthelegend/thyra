@@ -37,6 +37,18 @@ async function main() {
 }
 main();
 
+// Open evidence drawer when an anchor link to it is clicked or requested in URL hash
+document.querySelectorAll('a[href="#evidence"]').forEach((a) => {
+  a.addEventListener('click', () => {
+    const drawer = document.getElementById('evidence');
+    if (drawer) drawer.open = true;
+  });
+});
+if (location.hash === '#evidence') {
+  const drawer = document.getElementById('evidence');
+  if (drawer) drawer.open = true;
+}
+
 // Reduced motion: keep the hero clip paused on its first frame.
 if (matchMedia('(prefers-reduced-motion: reduce)').matches) {
   const v = document.getElementById('hero-video');

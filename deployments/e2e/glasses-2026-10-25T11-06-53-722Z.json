@@ -1,0 +1,60 @@
+{
+  "device": "IWER metaVRGlasses (emulator)",
+  "passed": 5,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "glasses profile active (Meta VR Glasses), gaze-tracking granted",
+      "ok": true,
+      "detail": [
+        "local-floor",
+        "bounded-floor",
+        "hand-tracking",
+        "anchors",
+        "hit-test",
+        "plane-detection",
+        "mesh-detection",
+        "gaze-tracking",
+        "eye-tracking",
+        "depth-sensing",
+        "viewer",
+        "local"
+      ]
+    },
+    {
+      "name": "gaze + pinch draws a 1.00 × 1.90 m door",
+      "ok": true
+    },
+    {
+      "name": "door card inside the glasses view (max |h| 17.7°, v -30.1…-6.5°)",
+      "ok": true,
+      "detail": [
+        {
+          "h": -17.694760630001532,
+          "v": -30.125134684735883
+        },
+        {
+          "h": 17.694761020269933,
+          "v": -30.125134754038815
+        },
+        {
+          "h": 15.521403929700023,
+          "v": -6.488977962918241
+        },
+        {
+          "h": -15.521403518821973,
+          "v": -6.488977936523456
+        }
+      ]
+    },
+    {
+      "name": "gaze + pinch on the card opens the world",
+      "ok": true
+    },
+    {
+      "name": "console: 0 errors",
+      "ok": true,
+      "detail": []
+    }
+  ]
+}
