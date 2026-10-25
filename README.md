@@ -99,17 +99,24 @@ Open the app URL in desktop Chrome: it runs in the IWER emulator on a synthetic 
 
 ## Numbers (emulator only)
 
+Latest verification attempt: Oct 25, 2026, in this worktree. Emulator suites did not start: the runner was stopped
+while waiting for the shared heavy slot. The sandbox also denied localhost listeners in unit tests. Older
+successful run files remain historical evidence, not a fresh pass.
+
 | What | Result |
 |---|---|
-| Unit tests | 46 / 46 (room, pano, gateway; one live call to api.meta.ai with an invalid key) |
-| Emulator e2e, hands only, 4 rooms | 56 / 56 checks, 0 console errors |
-| Meta VR Glasses profile (gaze + pinch) | 5 / 5, door card within ±17.7° / −30°…−6.5° |
-| Landing + 2D page at 375 / 1280 px | 12 / 12, no horizontal scroll |
-| Room read vs ground truth | wall width, ceiling, floor area within 4 mm / 0.00 m² in 3 rooms |
-| Frame time, 3 doors open | p95 3.3 ms CPU, 248 draw calls (emulator on an M4, not a Quest) |
-| Time to world | Setup required (needs the key); the no-key sample path takes about 2.0 s |
+| Unit tests | 39 / 46 passed; 7 skipped after gateway setup failed (`listen EPERM`); 1 of 6 test files failed; 20.19 s |
+| Root TypeScript check | Passed; 0 diagnostics |
+| XR TypeScript check | Passed; 0 diagnostics |
+| Emulator e2e, hands only, 4 rooms | Not started; runner stopped at slot acquisition; no new run file |
+| Meta VR Glasses profile (gaze + pinch) | Not started; no new run file |
+| Landing + app 2D page at 375 / 1280 px | Not started; no new 12-check run file |
+| Per-room time to world | No fresh measurement |
+| Frame time p50 / p95 / max; draw calls | No fresh measurement |
 
-Details, run files and the clip list: [TESTING.md](TESTING.md). Nothing here is a device number.
+Details, historical run files and the clip list: [TESTING.md](TESTING.md). Emulator timings on an Apple M4
+are not Quest frame times. No device run or Meta model run has been completed; with `MODEL_API_KEY` unset,
+the sample path cannot measure Muse Spark + Muse Image latency.
 
 ## Privacy
 
