@@ -11,6 +11,7 @@ export function mountHud(world: World): void {
   root.id = 'thyra-hud';
   // IWER (the emulator) spoofs a Quest user agent, so detect it by its global first.
   const emulated = 'IWER_DEVICE' in window;
+  root.classList.toggle('emulated', emulated);
   const quest = !emulated && /OculusBrowser/.test(navigator.userAgent);
   root.innerHTML = `
   <header class="bar">

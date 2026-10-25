@@ -58,6 +58,8 @@ h1 { font-weight: 500; font-size: clamp(40px, 7vw, 84px); line-height: 0.98; let
 .titleblock dt { font: 11px var(--mono); color: var(--grey); text-transform: uppercase; letter-spacing: 0.08em; }
 .titleblock dd { margin: 4px 0 0; font: 500 14px var(--sans); overflow-wrap: anywhere; }
 @media (max-width: 760px) {
+  /* the emulator's floating "Enter XR" pill sits top centre; keep the brand line below it */
+  #thyra-hud.emulated .bar { padding-top: 64px; }
   .sheet { grid-template-columns: minmax(0, 1fr); }
   .drawing { order: -1; }
   .elev { max-width: 220px; }
