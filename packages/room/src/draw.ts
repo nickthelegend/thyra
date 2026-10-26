@@ -32,6 +32,8 @@ export interface DrawResult {
 }
 
 const clamp = (x: number, a: number, b: number) => Math.min(b, Math.max(a, x));
+/** XR Float32 pose/projection round-off, in metres. */
+const PRECISION = 1e-6;
 
 /**
  * The rectangle spanned by the pinch start and the current pinch point,
@@ -71,9 +73,12 @@ export function drawRect(
   }
   const width = u1 - u0;
   const height = v1 - v0;
+  // XR poses pass through Float32 matrices before projection onto the wall.
+  // Allow one micrometre of round-off at the inclusive minimum, rather than
+  // rejecting an exactly 0.40 × 0.60 m hand-ray rectangle.
   return {
     rect: { u0, u1, v0, v1 },
-    valid: width >= o.minWidth && height >= o.minHeight,
+    valid: width + PRECISION >= o.minWidth && height + PRECISION >= o.minHeight,
     width,
     height,
     snapped,
@@ -95,5 +100,6 @@ export function insideRect(r: DoorRect, uv: [number, number], margin = 0): boole
 
 /** Two doors on the same wall overlap (sharing an edge is fine: doors may stand side by side). */
 export function rectsOverlap(a: DoorRect, b: DoorRect): boolean {
-  return a.u0 < b.u1 && b.u0 < a.u1 && a.v0 < b.v1 && b.v0 < a.v1;
+  return Math.min(a.u1, b.u1) - Math.max(a.u0, b.u0) > PRECISION
+    && Math.min(a.v1, b.v1) - Math.max(a.v0, b.v0) > PRECISION;
 }

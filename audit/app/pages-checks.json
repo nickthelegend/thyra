@@ -1,0 +1,361 @@
+{
+  "started": "2026-10-26T20:31:32.156Z",
+  "passed": 63,
+  "failed": 0,
+  "checks": [
+    {
+      "id": "L01-375",
+      "ok": true
+    },
+    {
+      "id": "L03-375",
+      "ok": true
+    },
+    {
+      "id": "L04-closed-375",
+      "ok": true
+    },
+    {
+      "id": "L09-how-375",
+      "ok": true
+    },
+    {
+      "id": "L09-proof-375",
+      "ok": true
+    },
+    {
+      "id": "L09-honest-375",
+      "ok": true
+    },
+    {
+      "id": "L09-evidence-375",
+      "ok": true
+    },
+    {
+      "id": "L09-try-375",
+      "ok": true
+    },
+    {
+      "id": "L02-375",
+      "ok": true
+    },
+    {
+      "id": "L04-open-375",
+      "ok": true
+    },
+    {
+      "id": "L10-375",
+      "ok": true
+    },
+    {
+      "id": "L07-375",
+      "ok": true,
+      "detail": {
+        "ready": 4,
+        "poster": "http://127.0.0.1:8431/media/thyra-hero.jpg",
+        "caption": "\n        \n          \n            \n            \n            \n            \n            1.20\n            \n            2.05\n            P-01\n          \n          \n            \n          \n        \n        Recorded run · IWER emulator, synthetic living room · CC0 sample panorama\n      "
+      }
+    },
+    {
+      "id": "L14-375",
+      "ok": true
+    },
+    {
+      "id": "L09-toggle-375",
+      "ok": true
+    },
+    {
+      "id": "L09-hash-375",
+      "ok": true
+    },
+    {
+      "id": "L08-375",
+      "ok": true,
+      "detail": [
+        {
+          "label": "landing-375",
+          "type": "response",
+          "url": "https://fonts.googleapis.com/css2?family=Host+Grotesk:wght@400;500;600&family=Ubuntu+Sans+Mono:wght@400;500&display=swap",
+          "status": 200,
+          "negative": false
+        },
+        {
+          "label": "landing-375",
+          "type": "response",
+          "url": "https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyR7mzgBHrR5yE7ZyRg0QRJMKI45grIfDfySZU.woff2",
+          "status": 200,
+          "negative": false
+        },
+        {
+          "label": "landing-375",
+          "type": "response",
+          "url": "https://fonts.gstatic.com/s/hostgrotesk/v5/co3BmWBnlCJ3U42vbbfdwMjZpFjmw07Arg.woff2",
+          "status": 200,
+          "negative": false
+        },
+        {
+          "label": "landing-375",
+          "type": "response",
+          "url": "https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyR7mzgBHrR5yE7ZyRg0QRJMKI45gnIfDfySZWz2g.woff2",
+          "status": 200,
+          "negative": false
+        }
+      ]
+    },
+    {
+      "id": "L05-L06-375",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "id": "L01-1280",
+      "ok": true
+    },
+    {
+      "id": "L03-1280",
+      "ok": true
+    },
+    {
+      "id": "L04-closed-1280",
+      "ok": true
+    },
+    {
+      "id": "L09-how-1280",
+      "ok": true
+    },
+    {
+      "id": "L09-proof-1280",
+      "ok": true
+    },
+    {
+      "id": "L09-honest-1280",
+      "ok": true
+    },
+    {
+      "id": "L09-evidence-1280",
+      "ok": true
+    },
+    {
+      "id": "L09-try-1280",
+      "ok": true
+    },
+    {
+      "id": "L02-1280",
+      "ok": true
+    },
+    {
+      "id": "L04-open-1280",
+      "ok": true
+    },
+    {
+      "id": "L10-1280",
+      "ok": true
+    },
+    {
+      "id": "L07-1280",
+      "ok": true,
+      "detail": {
+        "ready": 4,
+        "poster": "http://127.0.0.1:8431/media/thyra-hero.jpg",
+        "caption": "\n        \n          \n            \n            \n            \n            \n            1.20\n            \n            2.05\n            P-01\n          \n          \n            \n          \n        \n        Recorded run · IWER emulator, synthetic living room · CC0 sample panorama\n      "
+      }
+    },
+    {
+      "id": "L14-1280",
+      "ok": true
+    },
+    {
+      "id": "L09-toggle-1280",
+      "ok": true
+    },
+    {
+      "id": "L09-hash-1280",
+      "ok": true
+    },
+    {
+      "id": "L08-1280",
+      "ok": true,
+      "detail": [
+        {
+          "label": "landing-1280",
+          "type": "response",
+          "url": "https://fonts.googleapis.com/css2?family=Host+Grotesk:wght@400;500;600&family=Ubuntu+Sans+Mono:wght@400;500&display=swap",
+          "status": 200,
+          "negative": false
+        },
+        {
+          "label": "landing-1280",
+          "type": "response",
+          "url": "https://fonts.gstatic.com/s/hostgrotesk/v5/co3BmWBnlCJ3U42vbbfdwMjZpFjmw07Arg.woff2",
+          "status": 200,
+          "negative": false
+        },
+        {
+          "label": "landing-1280",
+          "type": "response",
+          "url": "https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyR7mzgBHrR5yE7ZyRg0QRJMKI45grIfDfySZU.woff2",
+          "status": 200,
+          "negative": false
+        },
+        {
+          "label": "landing-1280",
+          "type": "response",
+          "url": "https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyR7mzgBHrR5yE7ZyRg0QRJMKI45gnIfDfySZWz2g.woff2",
+          "status": 200,
+          "negative": false
+        }
+      ]
+    },
+    {
+      "id": "L05-L06-1280",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "id": "L11",
+      "ok": true
+    },
+    {
+      "id": "L12",
+      "ok": true
+    },
+    {
+      "id": "L13",
+      "ok": true,
+      "detail": {
+        "autoplay": false,
+        "paused": true,
+        "paths": 12,
+        "scroll": "auto"
+      }
+    },
+    {
+      "id": "A01-375",
+      "ok": true
+    },
+    {
+      "id": "A02-375",
+      "ok": true
+    },
+    {
+      "id": "A03-375",
+      "ok": true,
+      "detail": [
+        "Muse Spark: Setup required (MODEL_API_KEY)",
+        "Muse Image: Setup required (MODEL_API_KEY)",
+        "Muse Voice: Setup required (MODEL_API_KEY)"
+      ]
+    },
+    {
+      "id": "A06-375",
+      "ok": true
+    },
+    {
+      "id": "A04-375",
+      "ok": true
+    },
+    {
+      "id": "A08-name-375",
+      "ok": true
+    },
+    {
+      "id": "A09-replace-375",
+      "ok": true
+    },
+    {
+      "id": "A09-cancel-375",
+      "ok": true
+    },
+    {
+      "id": "A12-enter-375",
+      "ok": true
+    },
+    {
+      "id": "A12-exit-375",
+      "ok": true
+    },
+    {
+      "id": "A05-A13-375",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "id": "A01-1280",
+      "ok": true
+    },
+    {
+      "id": "A02-1280",
+      "ok": true
+    },
+    {
+      "id": "A03-1280",
+      "ok": true,
+      "detail": [
+        "Muse Spark: Setup required (MODEL_API_KEY)",
+        "Muse Image: Setup required (MODEL_API_KEY)",
+        "Muse Voice: Setup required (MODEL_API_KEY)"
+      ]
+    },
+    {
+      "id": "A06-1280",
+      "ok": true
+    },
+    {
+      "id": "A04-1280",
+      "ok": true
+    },
+    {
+      "id": "A08-name-1280",
+      "ok": true
+    },
+    {
+      "id": "A09-replace-1280",
+      "ok": true
+    },
+    {
+      "id": "A09-cancel-1280",
+      "ok": true
+    },
+    {
+      "id": "A12-enter-1280",
+      "ok": true
+    },
+    {
+      "id": "A12-exit-1280",
+      "ok": true
+    },
+    {
+      "id": "A05-A13-1280",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "id": "A10-static",
+      "ok": true
+    },
+    {
+      "id": "A14-desktop",
+      "ok": true
+    },
+    {
+      "id": "A14-native",
+      "ok": true,
+      "detail": {
+        "emulated": false,
+        "supported": false,
+        "disabled": true,
+        "note": "This browser has no WebXR AR. Open it in the Quest Browser, or in desktop Chrome for the emulated room."
+      }
+    },
+    {
+      "id": "A11",
+      "ok": true,
+      "detail": {
+        "emulated": false,
+        "supported": false,
+        "disabled": true,
+        "note": "This browser has no WebXR AR. Open it in the Quest Browser, or in desktop Chrome for the emulated room."
+      }
+    }
+  ]
+}

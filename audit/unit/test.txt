@@ -1,0 +1,5 @@
+
+> thyra@0.1.0 test
+> vitest run --reporter=json --outputFile=audit/unit-results.json
+
+JSON report written to /Volumes/Extreme SSD/Projects/grokbot/projects/.loom-worktrees/thyra-4cadce60a69f/omvpn56n2/t5/audit/unit-results.json

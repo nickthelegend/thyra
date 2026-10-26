@@ -14,7 +14,11 @@ export class GatewayError extends Error {
   readonly status: number;
   readonly body: Record<string, unknown>;
   constructor(status: number, body: Record<string, unknown>) {
-    super(String(body.message ?? body.error ?? `HTTP ${status}`));
+    // Proxies can return an empty error body when the gateway goes offline.
+    // Keep that failure readable in the card and the in-page run record.
+    super(typeof body.message === 'string' && body.message.trim()
+      ? body.message
+      : `HTTP ${status}: ${String(body.error ?? 'bad_response')}`);
     this.status = status;
     this.body = body;
   }

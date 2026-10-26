@@ -1,0 +1,842 @@
+{
+  "at": "2026-10-26T20:40:15.487Z",
+  "passed": 32,
+  "failed": 0,
+  "checks": [
+    {
+      "id": "X23-ground-mode-0",
+      "ok": true,
+      "detail": {
+        "geometry": "SphereGeometry",
+        "ground": 0,
+        "discs": [],
+        "tag": "P-01",
+        "stencil": 1,
+        "flood": 0,
+        "back": {
+          "visible": false,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "window": true,
+        "texture": {
+          "width": 4096,
+          "height": 2048
+        }
+      }
+    },
+    {
+      "id": "X17-X24-open-0",
+      "ok": true,
+      "detail": {
+        "sample": "misty_pines",
+        "tag": "P-01",
+        "stencil": 1,
+        "openDelta": 257.7905881307542,
+        "card": {
+          "kind": "open",
+          "title": "Misty Pines",
+          "rationale": null,
+          "stamp": "Sample, not generated",
+          "credit": "Misty Pines · Greg Zaal, Poly Haven (CC0)",
+          "mode": "equirect",
+          "analysis": {
+            "width": 4096,
+            "height": 2048,
+            "aspect": 2,
+            "seam_delta_e": 7.037860019692314,
+            "inner_delta_e": 5.585025717178965,
+            "horizon_row": 133,
+            "horizon_offset": 0.01953125,
+            "pole_spread": 3.4075015244125986,
+            "horizon_hex": "#9d9d97"
+          },
+          "timeToWorldMs": 2488,
+          "planNote": "No plan: Muse Spark needs MODEL_API_KEY (Setup required). Defaults: eye-level horizon, neutral trim."
+        }
+      }
+    },
+    {
+      "id": "X24-closed-0",
+      "ok": true,
+      "detail": {
+        "closeDelta": 0
+      }
+    },
+    {
+      "id": "X23-ground-mode-1",
+      "ok": true,
+      "detail": {
+        "geometry": "SphereGeometry",
+        "ground": 0,
+        "discs": [],
+        "tag": "P-02",
+        "stencil": 2,
+        "flood": 0,
+        "back": {
+          "visible": false,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "window": true,
+        "texture": {
+          "width": 4096,
+          "height": 2048
+        }
+      }
+    },
+    {
+      "id": "X17-X24-open-1",
+      "ok": true,
+      "detail": {
+        "sample": "the_sky_is_on_fire",
+        "tag": "P-02",
+        "stencil": 2,
+        "openDelta": 163.29524557539025,
+        "card": {
+          "kind": "open",
+          "title": "The Sky Is On Fire",
+          "rationale": null,
+          "stamp": "Sample, not generated",
+          "credit": "The Sky Is On Fire · Greg Zaal & Rico Cilliers, Poly Haven (CC0)",
+          "mode": "equirect",
+          "analysis": {
+            "width": 4096,
+            "height": 2048,
+            "aspect": 2,
+            "seam_delta_e": 1.1274350095497043,
+            "inner_delta_e": 1.2661719643519682,
+            "horizon_row": 126,
+            "horizon_offset": -0.0078125,
+            "pole_spread": 1.3193521506229717,
+            "horizon_hex": "#b09498"
+          },
+          "timeToWorldMs": 2162,
+          "planNote": "No plan: Muse Spark needs MODEL_API_KEY (Setup required). Defaults: eye-level horizon, neutral trim."
+        }
+      }
+    },
+    {
+      "id": "X24-closed-1",
+      "ok": true,
+      "detail": {
+        "closeDelta": 0
+      }
+    },
+    {
+      "id": "X23-ground-mode-2",
+      "ok": true,
+      "detail": {
+        "geometry": "CylinderGeometry",
+        "ground": -45.523889899253845,
+        "discs": [
+          {
+            "geometry": "CircleGeometry",
+            "color": "4a3e49",
+            "y": 15.600000023841858
+          },
+          {
+            "geometry": "CircleGeometry",
+            "color": "10050c",
+            "y": 0
+          }
+        ],
+        "tag": "P-03",
+        "stencil": 3,
+        "flood": 0,
+        "back": {
+          "visible": false,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "window": true,
+        "texture": {
+          "width": 4096,
+          "height": 2048
+        }
+      }
+    },
+    {
+      "id": "X17-X24-open-2",
+      "ok": true,
+      "detail": {
+        "sample": "satara_night",
+        "tag": "P-03",
+        "stencil": 3,
+        "openDelta": 21.814954930788435,
+        "card": {
+          "kind": "open",
+          "title": "Satara Night",
+          "rationale": null,
+          "stamp": "Sample, not generated",
+          "credit": "Satara Night · Greg Zaal, Poly Haven (CC0)",
+          "mode": "cylinder",
+          "analysis": {
+            "width": 4096,
+            "height": 2048,
+            "aspect": 2,
+            "seam_delta_e": 2.678755056495297,
+            "inner_delta_e": 2.4582827857581835,
+            "horizon_row": 142,
+            "horizon_offset": 0.0546875,
+            "pole_spread": 1.456601022269237,
+            "horizon_hex": "#614f29"
+          },
+          "timeToWorldMs": 2202,
+          "planNote": "No plan: Muse Spark needs MODEL_API_KEY (Setup required). Defaults: eye-level horizon, neutral trim."
+        }
+      }
+    },
+    {
+      "id": "X24-closed-2",
+      "ok": true,
+      "detail": {
+        "closeDelta": 0
+      }
+    },
+    {
+      "id": "X23-ground-mode-3",
+      "ok": true,
+      "detail": {
+        "geometry": "SphereGeometry",
+        "ground": 0,
+        "discs": [],
+        "tag": "P-04",
+        "stencil": 4,
+        "flood": 0,
+        "back": {
+          "visible": false,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "window": true,
+        "texture": {
+          "width": 4096,
+          "height": 2048
+        }
+      }
+    },
+    {
+      "id": "X17-X24-open-3",
+      "ok": true,
+      "detail": {
+        "sample": "misty_pines",
+        "tag": "P-04",
+        "stencil": 4,
+        "openDelta": 258.5488119498651,
+        "card": {
+          "kind": "open",
+          "title": "Misty Pines",
+          "rationale": null,
+          "stamp": "Sample, not generated",
+          "credit": "Misty Pines · Greg Zaal, Poly Haven (CC0)",
+          "mode": "equirect",
+          "analysis": {
+            "width": 4096,
+            "height": 2048,
+            "aspect": 2,
+            "seam_delta_e": 7.037860019692314,
+            "inner_delta_e": 5.585025717178965,
+            "horizon_row": 133,
+            "horizon_offset": 0.01953125,
+            "pole_spread": 3.4075015244125986,
+            "horizon_hex": "#9d9d97"
+          },
+          "timeToWorldMs": 2140,
+          "planNote": "No plan: Muse Spark needs MODEL_API_KEY (Setup required). Defaults: eye-level horizon, neutral trim."
+        }
+      }
+    },
+    {
+      "id": "X24-closed-3",
+      "ok": true,
+      "detail": {
+        "closeDelta": 0
+      }
+    },
+    {
+      "id": "X23-ground-mode-4",
+      "ok": true,
+      "detail": {
+        "geometry": "SphereGeometry",
+        "ground": 0,
+        "discs": [],
+        "tag": "P-05",
+        "stencil": 5,
+        "flood": 0,
+        "back": {
+          "visible": false,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "window": true,
+        "texture": {
+          "width": 4096,
+          "height": 2048
+        }
+      }
+    },
+    {
+      "id": "X17-X24-open-4",
+      "ok": true,
+      "detail": {
+        "sample": "the_sky_is_on_fire",
+        "tag": "P-05",
+        "stencil": 5,
+        "openDelta": 164.4431311477594,
+        "card": {
+          "kind": "open",
+          "title": "The Sky Is On Fire",
+          "rationale": null,
+          "stamp": "Sample, not generated",
+          "credit": "The Sky Is On Fire · Greg Zaal & Rico Cilliers, Poly Haven (CC0)",
+          "mode": "equirect",
+          "analysis": {
+            "width": 4096,
+            "height": 2048,
+            "aspect": 2,
+            "seam_delta_e": 1.1274350095497043,
+            "inner_delta_e": 1.2661719643519682,
+            "horizon_row": 126,
+            "horizon_offset": -0.0078125,
+            "pole_spread": 1.3193521506229717,
+            "horizon_hex": "#b09498"
+          },
+          "timeToWorldMs": 2243,
+          "planNote": "No plan: Muse Spark needs MODEL_API_KEY (Setup required). Defaults: eye-level horizon, neutral trim."
+        }
+      }
+    },
+    {
+      "id": "X24-closed-4",
+      "ok": true,
+      "detail": {
+        "closeDelta": 0
+      }
+    },
+    {
+      "id": "X23-ground-mode-5",
+      "ok": true,
+      "detail": {
+        "geometry": "CylinderGeometry",
+        "ground": -45.523889899253845,
+        "discs": [
+          {
+            "geometry": "CircleGeometry",
+            "color": "4a3e49",
+            "y": 15.600000023841858
+          },
+          {
+            "geometry": "CircleGeometry",
+            "color": "10050c",
+            "y": 0
+          }
+        ],
+        "tag": "P-06",
+        "stencil": 6,
+        "flood": 0,
+        "back": {
+          "visible": false,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "window": true,
+        "texture": {
+          "width": 4096,
+          "height": 2048
+        }
+      }
+    },
+    {
+      "id": "X17-X24-open-5",
+      "ok": true,
+      "detail": {
+        "sample": "satara_night",
+        "tag": "P-06",
+        "stencil": 6,
+        "openDelta": 17.820541320326377,
+        "card": {
+          "kind": "open",
+          "title": "Satara Night",
+          "rationale": null,
+          "stamp": "Sample, not generated",
+          "credit": "Satara Night · Greg Zaal, Poly Haven (CC0)",
+          "mode": "cylinder",
+          "analysis": {
+            "width": 4096,
+            "height": 2048,
+            "aspect": 2,
+            "seam_delta_e": 2.678755056495297,
+            "inner_delta_e": 2.4582827857581835,
+            "horizon_row": 142,
+            "horizon_offset": 0.0546875,
+            "pole_spread": 1.456601022269237,
+            "horizon_hex": "#614f29"
+          },
+          "timeToWorldMs": 2140,
+          "planNote": "No plan: Muse Spark needs MODEL_API_KEY (Setup required). Defaults: eye-level horizon, neutral trim."
+        }
+      }
+    },
+    {
+      "id": "X24-closed-5",
+      "ok": true,
+      "detail": {
+        "closeDelta": 0
+      }
+    },
+    {
+      "id": "X23-ground-mode-6",
+      "ok": true,
+      "detail": {
+        "geometry": "SphereGeometry",
+        "ground": 0,
+        "discs": [],
+        "tag": "P-07",
+        "stencil": 7,
+        "flood": 0,
+        "back": {
+          "visible": false,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "window": true,
+        "texture": {
+          "width": 4096,
+          "height": 2048
+        }
+      }
+    },
+    {
+      "id": "X17-X24-open-6",
+      "ok": true,
+      "detail": {
+        "sample": "misty_pines",
+        "tag": "P-07",
+        "stencil": 7,
+        "openDelta": 258.3074436791736,
+        "card": {
+          "kind": "open",
+          "title": "Misty Pines",
+          "rationale": null,
+          "stamp": "Sample, not generated",
+          "credit": "Misty Pines · Greg Zaal, Poly Haven (CC0)",
+          "mode": "equirect",
+          "analysis": {
+            "width": 4096,
+            "height": 2048,
+            "aspect": 2,
+            "seam_delta_e": 7.037860019692314,
+            "inner_delta_e": 5.585025717178965,
+            "horizon_row": 133,
+            "horizon_offset": 0.01953125,
+            "pole_spread": 3.4075015244125986,
+            "horizon_hex": "#9d9d97"
+          },
+          "timeToWorldMs": 2108,
+          "planNote": "No plan: Muse Spark needs MODEL_API_KEY (Setup required). Defaults: eye-level horizon, neutral trim."
+        }
+      }
+    },
+    {
+      "id": "X24-closed-6",
+      "ok": true,
+      "detail": {
+        "closeDelta": 0
+      }
+    },
+    {
+      "id": "X23-ground-mode-7",
+      "ok": true,
+      "detail": {
+        "geometry": "SphereGeometry",
+        "ground": 0,
+        "discs": [],
+        "tag": "P-08",
+        "stencil": 1,
+        "flood": 0,
+        "back": {
+          "visible": false,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "window": true,
+        "texture": {
+          "width": 4096,
+          "height": 2048
+        }
+      }
+    },
+    {
+      "id": "X17-X24-open-7",
+      "ok": true,
+      "detail": {
+        "sample": "the_sky_is_on_fire",
+        "tag": "P-08",
+        "stencil": 1,
+        "openDelta": 166.45475803412202,
+        "card": {
+          "kind": "open",
+          "title": "The Sky Is On Fire",
+          "rationale": null,
+          "stamp": "Sample, not generated",
+          "credit": "The Sky Is On Fire · Greg Zaal & Rico Cilliers, Poly Haven (CC0)",
+          "mode": "equirect",
+          "analysis": {
+            "width": 4096,
+            "height": 2048,
+            "aspect": 2,
+            "seam_delta_e": 1.1274350095497043,
+            "inner_delta_e": 1.2661719643519682,
+            "horizon_row": 126,
+            "horizon_offset": -0.0078125,
+            "pole_spread": 1.3193521506229717,
+            "horizon_hex": "#b09498"
+          },
+          "timeToWorldMs": 2161,
+          "planNote": "No plan: Muse Spark needs MODEL_API_KEY (Setup required). Defaults: eye-level horizon, neutral trim."
+        }
+      }
+    },
+    {
+      "id": "X24-closed-7",
+      "ok": true,
+      "detail": {
+        "closeDelta": 0
+      }
+    },
+    {
+      "id": "X24-recycled-stencils",
+      "ok": true,
+      "detail": [
+        {
+          "tag": "P-01",
+          "stencil": 1,
+          "sample": "misty_pines",
+          "openDelta": 257.7905881307542,
+          "closeDelta": 0
+        },
+        {
+          "tag": "P-02",
+          "stencil": 2,
+          "sample": "the_sky_is_on_fire",
+          "openDelta": 163.29524557539025,
+          "closeDelta": 0
+        },
+        {
+          "tag": "P-03",
+          "stencil": 3,
+          "sample": "satara_night",
+          "openDelta": 21.814954930788435,
+          "closeDelta": 0
+        },
+        {
+          "tag": "P-04",
+          "stencil": 4,
+          "sample": "misty_pines",
+          "openDelta": 258.5488119498651,
+          "closeDelta": 0
+        },
+        {
+          "tag": "P-05",
+          "stencil": 5,
+          "sample": "the_sky_is_on_fire",
+          "openDelta": 164.4431311477594,
+          "closeDelta": 0
+        },
+        {
+          "tag": "P-06",
+          "stencil": 6,
+          "sample": "satara_night",
+          "openDelta": 17.820541320326377,
+          "closeDelta": 0
+        },
+        {
+          "tag": "P-07",
+          "stencil": 7,
+          "sample": "misty_pines",
+          "openDelta": 258.3074436791736,
+          "closeDelta": 0
+        },
+        {
+          "tag": "P-08",
+          "stencil": 1,
+          "sample": "the_sky_is_on_fire",
+          "openDelta": 166.45475803412202,
+          "closeDelta": 0
+        }
+      ]
+    },
+    {
+      "id": "X24-three-worlds-0",
+      "ok": true,
+      "detail": {
+        "sample": "misty_pines",
+        "delta": 255.61271961360777,
+        "portals": [
+          {
+            "tag": "P-09",
+            "source": "misty_pines"
+          }
+        ]
+      }
+    },
+    {
+      "id": "X24-three-worlds-1",
+      "ok": true,
+      "detail": {
+        "sample": "satara_night",
+        "delta": 63.16132345184863,
+        "portals": [
+          {
+            "tag": "P-09",
+            "source": "misty_pines"
+          },
+          {
+            "tag": "P-10",
+            "source": "satara_night"
+          }
+        ]
+      }
+    },
+    {
+      "id": "X24-three-worlds-2",
+      "ok": true,
+      "detail": {
+        "sample": "the_sky_is_on_fire",
+        "delta": 139.98013186213606,
+        "portals": [
+          {
+            "tag": "P-09",
+            "source": "misty_pines"
+          },
+          {
+            "tag": "P-10",
+            "source": "satara_night"
+          },
+          {
+            "tag": "P-11",
+            "source": "the_sky_is_on_fire"
+          }
+        ]
+      }
+    },
+    {
+      "id": "X24-three-identities",
+      "ok": true,
+      "detail": [
+        {
+          "tag": "P-09",
+          "source": "misty_pines",
+          "texture": "e974ed23-c51c-4a52-a1a3-8ca2716d6cb2",
+          "mask": 2,
+          "world": 2
+        },
+        {
+          "tag": "P-10",
+          "source": "satara_night",
+          "texture": "6272e3c0-c2ae-4d40-9d5b-4dcd96478aed",
+          "mask": 3,
+          "world": 3
+        },
+        {
+          "tag": "P-11",
+          "source": "the_sky_is_on_fire",
+          "texture": "306e4ea1-c6cc-48fb-84ac-4c33fdf169d4",
+          "mask": 4,
+          "world": 4
+        }
+      ]
+    },
+    {
+      "id": "X23-parallax",
+      "ok": true,
+      "detail": {
+        "delta": 34.15420898924662,
+        "corners": [
+          [
+            -0.6000000518840654,
+            2.7533531010703882e-14,
+            -3.3999998215658946
+          ],
+          [
+            0.6000000772241754,
+            2.7533531010703882e-14,
+            -3.3999998215658946
+          ],
+          [
+            0.6000000772241754,
+            2.0499999627456065,
+            -3.4000002373385843
+          ],
+          [
+            -0.6000000518840654,
+            2.0499999627456065,
+            -3.4000002373385843
+          ]
+        ],
+        "card": {
+          "kind": "open",
+          "title": "The Sky Is On Fire",
+          "rationale": null,
+          "stamp": "Sample, not generated",
+          "credit": "The Sky Is On Fire · Greg Zaal & Rico Cilliers, Poly Haven (CC0)",
+          "mode": "equirect",
+          "analysis": {
+            "width": 4096,
+            "height": 2048,
+            "aspect": 2,
+            "seam_delta_e": 1.1274350095497043,
+            "inner_delta_e": 1.2661719643519682,
+            "horizon_row": 126,
+            "horizon_offset": -0.0078125,
+            "pole_spread": 1.3193521506229717,
+            "horizon_hex": "#b09498"
+          },
+          "timeToWorldMs": 1858,
+          "planNote": "No plan: Muse Spark needs MODEL_API_KEY (Setup required). Defaults: eye-level horizon, neutral trim."
+        }
+      }
+    },
+    {
+      "id": "X22-scene",
+      "ok": true,
+      "detail": {
+        "card": {
+          "kind": "open",
+          "title": "The Sky Is On Fire",
+          "rationale": null,
+          "stamp": "Sample, not generated",
+          "credit": "The Sky Is On Fire · Greg Zaal & Rico Cilliers, Poly Haven (CC0)",
+          "mode": "equirect",
+          "analysis": {
+            "width": 4096,
+            "height": 2048,
+            "aspect": 2,
+            "seam_delta_e": 1.1274350095497043,
+            "inner_delta_e": 1.2661719643519682,
+            "horizon_row": 126,
+            "horizon_offset": -0.0078125,
+            "pole_spread": 1.3193521506229717,
+            "horizon_hex": "#b09498"
+          },
+          "timeToWorldMs": 1858,
+          "planNote": "No plan: Muse Spark needs MODEL_API_KEY (Setup required). Defaults: eye-level horizon, neutral trim."
+        },
+        "cardVisible": false,
+        "hintVisible": false,
+        "glows": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "portals": [
+          {
+            "geometry": "SphereGeometry",
+            "ground": 0,
+            "discs": [],
+            "tag": "P-12",
+            "stencil": 5,
+            "flood": 1,
+            "back": {
+              "visible": true,
+              "position": [
+                0,
+                0,
+                0
+              ]
+            },
+            "window": false,
+            "texture": {
+              "width": 4096,
+              "height": 2048
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "X22-return",
+      "ok": true,
+      "detail": {
+        "card": {
+          "kind": "open",
+          "title": "The Sky Is On Fire",
+          "rationale": null,
+          "stamp": "Sample, not generated",
+          "credit": "The Sky Is On Fire · Greg Zaal & Rico Cilliers, Poly Haven (CC0)",
+          "mode": "equirect",
+          "analysis": {
+            "width": 4096,
+            "height": 2048,
+            "aspect": 2,
+            "seam_delta_e": 1.1274350095497043,
+            "inner_delta_e": 1.2661719643519682,
+            "horizon_row": 126,
+            "horizon_offset": -0.0078125,
+            "pole_spread": 1.3193521506229717,
+            "horizon_hex": "#b09498"
+          },
+          "timeToWorldMs": 1858,
+          "planNote": "No plan: Muse Spark needs MODEL_API_KEY (Setup required). Defaults: eye-level horizon, neutral trim."
+        },
+        "cardVisible": true,
+        "hintVisible": false,
+        "glows": [
+          false,
+          true,
+          false,
+          false
+        ],
+        "portals": [
+          {
+            "geometry": "SphereGeometry",
+            "ground": 0,
+            "discs": [],
+            "tag": "P-12",
+            "stencil": 5,
+            "flood": 0,
+            "back": {
+              "visible": false,
+              "position": [
+                0,
+                0,
+                0
+              ]
+            },
+            "window": true,
+            "texture": {
+              "width": 4096,
+              "height": 2048
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

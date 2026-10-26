@@ -1,0 +1,4 @@
+12:> **Status (Oct 24, 2026):** the whole loop runs in the IWER emulator with emulated hands. No headset session
+15:> Oct 26; this code was written on Oct 24 at Nick's request, so check the Official Rules' pre-existing-code
+55:UI) instead of UIKitML/MSDF; the draw snap is 5 cm instead of 2 cm (hand-ray jitter). Not built yet: phone clip
+56:mode (SAM 3.1), the MCP server, the realtime ASR WebSocket proxy, persistent anchors, the virtual keyboard.

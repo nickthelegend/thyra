@@ -1,0 +1,8 @@
+
+> thyra@0.1.0 xr:typecheck
+> npm --prefix packages/xr run typecheck
+
+
+> @thyra/xr@0.1.0 typecheck
+> tsc --noEmit
+

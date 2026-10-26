@@ -1,0 +1,5553 @@
+{
+  "runs": [
+    {
+      "id": "92bd6d64-326f-47a1-aec0-60caf61714d2",
+      "created_at": "2026-10-26T20:50:40.642Z",
+      "destination": "a seafront at sunset",
+      "room": {
+        "portal": {
+          "w_m": 1,
+          "h_m": 1.9,
+          "bottom_m": 0,
+          "wall": {
+            "label": "wall",
+            "w_m": 5,
+            "h_m": 2.7
+          }
+        },
+        "viewer": {
+          "eye_height_m": 1.6,
+          "distance_to_portal_m": 3.4
+        },
+        "room": {
+          "ceiling_m": 2.7,
+          "floor_area_m2": 29,
+          "objects": [
+            {
+              "label": "couch",
+              "dims_m": [
+                2.3,
+                0.86,
+                0.94
+              ],
+              "side": "in front",
+              "distance_m": 0.52
+            },
+            {
+              "label": "table",
+              "dims_m": [
+                1.15,
+                0.44,
+                0.6
+              ],
+              "side": "in front",
+              "distance_m": 1.45
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.4,
+                1.72,
+                0.4
+              ],
+              "side": "right",
+              "distance_m": 1.58
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.46,
+                1.1,
+                0.46
+              ],
+              "side": "left",
+              "distance_m": 1.59
+            },
+            {
+              "label": "couch",
+              "dims_m": [
+                1.12,
+                0.9,
+                1.12
+              ],
+              "side": "left",
+              "distance_m": 2.77
+            },
+            {
+              "label": "shelf",
+              "dims_m": [
+                1.9,
+                0.52,
+                0.42
+              ],
+              "side": "right",
+              "distance_m": 3.03
+            },
+            {
+              "label": "screen",
+              "dims_m": [
+                1.46,
+                0.84,
+                0.04
+              ],
+              "side": "right",
+              "distance_m": 3.18
+            }
+          ]
+        },
+        "light": {
+          "available": false
+        },
+        "local_time": "02:20",
+        "destination_text": "a seafront at sunset"
+      },
+      "plan": null,
+      "image": {
+        "source": "cc0-sample",
+        "stamp": "Sample, not generated",
+        "model": null,
+        "request_id": null,
+        "latency_ms": null,
+        "width": 4096,
+        "height": 2048,
+        "format": null,
+        "file": null,
+        "sample_id": "the_sky_is_on_fire",
+        "web_tools": false
+      },
+      "transcript": null,
+      "pano": {
+        "width": 4096,
+        "height": 2048,
+        "aspect": 2,
+        "seam_delta_e": 1.1274350095497043,
+        "inner_delta_e": 1.2661719643519682,
+        "horizon_row": 126,
+        "horizon_offset": -0.0078125,
+        "pole_spread": 1.3193521506229717,
+        "horizon_hex": "#b09498",
+        "pano_mode": "equirect"
+      },
+      "timings": {
+        "time_to_world_ms": 2045
+      },
+      "cost_usd": 0,
+      "errors": []
+    },
+    {
+      "id": "17de4c60-5353-4fbc-8be6-a7abe91cac8a",
+      "created_at": "2026-10-26T20:50:22.127Z",
+      "destination": "a misty pine forest",
+      "room": {
+        "portal": {
+          "w_m": 1,
+          "h_m": 1.9,
+          "bottom_m": 0,
+          "wall": {
+            "label": "wall",
+            "w_m": 5,
+            "h_m": 2.7
+          }
+        },
+        "viewer": {
+          "eye_height_m": 1.6,
+          "distance_to_portal_m": 3.4
+        },
+        "room": {
+          "ceiling_m": 2.7,
+          "floor_area_m2": 29,
+          "objects": [
+            {
+              "label": "couch",
+              "dims_m": [
+                2.3,
+                0.86,
+                0.94
+              ],
+              "side": "in front",
+              "distance_m": 0.52
+            },
+            {
+              "label": "table",
+              "dims_m": [
+                1.15,
+                0.44,
+                0.6
+              ],
+              "side": "in front",
+              "distance_m": 1.45
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.4,
+                1.72,
+                0.4
+              ],
+              "side": "right",
+              "distance_m": 1.58
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.46,
+                1.1,
+                0.46
+              ],
+              "side": "left",
+              "distance_m": 1.59
+            },
+            {
+              "label": "couch",
+              "dims_m": [
+                1.12,
+                0.9,
+                1.12
+              ],
+              "side": "left",
+              "distance_m": 2.77
+            },
+            {
+              "label": "shelf",
+              "dims_m": [
+                1.9,
+                0.52,
+                0.42
+              ],
+              "side": "right",
+              "distance_m": 3.03
+            },
+            {
+              "label": "screen",
+              "dims_m": [
+                1.46,
+                0.84,
+                0.04
+              ],
+              "side": "right",
+              "distance_m": 3.18
+            }
+          ]
+        },
+        "light": {
+          "available": false
+        },
+        "local_time": "02:20",
+        "destination_text": "a misty pine forest"
+      },
+      "plan": null,
+      "image": {
+        "source": "cc0-sample",
+        "stamp": "Sample, not generated",
+        "model": null,
+        "request_id": null,
+        "latency_ms": null,
+        "width": 4096,
+        "height": 2048,
+        "format": null,
+        "file": null,
+        "sample_id": "misty_pines",
+        "web_tools": false
+      },
+      "transcript": null,
+      "pano": {
+        "width": 4096,
+        "height": 2048,
+        "aspect": 2,
+        "seam_delta_e": 7.037860019692314,
+        "inner_delta_e": 5.585025717178965,
+        "horizon_row": 133,
+        "horizon_offset": 0.01953125,
+        "pole_spread": 3.4075015244125986,
+        "horizon_hex": "#9d9d97",
+        "pano_mode": "equirect"
+      },
+      "timings": {
+        "time_to_world_ms": 2494
+      },
+      "cost_usd": 0,
+      "errors": []
+    },
+    {
+      "id": "16e94aa8-ca13-4167-8779-16007598938e",
+      "created_at": "2026-10-26T20:50:05.465Z",
+      "destination": "a misty pine forest",
+      "room": {
+        "portal": {
+          "w_m": 1,
+          "h_m": 1.9,
+          "bottom_m": 0,
+          "wall": {
+            "label": "wall",
+            "w_m": 5,
+            "h_m": 2.7
+          }
+        },
+        "viewer": {
+          "eye_height_m": 1.6,
+          "distance_to_portal_m": 3.4
+        },
+        "room": {
+          "ceiling_m": 2.7,
+          "floor_area_m2": 29,
+          "objects": [
+            {
+              "label": "couch",
+              "dims_m": [
+                2.3,
+                0.86,
+                0.94
+              ],
+              "side": "in front",
+              "distance_m": 0.52
+            },
+            {
+              "label": "table",
+              "dims_m": [
+                1.15,
+                0.44,
+                0.6
+              ],
+              "side": "in front",
+              "distance_m": 1.45
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.4,
+                1.72,
+                0.4
+              ],
+              "side": "right",
+              "distance_m": 1.58
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.46,
+                1.1,
+                0.46
+              ],
+              "side": "left",
+              "distance_m": 1.59
+            },
+            {
+              "label": "couch",
+              "dims_m": [
+                1.12,
+                0.9,
+                1.12
+              ],
+              "side": "left",
+              "distance_m": 2.77
+            },
+            {
+              "label": "shelf",
+              "dims_m": [
+                1.9,
+                0.52,
+                0.42
+              ],
+              "side": "right",
+              "distance_m": 3.03
+            },
+            {
+              "label": "screen",
+              "dims_m": [
+                1.46,
+                0.84,
+                0.04
+              ],
+              "side": "right",
+              "distance_m": 3.18
+            }
+          ]
+        },
+        "light": {
+          "available": false
+        },
+        "local_time": "02:20",
+        "destination_text": "a misty pine forest"
+      },
+      "plan": null,
+      "image": {
+        "source": "cc0-sample",
+        "stamp": "Sample, not generated",
+        "model": null,
+        "request_id": null,
+        "latency_ms": null,
+        "width": 4096,
+        "height": 2048,
+        "format": null,
+        "file": null,
+        "sample_id": "misty_pines",
+        "web_tools": false
+      },
+      "transcript": null,
+      "pano": {
+        "width": 4096,
+        "height": 2048,
+        "aspect": 2,
+        "seam_delta_e": 7.037860019692314,
+        "inner_delta_e": 5.585025717178965,
+        "horizon_row": 133,
+        "horizon_offset": 0.01953125,
+        "pole_spread": 3.4075015244125986,
+        "horizon_hex": "#9d9d97",
+        "pano_mode": "equirect"
+      },
+      "timings": {
+        "time_to_world_ms": 2184
+      },
+      "cost_usd": 0,
+      "errors": []
+    },
+    {
+      "id": "d5abe744-a17d-43d2-b4f7-dccb03d4a8ac",
+      "created_at": "2026-10-26T20:48:48.672Z",
+      "destination": "a misty pine forest",
+      "room": {
+        "portal": {
+          "w_m": 1,
+          "h_m": 1.9,
+          "bottom_m": 0,
+          "wall": {
+            "label": "wall",
+            "w_m": 5,
+            "h_m": 2.7
+          }
+        },
+        "viewer": {
+          "eye_height_m": 1.6,
+          "distance_to_portal_m": 3.4
+        },
+        "room": {
+          "ceiling_m": 2.7,
+          "floor_area_m2": 29,
+          "objects": [
+            {
+              "label": "couch",
+              "dims_m": [
+                2.3,
+                0.86,
+                0.94
+              ],
+              "side": "in front",
+              "distance_m": 0.52
+            },
+            {
+              "label": "table",
+              "dims_m": [
+                1.15,
+                0.44,
+                0.6
+              ],
+              "side": "in front",
+              "distance_m": 1.45
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.4,
+                1.72,
+                0.4
+              ],
+              "side": "right",
+              "distance_m": 1.58
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.46,
+                1.1,
+                0.46
+              ],
+              "side": "left",
+              "distance_m": 1.59
+            },
+            {
+              "label": "couch",
+              "dims_m": [
+                1.12,
+                0.9,
+                1.12
+              ],
+              "side": "left",
+              "distance_m": 2.77
+            },
+            {
+              "label": "shelf",
+              "dims_m": [
+                1.9,
+                0.52,
+                0.42
+              ],
+              "side": "right",
+              "distance_m": 3.03
+            },
+            {
+              "label": "screen",
+              "dims_m": [
+                1.46,
+                0.84,
+                0.04
+              ],
+              "side": "right",
+              "distance_m": 3.18
+            }
+          ]
+        },
+        "light": {
+          "available": false
+        },
+        "local_time": "02:18",
+        "destination_text": "a misty pine forest"
+      },
+      "plan": null,
+      "image": {
+        "source": "cc0-sample",
+        "stamp": "Sample, not generated",
+        "model": null,
+        "request_id": null,
+        "latency_ms": null,
+        "width": 4096,
+        "height": 2048,
+        "format": null,
+        "file": null,
+        "sample_id": "misty_pines",
+        "web_tools": false
+      },
+      "transcript": null,
+      "pano": {
+        "width": 4096,
+        "height": 2048,
+        "aspect": 2,
+        "seam_delta_e": 7.037860019692314,
+        "inner_delta_e": 5.585025717178965,
+        "horizon_row": 133,
+        "horizon_offset": 0.01953125,
+        "pole_spread": 3.4075015244125986,
+        "horizon_hex": "#9d9d97",
+        "pano_mode": "equirect"
+      },
+      "timings": {
+        "time_to_world_ms": 2092
+      },
+      "cost_usd": 0,
+      "errors": []
+    },
+    {
+      "id": "1766db85-15f6-43ca-982a-a22c0d437b97",
+      "created_at": "2026-10-26T20:48:32.932Z",
+      "destination": "a misty pine forest",
+      "room": {
+        "portal": {
+          "w_m": 1,
+          "h_m": 1.9,
+          "bottom_m": 0,
+          "wall": {
+            "label": "wall",
+            "w_m": 5,
+            "h_m": 2.7
+          }
+        },
+        "viewer": {
+          "eye_height_m": 1.6,
+          "distance_to_portal_m": 3.4
+        },
+        "room": {
+          "ceiling_m": 2.7,
+          "floor_area_m2": 29,
+          "objects": [
+            {
+              "label": "couch",
+              "dims_m": [
+                2.3,
+                0.86,
+                0.94
+              ],
+              "side": "in front",
+              "distance_m": 0.52
+            },
+            {
+              "label": "table",
+              "dims_m": [
+                1.15,
+                0.44,
+                0.6
+              ],
+              "side": "in front",
+              "distance_m": 1.45
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.4,
+                1.72,
+                0.4
+              ],
+              "side": "right",
+              "distance_m": 1.58
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.46,
+                1.1,
+                0.46
+              ],
+              "side": "left",
+              "distance_m": 1.59
+            },
+            {
+              "label": "couch",
+              "dims_m": [
+                1.12,
+                0.9,
+                1.12
+              ],
+              "side": "left",
+              "distance_m": 2.77
+            },
+            {
+              "label": "shelf",
+              "dims_m": [
+                1.9,
+                0.52,
+                0.42
+              ],
+              "side": "right",
+              "distance_m": 3.03
+            },
+            {
+              "label": "screen",
+              "dims_m": [
+                1.46,
+                0.84,
+                0.04
+              ],
+              "side": "right",
+              "distance_m": 3.18
+            }
+          ]
+        },
+        "light": {
+          "available": false
+        },
+        "local_time": "02:18",
+        "destination_text": "a misty pine forest"
+      },
+      "plan": null,
+      "image": {
+        "source": "cc0-sample",
+        "stamp": "Sample, not generated",
+        "model": null,
+        "request_id": null,
+        "latency_ms": null,
+        "width": 4096,
+        "height": 2048,
+        "format": null,
+        "file": null,
+        "sample_id": "misty_pines",
+        "web_tools": false
+      },
+      "transcript": null,
+      "pano": {
+        "width": 4096,
+        "height": 2048,
+        "aspect": 2,
+        "seam_delta_e": 7.037860019692314,
+        "inner_delta_e": 5.585025717178965,
+        "horizon_row": 133,
+        "horizon_offset": 0.01953125,
+        "pole_spread": 3.4075015244125986,
+        "horizon_hex": "#9d9d97",
+        "pano_mode": "equirect"
+      },
+      "timings": {
+        "time_to_world_ms": 2376
+      },
+      "cost_usd": 0,
+      "errors": []
+    },
+    {
+      "id": "e8b8b0f8-e2bb-4604-a143-5cc30efbecdd",
+      "created_at": "2026-10-26T20:43:31.135Z",
+      "destination": "a misty pine forest",
+      "room": {
+        "portal": {
+          "w_m": 1,
+          "h_m": 1.9,
+          "bottom_m": 0,
+          "wall": {
+            "label": "wall",
+            "w_m": 5,
+            "h_m": 2.7
+          }
+        },
+        "viewer": {
+          "eye_height_m": 1.6,
+          "distance_to_portal_m": 3.4
+        },
+        "room": {
+          "ceiling_m": 2.7,
+          "floor_area_m2": 29,
+          "objects": [
+            {
+              "label": "couch",
+              "dims_m": [
+                2.3,
+                0.86,
+                0.94
+              ],
+              "side": "in front",
+              "distance_m": 0.52
+            },
+            {
+              "label": "table",
+              "dims_m": [
+                1.15,
+                0.44,
+                0.6
+              ],
+              "side": "in front",
+              "distance_m": 1.45
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.4,
+                1.72,
+                0.4
+              ],
+              "side": "right",
+              "distance_m": 1.58
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.46,
+                1.1,
+                0.46
+              ],
+              "side": "left",
+              "distance_m": 1.59
+            },
+            {
+              "label": "couch",
+              "dims_m": [
+                1.12,
+                0.9,
+                1.12
+              ],
+              "side": "left",
+              "distance_m": 2.77
+            },
+            {
+              "label": "shelf",
+              "dims_m": [
+                1.9,
+                0.52,
+                0.42
+              ],
+              "side": "right",
+              "distance_m": 3.03
+            },
+            {
+              "label": "screen",
+              "dims_m": [
+                1.46,
+                0.84,
+                0.04
+              ],
+              "side": "right",
+              "distance_m": 3.18
+            }
+          ]
+        },
+        "light": {
+          "available": false
+        },
+        "local_time": "02:13",
+        "destination_text": "a misty pine forest"
+      },
+      "plan": null,
+      "image": {
+        "source": "cc0-sample",
+        "stamp": "Sample, not generated",
+        "model": null,
+        "request_id": null,
+        "latency_ms": null,
+        "width": 4096,
+        "height": 2048,
+        "format": null,
+        "file": null,
+        "sample_id": "misty_pines",
+        "web_tools": false
+      },
+      "transcript": null,
+      "pano": {
+        "width": 4096,
+        "height": 2048,
+        "aspect": 2,
+        "seam_delta_e": 7.037860019692314,
+        "inner_delta_e": 5.585025717178965,
+        "horizon_row": 133,
+        "horizon_offset": 0.01953125,
+        "pole_spread": 3.4075015244125986,
+        "horizon_hex": "#9d9d97",
+        "pano_mode": "equirect"
+      },
+      "timings": {
+        "time_to_world_ms": 1981
+      },
+      "cost_usd": 0,
+      "errors": []
+    },
+    {
+      "id": "117a5b19-550a-4822-aae7-9d3fee33ca11",
+      "created_at": "2026-10-26T20:42:59.018Z",
+      "destination": "a seafront at sunset",
+      "room": {
+        "portal": {
+          "w_m": 1,
+          "h_m": 1.9,
+          "bottom_m": 0,
+          "wall": {
+            "label": "wall",
+            "w_m": 5,
+            "h_m": 2.7
+          }
+        },
+        "viewer": {
+          "eye_height_m": 1.6,
+          "distance_to_portal_m": 3.4
+        },
+        "room": {
+          "ceiling_m": 2.7,
+          "floor_area_m2": 29,
+          "objects": [
+            {
+              "label": "couch",
+              "dims_m": [
+                2.3,
+                0.86,
+                0.94
+              ],
+              "side": "in front",
+              "distance_m": 0.52
+            },
+            {
+              "label": "table",
+              "dims_m": [
+                1.15,
+                0.44,
+                0.6
+              ],
+              "side": "in front",
+              "distance_m": 1.45
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.4,
+                1.72,
+                0.4
+              ],
+              "side": "right",
+              "distance_m": 1.58
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.46,
+                1.1,
+                0.46
+              ],
+              "side": "left",
+              "distance_m": 1.59
+            },
+            {
+              "label": "couch",
+              "dims_m": [
+                1.12,
+                0.9,
+                1.12
+              ],
+              "side": "left",
+              "distance_m": 2.77
+            },
+            {
+              "label": "shelf",
+              "dims_m": [
+                1.9,
+                0.52,
+                0.42
+              ],
+              "side": "right",
+              "distance_m": 3.03
+            },
+            {
+              "label": "screen",
+              "dims_m": [
+                1.46,
+                0.84,
+                0.04
+              ],
+              "side": "right",
+              "distance_m": 3.18
+            }
+          ]
+        },
+        "light": {
+          "available": false
+        },
+        "local_time": "02:12",
+        "destination_text": "a seafront at sunset"
+      },
+      "plan": null,
+      "image": {
+        "source": "cc0-sample",
+        "stamp": "Sample, not generated",
+        "model": null,
+        "request_id": null,
+        "latency_ms": null,
+        "width": 4096,
+        "height": 2048,
+        "format": null,
+        "file": null,
+        "sample_id": "the_sky_is_on_fire",
+        "web_tools": false
+      },
+      "transcript": null,
+      "pano": {
+        "width": 4096,
+        "height": 2048,
+        "aspect": 2,
+        "seam_delta_e": 1.1274350095497043,
+        "inner_delta_e": 1.2661719643519682,
+        "horizon_row": 126,
+        "horizon_offset": -0.0078125,
+        "pole_spread": 1.3193521506229717,
+        "horizon_hex": "#b09498",
+        "pano_mode": "equirect"
+      },
+      "timings": {
+        "time_to_world_ms": 4277
+      },
+      "cost_usd": 0,
+      "errors": []
+    },
+    {
+      "id": "1dda3845-521c-4189-97e0-2e6746d2d781",
+      "created_at": "2026-10-26T20:42:17.293Z",
+      "destination": "a misty pine forest",
+      "room": {
+        "portal": {
+          "w_m": 1.6,
+          "h_m": 2.3,
+          "bottom_m": 0,
+          "wall": {
+            "label": "wall",
+            "w_m": 5,
+            "h_m": 2.7
+          }
+        },
+        "viewer": {
+          "eye_height_m": 1.6,
+          "distance_to_portal_m": 2.15
+        },
+        "room": {
+          "ceiling_m": 2.7,
+          "floor_area_m2": 29,
+          "objects": [
+            {
+              "label": "couch",
+              "dims_m": [
+                2.3,
+                0.86,
+                0.94
+              ],
+              "side": "in front",
+              "distance_m": 0.52
+            },
+            {
+              "label": "table",
+              "dims_m": [
+                1.15,
+                0.44,
+                0.6
+              ],
+              "side": "in front",
+              "distance_m": 1.45
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.4,
+                1.72,
+                0.4
+              ],
+              "side": "right",
+              "distance_m": 1.58
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.46,
+                1.1,
+                0.46
+              ],
+              "side": "left",
+              "distance_m": 1.59
+            },
+            {
+              "label": "couch",
+              "dims_m": [
+                1.12,
+                0.9,
+                1.12
+              ],
+              "side": "left",
+              "distance_m": 2.77
+            },
+            {
+              "label": "shelf",
+              "dims_m": [
+                1.9,
+                0.52,
+                0.42
+              ],
+              "side": "right",
+              "distance_m": 3.03
+            },
+            {
+              "label": "screen",
+              "dims_m": [
+                1.46,
+                0.84,
+                0.04
+              ],
+              "side": "right",
+              "distance_m": 3.18
+            }
+          ]
+        },
+        "light": {
+          "available": false
+        },
+        "local_time": "02:12",
+        "destination_text": "a misty pine forest"
+      },
+      "plan": null,
+      "image": {
+        "source": "cc0-sample",
+        "stamp": "Sample, not generated",
+        "model": null,
+        "request_id": null,
+        "latency_ms": null,
+        "width": 4096,
+        "height": 2048,
+        "format": null,
+        "file": null,
+        "sample_id": "misty_pines",
+        "web_tools": false
+      },
+      "transcript": null,
+      "pano": {
+        "width": 4096,
+        "height": 2048,
+        "aspect": 2,
+        "seam_delta_e": 7.037860019692314,
+        "inner_delta_e": 5.585025717178965,
+        "horizon_row": 133,
+        "horizon_offset": 0.01953125,
+        "pole_spread": 3.4075015244125986,
+        "horizon_hex": "#9d9d97",
+        "pano_mode": "equirect"
+      },
+      "timings": {
+        "time_to_world_ms": 4181
+      },
+      "cost_usd": 0,
+      "errors": []
+    },
+    {
+      "id": "74caaa99-fcc9-45a0-b3e0-d291e0cd0f7c",
+      "created_at": "2026-10-26T20:41:45.770Z",
+      "destination": "a seafront at sunset",
+      "room": {
+        "portal": {
+          "w_m": 1,
+          "h_m": 1.9,
+          "bottom_m": 0,
+          "wall": {
+            "label": "wall",
+            "w_m": 5,
+            "h_m": 2.7
+          }
+        },
+        "viewer": {
+          "eye_height_m": 1.6,
+          "distance_to_portal_m": 3.4
+        },
+        "room": {
+          "ceiling_m": 2.7,
+          "floor_area_m2": 29,
+          "objects": [
+            {
+              "label": "couch",
+              "dims_m": [
+                2.3,
+                0.86,
+                0.94
+              ],
+              "side": "in front",
+              "distance_m": 0.52
+            },
+            {
+              "label": "table",
+              "dims_m": [
+                1.15,
+                0.44,
+                0.6
+              ],
+              "side": "in front",
+              "distance_m": 1.45
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.4,
+                1.72,
+                0.4
+              ],
+              "side": "right",
+              "distance_m": 1.58
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.46,
+                1.1,
+                0.46
+              ],
+              "side": "left",
+              "distance_m": 1.59
+            },
+            {
+              "label": "couch",
+              "dims_m": [
+                1.12,
+                0.9,
+                1.12
+              ],
+              "side": "left",
+              "distance_m": 2.77
+            },
+            {
+              "label": "shelf",
+              "dims_m": [
+                1.9,
+                0.52,
+                0.42
+              ],
+              "side": "right",
+              "distance_m": 3.03
+            },
+            {
+              "label": "screen",
+              "dims_m": [
+                1.46,
+                0.84,
+                0.04
+              ],
+              "side": "right",
+              "distance_m": 3.18
+            }
+          ]
+        },
+        "light": {
+          "available": false
+        },
+        "local_time": "02:11",
+        "destination_text": "a seafront at sunset"
+      },
+      "plan": null,
+      "image": {
+        "source": "cc0-sample",
+        "stamp": "Sample, not generated",
+        "model": null,
+        "request_id": null,
+        "latency_ms": null,
+        "width": 4096,
+        "height": 2048,
+        "format": null,
+        "file": null,
+        "sample_id": "the_sky_is_on_fire",
+        "web_tools": false
+      },
+      "transcript": null,
+      "pano": {
+        "width": 4096,
+        "height": 2048,
+        "aspect": 2,
+        "seam_delta_e": 1.1274350095497043,
+        "inner_delta_e": 1.2661719643519682,
+        "horizon_row": 126,
+        "horizon_offset": -0.0078125,
+        "pole_spread": 1.3193521506229717,
+        "horizon_hex": "#b09498",
+        "pano_mode": "equirect"
+      },
+      "timings": {
+        "time_to_world_ms": 2003
+      },
+      "cost_usd": 0,
+      "errors": []
+    },
+    {
+      "id": "6805c12c-266d-4613-9038-18ad0977859e",
+      "created_at": "2026-10-26T20:40:50.686Z",
+      "destination": "a misty pine forest",
+      "room": {
+        "portal": {
+          "w_m": 1.2,
+          "h_m": 2.05,
+          "bottom_m": 0,
+          "wall": {
+            "label": "wall",
+            "w_m": 5,
+            "h_m": 2.7
+          }
+        },
+        "viewer": {
+          "eye_height_m": 1.6,
+          "distance_to_portal_m": 3.4
+        },
+        "room": {
+          "ceiling_m": 2.7,
+          "floor_area_m2": 29,
+          "objects": [
+            {
+              "label": "couch",
+              "dims_m": [
+                2.3,
+                0.86,
+                0.94
+              ],
+              "side": "in front",
+              "distance_m": 0.52
+            },
+            {
+              "label": "table",
+              "dims_m": [
+                1.15,
+                0.44,
+                0.6
+              ],
+              "side": "in front",
+              "distance_m": 1.45
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.4,
+                1.72,
+                0.4
+              ],
+              "side": "right",
+              "distance_m": 1.58
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.46,
+                1.1,
+                0.46
+              ],
+              "side": "left",
+              "distance_m": 1.59
+            },
+            {
+              "label": "couch",
+              "dims_m": [
+                1.12,
+                0.9,
+                1.12
+              ],
+              "side": "left",
+              "distance_m": 2.77
+            },
+            {
+              "label": "shelf",
+              "dims_m": [
+                1.9,
+                0.52,
+                0.42
+              ],
+              "side": "right",
+              "distance_m": 3.03
+            },
+            {
+              "label": "screen",
+              "dims_m": [
+                1.46,
+                0.84,
+                0.04
+              ],
+              "side": "right",
+              "distance_m": 3.18
+            }
+          ]
+        },
+        "light": {
+          "available": false
+        },
+        "local_time": "02:10",
+        "destination_text": "a misty pine forest"
+      },
+      "plan": null,
+      "image": {
+        "source": "cc0-sample",
+        "stamp": "Sample, not generated",
+        "model": null,
+        "request_id": null,
+        "latency_ms": null,
+        "width": 4096,
+        "height": 2048,
+        "format": null,
+        "file": null,
+        "sample_id": "misty_pines",
+        "web_tools": false
+      },
+      "transcript": null,
+      "pano": {
+        "width": 4096,
+        "height": 2048,
+        "aspect": 2,
+        "seam_delta_e": 7.037860019692314,
+        "inner_delta_e": 5.585025717178965,
+        "horizon_row": 133,
+        "horizon_offset": 0.01953125,
+        "pole_spread": 3.4075015244125986,
+        "horizon_hex": "#9d9d97",
+        "pano_mode": "equirect"
+      },
+      "timings": {
+        "time_to_world_ms": 1852
+      },
+      "cost_usd": 0,
+      "errors": []
+    },
+    {
+      "id": "b922b4da-1f2b-46cf-93df-c2ca310070ab",
+      "created_at": "2026-10-26T20:40:30.060Z",
+      "destination": "a misty pine forest",
+      "room": {
+        "portal": {
+          "w_m": 1.2,
+          "h_m": 2.05,
+          "bottom_m": 0,
+          "wall": {
+            "label": "wall",
+            "w_m": 5,
+            "h_m": 2.7
+          }
+        },
+        "viewer": {
+          "eye_height_m": 1.6,
+          "distance_to_portal_m": 3.4
+        },
+        "room": {
+          "ceiling_m": 2.7,
+          "floor_area_m2": 29,
+          "objects": [
+            {
+              "label": "couch",
+              "dims_m": [
+                2.3,
+                0.86,
+                0.94
+              ],
+              "side": "in front",
+              "distance_m": 0.52
+            },
+            {
+              "label": "table",
+              "dims_m": [
+                1.15,
+                0.44,
+                0.6
+              ],
+              "side": "in front",
+              "distance_m": 1.45
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.4,
+                1.72,
+                0.4
+              ],
+              "side": "right",
+              "distance_m": 1.58
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.46,
+                1.1,
+                0.46
+              ],
+              "side": "left",
+              "distance_m": 1.59
+            },
+            {
+              "label": "couch",
+              "dims_m": [
+                1.12,
+                0.9,
+                1.12
+              ],
+              "side": "left",
+              "distance_m": 2.77
+            },
+            {
+              "label": "shelf",
+              "dims_m": [
+                1.9,
+                0.52,
+                0.42
+              ],
+              "side": "right",
+              "distance_m": 3.03
+            },
+            {
+              "label": "screen",
+              "dims_m": [
+                1.46,
+                0.84,
+                0.04
+              ],
+              "side": "right",
+              "distance_m": 3.18
+            }
+          ]
+        },
+        "light": {
+          "available": false
+        },
+        "local_time": "02:10",
+        "destination_text": "a misty pine forest"
+      },
+      "plan": null,
+      "image": {
+        "source": "cc0-sample",
+        "stamp": "Sample, not generated",
+        "model": null,
+        "request_id": null,
+        "latency_ms": null,
+        "width": 4096,
+        "height": 2048,
+        "format": null,
+        "file": null,
+        "sample_id": "misty_pines",
+        "web_tools": false
+      },
+      "transcript": null,
+      "pano": {
+        "width": 4096,
+        "height": 2048,
+        "aspect": 2,
+        "seam_delta_e": 7.037860019692314,
+        "inner_delta_e": 5.585025717178965,
+        "horizon_row": 133,
+        "horizon_offset": 0.01953125,
+        "pole_spread": 3.4075015244125986,
+        "horizon_hex": "#9d9d97",
+        "pano_mode": "equirect"
+      },
+      "timings": {
+        "time_to_world_ms": 1892
+      },
+      "cost_usd": 0,
+      "errors": []
+    },
+    {
+      "id": "356a4d80-5782-4b19-8ba4-06cce7497f47",
+      "created_at": "2026-10-26T20:40:04.825Z",
+      "destination": "a seafront at sunset",
+      "room": {
+        "portal": {
+          "w_m": 1.2,
+          "h_m": 2.05,
+          "bottom_m": 0,
+          "wall": {
+            "label": "wall",
+            "w_m": 5,
+            "h_m": 2.7
+          }
+        },
+        "viewer": {
+          "eye_height_m": 1.6,
+          "distance_to_portal_m": 3.4
+        },
+        "room": {
+          "ceiling_m": 2.7,
+          "floor_area_m2": 29,
+          "objects": [
+            {
+              "label": "couch",
+              "dims_m": [
+                2.3,
+                0.86,
+                0.94
+              ],
+              "side": "in front",
+              "distance_m": 0.52
+            },
+            {
+              "label": "table",
+              "dims_m": [
+                1.15,
+                0.44,
+                0.6
+              ],
+              "side": "in front",
+              "distance_m": 1.45
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.4,
+                1.72,
+                0.4
+              ],
+              "side": "right",
+              "distance_m": 1.58
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.46,
+                1.1,
+                0.46
+              ],
+              "side": "left",
+              "distance_m": 1.59
+            },
+            {
+              "label": "couch",
+              "dims_m": [
+                1.12,
+                0.9,
+                1.12
+              ],
+              "side": "left",
+              "distance_m": 2.77
+            },
+            {
+              "label": "shelf",
+              "dims_m": [
+                1.9,
+                0.52,
+                0.42
+              ],
+              "side": "right",
+              "distance_m": 3.03
+            },
+            {
+              "label": "screen",
+              "dims_m": [
+                1.46,
+                0.84,
+                0.04
+              ],
+              "side": "right",
+              "distance_m": 3.18
+            }
+          ]
+        },
+        "light": {
+          "available": false
+        },
+        "local_time": "02:10",
+        "destination_text": "a seafront at sunset"
+      },
+      "plan": null,
+      "image": {
+        "source": "cc0-sample",
+        "stamp": "Sample, not generated",
+        "model": null,
+        "request_id": null,
+        "latency_ms": null,
+        "width": 4096,
+        "height": 2048,
+        "format": null,
+        "file": null,
+        "sample_id": "the_sky_is_on_fire",
+        "web_tools": false
+      },
+      "transcript": null,
+      "pano": {
+        "width": 4096,
+        "height": 2048,
+        "aspect": 2,
+        "seam_delta_e": 1.1274350095497043,
+        "inner_delta_e": 1.2661719643519682,
+        "horizon_row": 126,
+        "horizon_offset": -0.0078125,
+        "pole_spread": 1.3193521506229717,
+        "horizon_hex": "#b09498",
+        "pano_mode": "equirect"
+      },
+      "timings": {
+        "time_to_world_ms": 1858
+      },
+      "cost_usd": 0,
+      "errors": []
+    },
+    {
+      "id": "3800497c-e1d3-4c73-9cf6-2b2bd571c12f",
+      "created_at": "2026-10-26T20:39:54.420Z",
+      "destination": "a seafront at sunset",
+      "room": {
+        "portal": {
+          "w_m": 0.9,
+          "h_m": 2,
+          "bottom_m": 0,
+          "wall": {
+            "label": "wall",
+            "w_m": 5.8,
+            "h_m": 2.7
+          }
+        },
+        "viewer": {
+          "eye_height_m": 1.6,
+          "distance_to_portal_m": 2.5
+        },
+        "room": {
+          "ceiling_m": 2.7,
+          "floor_area_m2": 29,
+          "objects": [
+            {
+              "label": "couch",
+              "dims_m": [
+                1.12,
+                0.9,
+                1.12
+              ],
+              "side": "left",
+              "distance_m": 1.03
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.46,
+                1.1,
+                0.46
+              ],
+              "side": "right",
+              "distance_m": 1.45
+            },
+            {
+              "label": "plant",
+              "dims_m": [
+                0.75,
+                1.95,
+                0.75
+              ],
+              "side": "left",
+              "distance_m": 2.33
+            },
+            {
+              "label": "table",
+              "dims_m": [
+                1.15,
+                0.44,
+                0.6
+              ],
+              "side": "in front",
+              "distance_m": 2.5
+            },
+            {
+              "label": "couch",
+              "dims_m": [
+                2.3,
+                0.86,
+                0.94
+              ],
+              "side": "in front",
+              "distance_m": 2.67
+            },
+            {
+              "label": "other",
+              "dims_m": [
+                0.6,
+                0.85,
+                0.6
+              ],
+              "side": "left",
+              "distance_m": 3.09
+            },
+            {
+              "label": "table",
+              "dims_m": [
+                0.9,
+                0.76,
+                0.9
+              ],
+              "side": "left",
+              "distance_m": 3.65
+            }
+          ]
+        },
+        "light": {
+          "available": false
+        },
+        "local_time": "02:09",
+        "destination_text": "a seafront at sunset"
+      },
+      "plan": null,
+      "image": {
+        "source": "cc0-sample",
+        "stamp": "Sample, not generated",
+        "model": null,
+        "request_id": null,
+        "latency_ms": null,
+        "width": 4096,
+        "height": 2048,
+        "format": null,
+        "file": null,
+        "sample_id": "the_sky_is_on_fire",
+        "web_tools": false
+      },
+      "transcript": null,
+      "pano": {
+        "width": 4096,
+        "height": 2048,
+        "aspect": 2,
+        "seam_delta_e": 1.1274350095497043,
+        "inner_delta_e": 1.2661719643519682,
+        "horizon_row": 126,
+        "horizon_offset": -0.0078125,
+        "pole_spread": 1.3193521506229717,
+        "horizon_hex": "#b09498",
+        "pano_mode": "equirect"
+      },
+      "timings": {
+        "time_to_world_ms": 1832
+      },
+      "cost_usd": 0,
+      "errors": []
+    },
+    {
+      "id": "4ab27013-02b5-4d8d-931d-a7c30c27d370",
+      "created_at": "2026-10-26T20:39:46.440Z",
+      "destination": "a savanna under the stars",
+      "room": {
+        "portal": {
+          "w_m": 0.8,
+          "h_m": 2,
+          "bottom_m": 0,
+          "wall": {
+            "label": "wall",
+            "w_m": 5.8,
+            "h_m": 2.7
+          }
+        },
+        "viewer": {
+          "eye_height_m": 1.6,
+          "distance_to_portal_m": 2.5
+        },
+        "room": {
+          "ceiling_m": 2.7,
+          "floor_area_m2": 29,
+          "objects": [
+            {
+              "label": "screen",
+              "dims_m": [
+                1.46,
+                0.84,
+                0.04
+              ],
+              "side": "right",
+              "distance_m": 0.2
+            },
+            {
+              "label": "shelf",
+              "dims_m": [
+                1.9,
+                0.52,
+                0.42
+              ],
+              "side": "right",
+              "distance_m": 0.3
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.4,
+                1.72,
+                0.4
+              ],
+              "side": "left",
+              "distance_m": 1.78
+            },
+            {
+              "label": "shelf",
+              "dims_m": [
+                0.9,
+                1.9,
+                0.34
+              ],
+              "side": "right",
+              "distance_m": 2.31
+            },
+            {
+              "label": "table",
+              "dims_m": [
+                1.15,
+                0.44,
+                0.6
+              ],
+              "side": "in front",
+              "distance_m": 2.52
+            },
+            {
+              "label": "couch",
+              "dims_m": [
+                2.3,
+                0.86,
+                0.94
+              ],
+              "side": "in front",
+              "distance_m": 2.81
+            }
+          ]
+        },
+        "light": {
+          "available": false
+        },
+        "local_time": "02:09",
+        "destination_text": "a savanna under the stars"
+      },
+      "plan": null,
+      "image": {
+        "source": "cc0-sample",
+        "stamp": "Sample, not generated",
+        "model": null,
+        "request_id": null,
+        "latency_ms": null,
+        "width": 4096,
+        "height": 2048,
+        "format": null,
+        "file": null,
+        "sample_id": "satara_night",
+        "web_tools": false
+      },
+      "transcript": null,
+      "pano": {
+        "width": 4096,
+        "height": 2048,
+        "aspect": 2,
+        "seam_delta_e": 2.678755056495297,
+        "inner_delta_e": 2.4582827857581835,
+        "horizon_row": 142,
+        "horizon_offset": 0.0546875,
+        "pole_spread": 1.456601022269237,
+        "horizon_hex": "#614f29",
+        "pano_mode": "cylinder"
+      },
+      "timings": {
+        "time_to_world_ms": 1838
+      },
+      "cost_usd": 0,
+      "errors": []
+    },
+    {
+      "id": "b719c103-2aaf-4130-95f7-c79984d1fd7a",
+      "created_at": "2026-10-26T20:39:38.379Z",
+      "destination": "a misty pine forest",
+      "room": {
+        "portal": {
+          "w_m": 1.2,
+          "h_m": 2,
+          "bottom_m": 0,
+          "wall": {
+            "label": "wall",
+            "w_m": 5,
+            "h_m": 2.7
+          }
+        },
+        "viewer": {
+          "eye_height_m": 1.6,
+          "distance_to_portal_m": 3.4
+        },
+        "room": {
+          "ceiling_m": 2.7,
+          "floor_area_m2": 29,
+          "objects": [
+            {
+              "label": "couch",
+              "dims_m": [
+                2.3,
+                0.86,
+                0.94
+              ],
+              "side": "in front",
+              "distance_m": 0.52
+            },
+            {
+              "label": "table",
+              "dims_m": [
+                1.15,
+                0.44,
+                0.6
+              ],
+              "side": "in front",
+              "distance_m": 1.45
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.4,
+                1.72,
+                0.4
+              ],
+              "side": "right",
+              "distance_m": 1.58
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.46,
+                1.1,
+                0.46
+              ],
+              "side": "left",
+              "distance_m": 1.59
+            },
+            {
+              "label": "couch",
+              "dims_m": [
+                1.12,
+                0.9,
+                1.12
+              ],
+              "side": "left",
+              "distance_m": 2.77
+            },
+            {
+              "label": "shelf",
+              "dims_m": [
+                1.9,
+                0.52,
+                0.42
+              ],
+              "side": "right",
+              "distance_m": 3.03
+            },
+            {
+              "label": "screen",
+              "dims_m": [
+                1.46,
+                0.84,
+                0.04
+              ],
+              "side": "right",
+              "distance_m": 3.18
+            }
+          ]
+        },
+        "light": {
+          "available": false
+        },
+        "local_time": "02:09",
+        "destination_text": "a misty pine forest"
+      },
+      "plan": null,
+      "image": {
+        "source": "cc0-sample",
+        "stamp": "Sample, not generated",
+        "model": null,
+        "request_id": null,
+        "latency_ms": null,
+        "width": 4096,
+        "height": 2048,
+        "format": null,
+        "file": null,
+        "sample_id": "misty_pines",
+        "web_tools": false
+      },
+      "transcript": null,
+      "pano": {
+        "width": 4096,
+        "height": 2048,
+        "aspect": 2,
+        "seam_delta_e": 7.037860019692314,
+        "inner_delta_e": 5.585025717178965,
+        "horizon_row": 133,
+        "horizon_offset": 0.01953125,
+        "pole_spread": 3.4075015244125986,
+        "horizon_hex": "#9d9d97",
+        "pano_mode": "equirect"
+      },
+      "timings": {
+        "time_to_world_ms": 1827
+      },
+      "cost_usd": 0,
+      "errors": []
+    },
+    {
+      "id": "a4fd43f7-b7bc-4f69-a831-8f4226ebdbb2",
+      "created_at": "2026-10-26T20:39:28.014Z",
+      "destination": "a seafront at sunset",
+      "room": {
+        "portal": {
+          "w_m": 1.2,
+          "h_m": 2.05,
+          "bottom_m": 0,
+          "wall": {
+            "label": "wall",
+            "w_m": 5,
+            "h_m": 2.7
+          }
+        },
+        "viewer": {
+          "eye_height_m": 1.6,
+          "distance_to_portal_m": 3.4
+        },
+        "room": {
+          "ceiling_m": 2.7,
+          "floor_area_m2": 29,
+          "objects": [
+            {
+              "label": "couch",
+              "dims_m": [
+                2.3,
+                0.86,
+                0.94
+              ],
+              "side": "in front",
+              "distance_m": 0.52
+            },
+            {
+              "label": "table",
+              "dims_m": [
+                1.15,
+                0.44,
+                0.6
+              ],
+              "side": "in front",
+              "distance_m": 1.45
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.4,
+                1.72,
+                0.4
+              ],
+              "side": "right",
+              "distance_m": 1.58
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.46,
+                1.1,
+                0.46
+              ],
+              "side": "left",
+              "distance_m": 1.59
+            },
+            {
+              "label": "couch",
+              "dims_m": [
+                1.12,
+                0.9,
+                1.12
+              ],
+              "side": "left",
+              "distance_m": 2.77
+            },
+            {
+              "label": "shelf",
+              "dims_m": [
+                1.9,
+                0.52,
+                0.42
+              ],
+              "side": "right",
+              "distance_m": 3.03
+            },
+            {
+              "label": "screen",
+              "dims_m": [
+                1.46,
+                0.84,
+                0.04
+              ],
+              "side": "right",
+              "distance_m": 3.18
+            }
+          ]
+        },
+        "light": {
+          "available": false
+        },
+        "local_time": "02:09",
+        "destination_text": "a seafront at sunset"
+      },
+      "plan": null,
+      "image": {
+        "source": "cc0-sample",
+        "stamp": "Sample, not generated",
+        "model": null,
+        "request_id": null,
+        "latency_ms": null,
+        "width": 4096,
+        "height": 2048,
+        "format": null,
+        "file": null,
+        "sample_id": "the_sky_is_on_fire",
+        "web_tools": false
+      },
+      "transcript": null,
+      "pano": {
+        "width": 4096,
+        "height": 2048,
+        "aspect": 2,
+        "seam_delta_e": 1.1274350095497043,
+        "inner_delta_e": 1.2661719643519682,
+        "horizon_row": 126,
+        "horizon_offset": -0.0078125,
+        "pole_spread": 1.3193521506229717,
+        "horizon_hex": "#b09498",
+        "pano_mode": "equirect"
+      },
+      "timings": {
+        "time_to_world_ms": 2161
+      },
+      "cost_usd": 0,
+      "errors": []
+    },
+    {
+      "id": "897afab0-7998-4601-a629-a627453fe9c8",
+      "created_at": "2026-10-26T20:39:17.928Z",
+      "destination": "a misty pine forest",
+      "room": {
+        "portal": {
+          "w_m": 1.2,
+          "h_m": 2.05,
+          "bottom_m": 0,
+          "wall": {
+            "label": "wall",
+            "w_m": 5,
+            "h_m": 2.7
+          }
+        },
+        "viewer": {
+          "eye_height_m": 1.6,
+          "distance_to_portal_m": 3.4
+        },
+        "room": {
+          "ceiling_m": 2.7,
+          "floor_area_m2": 29,
+          "objects": [
+            {
+              "label": "couch",
+              "dims_m": [
+                2.3,
+                0.86,
+                0.94
+              ],
+              "side": "in front",
+              "distance_m": 0.52
+            },
+            {
+              "label": "table",
+              "dims_m": [
+                1.15,
+                0.44,
+                0.6
+              ],
+              "side": "in front",
+              "distance_m": 1.45
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.4,
+                1.72,
+                0.4
+              ],
+              "side": "right",
+              "distance_m": 1.58
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.46,
+                1.1,
+                0.46
+              ],
+              "side": "left",
+              "distance_m": 1.59
+            },
+            {
+              "label": "couch",
+              "dims_m": [
+                1.12,
+                0.9,
+                1.12
+              ],
+              "side": "left",
+              "distance_m": 2.77
+            },
+            {
+              "label": "shelf",
+              "dims_m": [
+                1.9,
+                0.52,
+                0.42
+              ],
+              "side": "right",
+              "distance_m": 3.03
+            },
+            {
+              "label": "screen",
+              "dims_m": [
+                1.46,
+                0.84,
+                0.04
+              ],
+              "side": "right",
+              "distance_m": 3.18
+            }
+          ]
+        },
+        "light": {
+          "available": false
+        },
+        "local_time": "02:09",
+        "destination_text": "a misty pine forest"
+      },
+      "plan": null,
+      "image": {
+        "source": "cc0-sample",
+        "stamp": "Sample, not generated",
+        "model": null,
+        "request_id": null,
+        "latency_ms": null,
+        "width": 4096,
+        "height": 2048,
+        "format": null,
+        "file": null,
+        "sample_id": "misty_pines",
+        "web_tools": false
+      },
+      "transcript": null,
+      "pano": {
+        "width": 4096,
+        "height": 2048,
+        "aspect": 2,
+        "seam_delta_e": 7.037860019692314,
+        "inner_delta_e": 5.585025717178965,
+        "horizon_row": 133,
+        "horizon_offset": 0.01953125,
+        "pole_spread": 3.4075015244125986,
+        "horizon_hex": "#9d9d97",
+        "pano_mode": "equirect"
+      },
+      "timings": {
+        "time_to_world_ms": 2108
+      },
+      "cost_usd": 0,
+      "errors": []
+    },
+    {
+      "id": "2d2c9455-b2c8-43a1-81b4-6790126adba1",
+      "created_at": "2026-10-26T20:39:07.811Z",
+      "destination": "a savanna under the stars",
+      "room": {
+        "portal": {
+          "w_m": 1.2,
+          "h_m": 2.05,
+          "bottom_m": 0,
+          "wall": {
+            "label": "wall",
+            "w_m": 5,
+            "h_m": 2.7
+          }
+        },
+        "viewer": {
+          "eye_height_m": 1.6,
+          "distance_to_portal_m": 3.4
+        },
+        "room": {
+          "ceiling_m": 2.7,
+          "floor_area_m2": 29,
+          "objects": [
+            {
+              "label": "couch",
+              "dims_m": [
+                2.3,
+                0.86,
+                0.94
+              ],
+              "side": "in front",
+              "distance_m": 0.52
+            },
+            {
+              "label": "table",
+              "dims_m": [
+                1.15,
+                0.44,
+                0.6
+              ],
+              "side": "in front",
+              "distance_m": 1.45
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.4,
+                1.72,
+                0.4
+              ],
+              "side": "right",
+              "distance_m": 1.58
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.46,
+                1.1,
+                0.46
+              ],
+              "side": "left",
+              "distance_m": 1.59
+            },
+            {
+              "label": "couch",
+              "dims_m": [
+                1.12,
+                0.9,
+                1.12
+              ],
+              "side": "left",
+              "distance_m": 2.77
+            },
+            {
+              "label": "shelf",
+              "dims_m": [
+                1.9,
+                0.52,
+                0.42
+              ],
+              "side": "right",
+              "distance_m": 3.03
+            },
+            {
+              "label": "screen",
+              "dims_m": [
+                1.46,
+                0.84,
+                0.04
+              ],
+              "side": "right",
+              "distance_m": 3.18
+            }
+          ]
+        },
+        "light": {
+          "available": false
+        },
+        "local_time": "02:09",
+        "destination_text": "a savanna under the stars"
+      },
+      "plan": null,
+      "image": {
+        "source": "cc0-sample",
+        "stamp": "Sample, not generated",
+        "model": null,
+        "request_id": null,
+        "latency_ms": null,
+        "width": 4096,
+        "height": 2048,
+        "format": null,
+        "file": null,
+        "sample_id": "satara_night",
+        "web_tools": false
+      },
+      "transcript": null,
+      "pano": {
+        "width": 4096,
+        "height": 2048,
+        "aspect": 2,
+        "seam_delta_e": 2.678755056495297,
+        "inner_delta_e": 2.4582827857581835,
+        "horizon_row": 142,
+        "horizon_offset": 0.0546875,
+        "pole_spread": 1.456601022269237,
+        "horizon_hex": "#614f29",
+        "pano_mode": "cylinder"
+      },
+      "timings": {
+        "time_to_world_ms": 2140
+      },
+      "cost_usd": 0,
+      "errors": []
+    },
+    {
+      "id": "bcf04ada-06ca-4c09-926e-7e8c669a3ca0",
+      "created_at": "2026-10-26T20:38:57.426Z",
+      "destination": "a seafront at sunset",
+      "room": {
+        "portal": {
+          "w_m": 1.2,
+          "h_m": 2.05,
+          "bottom_m": 0,
+          "wall": {
+            "label": "wall",
+            "w_m": 5,
+            "h_m": 2.7
+          }
+        },
+        "viewer": {
+          "eye_height_m": 1.6,
+          "distance_to_portal_m": 3.4
+        },
+        "room": {
+          "ceiling_m": 2.7,
+          "floor_area_m2": 29,
+          "objects": [
+            {
+              "label": "couch",
+              "dims_m": [
+                2.3,
+                0.86,
+                0.94
+              ],
+              "side": "in front",
+              "distance_m": 0.52
+            },
+            {
+              "label": "table",
+              "dims_m": [
+                1.15,
+                0.44,
+                0.6
+              ],
+              "side": "in front",
+              "distance_m": 1.45
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.4,
+                1.72,
+                0.4
+              ],
+              "side": "right",
+              "distance_m": 1.58
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.46,
+                1.1,
+                0.46
+              ],
+              "side": "left",
+              "distance_m": 1.59
+            },
+            {
+              "label": "couch",
+              "dims_m": [
+                1.12,
+                0.9,
+                1.12
+              ],
+              "side": "left",
+              "distance_m": 2.77
+            },
+            {
+              "label": "shelf",
+              "dims_m": [
+                1.9,
+                0.52,
+                0.42
+              ],
+              "side": "right",
+              "distance_m": 3.03
+            },
+            {
+              "label": "screen",
+              "dims_m": [
+                1.46,
+                0.84,
+                0.04
+              ],
+              "side": "right",
+              "distance_m": 3.18
+            }
+          ]
+        },
+        "light": {
+          "available": false
+        },
+        "local_time": "02:08",
+        "destination_text": "a seafront at sunset"
+      },
+      "plan": null,
+      "image": {
+        "source": "cc0-sample",
+        "stamp": "Sample, not generated",
+        "model": null,
+        "request_id": null,
+        "latency_ms": null,
+        "width": 4096,
+        "height": 2048,
+        "format": null,
+        "file": null,
+        "sample_id": "the_sky_is_on_fire",
+        "web_tools": false
+      },
+      "transcript": null,
+      "pano": {
+        "width": 4096,
+        "height": 2048,
+        "aspect": 2,
+        "seam_delta_e": 1.1274350095497043,
+        "inner_delta_e": 1.2661719643519682,
+        "horizon_row": 126,
+        "horizon_offset": -0.0078125,
+        "pole_spread": 1.3193521506229717,
+        "horizon_hex": "#b09498",
+        "pano_mode": "equirect"
+      },
+      "timings": {
+        "time_to_world_ms": 2243
+      },
+      "cost_usd": 0,
+      "errors": []
+    },
+    {
+      "id": "5790cc01-5248-486d-8dfe-471c3b1bc339",
+      "created_at": "2026-10-26T20:38:46.328Z",
+      "destination": "a misty pine forest",
+      "room": {
+        "portal": {
+          "w_m": 1.2,
+          "h_m": 2.05,
+          "bottom_m": 0,
+          "wall": {
+            "label": "wall",
+            "w_m": 5,
+            "h_m": 2.7
+          }
+        },
+        "viewer": {
+          "eye_height_m": 1.6,
+          "distance_to_portal_m": 3.4
+        },
+        "room": {
+          "ceiling_m": 2.7,
+          "floor_area_m2": 29,
+          "objects": [
+            {
+              "label": "couch",
+              "dims_m": [
+                2.3,
+                0.86,
+                0.94
+              ],
+              "side": "in front",
+              "distance_m": 0.52
+            },
+            {
+              "label": "table",
+              "dims_m": [
+                1.15,
+                0.44,
+                0.6
+              ],
+              "side": "in front",
+              "distance_m": 1.45
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.4,
+                1.72,
+                0.4
+              ],
+              "side": "right",
+              "distance_m": 1.58
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.46,
+                1.1,
+                0.46
+              ],
+              "side": "left",
+              "distance_m": 1.59
+            },
+            {
+              "label": "couch",
+              "dims_m": [
+                1.12,
+                0.9,
+                1.12
+              ],
+              "side": "left",
+              "distance_m": 2.77
+            },
+            {
+              "label": "shelf",
+              "dims_m": [
+                1.9,
+                0.52,
+                0.42
+              ],
+              "side": "right",
+              "distance_m": 3.03
+            },
+            {
+              "label": "screen",
+              "dims_m": [
+                1.46,
+                0.84,
+                0.04
+              ],
+              "side": "right",
+              "distance_m": 3.18
+            }
+          ]
+        },
+        "light": {
+          "available": false
+        },
+        "local_time": "02:08",
+        "destination_text": "a misty pine forest"
+      },
+      "plan": null,
+      "image": {
+        "source": "cc0-sample",
+        "stamp": "Sample, not generated",
+        "model": null,
+        "request_id": null,
+        "latency_ms": null,
+        "width": 4096,
+        "height": 2048,
+        "format": null,
+        "file": null,
+        "sample_id": "misty_pines",
+        "web_tools": false
+      },
+      "transcript": null,
+      "pano": {
+        "width": 4096,
+        "height": 2048,
+        "aspect": 2,
+        "seam_delta_e": 7.037860019692314,
+        "inner_delta_e": 5.585025717178965,
+        "horizon_row": 133,
+        "horizon_offset": 0.01953125,
+        "pole_spread": 3.4075015244125986,
+        "horizon_hex": "#9d9d97",
+        "pano_mode": "equirect"
+      },
+      "timings": {
+        "time_to_world_ms": 2140
+      },
+      "cost_usd": 0,
+      "errors": []
+    },
+    {
+      "id": "d06edee4-b797-4b3d-bb8a-69aa7098b87a",
+      "created_at": "2026-10-26T20:38:36.224Z",
+      "destination": "a savanna under the stars",
+      "room": {
+        "portal": {
+          "w_m": 1.2,
+          "h_m": 2.05,
+          "bottom_m": 0,
+          "wall": {
+            "label": "wall",
+            "w_m": 5,
+            "h_m": 2.7
+          }
+        },
+        "viewer": {
+          "eye_height_m": 1.6,
+          "distance_to_portal_m": 3.4
+        },
+        "room": {
+          "ceiling_m": 2.7,
+          "floor_area_m2": 29,
+          "objects": [
+            {
+              "label": "couch",
+              "dims_m": [
+                2.3,
+                0.86,
+                0.94
+              ],
+              "side": "in front",
+              "distance_m": 0.52
+            },
+            {
+              "label": "table",
+              "dims_m": [
+                1.15,
+                0.44,
+                0.6
+              ],
+              "side": "in front",
+              "distance_m": 1.45
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.4,
+                1.72,
+                0.4
+              ],
+              "side": "right",
+              "distance_m": 1.58
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.46,
+                1.1,
+                0.46
+              ],
+              "side": "left",
+              "distance_m": 1.59
+            },
+            {
+              "label": "couch",
+              "dims_m": [
+                1.12,
+                0.9,
+                1.12
+              ],
+              "side": "left",
+              "distance_m": 2.77
+            },
+            {
+              "label": "shelf",
+              "dims_m": [
+                1.9,
+                0.52,
+                0.42
+              ],
+              "side": "right",
+              "distance_m": 3.03
+            },
+            {
+              "label": "screen",
+              "dims_m": [
+                1.46,
+                0.84,
+                0.04
+              ],
+              "side": "right",
+              "distance_m": 3.18
+            }
+          ]
+        },
+        "light": {
+          "available": false
+        },
+        "local_time": "02:08",
+        "destination_text": "a savanna under the stars"
+      },
+      "plan": null,
+      "image": {
+        "source": "cc0-sample",
+        "stamp": "Sample, not generated",
+        "model": null,
+        "request_id": null,
+        "latency_ms": null,
+        "width": 4096,
+        "height": 2048,
+        "format": null,
+        "file": null,
+        "sample_id": "satara_night",
+        "web_tools": false
+      },
+      "transcript": null,
+      "pano": {
+        "width": 4096,
+        "height": 2048,
+        "aspect": 2,
+        "seam_delta_e": 2.678755056495297,
+        "inner_delta_e": 2.4582827857581835,
+        "horizon_row": 142,
+        "horizon_offset": 0.0546875,
+        "pole_spread": 1.456601022269237,
+        "horizon_hex": "#614f29",
+        "pano_mode": "cylinder"
+      },
+      "timings": {
+        "time_to_world_ms": 2202
+      },
+      "cost_usd": 0,
+      "errors": []
+    },
+    {
+      "id": "e3c1205d-7387-4d7f-9c9c-f4b775912052",
+      "created_at": "2026-10-26T20:38:26.035Z",
+      "destination": "a seafront at sunset",
+      "room": {
+        "portal": {
+          "w_m": 1.2,
+          "h_m": 2.05,
+          "bottom_m": 0,
+          "wall": {
+            "label": "wall",
+            "w_m": 5,
+            "h_m": 2.7
+          }
+        },
+        "viewer": {
+          "eye_height_m": 1.6,
+          "distance_to_portal_m": 3.4
+        },
+        "room": {
+          "ceiling_m": 2.7,
+          "floor_area_m2": 29,
+          "objects": [
+            {
+              "label": "couch",
+              "dims_m": [
+                2.3,
+                0.86,
+                0.94
+              ],
+              "side": "in front",
+              "distance_m": 0.52
+            },
+            {
+              "label": "table",
+              "dims_m": [
+                1.15,
+                0.44,
+                0.6
+              ],
+              "side": "in front",
+              "distance_m": 1.45
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.4,
+                1.72,
+                0.4
+              ],
+              "side": "right",
+              "distance_m": 1.58
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.46,
+                1.1,
+                0.46
+              ],
+              "side": "left",
+              "distance_m": 1.59
+            },
+            {
+              "label": "couch",
+              "dims_m": [
+                1.12,
+                0.9,
+                1.12
+              ],
+              "side": "left",
+              "distance_m": 2.77
+            },
+            {
+              "label": "shelf",
+              "dims_m": [
+                1.9,
+                0.52,
+                0.42
+              ],
+              "side": "right",
+              "distance_m": 3.03
+            },
+            {
+              "label": "screen",
+              "dims_m": [
+                1.46,
+                0.84,
+                0.04
+              ],
+              "side": "right",
+              "distance_m": 3.18
+            }
+          ]
+        },
+        "light": {
+          "available": false
+        },
+        "local_time": "02:08",
+        "destination_text": "a seafront at sunset"
+      },
+      "plan": null,
+      "image": {
+        "source": "cc0-sample",
+        "stamp": "Sample, not generated",
+        "model": null,
+        "request_id": null,
+        "latency_ms": null,
+        "width": 4096,
+        "height": 2048,
+        "format": null,
+        "file": null,
+        "sample_id": "the_sky_is_on_fire",
+        "web_tools": false
+      },
+      "transcript": null,
+      "pano": {
+        "width": 4096,
+        "height": 2048,
+        "aspect": 2,
+        "seam_delta_e": 1.1274350095497043,
+        "inner_delta_e": 1.2661719643519682,
+        "horizon_row": 126,
+        "horizon_offset": -0.0078125,
+        "pole_spread": 1.3193521506229717,
+        "horizon_hex": "#b09498",
+        "pano_mode": "equirect"
+      },
+      "timings": {
+        "time_to_world_ms": 2162
+      },
+      "cost_usd": 0,
+      "errors": []
+    },
+    {
+      "id": "7c3c9fd8-ce00-4511-817b-e7b507b50058",
+      "created_at": "2026-10-26T20:38:15.765Z",
+      "destination": "a misty pine forest",
+      "room": {
+        "portal": {
+          "w_m": 1.2,
+          "h_m": 2.05,
+          "bottom_m": 0,
+          "wall": {
+            "label": "wall",
+            "w_m": 5,
+            "h_m": 2.7
+          }
+        },
+        "viewer": {
+          "eye_height_m": 1.6,
+          "distance_to_portal_m": 3.4
+        },
+        "room": {
+          "ceiling_m": 2.7,
+          "floor_area_m2": 29,
+          "objects": [
+            {
+              "label": "couch",
+              "dims_m": [
+                2.3,
+                0.86,
+                0.94
+              ],
+              "side": "in front",
+              "distance_m": 0.52
+            },
+            {
+              "label": "table",
+              "dims_m": [
+                1.15,
+                0.44,
+                0.6
+              ],
+              "side": "in front",
+              "distance_m": 1.45
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.4,
+                1.72,
+                0.4
+              ],
+              "side": "right",
+              "distance_m": 1.58
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.46,
+                1.1,
+                0.46
+              ],
+              "side": "left",
+              "distance_m": 1.59
+            },
+            {
+              "label": "couch",
+              "dims_m": [
+                1.12,
+                0.9,
+                1.12
+              ],
+              "side": "left",
+              "distance_m": 2.77
+            },
+            {
+              "label": "shelf",
+              "dims_m": [
+                1.9,
+                0.52,
+                0.42
+              ],
+              "side": "right",
+              "distance_m": 3.03
+            },
+            {
+              "label": "screen",
+              "dims_m": [
+                1.46,
+                0.84,
+                0.04
+              ],
+              "side": "right",
+              "distance_m": 3.18
+            }
+          ]
+        },
+        "light": {
+          "available": false
+        },
+        "local_time": "02:08",
+        "destination_text": "a misty pine forest"
+      },
+      "plan": null,
+      "image": {
+        "source": "cc0-sample",
+        "stamp": "Sample, not generated",
+        "model": null,
+        "request_id": null,
+        "latency_ms": null,
+        "width": 4096,
+        "height": 2048,
+        "format": null,
+        "file": null,
+        "sample_id": "misty_pines",
+        "web_tools": false
+      },
+      "transcript": null,
+      "pano": {
+        "width": 4096,
+        "height": 2048,
+        "aspect": 2,
+        "seam_delta_e": 7.037860019692314,
+        "inner_delta_e": 5.585025717178965,
+        "horizon_row": 133,
+        "horizon_offset": 0.01953125,
+        "pole_spread": 3.4075015244125986,
+        "horizon_hex": "#9d9d97",
+        "pano_mode": "equirect"
+      },
+      "timings": {
+        "time_to_world_ms": 2488
+      },
+      "cost_usd": 0,
+      "errors": []
+    },
+    {
+      "id": "9397a3c3-df47-4e47-8034-121446ce00b4",
+      "created_at": "2026-10-26T20:37:47.039Z",
+      "destination": "a misty pine forest",
+      "room": {
+        "portal": {
+          "w_m": 1,
+          "h_m": 1.9,
+          "bottom_m": 0,
+          "wall": {
+            "label": "wall",
+            "w_m": 5,
+            "h_m": 2.7
+          }
+        },
+        "viewer": {
+          "eye_height_m": 1.6,
+          "distance_to_portal_m": 3.4
+        },
+        "room": {
+          "ceiling_m": 2.7,
+          "floor_area_m2": 29,
+          "objects": [
+            {
+              "label": "couch",
+              "dims_m": [
+                2.3,
+                0.86,
+                0.94
+              ],
+              "side": "in front",
+              "distance_m": 0.52
+            },
+            {
+              "label": "table",
+              "dims_m": [
+                1.15,
+                0.44,
+                0.6
+              ],
+              "side": "in front",
+              "distance_m": 1.45
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.4,
+                1.72,
+                0.4
+              ],
+              "side": "right",
+              "distance_m": 1.58
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.46,
+                1.1,
+                0.46
+              ],
+              "side": "left",
+              "distance_m": 1.59
+            },
+            {
+              "label": "couch",
+              "dims_m": [
+                1.12,
+                0.9,
+                1.12
+              ],
+              "side": "left",
+              "distance_m": 2.77
+            },
+            {
+              "label": "shelf",
+              "dims_m": [
+                1.9,
+                0.52,
+                0.42
+              ],
+              "side": "right",
+              "distance_m": 3.03
+            },
+            {
+              "label": "screen",
+              "dims_m": [
+                1.46,
+                0.84,
+                0.04
+              ],
+              "side": "right",
+              "distance_m": 3.18
+            }
+          ]
+        },
+        "light": {
+          "available": false
+        },
+        "local_time": "02:07",
+        "destination_text": "a misty pine forest"
+      },
+      "plan": null,
+      "image": {
+        "source": "cc0-sample",
+        "stamp": "Sample, not generated",
+        "model": null,
+        "request_id": null,
+        "latency_ms": null,
+        "width": 4096,
+        "height": 2048,
+        "format": null,
+        "file": null,
+        "sample_id": "misty_pines",
+        "web_tools": false
+      },
+      "transcript": null,
+      "pano": {
+        "width": 4096,
+        "height": 2048,
+        "aspect": 2,
+        "seam_delta_e": 7.037860019692314,
+        "inner_delta_e": 5.585025717178965,
+        "horizon_row": 133,
+        "horizon_offset": 0.01953125,
+        "pole_spread": 3.4075015244125986,
+        "horizon_hex": "#9d9d97",
+        "pano_mode": "equirect"
+      },
+      "timings": {
+        "time_to_world_ms": 2278
+      },
+      "cost_usd": 0,
+      "errors": []
+    },
+    {
+      "id": "a95c091f-5c00-4b42-9b97-469f6628583e",
+      "created_at": "2026-10-26T20:37:26.505Z",
+      "destination": "a seafront at sunset",
+      "room": {
+        "portal": {
+          "w_m": 1,
+          "h_m": 1.9,
+          "bottom_m": 0,
+          "wall": {
+            "label": "wall",
+            "w_m": 5,
+            "h_m": 2.7
+          }
+        },
+        "viewer": {
+          "eye_height_m": 1.6,
+          "distance_to_portal_m": 3.4
+        },
+        "room": {
+          "ceiling_m": 2.7,
+          "floor_area_m2": 29,
+          "objects": [
+            {
+              "label": "couch",
+              "dims_m": [
+                2.3,
+                0.86,
+                0.94
+              ],
+              "side": "in front",
+              "distance_m": 0.52
+            },
+            {
+              "label": "table",
+              "dims_m": [
+                1.15,
+                0.44,
+                0.6
+              ],
+              "side": "in front",
+              "distance_m": 1.45
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.4,
+                1.72,
+                0.4
+              ],
+              "side": "right",
+              "distance_m": 1.58
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.46,
+                1.1,
+                0.46
+              ],
+              "side": "left",
+              "distance_m": 1.59
+            },
+            {
+              "label": "couch",
+              "dims_m": [
+                1.12,
+                0.9,
+                1.12
+              ],
+              "side": "left",
+              "distance_m": 2.77
+            },
+            {
+              "label": "shelf",
+              "dims_m": [
+                1.9,
+                0.52,
+                0.42
+              ],
+              "side": "right",
+              "distance_m": 3.03
+            },
+            {
+              "label": "screen",
+              "dims_m": [
+                1.46,
+                0.84,
+                0.04
+              ],
+              "side": "right",
+              "distance_m": 3.18
+            }
+          ]
+        },
+        "light": {
+          "available": false
+        },
+        "local_time": "02:07",
+        "destination_text": "a seafront at sunset"
+      },
+      "plan": null,
+      "image": {
+        "source": "cc0-sample",
+        "stamp": "Sample, not generated",
+        "model": null,
+        "request_id": null,
+        "latency_ms": null,
+        "width": 4096,
+        "height": 2048,
+        "format": null,
+        "file": null,
+        "sample_id": "the_sky_is_on_fire",
+        "web_tools": false
+      },
+      "transcript": null,
+      "pano": {
+        "width": 4096,
+        "height": 2048,
+        "aspect": 2,
+        "seam_delta_e": 1.1274350095497043,
+        "inner_delta_e": 1.2661719643519682,
+        "horizon_row": 126,
+        "horizon_offset": -0.0078125,
+        "pole_spread": 1.3193521506229717,
+        "horizon_hex": "#b09498",
+        "pano_mode": "equirect"
+      },
+      "timings": {
+        "time_to_world_ms": 5831
+      },
+      "cost_usd": 0,
+      "errors": []
+    },
+    {
+      "id": "857e2127-e293-46ed-9b42-104363d6dff6",
+      "created_at": "2026-10-26T20:37:12.508Z",
+      "destination": "your image",
+      "room": {
+        "portal": {
+          "w_m": 1,
+          "h_m": 1.9,
+          "bottom_m": 0,
+          "wall": {
+            "label": "wall",
+            "w_m": 5,
+            "h_m": 2.7
+          }
+        },
+        "viewer": {
+          "eye_height_m": 1.6,
+          "distance_to_portal_m": 3.4
+        },
+        "room": {
+          "ceiling_m": 2.7,
+          "floor_area_m2": 29,
+          "objects": [
+            {
+              "label": "couch",
+              "dims_m": [
+                2.3,
+                0.86,
+                0.94
+              ],
+              "side": "in front",
+              "distance_m": 0.52
+            },
+            {
+              "label": "table",
+              "dims_m": [
+                1.15,
+                0.44,
+                0.6
+              ],
+              "side": "in front",
+              "distance_m": 1.45
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.4,
+                1.72,
+                0.4
+              ],
+              "side": "right",
+              "distance_m": 1.58
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.46,
+                1.1,
+                0.46
+              ],
+              "side": "left",
+              "distance_m": 1.59
+            },
+            {
+              "label": "couch",
+              "dims_m": [
+                1.12,
+                0.9,
+                1.12
+              ],
+              "side": "left",
+              "distance_m": 2.77
+            },
+            {
+              "label": "shelf",
+              "dims_m": [
+                1.9,
+                0.52,
+                0.42
+              ],
+              "side": "right",
+              "distance_m": 3.03
+            },
+            {
+              "label": "screen",
+              "dims_m": [
+                1.46,
+                0.84,
+                0.04
+              ],
+              "side": "right",
+              "distance_m": 3.18
+            }
+          ]
+        },
+        "light": {
+          "available": false
+        },
+        "local_time": "02:07",
+        "destination_text": "your image"
+      },
+      "plan": null,
+      "image": {
+        "source": "user-upload",
+        "stamp": "Your image, not generated",
+        "model": null,
+        "request_id": null,
+        "latency_ms": null,
+        "width": 512,
+        "height": 512,
+        "format": null,
+        "file": null,
+        "sample_id": null,
+        "web_tools": false
+      },
+      "transcript": null,
+      "pano": {
+        "width": 512,
+        "height": 512,
+        "aspect": 1,
+        "seam_delta_e": 6.91061893329623,
+        "inner_delta_e": 4.32821865057559,
+        "horizon_row": 264,
+        "horizon_offset": 0.015625,
+        "pole_spread": 3.3454764816362497,
+        "horizon_hex": "#9e9e98",
+        "pano_mode": "cylinder"
+      },
+      "timings": {
+        "time_to_world_ms": 2177
+      },
+      "cost_usd": 0,
+      "errors": []
+    },
+    {
+      "id": "3ed333cb-d76f-45c9-917c-489f88e7c976",
+      "created_at": "2026-10-26T20:36:23.886Z",
+      "destination": "a misty pine forest",
+      "room": {
+        "portal": {
+          "w_m": 1,
+          "h_m": 1.9,
+          "bottom_m": 0,
+          "wall": {
+            "label": "wall",
+            "w_m": 5,
+            "h_m": 2.7
+          }
+        },
+        "viewer": {
+          "eye_height_m": 1.6,
+          "distance_to_portal_m": 3.4
+        },
+        "room": {
+          "ceiling_m": 2.7,
+          "floor_area_m2": 29,
+          "objects": [
+            {
+              "label": "couch",
+              "dims_m": [
+                2.3,
+                0.86,
+                0.94
+              ],
+              "side": "in front",
+              "distance_m": 0.52
+            },
+            {
+              "label": "table",
+              "dims_m": [
+                1.15,
+                0.44,
+                0.6
+              ],
+              "side": "in front",
+              "distance_m": 1.45
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.4,
+                1.72,
+                0.4
+              ],
+              "side": "right",
+              "distance_m": 1.58
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.46,
+                1.1,
+                0.46
+              ],
+              "side": "left",
+              "distance_m": 1.59
+            },
+            {
+              "label": "couch",
+              "dims_m": [
+                1.12,
+                0.9,
+                1.12
+              ],
+              "side": "left",
+              "distance_m": 2.77
+            },
+            {
+              "label": "shelf",
+              "dims_m": [
+                1.9,
+                0.52,
+                0.42
+              ],
+              "side": "right",
+              "distance_m": 3.03
+            },
+            {
+              "label": "screen",
+              "dims_m": [
+                1.46,
+                0.84,
+                0.04
+              ],
+              "side": "right",
+              "distance_m": 3.18
+            }
+          ]
+        },
+        "light": {
+          "available": false
+        },
+        "local_time": "02:06",
+        "destination_text": "a misty pine forest"
+      },
+      "plan": null,
+      "image": {
+        "source": "cc0-sample",
+        "stamp": "Sample, not generated",
+        "model": null,
+        "request_id": null,
+        "latency_ms": null,
+        "width": 4096,
+        "height": 2048,
+        "format": null,
+        "file": null,
+        "sample_id": "misty_pines",
+        "web_tools": false
+      },
+      "transcript": null,
+      "pano": {
+        "width": 4096,
+        "height": 2048,
+        "aspect": 2,
+        "seam_delta_e": 7.037860019692314,
+        "inner_delta_e": 5.585025717178965,
+        "horizon_row": 133,
+        "horizon_offset": 0.01953125,
+        "pole_spread": 3.4075015244125986,
+        "horizon_hex": "#9d9d97",
+        "pano_mode": "equirect"
+      },
+      "timings": {
+        "time_to_world_ms": 2125
+      },
+      "cost_usd": 0,
+      "errors": []
+    },
+    {
+      "id": "74e2931e-3c6e-4758-b18a-dae01d79f210",
+      "created_at": "2026-10-26T20:36:10.204Z",
+      "destination": "a misty pine forest",
+      "room": {
+        "portal": {
+          "w_m": 1,
+          "h_m": 1.9,
+          "bottom_m": 0,
+          "wall": {
+            "label": "wall",
+            "w_m": 4.5,
+            "h_m": 2.7
+          }
+        },
+        "viewer": {
+          "eye_height_m": 1.6,
+          "distance_to_portal_m": 3
+        },
+        "room": {
+          "ceiling_m": 2.7,
+          "floor_area_m2": 20.3,
+          "objects": [
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.32,
+                0.5,
+                0.32
+              ],
+              "side": "left",
+              "distance_m": 0.38
+            },
+            {
+              "label": "table",
+              "dims_m": [
+                0.46,
+                0.56,
+                0.42
+              ],
+              "side": "left",
+              "distance_m": 0.39
+            },
+            {
+              "label": "shelf",
+              "dims_m": [
+                1.05,
+                2.25,
+                0.61
+              ],
+              "side": "left",
+              "distance_m": 1.15
+            },
+            {
+              "label": "bed",
+              "dims_m": [
+                2.16,
+                1.15,
+                1.72
+              ],
+              "side": "in front",
+              "distance_m": 1.36
+            },
+            {
+              "label": "table",
+              "dims_m": [
+                0.46,
+                0.56,
+                0.42
+              ],
+              "side": "right",
+              "distance_m": 1.93
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.32,
+                0.5,
+                0.32
+              ],
+              "side": "right",
+              "distance_m": 1.93
+            },
+            {
+              "label": "plant",
+              "dims_m": [
+                0.58,
+                1.5,
+                0.58
+              ],
+              "side": "left",
+              "distance_m": 1.96
+            },
+            {
+              "label": "couch",
+              "dims_m": [
+                1.11,
+                0.88,
+                1.08
+              ],
+              "side": "in front",
+              "distance_m": 3.2
+            }
+          ]
+        },
+        "light": {
+          "available": false
+        },
+        "local_time": "02:06",
+        "destination_text": "a misty pine forest"
+      },
+      "plan": null,
+      "image": {
+        "source": "cc0-sample",
+        "stamp": "Sample, not generated",
+        "model": null,
+        "request_id": null,
+        "latency_ms": null,
+        "width": 4096,
+        "height": 2048,
+        "format": null,
+        "file": null,
+        "sample_id": "misty_pines",
+        "web_tools": false
+      },
+      "transcript": null,
+      "pano": {
+        "width": 4096,
+        "height": 2048,
+        "aspect": 2,
+        "seam_delta_e": 7.037860019692314,
+        "inner_delta_e": 5.585025717178965,
+        "horizon_row": 133,
+        "horizon_offset": 0.01953125,
+        "pole_spread": 3.4075015244125986,
+        "horizon_hex": "#9d9d97",
+        "pano_mode": "equirect"
+      },
+      "timings": {
+        "time_to_world_ms": 2126
+      },
+      "cost_usd": 0,
+      "errors": []
+    },
+    {
+      "id": "3b0953ea-e636-492b-a3db-bc93aa851cd6",
+      "created_at": "2026-10-26T20:35:56.502Z",
+      "destination": "a misty pine forest",
+      "room": {
+        "portal": {
+          "w_m": 1,
+          "h_m": 1.9,
+          "bottom_m": 0,
+          "wall": {
+            "label": "wall",
+            "w_m": 1.5,
+            "h_m": 2.1
+          }
+        },
+        "viewer": {
+          "eye_height_m": 1.6,
+          "distance_to_portal_m": 5
+        },
+        "room": {
+          "ceiling_m": 2.1,
+          "floor_area_m2": 9,
+          "objects": [
+            {
+              "label": "plant",
+              "dims_m": [
+                0.42,
+                1.1,
+                0.42
+              ],
+              "side": "left",
+              "distance_m": 0.64
+            }
+          ]
+        },
+        "light": {
+          "available": false
+        },
+        "local_time": "02:05",
+        "destination_text": "a misty pine forest"
+      },
+      "plan": null,
+      "image": {
+        "source": "cc0-sample",
+        "stamp": "Sample, not generated",
+        "model": null,
+        "request_id": null,
+        "latency_ms": null,
+        "width": 4096,
+        "height": 2048,
+        "format": null,
+        "file": null,
+        "sample_id": "misty_pines",
+        "web_tools": false
+      },
+      "transcript": null,
+      "pano": {
+        "width": 4096,
+        "height": 2048,
+        "aspect": 2,
+        "seam_delta_e": 7.037860019692314,
+        "inner_delta_e": 5.585025717178965,
+        "horizon_row": 133,
+        "horizon_offset": 0.01953125,
+        "pole_spread": 3.4075015244125986,
+        "horizon_hex": "#9d9d97",
+        "pano_mode": "equirect"
+      },
+      "timings": {
+        "time_to_world_ms": 2489
+      },
+      "cost_usd": 0,
+      "errors": []
+    },
+    {
+      "id": "8adc98dd-2bee-45ea-88c2-1aa2cee32c4c",
+      "created_at": "2026-10-26T20:35:41.772Z",
+      "destination": "a misty pine forest",
+      "room": {
+        "portal": {
+          "w_m": 1,
+          "h_m": 1.9,
+          "bottom_m": 0,
+          "wall": {
+            "label": "wall",
+            "w_m": 3.6,
+            "h_m": 2.4
+          }
+        },
+        "viewer": {
+          "eye_height_m": 1.6,
+          "distance_to_portal_m": 2.6
+        },
+        "room": {
+          "ceiling_m": 2.4,
+          "floor_area_m2": 15.1,
+          "objects": [
+            {
+              "label": "couch",
+              "dims_m": [
+                2,
+                0.86,
+                0.94
+              ],
+              "side": "in front",
+              "distance_m": 0.52
+            },
+            {
+              "label": "table",
+              "dims_m": [
+                1,
+                0.42,
+                0.55
+              ],
+              "side": "in front",
+              "distance_m": 1.17
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.4,
+                1.72,
+                0.4
+              ],
+              "side": "right",
+              "distance_m": 1.39
+            },
+            {
+              "label": "plant",
+              "dims_m": [
+                0.5,
+                1.3,
+                0.5
+              ],
+              "side": "in front",
+              "distance_m": 3.99
+            }
+          ]
+        },
+        "light": {
+          "available": false
+        },
+        "local_time": "02:05",
+        "destination_text": "a misty pine forest"
+      },
+      "plan": null,
+      "image": {
+        "source": "cc0-sample",
+        "stamp": "Sample, not generated",
+        "model": null,
+        "request_id": null,
+        "latency_ms": null,
+        "width": 4096,
+        "height": 2048,
+        "format": null,
+        "file": null,
+        "sample_id": "misty_pines",
+        "web_tools": false
+      },
+      "transcript": null,
+      "pano": {
+        "width": 4096,
+        "height": 2048,
+        "aspect": 2,
+        "seam_delta_e": 7.037860019692314,
+        "inner_delta_e": 5.585025717178965,
+        "horizon_row": 133,
+        "horizon_offset": 0.01953125,
+        "pole_spread": 3.4075015244125986,
+        "horizon_hex": "#9d9d97",
+        "pano_mode": "equirect"
+      },
+      "timings": {
+        "time_to_world_ms": 2391
+      },
+      "cost_usd": 0,
+      "errors": []
+    },
+    {
+      "id": "348101d6-ba2c-4a71-9a30-45064163793a",
+      "created_at": "2026-10-26T20:35:26.361Z",
+      "destination": "a misty pine forest",
+      "room": {
+        "portal": {
+          "w_m": 1,
+          "h_m": 1.9,
+          "bottom_m": 0,
+          "wall": {
+            "label": "wall",
+            "w_m": 5,
+            "h_m": 2.7
+          }
+        },
+        "viewer": {
+          "eye_height_m": 1.6,
+          "distance_to_portal_m": 3.4
+        },
+        "room": {
+          "ceiling_m": 2.7,
+          "floor_area_m2": 29,
+          "objects": [
+            {
+              "label": "couch",
+              "dims_m": [
+                2.3,
+                0.86,
+                0.94
+              ],
+              "side": "in front",
+              "distance_m": 0.52
+            },
+            {
+              "label": "table",
+              "dims_m": [
+                1.15,
+                0.44,
+                0.6
+              ],
+              "side": "in front",
+              "distance_m": 1.45
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.4,
+                1.72,
+                0.4
+              ],
+              "side": "right",
+              "distance_m": 1.58
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.46,
+                1.1,
+                0.46
+              ],
+              "side": "left",
+              "distance_m": 1.59
+            },
+            {
+              "label": "couch",
+              "dims_m": [
+                1.12,
+                0.9,
+                1.12
+              ],
+              "side": "left",
+              "distance_m": 2.77
+            },
+            {
+              "label": "shelf",
+              "dims_m": [
+                1.9,
+                0.52,
+                0.42
+              ],
+              "side": "right",
+              "distance_m": 3.03
+            },
+            {
+              "label": "screen",
+              "dims_m": [
+                1.46,
+                0.84,
+                0.04
+              ],
+              "side": "right",
+              "distance_m": 3.18
+            }
+          ]
+        },
+        "light": {
+          "available": false
+        },
+        "local_time": "02:05",
+        "destination_text": "a misty pine forest"
+      },
+      "plan": null,
+      "image": {
+        "source": "cc0-sample",
+        "stamp": "Sample, not generated",
+        "model": null,
+        "request_id": null,
+        "latency_ms": null,
+        "width": 4096,
+        "height": 2048,
+        "format": null,
+        "file": null,
+        "sample_id": "misty_pines",
+        "web_tools": false
+      },
+      "transcript": null,
+      "pano": {
+        "width": 4096,
+        "height": 2048,
+        "aspect": 2,
+        "seam_delta_e": 7.037860019692314,
+        "inner_delta_e": 5.585025717178965,
+        "horizon_row": 133,
+        "horizon_offset": 0.01953125,
+        "pole_spread": 3.4075015244125986,
+        "horizon_hex": "#9d9d97",
+        "pano_mode": "equirect"
+      },
+      "timings": {
+        "time_to_world_ms": 2592
+      },
+      "cost_usd": 0,
+      "errors": []
+    },
+    {
+      "id": "cf9e3c11-acdd-416f-9611-e866eb63269a",
+      "created_at": "2026-10-26T20:35:17.369Z",
+      "destination": "a flooded cathedral at dawn",
+      "room": {
+        "portal": {
+          "w_m": 1,
+          "h_m": 1.9,
+          "bottom_m": 0,
+          "wall": {
+            "label": "wall",
+            "w_m": 5,
+            "h_m": 2.7
+          }
+        },
+        "viewer": {
+          "eye_height_m": 1.6,
+          "distance_to_portal_m": 3.4
+        },
+        "room": {
+          "ceiling_m": 2.7,
+          "floor_area_m2": 29,
+          "objects": [
+            {
+              "label": "couch",
+              "dims_m": [
+                2.3,
+                0.86,
+                0.94
+              ],
+              "side": "in front",
+              "distance_m": 0.52
+            },
+            {
+              "label": "table",
+              "dims_m": [
+                1.15,
+                0.44,
+                0.6
+              ],
+              "side": "in front",
+              "distance_m": 1.45
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.4,
+                1.72,
+                0.4
+              ],
+              "side": "right",
+              "distance_m": 1.58
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.46,
+                1.1,
+                0.46
+              ],
+              "side": "left",
+              "distance_m": 1.59
+            },
+            {
+              "label": "couch",
+              "dims_m": [
+                1.12,
+                0.9,
+                1.12
+              ],
+              "side": "left",
+              "distance_m": 2.77
+            },
+            {
+              "label": "shelf",
+              "dims_m": [
+                1.9,
+                0.52,
+                0.42
+              ],
+              "side": "right",
+              "distance_m": 3.03
+            },
+            {
+              "label": "screen",
+              "dims_m": [
+                1.46,
+                0.84,
+                0.04
+              ],
+              "side": "right",
+              "distance_m": 3.18
+            }
+          ]
+        },
+        "light": {
+          "available": false
+        },
+        "local_time": "02:05",
+        "destination_text": "a flooded cathedral at dawn"
+      },
+      "plan": null,
+      "image": {
+        "source": "user-upload",
+        "stamp": "Your image, not generated",
+        "model": null,
+        "request_id": null,
+        "latency_ms": null,
+        "width": 4096,
+        "height": 2048,
+        "format": null,
+        "file": null,
+        "sample_id": null,
+        "web_tools": false
+      },
+      "transcript": null,
+      "pano": {
+        "width": 4096,
+        "height": 2048,
+        "aspect": 2,
+        "seam_delta_e": 7.037860019692314,
+        "inner_delta_e": 5.585025717178965,
+        "horizon_row": 133,
+        "horizon_offset": 0.01953125,
+        "pole_spread": 3.4075015244125986,
+        "horizon_hex": "#9d9d97",
+        "pano_mode": "equirect"
+      },
+      "timings": {
+        "time_to_world_ms": 2105
+      },
+      "cost_usd": 0,
+      "errors": []
+    },
+    {
+      "id": "e9ba61fb-4564-4698-945f-06fcedc07d18",
+      "created_at": "2026-10-26T20:35:04.953Z",
+      "destination": "a flooded cathedral at dawn",
+      "room": {
+        "portal": {
+          "w_m": 1,
+          "h_m": 1.9,
+          "bottom_m": 0,
+          "wall": {
+            "label": "wall",
+            "w_m": 5,
+            "h_m": 2.7
+          }
+        },
+        "viewer": {
+          "eye_height_m": 1.6,
+          "distance_to_portal_m": 3.4
+        },
+        "room": {
+          "ceiling_m": 2.7,
+          "floor_area_m2": 29,
+          "objects": [
+            {
+              "label": "couch",
+              "dims_m": [
+                2.3,
+                0.86,
+                0.94
+              ],
+              "side": "in front",
+              "distance_m": 0.52
+            },
+            {
+              "label": "table",
+              "dims_m": [
+                1.15,
+                0.44,
+                0.6
+              ],
+              "side": "in front",
+              "distance_m": 1.45
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.4,
+                1.72,
+                0.4
+              ],
+              "side": "right",
+              "distance_m": 1.58
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.46,
+                1.1,
+                0.46
+              ],
+              "side": "left",
+              "distance_m": 1.59
+            },
+            {
+              "label": "couch",
+              "dims_m": [
+                1.12,
+                0.9,
+                1.12
+              ],
+              "side": "left",
+              "distance_m": 2.77
+            },
+            {
+              "label": "shelf",
+              "dims_m": [
+                1.9,
+                0.52,
+                0.42
+              ],
+              "side": "right",
+              "distance_m": 3.03
+            },
+            {
+              "label": "screen",
+              "dims_m": [
+                1.46,
+                0.84,
+                0.04
+              ],
+              "side": "right",
+              "distance_m": 3.18
+            }
+          ]
+        },
+        "light": {
+          "available": false
+        },
+        "local_time": "02:05",
+        "destination_text": "a flooded cathedral at dawn"
+      },
+      "plan": null,
+      "image": {
+        "source": "cc0-sample",
+        "stamp": "Sample, not generated",
+        "model": null,
+        "request_id": null,
+        "latency_ms": null,
+        "width": 4096,
+        "height": 2048,
+        "format": null,
+        "file": null,
+        "sample_id": "misty_pines",
+        "web_tools": false
+      },
+      "transcript": null,
+      "pano": {
+        "width": 4096,
+        "height": 2048,
+        "aspect": 2,
+        "seam_delta_e": 7.037860019692314,
+        "inner_delta_e": 5.585025717178965,
+        "horizon_row": 133,
+        "horizon_offset": 0.01953125,
+        "pole_spread": 3.4075015244125986,
+        "horizon_hex": "#9d9d97",
+        "pano_mode": "equirect"
+      },
+      "timings": {
+        "time_to_world_ms": 2138
+      },
+      "cost_usd": 0,
+      "errors": []
+    },
+    {
+      "id": "974e3e3d-6ff1-4ff9-803e-29be5d44ff86",
+      "created_at": "2026-10-26T20:34:33.687Z",
+      "destination": "a misty pine forest",
+      "room": {
+        "portal": {
+          "w_m": 1,
+          "h_m": 1.9,
+          "bottom_m": 0,
+          "wall": {
+            "label": "wall",
+            "w_m": 5,
+            "h_m": 2.7
+          }
+        },
+        "viewer": {
+          "eye_height_m": 1.6,
+          "distance_to_portal_m": 3.4
+        },
+        "room": {
+          "ceiling_m": 2.7,
+          "floor_area_m2": 29,
+          "objects": [
+            {
+              "label": "couch",
+              "dims_m": [
+                2.3,
+                0.86,
+                0.94
+              ],
+              "side": "in front",
+              "distance_m": 0.52
+            },
+            {
+              "label": "table",
+              "dims_m": [
+                1.15,
+                0.44,
+                0.6
+              ],
+              "side": "in front",
+              "distance_m": 1.45
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.4,
+                1.72,
+                0.4
+              ],
+              "side": "right",
+              "distance_m": 1.58
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.46,
+                1.1,
+                0.46
+              ],
+              "side": "left",
+              "distance_m": 1.59
+            },
+            {
+              "label": "couch",
+              "dims_m": [
+                1.12,
+                0.9,
+                1.12
+              ],
+              "side": "left",
+              "distance_m": 2.77
+            },
+            {
+              "label": "shelf",
+              "dims_m": [
+                1.9,
+                0.52,
+                0.42
+              ],
+              "side": "right",
+              "distance_m": 3.03
+            },
+            {
+              "label": "screen",
+              "dims_m": [
+                1.46,
+                0.84,
+                0.04
+              ],
+              "side": "right",
+              "distance_m": 3.18
+            }
+          ]
+        },
+        "light": {
+          "available": false
+        },
+        "local_time": "02:04",
+        "destination_text": "a misty pine forest"
+      },
+      "plan": null,
+      "image": {
+        "source": "cc0-sample",
+        "stamp": "Sample, not generated",
+        "model": null,
+        "request_id": null,
+        "latency_ms": null,
+        "width": 4096,
+        "height": 2048,
+        "format": null,
+        "file": null,
+        "sample_id": "misty_pines",
+        "web_tools": false
+      },
+      "transcript": null,
+      "pano": {
+        "width": 4096,
+        "height": 2048,
+        "aspect": 2,
+        "seam_delta_e": 2.678755056495297,
+        "inner_delta_e": 2.4582827857581835,
+        "horizon_row": 142,
+        "horizon_offset": 0.0546875,
+        "pole_spread": 1.456601022269237,
+        "horizon_hex": "#614f29",
+        "pano_mode": "cylinder"
+      },
+      "timings": {
+        "time_to_world_ms": 14676
+      },
+      "cost_usd": 0,
+      "errors": []
+    },
+    {
+      "id": "f645200b-74b4-4e03-b183-651441e844f1",
+      "created_at": "2026-10-26T20:34:01.085Z",
+      "destination": "a seafront at sunset",
+      "room": {
+        "portal": {
+          "w_m": 1,
+          "h_m": 2,
+          "bottom_m": 0,
+          "wall": {
+            "label": "paper wall (virtual)",
+            "w_m": 2,
+            "h_m": 2.4
+          }
+        },
+        "viewer": {
+          "eye_height_m": 1.6,
+          "distance_to_portal_m": 2
+        },
+        "room": {
+          "ceiling_m": null,
+          "floor_area_m2": null,
+          "objects": []
+        },
+        "light": {
+          "available": false
+        },
+        "local_time": "02:04",
+        "destination_text": "a seafront at sunset"
+      },
+      "plan": null,
+      "image": {
+        "source": "cc0-sample",
+        "stamp": "Sample, not generated",
+        "model": null,
+        "request_id": null,
+        "latency_ms": null,
+        "width": 4096,
+        "height": 2048,
+        "format": null,
+        "file": null,
+        "sample_id": "the_sky_is_on_fire",
+        "web_tools": false
+      },
+      "transcript": null,
+      "pano": {
+        "width": 4096,
+        "height": 2048,
+        "aspect": 2,
+        "seam_delta_e": 1.1274350095497043,
+        "inner_delta_e": 1.2661719643519682,
+        "horizon_row": 126,
+        "horizon_offset": -0.0078125,
+        "pole_spread": 1.3193521506229717,
+        "horizon_hex": "#b09498",
+        "pano_mode": "equirect"
+      },
+      "timings": {
+        "time_to_world_ms": 2219
+      },
+      "cost_usd": 0,
+      "errors": []
+    },
+    {
+      "id": "3402a8ec-48c3-400a-a5c9-04482383cf76",
+      "created_at": "2026-10-26T20:33:35.841Z",
+      "destination": "a misty pine forest",
+      "room": {
+        "portal": {
+          "w_m": 0.9,
+          "h_m": 2,
+          "bottom_m": 0,
+          "wall": {
+            "label": "wall",
+            "w_m": 5.8,
+            "h_m": 2.7
+          }
+        },
+        "viewer": {
+          "eye_height_m": 1.6,
+          "distance_to_portal_m": 2.5
+        },
+        "room": {
+          "ceiling_m": 2.7,
+          "floor_area_m2": 29,
+          "objects": [
+            {
+              "label": "couch",
+              "dims_m": [
+                1.12,
+                0.9,
+                1.12
+              ],
+              "side": "left",
+              "distance_m": 1.03
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.46,
+                1.1,
+                0.46
+              ],
+              "side": "right",
+              "distance_m": 1.45
+            },
+            {
+              "label": "plant",
+              "dims_m": [
+                0.75,
+                1.95,
+                0.75
+              ],
+              "side": "left",
+              "distance_m": 2.33
+            },
+            {
+              "label": "table",
+              "dims_m": [
+                1.15,
+                0.44,
+                0.6
+              ],
+              "side": "in front",
+              "distance_m": 2.5
+            },
+            {
+              "label": "couch",
+              "dims_m": [
+                2.3,
+                0.86,
+                0.94
+              ],
+              "side": "in front",
+              "distance_m": 2.67
+            },
+            {
+              "label": "other",
+              "dims_m": [
+                0.6,
+                0.85,
+                0.6
+              ],
+              "side": "left",
+              "distance_m": 3.09
+            },
+            {
+              "label": "table",
+              "dims_m": [
+                0.9,
+                0.76,
+                0.9
+              ],
+              "side": "left",
+              "distance_m": 3.65
+            }
+          ]
+        },
+        "light": {
+          "available": false
+        },
+        "local_time": "02:03",
+        "destination_text": "a misty pine forest"
+      },
+      "plan": null,
+      "image": {
+        "source": "cc0-sample",
+        "stamp": "Sample, not generated",
+        "model": null,
+        "request_id": null,
+        "latency_ms": null,
+        "width": 4096,
+        "height": 2048,
+        "format": null,
+        "file": null,
+        "sample_id": "misty_pines",
+        "web_tools": false
+      },
+      "transcript": null,
+      "pano": {
+        "width": 4096,
+        "height": 2048,
+        "aspect": 2,
+        "seam_delta_e": 7.037860019692314,
+        "inner_delta_e": 5.585025717178965,
+        "horizon_row": 133,
+        "horizon_offset": 0.01953125,
+        "pole_spread": 3.4075015244125986,
+        "horizon_hex": "#9d9d97",
+        "pano_mode": "equirect"
+      },
+      "timings": {
+        "time_to_world_ms": 2124
+      },
+      "cost_usd": 0,
+      "errors": []
+    },
+    {
+      "id": "cdbe91c5-da6d-432e-8a6a-da2d37525cb1",
+      "created_at": "2026-10-26T20:33:30.804Z",
+      "destination": "a savanna under the stars",
+      "room": {
+        "portal": {
+          "w_m": 0.8,
+          "h_m": 2,
+          "bottom_m": 0,
+          "wall": {
+            "label": "wall",
+            "w_m": 5.8,
+            "h_m": 2.7
+          }
+        },
+        "viewer": {
+          "eye_height_m": 1.6,
+          "distance_to_portal_m": 2.5
+        },
+        "room": {
+          "ceiling_m": 2.7,
+          "floor_area_m2": 29,
+          "objects": [
+            {
+              "label": "screen",
+              "dims_m": [
+                1.46,
+                0.84,
+                0.04
+              ],
+              "side": "right",
+              "distance_m": 0.2
+            },
+            {
+              "label": "shelf",
+              "dims_m": [
+                1.9,
+                0.52,
+                0.42
+              ],
+              "side": "right",
+              "distance_m": 0.3
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.4,
+                1.72,
+                0.4
+              ],
+              "side": "left",
+              "distance_m": 1.78
+            },
+            {
+              "label": "shelf",
+              "dims_m": [
+                0.9,
+                1.9,
+                0.34
+              ],
+              "side": "right",
+              "distance_m": 2.31
+            },
+            {
+              "label": "table",
+              "dims_m": [
+                1.15,
+                0.44,
+                0.6
+              ],
+              "side": "in front",
+              "distance_m": 2.52
+            },
+            {
+              "label": "couch",
+              "dims_m": [
+                2.3,
+                0.86,
+                0.94
+              ],
+              "side": "in front",
+              "distance_m": 2.81
+            }
+          ]
+        },
+        "light": {
+          "available": false
+        },
+        "local_time": "02:03",
+        "destination_text": "a savanna under the stars"
+      },
+      "plan": null,
+      "image": {
+        "source": "cc0-sample",
+        "stamp": "Sample, not generated",
+        "model": null,
+        "request_id": null,
+        "latency_ms": null,
+        "width": 4096,
+        "height": 2048,
+        "format": null,
+        "file": null,
+        "sample_id": "satara_night",
+        "web_tools": false
+      },
+      "transcript": null,
+      "pano": {
+        "width": 4096,
+        "height": 2048,
+        "aspect": 2,
+        "seam_delta_e": 2.678755056495297,
+        "inner_delta_e": 2.4582827857581835,
+        "horizon_row": 142,
+        "horizon_offset": 0.0546875,
+        "pole_spread": 1.456601022269237,
+        "horizon_hex": "#614f29",
+        "pano_mode": "cylinder"
+      },
+      "timings": {
+        "time_to_world_ms": 2170
+      },
+      "cost_usd": 0,
+      "errors": []
+    },
+    {
+      "id": "58672460-e3b9-40ab-bfdd-81553ecf0eb1",
+      "created_at": "2026-10-26T20:33:26.313Z",
+      "destination": "a seafront at sunset",
+      "room": {
+        "portal": {
+          "w_m": 0.8,
+          "h_m": 2.2,
+          "bottom_m": 0,
+          "wall": {
+            "label": "wall",
+            "w_m": 5,
+            "h_m": 2.7
+          }
+        },
+        "viewer": {
+          "eye_height_m": 1.6,
+          "distance_to_portal_m": 3.4
+        },
+        "room": {
+          "ceiling_m": 2.7,
+          "floor_area_m2": 29,
+          "objects": [
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.46,
+                1.1,
+                0.46
+              ],
+              "side": "in front",
+              "distance_m": 0.35
+            },
+            {
+              "label": "couch",
+              "dims_m": [
+                2.3,
+                0.86,
+                0.94
+              ],
+              "side": "right",
+              "distance_m": 1.68
+            },
+            {
+              "label": "table",
+              "dims_m": [
+                1.15,
+                0.44,
+                0.6
+              ],
+              "side": "right",
+              "distance_m": 2.16
+            },
+            {
+              "label": "couch",
+              "dims_m": [
+                1.12,
+                0.9,
+                1.12
+              ],
+              "side": "in front",
+              "distance_m": 2.16
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.4,
+                1.72,
+                0.4
+              ],
+              "side": "right",
+              "distance_m": 3.16
+            },
+            {
+              "label": "plant",
+              "dims_m": [
+                0.75,
+                1.95,
+                0.75
+              ],
+              "side": "in front",
+              "distance_m": 3.79
+            }
+          ]
+        },
+        "light": {
+          "available": false
+        },
+        "local_time": "02:03",
+        "destination_text": "a seafront at sunset"
+      },
+      "plan": null,
+      "image": {
+        "source": "cc0-sample",
+        "stamp": "Sample, not generated",
+        "model": null,
+        "request_id": null,
+        "latency_ms": null,
+        "width": 4096,
+        "height": 2048,
+        "format": null,
+        "file": null,
+        "sample_id": "the_sky_is_on_fire",
+        "web_tools": false
+      },
+      "transcript": null,
+      "pano": {
+        "width": 4096,
+        "height": 2048,
+        "aspect": 2,
+        "seam_delta_e": 1.1274350095497043,
+        "inner_delta_e": 1.2661719643519682,
+        "horizon_row": 126,
+        "horizon_offset": -0.0078125,
+        "pole_spread": 1.3193521506229717,
+        "horizon_hex": "#b09498",
+        "pano_mode": "equirect"
+      },
+      "timings": {
+        "time_to_world_ms": 2112
+      },
+      "cost_usd": 0,
+      "errors": []
+    },
+    {
+      "id": "d87b9d9c-1fc6-4e2c-8f2b-11ff679176de",
+      "created_at": "2026-10-26T20:33:04.941Z",
+      "destination": "a misty pine forest",
+      "room": {
+        "portal": {
+          "w_m": 0.9,
+          "h_m": 1.9,
+          "bottom_m": 0,
+          "wall": {
+            "label": "wall",
+            "w_m": 4.5,
+            "h_m": 2.7
+          }
+        },
+        "viewer": {
+          "eye_height_m": 1.6,
+          "distance_to_portal_m": 2.25
+        },
+        "room": {
+          "ceiling_m": 2.7,
+          "floor_area_m2": 20.3,
+          "objects": [
+            {
+              "label": "shelf",
+              "dims_m": [
+                1.3,
+                0.82,
+                0.5
+              ],
+              "side": "right",
+              "distance_m": 1.08
+            },
+            {
+              "label": "bed",
+              "dims_m": [
+                2.16,
+                1.15,
+                1.72
+              ],
+              "side": "left",
+              "distance_m": 1.85
+            },
+            {
+              "label": "table",
+              "dims_m": [
+                0.46,
+                0.56,
+                0.42
+              ],
+              "side": "left",
+              "distance_m": 2.05
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.32,
+                0.5,
+                0.32
+              ],
+              "side": "left",
+              "distance_m": 2.08
+            },
+            {
+              "label": "table",
+              "dims_m": [
+                0.46,
+                0.56,
+                0.42
+              ],
+              "side": "left",
+              "distance_m": 3.27
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.32,
+                0.5,
+                0.32
+              ],
+              "side": "left",
+              "distance_m": 3.29
+            },
+            {
+              "label": "couch",
+              "dims_m": [
+                1.11,
+                0.88,
+                1.08
+              ],
+              "side": "in front",
+              "distance_m": 3.84
+            },
+            {
+              "label": "shelf",
+              "dims_m": [
+                1.05,
+                2.25,
+                0.61
+              ],
+              "side": "in front",
+              "distance_m": 3.87
+            }
+          ]
+        },
+        "light": {
+          "available": false
+        },
+        "local_time": "02:03",
+        "destination_text": "a misty pine forest"
+      },
+      "plan": null,
+      "image": {
+        "source": "cc0-sample",
+        "stamp": "Sample, not generated",
+        "model": null,
+        "request_id": null,
+        "latency_ms": null,
+        "width": 4096,
+        "height": 2048,
+        "format": null,
+        "file": null,
+        "sample_id": "misty_pines",
+        "web_tools": false
+      },
+      "transcript": null,
+      "pano": {
+        "width": 4096,
+        "height": 2048,
+        "aspect": 2,
+        "seam_delta_e": 7.037860019692314,
+        "inner_delta_e": 5.585025717178965,
+        "horizon_row": 133,
+        "horizon_offset": 0.01953125,
+        "pole_spread": 3.4075015244125986,
+        "horizon_hex": "#9d9d97",
+        "pano_mode": "equirect"
+      },
+      "timings": {
+        "time_to_world_ms": 2090
+      },
+      "cost_usd": 0,
+      "errors": []
+    },
+    {
+      "id": "8f538a35-779a-4812-8328-28289869b2b7",
+      "created_at": "2026-10-26T20:32:46.951Z",
+      "destination": "a misty pine forest",
+      "room": {
+        "portal": {
+          "w_m": 1,
+          "h_m": 1.95,
+          "bottom_m": 0,
+          "wall": {
+            "label": "wall",
+            "w_m": 6,
+            "h_m": 2.1
+          }
+        },
+        "viewer": {
+          "eye_height_m": 1.6,
+          "distance_to_portal_m": 0.75
+        },
+        "room": {
+          "ceiling_m": 2.1,
+          "floor_area_m2": 9,
+          "objects": [
+            {
+              "label": "plant",
+              "dims_m": [
+                0.42,
+                1.1,
+                0.42
+              ],
+              "side": "left",
+              "distance_m": 2.88
+            }
+          ]
+        },
+        "light": {
+          "available": false
+        },
+        "local_time": "02:02",
+        "destination_text": "a misty pine forest"
+      },
+      "plan": null,
+      "image": {
+        "source": "cc0-sample",
+        "stamp": "Sample, not generated",
+        "model": null,
+        "request_id": null,
+        "latency_ms": null,
+        "width": 4096,
+        "height": 2048,
+        "format": null,
+        "file": null,
+        "sample_id": "misty_pines",
+        "web_tools": false
+      },
+      "transcript": null,
+      "pano": {
+        "width": 4096,
+        "height": 2048,
+        "aspect": 2,
+        "seam_delta_e": 7.037860019692314,
+        "inner_delta_e": 5.585025717178965,
+        "horizon_row": 133,
+        "horizon_offset": 0.01953125,
+        "pole_spread": 3.4075015244125986,
+        "horizon_hex": "#9d9d97",
+        "pano_mode": "equirect"
+      },
+      "timings": {
+        "time_to_world_ms": 2091
+      },
+      "cost_usd": 0,
+      "errors": []
+    },
+    {
+      "id": "c339e2ca-8154-4b76-b864-2479ab5dd3ea",
+      "created_at": "2026-10-26T20:32:28.580Z",
+      "destination": "a misty pine forest",
+      "room": {
+        "portal": {
+          "w_m": 1.1,
+          "h_m": 2,
+          "bottom_m": 0,
+          "wall": {
+            "label": "wall",
+            "w_m": 3.6,
+            "h_m": 2.4
+          }
+        },
+        "viewer": {
+          "eye_height_m": 1.6,
+          "distance_to_portal_m": 2.6
+        },
+        "room": {
+          "ceiling_m": 2.4,
+          "floor_area_m2": 15.1,
+          "objects": [
+            {
+              "label": "couch",
+              "dims_m": [
+                2,
+                0.86,
+                0.94
+              ],
+              "side": "in front",
+              "distance_m": 0.52
+            },
+            {
+              "label": "table",
+              "dims_m": [
+                1,
+                0.42,
+                0.55
+              ],
+              "side": "in front",
+              "distance_m": 1.17
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.4,
+                1.72,
+                0.4
+              ],
+              "side": "right",
+              "distance_m": 1.39
+            },
+            {
+              "label": "plant",
+              "dims_m": [
+                0.5,
+                1.3,
+                0.5
+              ],
+              "side": "in front",
+              "distance_m": 3.99
+            }
+          ]
+        },
+        "light": {
+          "available": false
+        },
+        "local_time": "02:02",
+        "destination_text": "a misty pine forest"
+      },
+      "plan": null,
+      "image": {
+        "source": "cc0-sample",
+        "stamp": "Sample, not generated",
+        "model": null,
+        "request_id": null,
+        "latency_ms": null,
+        "width": 4096,
+        "height": 2048,
+        "format": null,
+        "file": null,
+        "sample_id": "misty_pines",
+        "web_tools": false
+      },
+      "transcript": null,
+      "pano": {
+        "width": 4096,
+        "height": 2048,
+        "aspect": 2,
+        "seam_delta_e": 7.037860019692314,
+        "inner_delta_e": 5.585025717178965,
+        "horizon_row": 133,
+        "horizon_offset": 0.01953125,
+        "pole_spread": 3.4075015244125986,
+        "horizon_hex": "#9d9d97",
+        "pano_mode": "equirect"
+      },
+      "timings": {
+        "time_to_world_ms": 2109
+      },
+      "cost_usd": 0,
+      "errors": []
+    },
+    {
+      "id": "a698d1d4-ee5c-46c1-b233-6aa5cac8b173",
+      "created_at": "2026-10-26T20:32:09.403Z",
+      "destination": "a misty pine forest",
+      "room": {
+        "portal": {
+          "w_m": 1.2,
+          "h_m": 2.05,
+          "bottom_m": 0,
+          "wall": {
+            "label": "wall",
+            "w_m": 5,
+            "h_m": 2.7
+          }
+        },
+        "viewer": {
+          "eye_height_m": 1.6,
+          "distance_to_portal_m": 3.4
+        },
+        "room": {
+          "ceiling_m": 2.7,
+          "floor_area_m2": 29,
+          "objects": [
+            {
+              "label": "couch",
+              "dims_m": [
+                2.3,
+                0.86,
+                0.94
+              ],
+              "side": "in front",
+              "distance_m": 0.52
+            },
+            {
+              "label": "table",
+              "dims_m": [
+                1.15,
+                0.44,
+                0.6
+              ],
+              "side": "in front",
+              "distance_m": 1.45
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.4,
+                1.72,
+                0.4
+              ],
+              "side": "right",
+              "distance_m": 1.58
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.46,
+                1.1,
+                0.46
+              ],
+              "side": "left",
+              "distance_m": 1.59
+            },
+            {
+              "label": "couch",
+              "dims_m": [
+                1.12,
+                0.9,
+                1.12
+              ],
+              "side": "left",
+              "distance_m": 2.77
+            },
+            {
+              "label": "shelf",
+              "dims_m": [
+                1.9,
+                0.52,
+                0.42
+              ],
+              "side": "right",
+              "distance_m": 3.03
+            },
+            {
+              "label": "screen",
+              "dims_m": [
+                1.46,
+                0.84,
+                0.04
+              ],
+              "side": "right",
+              "distance_m": 3.18
+            }
+          ]
+        },
+        "light": {
+          "available": false
+        },
+        "local_time": "02:02",
+        "destination_text": "a misty pine forest"
+      },
+      "plan": null,
+      "image": {
+        "source": "cc0-sample",
+        "stamp": "Sample, not generated",
+        "model": null,
+        "request_id": null,
+        "latency_ms": null,
+        "width": 4096,
+        "height": 2048,
+        "format": null,
+        "file": null,
+        "sample_id": "misty_pines",
+        "web_tools": false
+      },
+      "transcript": null,
+      "pano": {
+        "width": 4096,
+        "height": 2048,
+        "aspect": 2,
+        "seam_delta_e": 7.037860019692314,
+        "inner_delta_e": 5.585025717178965,
+        "horizon_row": 133,
+        "horizon_offset": 0.01953125,
+        "pole_spread": 3.4075015244125986,
+        "horizon_hex": "#9d9d97",
+        "pano_mode": "equirect"
+      },
+      "timings": {
+        "time_to_world_ms": 2160
+      },
+      "cost_usd": 0,
+      "errors": []
+    },
+    {
+      "id": "443d77ed-c287-4381-815d-e920bfa54ecf",
+      "created_at": "2026-10-26T20:31:32.738Z",
+      "destination": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "room": {
+        "portal": {
+          "w_m": 1.1,
+          "h_m": 2,
+          "bottom_m": 0,
+          "wall": {
+            "label": "wall",
+            "w_m": 3.6,
+            "h_m": 2.4
+          }
+        },
+        "viewer": {
+          "eye_height_m": 1.6,
+          "distance_to_portal_m": 2.6
+        },
+        "room": {
+          "ceiling_m": 2.4,
+          "floor_area_m2": 15.1,
+          "objects": [
+            {
+              "label": "couch",
+              "dims_m": [
+                2,
+                0.86,
+                0.94
+              ],
+              "side": "in front",
+              "distance_m": 0.52
+            },
+            {
+              "label": "table",
+              "dims_m": [
+                1,
+                0.42,
+                0.55
+              ],
+              "side": "in front",
+              "distance_m": 1.17
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.4,
+                1.72,
+                0.4
+              ],
+              "side": "right",
+              "distance_m": 1.39
+            },
+            {
+              "label": "plant",
+              "dims_m": [
+                0.5,
+                1.3,
+                0.5
+              ],
+              "side": "in front",
+              "distance_m": 3.99
+            }
+          ]
+        },
+        "light": {
+          "available": false
+        },
+        "local_time": "16:34",
+        "destination_text": "a misty pine forest"
+      },
+      "plan": null,
+      "image": {
+        "source": "user-upload",
+        "stamp": "Your image, not generated",
+        "model": null,
+        "request_id": null,
+        "latency_ms": null,
+        "width": null,
+        "height": null,
+        "format": null,
+        "file": null,
+        "sample_id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "web_tools": false
+      },
+      "transcript": null,
+      "pano": null,
+      "timings": null,
+      "cost_usd": 0,
+      "errors": []
+    },
+    {
+      "id": "4922306c-122c-45f7-983d-2696ad41bef8",
+      "created_at": "2026-10-26T20:31:32.665Z",
+      "destination": "real audit sample",
+      "room": {
+        "portal": {
+          "w_m": 1.1,
+          "h_m": 2,
+          "bottom_m": 0,
+          "wall": {
+            "label": "wall",
+            "w_m": 3.6,
+            "h_m": 2.4
+          }
+        },
+        "viewer": {
+          "eye_height_m": 1.6,
+          "distance_to_portal_m": 2.6
+        },
+        "room": {
+          "ceiling_m": 2.4,
+          "floor_area_m2": 15.1,
+          "objects": [
+            {
+              "label": "couch",
+              "dims_m": [
+                2,
+                0.86,
+                0.94
+              ],
+              "side": "in front",
+              "distance_m": 0.52
+            },
+            {
+              "label": "table",
+              "dims_m": [
+                1,
+                0.42,
+                0.55
+              ],
+              "side": "in front",
+              "distance_m": 1.17
+            },
+            {
+              "label": "lamp",
+              "dims_m": [
+                0.4,
+                1.72,
+                0.4
+              ],
+              "side": "right",
+              "distance_m": 1.39
+            },
+            {
+              "label": "plant",
+              "dims_m": [
+                0.5,
+                1.3,
+                0.5
+              ],
+              "side": "in front",
+              "distance_m": 3.99
+            }
+          ]
+        },
+        "light": {
+          "available": false
+        },
+        "local_time": "16:34",
+        "destination_text": "a misty pine forest"
+      },
+      "plan": null,
+      "image": {
+        "source": "user-upload",
+        "stamp": "Your image, not generated",
+        "model": null,
+        "request_id": null,
+        "latency_ms": null,
+        "width": null,
+        "height": null,
+        "format": null,
+        "file": null,
+        "sample_id": "misty_pines",
+        "web_tools": false
+      },
+      "transcript": null,
+      "pano": null,
+      "timings": null,
+      "cost_usd": 0,
+      "errors": []
+    }
+  ]
+}

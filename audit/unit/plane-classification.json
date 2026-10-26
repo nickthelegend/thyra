@@ -1,0 +1,14 @@
+[
+  {
+    "case": "unlabelled vertical normal",
+    "ok": true
+  },
+  {
+    "case": "unlabelled horizontal normal",
+    "ok": true
+  },
+  {
+    "case": "explicit horizontal never draw wall",
+    "ok": true
+  }
+]

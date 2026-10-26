@@ -1,0 +1,5 @@
+packages/xr/src/canvas-panel.ts:66:  private font(size: number, weight: number, mono?: boolean, tracking?: number): void {
+packages/xr/src/canvas-panel.ts:69:    if ('letterSpacing' in ctx) (ctx as unknown as { letterSpacing: string }).letterSpacing = `${tracking ?? (mono ? 0 : -0.02 * size)}px`;
+packages/xr/src/canvas-panel.ts:72:  text(s: string, x: number, y: number, size: number, opts: { color?: string; weight?: number; mono?: boolean; align?: CanvasTextAlign; maxWidth?: number; tracking?: number } = {}): number {
+packages/xr/src/canvas-panel.ts:74:    this.font(size, opts.weight ?? (opts.mono ? 400 : 500), opts.mono, opts.tracking);
+packages/xr/src/canvas-panel.ts:93:    // previous call (e.g. a sans title's negative tracking) made mono lines measure ~70 px short and overflow

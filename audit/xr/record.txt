@@ -1,0 +1,1 @@
+thyra-01-tear-open: 1295 frames, 35.0 s → /tmp/thyra-t5-videos/thyra-01-tear-open.mp4

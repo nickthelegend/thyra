@@ -1,0 +1,521 @@
+{
+  "checks": {
+    "audit/app/pages-checks.json": {
+      "passed": 63,
+      "failed": 0
+    },
+    "audit/gateway/checks.json": {
+      "passed": 45,
+      "failed": 0
+    },
+    "audit/gateway/browser-checks.json": {
+      "passed": 30,
+      "failed": 0
+    },
+    "audit/gateway/restart-checks.json": {
+      "passed": 2,
+      "failed": 0
+    },
+    "audit/xr/minimum.json": {
+      "passed": 1,
+      "failed": 0
+    },
+    "audit/xr/quest-checks.json": {
+      "passed": 56,
+      "failed": 0
+    },
+    "audit/xr/supplement.json": {
+      "passed": 24,
+      "failed": 0
+    },
+    "audit/xr/edges.json": {
+      "passed": 11,
+      "failed": 0
+    },
+    "audit/xr/render.json": {
+      "passed": 32,
+      "failed": 0
+    },
+    "audit/xr/offline.json": {
+      "passed": 4,
+      "failed": 0
+    },
+    "audit/xr/glasses-checks.json": {
+      "passed": 7,
+      "failed": 0
+    },
+    "audit/xr/no-depth.json": {
+      "passed": 3,
+      "failed": 0
+    },
+    "audit/xr/client.json": {
+      "passed": 5,
+      "failed": 0
+    },
+    "audit/xr/interrupt.json": {
+      "passed": 5,
+      "failed": 0
+    }
+  },
+  "unit": {
+    "passed": 56,
+    "total": 56,
+    "failed": 0,
+    "skipped": 0,
+    "files": 9
+  },
+  "xr": {
+    "events": 24272,
+    "responses": 11977,
+    "attached_epochs": [
+      {
+        "at": "2026-10-26T20:30:45.232Z",
+        "epoch": 1,
+        "stage": "pages",
+        "type": "attached",
+        "pid": 51723
+      },
+      {
+        "at": "2026-10-26T20:42:39.671Z",
+        "epoch": 2,
+        "stage": "glasses",
+        "type": "attached",
+        "pid": 51723
+      },
+      {
+        "at": "2026-10-26T20:43:09.020Z",
+        "epoch": 3,
+        "stage": "depth-session-reconfiguration",
+        "type": "attached",
+        "pid": 51723
+      },
+      {
+        "at": "2026-10-26T20:43:35.228Z",
+        "epoch": 4,
+        "stage": "depth-session-reconfiguration",
+        "type": "attached",
+        "pid": 51723
+      }
+    ],
+    "unexpected_errors": [],
+    "expected_negative_events": [
+      {
+        "at": "2026-10-26T20:41:03.112Z",
+        "epoch": 1,
+        "stage": "gateway-interruption-expected",
+        "type": "response",
+        "method": "POST",
+        "url": "https://localhost:8443/api/runs",
+        "status": 500
+      },
+      {
+        "at": "2026-10-26T20:41:03.114Z",
+        "epoch": 1,
+        "stage": "gateway-interruption-expected",
+        "type": "console",
+        "level": "error",
+        "message": "Failed to load resource: the server responded with a status of 500 ()"
+      },
+      {
+        "at": "2026-10-26T20:41:19.119Z",
+        "epoch": 1,
+        "stage": "gateway-interruption-expected",
+        "type": "response",
+        "method": "GET",
+        "url": "https://localhost:8443/api/status",
+        "status": 500
+      },
+      {
+        "at": "2026-10-26T20:41:19.120Z",
+        "epoch": 1,
+        "stage": "gateway-interruption-expected",
+        "type": "console",
+        "level": "error",
+        "message": "Failed to load resource: the server responded with a status of 500 ()"
+      },
+      {
+        "at": "2026-10-26T20:45:05.611Z",
+        "epoch": 4,
+        "stage": "client-non-json-expected",
+        "type": "response",
+        "method": "GET",
+        "url": "http://127.0.0.1:8431/api/status",
+        "status": 404
+      },
+      {
+        "at": "2026-10-26T20:45:05.611Z",
+        "epoch": 4,
+        "stage": "client-non-json-expected",
+        "type": "console",
+        "level": "error",
+        "message": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      },
+      {
+        "at": "2026-10-26T20:45:08.626Z",
+        "epoch": 4,
+        "stage": "client-non-json-expected",
+        "type": "response",
+        "method": "POST",
+        "url": "http://127.0.0.1:8431/api/runs",
+        "status": 404
+      },
+      {
+        "at": "2026-10-26T20:45:08.626Z",
+        "epoch": 4,
+        "stage": "client-non-json-expected",
+        "type": "console",
+        "level": "error",
+        "message": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      },
+      {
+        "at": "2026-10-26T20:45:12.809Z",
+        "epoch": 4,
+        "stage": "client-json-expected",
+        "type": "response",
+        "method": "POST",
+        "url": "https://localhost:8443/api/plan",
+        "status": 503
+      },
+      {
+        "at": "2026-10-26T20:45:12.809Z",
+        "epoch": 4,
+        "stage": "client-json-expected",
+        "type": "console",
+        "level": "error",
+        "message": "Failed to load resource: the server responded with a status of 503 ()"
+      },
+      {
+        "at": "2026-10-26T20:45:17.124Z",
+        "epoch": 4,
+        "stage": "client-timeout-expected",
+        "type": "requestfailed",
+        "url": "https://localhost:8443/api/status",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "at": "2026-10-26T20:45:33.732Z",
+        "epoch": 4,
+        "stage": "client-timeout-expected",
+        "type": "requestfailed",
+        "url": "https://localhost:8443/api/status",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "at": "2026-10-26T20:45:53.749Z",
+        "epoch": 4,
+        "stage": "client-timeout-expected",
+        "type": "requestfailed",
+        "url": "https://localhost:8443/api/status",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "at": "2026-10-26T20:46:13.765Z",
+        "epoch": 4,
+        "stage": "client-timeout-expected",
+        "type": "requestfailed",
+        "url": "https://localhost:8443/api/status",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "at": "2026-10-26T20:46:33.781Z",
+        "epoch": 4,
+        "stage": "client-timeout-expected",
+        "type": "requestfailed",
+        "url": "https://localhost:8443/api/status",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "at": "2026-10-26T20:46:53.799Z",
+        "epoch": 4,
+        "stage": "client-timeout-expected",
+        "type": "requestfailed",
+        "url": "https://localhost:8443/api/status",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "at": "2026-10-26T20:47:13.817Z",
+        "epoch": 4,
+        "stage": "client-timeout-expected",
+        "type": "requestfailed",
+        "url": "https://localhost:8443/api/status",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "at": "2026-10-26T20:47:27.436Z",
+        "epoch": 4,
+        "stage": "client-timeout-expected",
+        "type": "requestfailed",
+        "url": "https://localhost:8443/api/runs",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "at": "2026-10-26T20:53:55.600Z",
+        "epoch": 4,
+        "stage": "persistence-restored",
+        "type": "response",
+        "method": "GET",
+        "url": "https://localhost:8443/api/status",
+        "status": 500
+      },
+      {
+        "at": "2026-10-26T20:53:55.601Z",
+        "epoch": 4,
+        "stage": "persistence-restored",
+        "type": "console",
+        "level": "error",
+        "message": "Failed to load resource: the server responded with a status of 500 ()"
+      }
+    ],
+    "post_test_shutdown_events": [
+      {
+        "at": "2026-10-26T20:53:55.600Z",
+        "epoch": 4,
+        "stage": "persistence-restored",
+        "type": "response",
+        "method": "GET",
+        "url": "https://localhost:8443/api/status",
+        "status": 500
+      },
+      {
+        "at": "2026-10-26T20:53:55.601Z",
+        "epoch": 4,
+        "stage": "persistence-restored",
+        "type": "console",
+        "level": "error",
+        "message": "Failed to load resource: the server responded with a status of 500 ()"
+      }
+    ]
+  },
+  "pages": {
+    "principal_viewports": 4,
+    "page_contexts": 9,
+    "unexpected_errors": [],
+    "expected_negative_events": [
+      {
+        "label": "L12",
+        "type": "response",
+        "url": "http://127.0.0.1:8431/missing/data/schedule.json",
+        "status": 404,
+        "negative": true
+      },
+      {
+        "label": "L12",
+        "type": "console",
+        "level": "error",
+        "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "negative": true
+      },
+      {
+        "label": "L13",
+        "type": "requestfailed",
+        "url": "http://127.0.0.1:8431/media/thyra-hero.mp4",
+        "message": "net::ERR_ABORTED",
+        "negative": false
+      },
+      {
+        "label": "revoked-url-negative-375",
+        "type": "requestfailed",
+        "url": "blob:https://localhost:8443/ed221780-11c9-4537-80de-6a16d2552610",
+        "message": "net::ERR_FILE_NOT_FOUND",
+        "negative": false
+      },
+      {
+        "label": "revoked-url-negative-375",
+        "type": "console",
+        "level": "error",
+        "message": "Failed to load resource: net::ERR_FILE_NOT_FOUND",
+        "negative": false
+      },
+      {
+        "label": "revoked-url-negative-1280",
+        "type": "requestfailed",
+        "url": "blob:https://localhost:8443/df60b768-7c13-47c1-9b6b-1186567f8d1f",
+        "message": "net::ERR_FILE_NOT_FOUND",
+        "negative": false
+      },
+      {
+        "label": "revoked-url-negative-1280",
+        "type": "console",
+        "level": "error",
+        "message": "Failed to load resource: net::ERR_FILE_NOT_FOUND",
+        "negative": false
+      }
+    ]
+  },
+  "gateway_browser": {
+    "unexpected_errors": []
+  },
+  "gateway_HTTP": {
+    "requests": 47,
+    "unexpected_statuses": []
+  },
+  "configuration_restored_byte_for_byte": true,
+  "cleanup": {
+    "roots": [
+      51670,
+      54161,
+      61576
+    ],
+    "owned_processes": [
+      {
+        "pid": 18484,
+        "ppid": 51723,
+        "command": "/Users/jaibajrang/Library/Caches/ms-playwright/chromium-1248/chrome-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing"
+      },
+      {
+        "pid": 19266,
+        "ppid": 18484,
+        "command": "/Users/jaibajrang/Library/Caches/ms-playwright/chromium-1248/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/156.0.8078.4/Helpers/Google Chrome for Testing Helper (GPU).app/Contents/MacOS/Google Chrome for Testing Helper (GPU)"
+      },
+      {
+        "pid": 19267,
+        "ppid": 18484,
+        "command": "/Users/jaibajrang/Library/Caches/ms-playwright/chromium-1248/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/156.0.8078.4/Helpers/Google Chrome for Testing Helper.app/Contents/MacOS/Google Chrome for Testing Helper"
+      },
+      {
+        "pid": 19449,
+        "ppid": 18484,
+        "command": "/Users/jaibajrang/Library/Caches/ms-playwright/chromium-1248/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/156.0.8078.4/Helpers/Google Chrome for Testing Helper.app/Contents/MacOS/Google Chrome for Testing Helper"
+      },
+      {
+        "pid": 19722,
+        "ppid": 18484,
+        "command": "/Users/jaibajrang/Library/Caches/ms-playwright/chromium-1248/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/156.0.8078.4/Helpers/Google Chrome for Testing Helper (Renderer).app/Contents/MacOS/Google Chrome for Testing Helper (Renderer)"
+      },
+      {
+        "pid": 19723,
+        "ppid": 18484,
+        "command": "/Users/jaibajrang/Library/Caches/ms-playwright/chromium-1248/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/156.0.8078.4/Helpers/Google Chrome for Testing Helper (Renderer).app/Contents/MacOS/Google Chrome for Testing Helper (Renderer)"
+      },
+      {
+        "pid": 19724,
+        "ppid": 18484,
+        "command": "/Users/jaibajrang/Library/Caches/ms-playwright/chromium-1248/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/156.0.8078.4/Helpers/Google Chrome for Testing Helper (Renderer).app/Contents/MacOS/Google Chrome for Testing Helper (Renderer)"
+      },
+      {
+        "pid": 19818,
+        "ppid": 18484,
+        "command": "/Users/jaibajrang/Library/Caches/ms-playwright/chromium-1248/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/156.0.8078.4/Helpers/Google Chrome for Testing Helper.app/Contents/MacOS/Google Chrome for Testing Helper"
+      },
+      {
+        "pid": 51670,
+        "ppid": 38312,
+        "command": "node"
+      },
+      {
+        "pid": 51690,
+        "ppid": 51670,
+        "command": "npm run dev:runtime"
+      },
+      {
+        "pid": 51723,
+        "ppid": 51690,
+        "command": "node"
+      },
+      {
+        "pid": 51724,
+        "ppid": 51723,
+        "command": "/Volumes/Extreme SSD/Projects/grokbot/projects/.loom-worktrees/thyra-4cadce60a69f/omvpn56n2/t5/packages/xr/node_modules/@esbuild/darwin-arm64/bin/esbuild"
+      },
+      {
+        "pid": 54161,
+        "ppid": 38312,
+        "command": "node"
+      }
+    ],
+    "managed_chrome_processes": [
+      {
+        "pid": 18484,
+        "type": "browser"
+      },
+      {
+        "pid": 19723,
+        "type": "renderer"
+      },
+      {
+        "pid": 19724,
+        "type": "renderer"
+      },
+      {
+        "pid": 19722,
+        "type": "renderer"
+      },
+      {
+        "pid": 19266,
+        "type": "GPU"
+      },
+      {
+        "pid": 19267,
+        "type": "network.mojom.NetworkService"
+      },
+      {
+        "pid": 19449,
+        "type": "storage.mojom.StorageService"
+      },
+      {
+        "pid": 19818,
+        "type": "audio.mojom.AudioService"
+      }
+    ],
+    "termination": "SIGTERM by recorded PID; SIGKILL only if a recorded PID remained",
+    "remaining": [],
+    "all_owned_processes_stopped": true,
+    "gateway_interruption_stopped_pid": 51666,
+    "restart_stopped_pid": 50221,
+    "heavy_slot_released": true,
+    "cleanup_started_at": "2026-10-26T20:54:06.187Z",
+    "tests_completed_at": "2026-10-26T20:52:30.407Z",
+    "post_test_shutdown_note": "After all assertions completed, the tool session owning the replacement gateway ended. One later periodic browser status probe returned 500 and emitted its matching console entry before recorder shutdown. These two entries remain in raw evidence and are not normal-path errors."
+  },
+  "images": [
+    {
+      "path": "audit/landing/landing-375.jpg",
+      "bytes": 126736
+    },
+    {
+      "path": "audit/landing/landing-1280.jpg",
+      "bytes": 180467
+    },
+    {
+      "path": "audit/app/app-375.jpg",
+      "bytes": 39425
+    },
+    {
+      "path": "audit/app/app-1280.jpg",
+      "bytes": 89962
+    },
+    {
+      "path": "audit/xr/inside.jpg",
+      "bytes": 44868
+    },
+    {
+      "path": "audit/xr/glasses-open.jpg",
+      "bytes": 40802
+    },
+    {
+      "path": "audit/xr/way-back.jpg",
+      "bytes": 51279
+    },
+    {
+      "path": "audit/xr/occlusion-off.jpg",
+      "bytes": 48524
+    },
+    {
+      "path": "audit/xr/three-worlds.jpg",
+      "bytes": 46992
+    },
+    {
+      "path": "audit/xr/open-door.jpg",
+      "bytes": 47030
+    },
+    {
+      "path": "audit/xr/occlusion-on.jpg",
+      "bytes": 46900
+    },
+    {
+      "path": "audit/xr/glasses-card.jpg",
+      "bytes": 37281
+    }
+  ],
+  "audit_bytes": 6960046
+}

@@ -1,3 +1,4 @@
+import { captureReady } from './audit-capture.ts';
 /**
  * Thyra emulator e2e (IWSDK agent mode: headless Chromium + IWER + SEM rooms).
  * Hands-only: every interaction is an emulated hand ray + pinch. Writes
@@ -222,11 +223,12 @@ async function paperWall() {
 
 // ------------------------------------------------------------------ main
 mkdirSync(`${XR_DIR}artifacts/e2e`, { recursive: true });
-const gw = spawn('node', [`${root}packages/gateway/src/main.ts`], { env: { ...process.env, MODEL_API_KEY: '', THYRA_RUNS_DIR: `${root}deployments/runs-e2e` }, stdio: 'ignore' });
+const gw = process.env.THYRA_EXTERNAL_GATEWAY ? null : spawn('node', [`${root}packages/gateway/src/main.ts`], { env: { ...process.env, MODEL_API_KEY: '', THYRA_RUNS_DIR: process.env.THYRA_RUNS_DIR ?? `${root}deployments/runs-e2e` }, stdio: 'ignore' });
 const started = new Date();
 const startedMs = Date.now();
 let fatal: string | null = null;
 try {
+  await captureReady();
   const st = cli<{ browserCommandReady?: boolean }>('runtime', 'status');
   void st;
   try {
@@ -266,12 +268,13 @@ try {
   fatal = (err as Error).message;
   console.error(fatal);
 } finally {
-  gw.kill();
+  gw?.kill();
 }
 const passed = checks.filter((c) => c.ok).length;
 const out = { started: started.toISOString(), finished: new Date().toISOString(), device: 'IWER metaQuest3 (emulator)', input: 'hands only', fatal, passed, failed: checks.length - passed, checks, metrics };
-mkdirSync(`${root}deployments/e2e`, { recursive: true });
-const file = `${root}deployments/e2e/${started.toISOString().replace(/[:.]/g, '-')}.json`;
+const outputDir = process.env.THYRA_AUDIT_DIR ?? `${root}deployments/e2e`;
+mkdirSync(outputDir, { recursive: true });
+const file = `${outputDir}/${process.env.THYRA_AUDIT_DIR ? 'quest-checks' : started.toISOString().replace(/[:.]/g, '-')}.json`;
 writeFileSync(file, JSON.stringify(out, null, 2));
 console.log(`\n${passed}/${checks.length} passed → ${file}`);
 process.exit(fatal || passed !== checks.length ? 1 : 0);
