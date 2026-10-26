@@ -1,0 +1,507 @@
+{
+  "startedAt": "2026-10-26T19:38:42.855Z",
+  "baseUrl": "http://127.0.0.1:47321/",
+  "browser": {
+    "product": "Chrome for Testing",
+    "version": "156.0.8078.4",
+    "executablePath": "/Users/jaibajrang/Library/Caches/ms-playwright/chromium-1248/chrome-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing"
+  },
+  "viewports": [
+    {
+      "label": "375x812",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "console": [],
+      "pageErrors": [],
+      "responses": [
+        {
+          "url": "http://127.0.0.1:47321/",
+          "status": 200,
+          "method": "GET",
+          "resourceType": "document"
+        },
+        {
+          "url": "http://127.0.0.1:47321/styles.css",
+          "status": 200,
+          "method": "GET",
+          "resourceType": "stylesheet"
+        },
+        {
+          "url": "http://127.0.0.1:47321/media/thyra-hero.jpg",
+          "status": 200,
+          "method": "GET",
+          "resourceType": "image"
+        },
+        {
+          "url": "http://127.0.0.1:47321/app.js",
+          "status": 200,
+          "method": "GET",
+          "resourceType": "script"
+        },
+        {
+          "url": "http://127.0.0.1:47321/media/thyra-hero.mp4",
+          "status": 206,
+          "method": "GET",
+          "resourceType": "media"
+        },
+        {
+          "url": "https://fonts.googleapis.com/css2?family=Host+Grotesk:wght@400;500;600&family=Ubuntu+Sans+Mono:wght@400;500&display=swap",
+          "status": 200,
+          "method": "GET",
+          "resourceType": "stylesheet"
+        },
+        {
+          "url": "http://127.0.0.1:47321/data/schedule.json",
+          "status": 200,
+          "method": "GET",
+          "resourceType": "fetch"
+        },
+        {
+          "url": "https://fonts.gstatic.com/s/hostgrotesk/v5/co3BmWBnlCJ3U42vbbfdwMjZpFjmw07Arg.woff2",
+          "status": 200,
+          "method": "GET",
+          "resourceType": "font"
+        },
+        {
+          "url": "https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyR7mzgBHrR5yE7ZyRg0QRJMKI45gnIfDfySZWz2g.woff2",
+          "status": 200,
+          "method": "GET",
+          "resourceType": "font"
+        },
+        {
+          "url": "https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyR7mzgBHrR5yE7ZyRg0QRJMKI45grIfDfySZU.woff2",
+          "status": 200,
+          "method": "GET",
+          "resourceType": "font"
+        }
+      ],
+      "requestFailed": [],
+      "anchorClicks": [
+        {
+          "href": "#how",
+          "hash": "#how",
+          "drawerOpen": false,
+          "error": null
+        },
+        {
+          "href": "#proof",
+          "hash": "#proof",
+          "drawerOpen": false,
+          "error": null
+        },
+        {
+          "href": "#honest",
+          "hash": "#honest",
+          "drawerOpen": false,
+          "error": null
+        },
+        {
+          "href": "#try",
+          "hash": "#try",
+          "drawerOpen": false,
+          "error": null
+        },
+        {
+          "href": "#evidence",
+          "hash": "#evidence",
+          "drawerOpen": true,
+          "error": null
+        }
+      ],
+      "closed": {
+        "h1": "Open a door in your own wall.",
+        "honestText": "TRANSPARENCY\n\nWhat's live vs Setup required\n\nLive today: WebXR wall plane detection, pinch-drag door drawing, spatial audio, and head-tracked parallax portals.\n\nSetup required: Muse Spark, Image, and Voice require MODEL_API_KEY; CC0 sample worlds load when unkeyed.",
+        "caption": "Recorded run \u00b7 IWER emulator, synthetic living room \u00b7 CC0 sample panorama",
+        "figureText": "1.20\n2.05\nP-01\nRecorded run \u00b7 IWER emulator, synthetic living room \u00b7 CC0 sample panorama",
+        "videoAria": "Recorded run in the IWER emulator",
+        "video": {
+          "currentSrc": "http://127.0.0.1:47321/media/thyra-hero.mp4",
+          "poster": "http://127.0.0.1:47321/media/thyra-hero.jpg",
+          "readyState": 4,
+          "networkState": 1,
+          "videoWidth": 962,
+          "videoHeight": 520,
+          "currentTime": 1.526,
+          "paused": false,
+          "ended": false,
+          "offsetWidth": 129,
+          "offsetHeight": 204,
+          "error": null
+        },
+        "posterDecoded": true,
+        "posterWidth": 960,
+        "posterError": null,
+        "framePixels": 256,
+        "frameSampleError": null,
+        "doorsText": "P-01sunlit_living_room \u00b7 emulator1.20 \u00d7 2.05 ma misty pine forestSetup requiredSample, not generatedequirect2.10 s*0 mmP-02thyra_studio (ours) \u00b7 emulator1.10 \u00d7 2.00 ma misty pine forestSetup requiredSample, not generatedequirect2.04 s*0 mmP-03thyra_hall (ours) \u00b7 emulator1.00 \u00d7 1.95 ma misty pine forestSetup requiredSample, not generatedequirect2.01 s*0 mmP-04bedroom \u00b7 emulator0.90 \u00d7 1.90 ma misty pine forestSetup requiredSample, not generatedequirect2.13 s*0 mm",
+        "rowCount": 4,
+        "p01Cells": [
+          "P-01",
+          "sunlit_living_room \u00b7 emulator",
+          "1.20 \u00d7 2.05 m",
+          "a misty pine forest",
+          "Setup required",
+          "Sample, not generated",
+          "equirect",
+          "2.10 s*",
+          "0 mm"
+        ],
+        "drawerOpen": false,
+        "overflow": 0,
+        "scrollWidth": 375,
+        "clientWidth": 375,
+        "innerWidth": 375,
+        "innerHeight": 812
+      },
+      "open": {
+        "h1": "Open a door in your own wall.",
+        "honestText": "TRANSPARENCY\n\nWhat's live vs Setup required\n\nLive today: WebXR wall plane detection, pinch-drag door drawing, spatial audio, and head-tracked parallax portals.\n\nSetup required: Muse Spark, Image, and Voice require MODEL_API_KEY; CC0 sample worlds load when unkeyed.",
+        "caption": "Recorded run \u00b7 IWER emulator, synthetic living room \u00b7 CC0 sample panorama",
+        "figureText": "1.20\n2.05\nP-01\nRecorded run \u00b7 IWER emulator, synthetic living room \u00b7 CC0 sample panorama",
+        "videoAria": "Recorded run in the IWER emulator",
+        "video": {
+          "currentSrc": "http://127.0.0.1:47321/media/thyra-hero.mp4",
+          "poster": "http://127.0.0.1:47321/media/thyra-hero.jpg",
+          "readyState": 4,
+          "networkState": 1,
+          "videoWidth": 962,
+          "videoHeight": 520,
+          "currentTime": 5.7743,
+          "paused": false,
+          "ended": false,
+          "offsetWidth": 129,
+          "offsetHeight": 204,
+          "error": null
+        },
+        "posterDecoded": true,
+        "posterWidth": 960,
+        "posterError": null,
+        "framePixels": 256,
+        "frameSampleError": null,
+        "doorsText": "P-01sunlit_living_room \u00b7 emulator1.20 \u00d7 2.05 ma misty pine forestSetup requiredSample, not generatedequirect2.10 s*0 mmP-02thyra_studio (ours) \u00b7 emulator1.10 \u00d7 2.00 ma misty pine forestSetup requiredSample, not generatedequirect2.04 s*0 mmP-03thyra_hall (ours) \u00b7 emulator1.00 \u00d7 1.95 ma misty pine forestSetup requiredSample, not generatedequirect2.01 s*0 mmP-04bedroom \u00b7 emulator0.90 \u00d7 1.90 ma misty pine forestSetup requiredSample, not generatedequirect2.13 s*0 mm",
+        "rowCount": 4,
+        "p01Cells": [
+          "P-01",
+          "sunlit_living_room \u00b7 emulator",
+          "1.20 \u00d7 2.05 m",
+          "a misty pine forest",
+          "Setup required",
+          "Sample, not generated",
+          "equirect",
+          "2.10 s*",
+          "0 mm"
+        ],
+        "drawerOpen": true,
+        "overflow": 0,
+        "scrollWidth": 375,
+        "clientWidth": 375,
+        "innerWidth": 375,
+        "innerHeight": 812
+      },
+      "screenshot": {
+        "path": "audit/landing/landing-375.webp",
+        "bytes": 176850,
+        "format": "webp",
+        "quality": 75
+      }
+    },
+    {
+      "label": "1280x812",
+      "viewport": {
+        "width": 1280,
+        "height": 812
+      },
+      "console": [],
+      "pageErrors": [],
+      "responses": [
+        {
+          "url": "http://127.0.0.1:47321/",
+          "status": 200,
+          "method": "GET",
+          "resourceType": "document"
+        },
+        {
+          "url": "http://127.0.0.1:47321/styles.css",
+          "status": 200,
+          "method": "GET",
+          "resourceType": "stylesheet"
+        },
+        {
+          "url": "http://127.0.0.1:47321/media/thyra-hero.jpg",
+          "status": 200,
+          "method": "GET",
+          "resourceType": "image"
+        },
+        {
+          "url": "http://127.0.0.1:47321/app.js",
+          "status": 200,
+          "method": "GET",
+          "resourceType": "script"
+        },
+        {
+          "url": "http://127.0.0.1:47321/media/thyra-hero.mp4",
+          "status": 206,
+          "method": "GET",
+          "resourceType": "media"
+        },
+        {
+          "url": "https://fonts.googleapis.com/css2?family=Host+Grotesk:wght@400;500;600&family=Ubuntu+Sans+Mono:wght@400;500&display=swap",
+          "status": 200,
+          "method": "GET",
+          "resourceType": "stylesheet"
+        },
+        {
+          "url": "http://127.0.0.1:47321/data/schedule.json",
+          "status": 200,
+          "method": "GET",
+          "resourceType": "fetch"
+        },
+        {
+          "url": "https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyR7mzgBHrR5yE7ZyRg0QRJMKI45grIfDfySZU.woff2",
+          "status": 200,
+          "method": "GET",
+          "resourceType": "font"
+        },
+        {
+          "url": "https://fonts.gstatic.com/s/hostgrotesk/v5/co3BmWBnlCJ3U42vbbfdwMjZpFjmw07Arg.woff2",
+          "status": 200,
+          "method": "GET",
+          "resourceType": "font"
+        },
+        {
+          "url": "https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyR7mzgBHrR5yE7ZyRg0QRJMKI45gnIfDfySZWz2g.woff2",
+          "status": 200,
+          "method": "GET",
+          "resourceType": "font"
+        }
+      ],
+      "requestFailed": [],
+      "anchorClicks": [
+        {
+          "href": "#how",
+          "hash": "#how",
+          "drawerOpen": false,
+          "error": null
+        },
+        {
+          "href": "#proof",
+          "hash": "#proof",
+          "drawerOpen": false,
+          "error": null
+        },
+        {
+          "href": "#honest",
+          "hash": "#honest",
+          "drawerOpen": false,
+          "error": null
+        },
+        {
+          "href": "#try",
+          "hash": "#try",
+          "drawerOpen": false,
+          "error": null
+        },
+        {
+          "href": "#evidence",
+          "hash": "#evidence",
+          "drawerOpen": true,
+          "error": null
+        }
+      ],
+      "closed": {
+        "h1": "Open a door in your own wall.",
+        "honestText": "TRANSPARENCY\n\nWhat's live vs Setup required\n\nLive today: WebXR wall plane detection, pinch-drag door drawing, spatial audio, and head-tracked parallax portals.\n\nSetup required: Muse Spark, Image, and Voice require MODEL_API_KEY; CC0 sample worlds load when unkeyed.",
+        "caption": "Recorded run \u00b7 IWER emulator, synthetic living room \u00b7 CC0 sample panorama",
+        "figureText": "1.20\n2.05\nP-01\nRecorded run \u00b7 IWER emulator, synthetic living room \u00b7 CC0 sample panorama",
+        "videoAria": "Recorded run in the IWER emulator",
+        "video": {
+          "currentSrc": "http://127.0.0.1:47321/media/thyra-hero.mp4",
+          "poster": "http://127.0.0.1:47321/media/thyra-hero.jpg",
+          "readyState": 4,
+          "networkState": 1,
+          "videoWidth": 962,
+          "videoHeight": 520,
+          "currentTime": 1.465,
+          "paused": false,
+          "ended": false,
+          "offsetWidth": 192,
+          "offsetHeight": 304,
+          "error": null
+        },
+        "posterDecoded": true,
+        "posterWidth": 960,
+        "posterError": null,
+        "framePixels": 256,
+        "frameSampleError": null,
+        "doorsText": "P-01sunlit_living_room \u00b7 emulator1.20 \u00d7 2.05 ma misty pine forestSetup requiredSample, not generatedequirect2.10 s*0 mmP-02thyra_studio (ours) \u00b7 emulator1.10 \u00d7 2.00 ma misty pine forestSetup requiredSample, not generatedequirect2.04 s*0 mmP-03thyra_hall (ours) \u00b7 emulator1.00 \u00d7 1.95 ma misty pine forestSetup requiredSample, not generatedequirect2.01 s*0 mmP-04bedroom \u00b7 emulator0.90 \u00d7 1.90 ma misty pine forestSetup requiredSample, not generatedequirect2.13 s*0 mm",
+        "rowCount": 4,
+        "p01Cells": [
+          "P-01",
+          "sunlit_living_room \u00b7 emulator",
+          "1.20 \u00d7 2.05 m",
+          "a misty pine forest",
+          "Setup required",
+          "Sample, not generated",
+          "equirect",
+          "2.10 s*",
+          "0 mm"
+        ],
+        "drawerOpen": false,
+        "overflow": 0,
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "innerWidth": 1280,
+        "innerHeight": 812
+      },
+      "open": {
+        "h1": "Open a door in your own wall.",
+        "honestText": "TRANSPARENCY\n\nWhat's live vs Setup required\n\nLive today: WebXR wall plane detection, pinch-drag door drawing, spatial audio, and head-tracked parallax portals.\n\nSetup required: Muse Spark, Image, and Voice require MODEL_API_KEY; CC0 sample worlds load when unkeyed.",
+        "caption": "Recorded run \u00b7 IWER emulator, synthetic living room \u00b7 CC0 sample panorama",
+        "figureText": "1.20\n2.05\nP-01\nRecorded run \u00b7 IWER emulator, synthetic living room \u00b7 CC0 sample panorama",
+        "videoAria": "Recorded run in the IWER emulator",
+        "video": {
+          "currentSrc": "http://127.0.0.1:47321/media/thyra-hero.mp4",
+          "poster": "http://127.0.0.1:47321/media/thyra-hero.jpg",
+          "readyState": 4,
+          "networkState": 1,
+          "videoWidth": 962,
+          "videoHeight": 520,
+          "currentTime": 5.0586,
+          "paused": false,
+          "ended": false,
+          "offsetWidth": 192,
+          "offsetHeight": 304,
+          "error": null
+        },
+        "posterDecoded": true,
+        "posterWidth": 960,
+        "posterError": null,
+        "framePixels": 256,
+        "frameSampleError": null,
+        "doorsText": "P-01sunlit_living_room \u00b7 emulator1.20 \u00d7 2.05 ma misty pine forestSetup requiredSample, not generatedequirect2.10 s*0 mmP-02thyra_studio (ours) \u00b7 emulator1.10 \u00d7 2.00 ma misty pine forestSetup requiredSample, not generatedequirect2.04 s*0 mmP-03thyra_hall (ours) \u00b7 emulator1.00 \u00d7 1.95 ma misty pine forestSetup requiredSample, not generatedequirect2.01 s*0 mmP-04bedroom \u00b7 emulator0.90 \u00d7 1.90 ma misty pine forestSetup requiredSample, not generatedequirect2.13 s*0 mm",
+        "rowCount": 4,
+        "p01Cells": [
+          "P-01",
+          "sunlit_living_room \u00b7 emulator",
+          "1.20 \u00d7 2.05 m",
+          "a misty pine forest",
+          "Setup required",
+          "Sample, not generated",
+          "equirect",
+          "2.10 s*",
+          "0 mm"
+        ],
+        "drawerOpen": true,
+        "overflow": 0,
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "innerWidth": 1280,
+        "innerHeight": 812
+      },
+      "screenshot": {
+        "path": "audit/landing/landing-1280.webp",
+        "bytes": 163888,
+        "format": "webp",
+        "quality": 48
+      }
+    }
+  ],
+  "fonts": [
+    {
+      "viewport": "375x812",
+      "url": "https://fonts.googleapis.com/css2?family=Host+Grotesk:wght@400;500;600&family=Ubuntu+Sans+Mono:wght@400;500&display=swap",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "failed": false
+    },
+    {
+      "viewport": "375x812",
+      "url": "https://fonts.gstatic.com/s/hostgrotesk/v5/co3BmWBnlCJ3U42vbbfdwMjZpFjmw07Arg.woff2",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "font",
+      "failed": false
+    },
+    {
+      "viewport": "375x812",
+      "url": "https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyR7mzgBHrR5yE7ZyRg0QRJMKI45gnIfDfySZWz2g.woff2",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "font",
+      "failed": false
+    },
+    {
+      "viewport": "375x812",
+      "url": "https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyR7mzgBHrR5yE7ZyRg0QRJMKI45grIfDfySZU.woff2",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "font",
+      "failed": false
+    },
+    {
+      "viewport": "1280x812",
+      "url": "https://fonts.googleapis.com/css2?family=Host+Grotesk:wght@400;500;600&family=Ubuntu+Sans+Mono:wght@400;500&display=swap",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "failed": false
+    },
+    {
+      "viewport": "1280x812",
+      "url": "https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyR7mzgBHrR5yE7ZyRg0QRJMKI45grIfDfySZU.woff2",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "font",
+      "failed": false
+    },
+    {
+      "viewport": "1280x812",
+      "url": "https://fonts.gstatic.com/s/hostgrotesk/v5/co3BmWBnlCJ3U42vbbfdwMjZpFjmw07Arg.woff2",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "font",
+      "failed": false
+    },
+    {
+      "viewport": "1280x812",
+      "url": "https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyR7mzgBHrR5yE7ZyRg0QRJMKI45gnIfDfySZWz2g.woff2",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "font",
+      "failed": false
+    }
+  ],
+  "rows": {
+    "L01": {
+      "status": "PASS",
+      "mismatch": ""
+    },
+    "L02": {
+      "status": "PASS",
+      "mismatch": ""
+    },
+    "L03": {
+      "status": "FAIL",
+      "mismatch": "#honest visible copy is \"Setup required: Muse Spark, Image, and Voice require MODEL_API_KEY; CC0 sample worlds load when unkeyed.\" It does not contain \"Muse Image\" or \"Muse Voice\"."
+    },
+    "L04": {
+      "status": "PASS",
+      "mismatch": ""
+    },
+    "L05": {
+      "status": "PASS",
+      "mismatch": ""
+    },
+    "L06": {
+      "status": "PASS",
+      "mismatch": ""
+    },
+    "L07": {
+      "status": "PASS",
+      "mismatch": ""
+    }
+  }
+}
