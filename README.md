@@ -9,6 +9,9 @@ head-tracked parallax. Walk up to it and step through.
 Meta Global AI Developer Hackathon 2026, Indie track. Spec: [`specs/thyra.md`](../../specs/thyra.md) in the
 grokbot handoff folder. Licence: MIT.
 
+**Live landing:** [thyra-door.vercel.app](https://thyra-door.vercel.app) (static `packages/landing`; the
+XR app and the gateway are not deployed).
+
 > **Status (Oct 27, 2026):** the latest recorded run is the Oct 27 emulator audit in [TESTING.md](TESTING.md):
 > **108 PASS / 0 FAIL / 19 UNTESTED**. The whole loop runs in the IWER emulator with emulated hands (Quest 3
 > and Meta VR Glasses). There is no physical Quest session and no successful Meta model call. `MODEL_API_KEY`
@@ -88,7 +91,8 @@ Three ways, easiest first. All need the gateway running on the Mac if you want M
 3. **Deployed (not done yet).** `npm run xr:build` writes `packages/xr/dist/` (static; it injects the emulator
    only off-Quest). Host it on any HTTPS static host (GitHub Pages or Vercel) and run the gateway on a host Nick
    picks, with `THYRA_ALLOWED_ORIGINS=<that origin>` and a daily cap; point the app at it with
-   `?gateway=https://…` or `VITE_THYRA_GATEWAY` at build time. Nothing is deployed and nothing is pushed.
+   `?gateway=https://…` or `VITE_THYRA_GATEWAY` at build time. The XR app and gateway are not deployed;
+   only the static landing is (https://thyra-door.vercel.app).
 
 Before you start: do **Space Setup** on the Quest (walls must be detected). Device checklist (record the
 answers in TESTING.md): walls found after Space Setup, `_plane.semanticLabel` values, frame time, whether the
