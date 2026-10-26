@@ -1,0 +1,88 @@
+{
+  "at": "2026-10-26T19:54:20.272Z",
+  "ui": {
+    "hud": "THYRA θύρα · door\nMIT · source\n\nP-01 · mixed reality · Quest 3 / 3S · emulator\n\nOpen a door\nin your own wall.\n\nPinch a real wall and drag a door open. Say where it leads. Muse Spark reads your room's measurements and Muse Image paints the world behind the wall, with head-tracked parallax. Walk up to step through.\n\nEnter the emulated room\nEmulated room (IWER), not your room. On a Quest, open this page in the Quest Browser.\nWhere should it lead?\nYour own 2:1 panorama (optional)\nMuse Spark: Setup required (MODEL_API_KEY)\nMuse Image: Setup required (MODEL_API_KEY)\nMuse Voice: Setup required (MODEL_API_KEY)\n1.20\n2.05\nP-01\nPROJECT\nTHYRA\nSHEET\nXR-01\nSCALE\n1:20\nEVENT\nMeta AI Hackathon 2026",
+    "cardText": [],
+    "snapshot": {
+      "session": false,
+      "walls": [],
+      "floorY": null,
+      "ceilingY": null,
+      "floorArea": null,
+      "objects": [],
+      "labelsSeen": [],
+      "head": [
+        0,
+        0,
+        0
+      ],
+      "drawing": false,
+      "pointers": [],
+      "hint": null,
+      "card": null,
+      "status": {
+        "service": "thyra-gateway",
+        "spark": {
+          "ready": false,
+          "model": "muse-spark-1.3",
+          "setup": "MODEL_API_KEY"
+        },
+        "wonder": {
+          "ready": false,
+          "model": "muse-wonder-1.0",
+          "setup": "MODEL_API_KEY"
+        },
+        "image": {
+          "ready": false,
+          "model": "muse-image-1.0",
+          "setup": "MODEL_API_KEY"
+        },
+        "transcribe": {
+          "ready": false,
+          "model": "muse-voice-transcribe-1.0",
+          "setup": "MODEL_API_KEY"
+        },
+        "sam3": {
+          "ready": false,
+          "model": "sam-3.1",
+          "setup": "MODEL_API_KEY"
+        },
+        "budget": {
+          "spent_usd_today": 0,
+          "cap_usd": 5
+        },
+        "key_loaded": false
+      },
+      "portals": []
+    },
+    "frames": 0
+  },
+  "restoredProfile": "metaQuest3",
+  "runtimeKind": "emulated",
+  "checks": {
+    "D01": {
+      "ok": true,
+      "observed": "README lists phone clip mode (SAM 3.1) under Not built yet; live /api/clips and /api/tracks 404 not_found; keyless sam3 ready=false setup=MODEL_API_KEY"
+    },
+    "D02": {
+      "ok": true,
+      "observed": "No application MCP tools/server found in scoped source/manifests; SDK agent command bridge is development tooling"
+    },
+    "D03": {
+      "ok": true,
+      "observed": "README defers realtime ASR; live /api/asr 404 not_found; observed mic label browser speech (not Meta); no browser api.meta.ai requests"
+    },
+    "D04": {
+      "ok": true,
+      "observed": "Profile restoration reload has zero portals; README defers persistent anchors; no source create/restore anchor implementation"
+    },
+    "D05": {
+      "ok": true,
+      "observed": "README defers virtual keyboard; observed real pre-session text input; immersive cards contain destination chips, Say it, Close door, Somewhere else"
+    },
+    "C01": {
+      "ok": true,
+      "observed": "No chain/wallet/transaction integration in scoped source/manifests or browser traffic; dependencies and SDK bundles excluded"
+    }
+  }
+}

@@ -1,5 +1,37 @@
 # Testing
 
+## Phase 2 audit — Oct 27, 2026 (task t4)
+
+Fresh local evidence is under `audit/xr`, `audit/app`, and `audit/gateway`. This task audited 42 plan rows:
+**39 PASS / 3 FAIL**. The existing full table now has **45 PASS / 4 FAIL / 10 UNTESTED / 68 PENDING**;
+this is not a completed full-plan audit. The ten dependencies remain MODEL_API_KEY and a physical Quest headset.
+
+| Fresh execution | Result | Evidence |
+|---|---|---|
+| Quest 3, IWER, hands only, four rooms + guards + paper wall | 57 / 57 harness checks | `audit/xr/quest-checks.json` |
+| Exact card text, disabled generation, fingertip + proximity Step-in, minimum boundary | 16 / 17 checks; X05 fails | `audit/xr/supplement.json` |
+| Meta VR Glasses, gaze + pinch, card fit, open, close/re-entry | 7 / 7 harness checks; V06 network evidence fails | `audit/xr/glasses-checks.json` |
+| Landing + real app page at 375 / 1280, including exact A01–A06 assertions | 22 / 22 checks | `audit/app/checks.json` |
+| Keyless gateway G01–G05/G08; G07 cites earlier unit execution | 7 / 7 rows | `audit/gateway/checks.json`, `audit/unit-results.json` |
+| Root/XR typechecks, room build and production bundle | exit 0 | `audit/xr/preflight.json` |
+
+X05: an exact 0.40 × 0.60 m hand-ray target produces zero doors and the Too small hint. Q02/V06:
+the independent HTTP recorder disconnects when the glasses profile replaces managed Chrome, so Glasses HTTP
+status cleanliness is unproven. IWSDK's own capture reports zero errors and includes page errors and failed
+requests. The retained Quest trace and both app traces have zero console/page/request/HTTP errors.
+The previously recorded L03 wording failure remains in AUDIT.md. No product bugs were changed.
+
+Three-door desktop-emulator CPU p50/p95/max: **2.70 / 3.30 / 4.20 ms**, 600 / 600 immersive frames;
+draw calls p50/max **244 / 304**, triangles p50/max **84,756 / 84,876**, Apple M4 Metal. These do not
+certify Quest CPU/GPU performance. Both Step-in triggers ran in all four rooms; floods measured **1.198–1.230 s**.
+
+The gateway used an explicitly empty MODEL_API_KEY, direct Node startup without an env-file loader, and
+`/tmp/thyra-audit-runs`. No `.env` was loaded, no key was invented, and no mocks/stubs were used. Screenshot
+JPEGs are below 200 KB each. Temporary harness edits were restored. Started processes were stopped by PID,
+the heavy slot was released, and no deployment, push, or `.loom/` edit occurred. Loom owns commit/merge.
+
+The older recorded verification below is historical context, not evidence for this audit.
+
 ## Latest recorded verification (Oct 25, 2026)
 
 These are recorded emulator runs on an Apple M4. No device run and no Meta model run has been completed.
