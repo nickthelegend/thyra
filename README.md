@@ -9,11 +9,13 @@ head-tracked parallax. Walk up to it and step through.
 Meta Global AI Developer Hackathon 2026, Indie track. Spec: [`specs/thyra.md`](../../specs/thyra.md) in the
 grokbot handoff folder. Licence: MIT.
 
-> **Status (Oct 24, 2026):** the whole loop runs in the IWER emulator with emulated hands. No headset session
-> yet, and no Meta model call yet: `MODEL_API_KEY` isn't set, so every Meta step says **Setup required** and the
-> world is a CC0 sample stamped *Sample, not generated*. Build-window note: the spec says product code starts
-> Oct 26; this code was written on Oct 24 at Nick's request, so check the Official Rules' pre-existing-code
-> clause before submitting.
+> **Status (Oct 27, 2026):** the latest recorded run is the Oct 27 emulator audit in [TESTING.md](TESTING.md):
+> **108 PASS / 0 FAIL / 19 UNTESTED**. The whole loop runs in the IWER emulator with emulated hands (Quest 3
+> and Meta VR Glasses). There is no physical Quest session and no successful Meta model call. `MODEL_API_KEY`
+> is absent, so every Meta step says **Setup required**, and worlds are CC0 samples stamped *Sample, not
+> generated*. Desktop CPU timings are not the Quest 13.9 ms gate. The Oct 24 code versus Oct 26 build-window
+> eligibility note stays unresolved: the spec says product code starts Oct 26; this code was written on Oct 24
+> at Nick's request, so check the Official Rules' pre-existing-code clause before submitting.
 
 ## What you see
 
@@ -99,24 +101,35 @@ Open the app URL in desktop Chrome: it runs in the IWER emulator on a synthetic 
 
 ## Numbers (emulator only)
 
-These are recorded emulator runs on an Apple M4, not a Quest; there is still no device run and no Meta model run.
+Latest recorded emulator run: the Oct 27, 2026 final audit in [TESTING.md](TESTING.md), **108 PASS / 0 FAIL /
+19 UNTESTED**. These figures are desktop IWER runs on an Apple M4, not a Quest. There is no physical Quest
+session and no successful Meta model call. `MODEL_API_KEY` is absent, so every Meta step says **Setup
+required**, and worlds are CC0 samples stamped *Sample, not generated*. Desktop CPU timings are not the Quest
+13.9 ms gate. The Oct 24 code versus Oct 26 build-window eligibility note stays unresolved.
 
 | What | Recorded result | Evidence |
 |---|---|---|
-| Unit tests | **46 / 46 passed**, last recorded full run | commit `7a346bb` |
-| Root TypeScript check | Passed; 0 diagnostics | recorded check, Oct 25, 2026 |
-| XR TypeScript check | Passed; 0 diagnostics | recorded check, Oct 25, 2026 |
-| Emulator e2e, hands only, 4 rooms | **56 / 56 passed**, 0 failed; **128.253 s** | [hands-only JSON](deployments/e2e/2026-10-25T11-04-22-665Z.json) |
-| Meta VR Glasses profile (gaze + pinch) | **5 / 5 passed**, 0 failed | [glasses JSON](deployments/e2e/glasses-2026-10-25T11-06-53-722Z.json) |
-| Landing + app 2D page at 375 / 1280 px | **12 / 12 passed**, 0 failed | [full pages JSON](deployments/e2e/pages-2026-10-25T04-51-34-608Z.json) |
-| Per-room time to world, sample path | **2.10 / 2.04 / 2.01 / 2.13 s*** (living room / studio / hall / bedroom) | hands-only JSON above |
-| Three open doors, CPU p50 / p95 / max | **2.50 / 3.00 / 3.40 ms** (rounded to two decimals), 600 frames | hands-only JSON above |
-| Three open doors, draw calls p50 / max; triangles p50 | **244 / 304** draws; **84,756** triangles | hands-only JSON above |
+| Final audit | **108 PASS / 0 FAIL / 19 UNTESTED** | [TESTING.md](TESTING.md) |
+| Unit tests | **56 / 56 passed**, 0 failed, 0 skipped; 9 files | [unit-results.json](audit/unit-results.json) |
+| Root and XR TypeScript checks | Both exit 0; 0 diagnostics | [root-typecheck.txt](audit/unit/root-typecheck.txt), [xr-typecheck.txt](audit/unit/xr-typecheck.txt) |
+| Emulator e2e, Quest 3 hands only, 4 rooms | **56 / 56 passed**, 0 failed; **130.268 s** (`2026-10-26T20:31:52.793Z` → `2026-10-26T20:34:03.061Z`) | [quest-checks.json](audit/xr/quest-checks.json) |
+| Meta VR Glasses profile (gaze + pinch) | **7 / 7 passed**, 0 failed | [glasses-checks.json](audit/xr/glasses-checks.json) |
+| Landing, app, and negative / reduced-motion / static checks | **63 / 63 passed**, 0 failed; captures at 375×812 and 1280×812 across 9 contexts | [pages-checks.json](audit/app/pages-checks.json) |
+| Per-room time to world, sample path | **2.160 / 2.109 / 2.091 / 2.090 s*** (living room / studio / hall / bedroom) | [TESTING.md](TESTING.md), [quest-checks.json](audit/xr/quest-checks.json) |
+| Three open doors, CPU p50 / p95 / max | **1.70 / 2.10 / 2.70 ms**, 600 frames / 600 immersive frames; desktop CPU, not the Quest 13.9 ms gate | [TESTING.md](TESTING.md), [quest-checks.json](audit/xr/quest-checks.json) |
+| Three open doors, draw calls p50 / max; triangles p50 / max | **244 / 304** draws; **84,756 / 84,876** triangles | [TESTING.md](TESTING.md), [quest-checks.json](audit/xr/quest-checks.json) |
 
-*No-key sample path: includes a deliberate 0.9 s room-read hold plus sample decoding and GPU upload;
-it does not measure Muse Spark + Muse Image latency. The latest recorded hands-only run is the 11:04 UTC
-file above, not a new run performed for this documentation restore. Later pages files at 10:57 and 10:59 UTC
-are landing-only, **6 / 6** each; the full pages result above covers both pages.
+*No-key sample path: each room loads the committed misty-pines CC0 image, stamped *Sample, not generated*,
+plan **Setup required**. The time includes the deliberate 900 ms room-read hold and actual sample
+decode/upload. It is not Muse Spark or Muse Image latency. CPU figures are desktop submission timings on
+`ANGLE (Apple, ANGLE Metal Renderer: Apple M4, Unspecified Version)`. The Quest CPU/GPU p95 ≤13.9 ms at 72 Hz
+gate is unmeasured.
+
+The latest hands-only run is that Oct 27 window in [quest-checks.json](audit/xr/quest-checks.json). The
+October 25 files under `deployments/e2e/`, including `2026-10-25T11-04-22-665Z.json`,
+`glasses-2026-10-25T11-06-53-722Z.json`, `pages-2026-10-25T04-51-34-608Z.json`, and the later same-day pages
+files at 10:57 and 10:59 UTC, are the older historical run. They are not the latest hands-only, glasses, or
+pages result.
 
 Per-room geometry, pixel checks, glasses card angles, frame measurements and clips: [TESTING.md](TESTING.md).
 
