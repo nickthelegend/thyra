@@ -16,7 +16,7 @@ type Page = { on(e: string, f: (x: { type?(): string; text?(): string; message?:
 type Browser = { newContext(o: object): Promise<{ newPage(): Promise<Page>; close(): Promise<void> }>; close(): Promise<void> };
 const { chromium } = require('playwright') as { chromium: { launch(o: object): Promise<Browser> } };
 const site = `${root}packages/landing/`;
-const types: Record<string, string> = { '.html': 'text/html', '.css': 'text/css', '.js': 'text/javascript', '.json': 'application/json', '.mp4': 'video/mp4' };
+const types: Record<string, string> = { '.html': 'text/html', '.css': 'text/css', '.js': 'text/javascript', '.json': 'application/json', '.mp4': 'video/mp4', '.webp': 'image/webp' };
 const server = createServer((req, res) => {
   const p = normalize(decodeURIComponent(new URL(req.url ?? '/', 'http://x').pathname)).replace(/^\/+/, '') || 'index.html';
   const f = join(site, p);

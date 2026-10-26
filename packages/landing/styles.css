@@ -62,6 +62,29 @@ h3 { font-weight: 500; font-size: 20px; letter-spacing: -0.02em; margin: 0 0 8px
 .opening video { width: 100%; height: 100%; object-fit: cover; display: block; }
 .elevation figcaption { font: 12px var(--mono); color: var(--grey); margin-top: 10px; }
 
+/* Door band: generated art after the hero, a slow drift and a lime light sweep */
+.doorband { position: relative; isolation: isolate; overflow: hidden; background: var(--plaster); border-block: 1px solid var(--line); }
+.doorband-art { position: absolute; inset: 0 0 0 30%; z-index: -1; margin: 0; }
+.doorband-art img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 66% 50%; }
+.doorband-art::after { content: ''; position: absolute; inset: 0; background: linear-gradient(90deg, var(--plaster) 0%, rgba(236,231,222,0.6) 20%, rgba(236,231,222,0) 46%); }
+.doorband-art::before { content: ''; position: absolute; inset: 0; z-index: 1; pointer-events: none; mix-blend-mode: screen; background: linear-gradient(105deg, transparent 38%, rgba(200,240,60,0.2) 50%, transparent 62%) no-repeat; background-size: 260% 100%; background-position: 150% 0; }
+.doorband-art figcaption { position: absolute; right: var(--gutter); bottom: 14px; z-index: 2; font: 500 11px var(--mono); color: var(--sumi); background: rgba(236,231,222,0.88); border: 1px solid var(--line); border-radius: 4px; padding: 2px 6px; }
+.doorband-copy { max-width: 1240px; margin: 0 auto; padding: 72px var(--gutter); min-height: clamp(380px, 40vw, 580px); display: flex; align-items: center; }
+.doorband h2 { font-size: clamp(36px, 5vw, 66px); line-height: 0.98; letter-spacing: -0.045em; max-width: 8.5em; margin: 0; }
+.doorband h2 em { font-style: normal; color: #4f6b00; }
+@media (prefers-reduced-motion: no-preference) {
+  .doorband-art { animation: door-drift 24s ease-in-out infinite alternate; }
+  .doorband-art::before { animation: door-sweep 9s cubic-bezier(.45,0,.25,1) 2.6s infinite; }
+}
+@keyframes door-drift { from { transform: scale(1); } to { transform: scale(1.05) translate3d(-1.2%, -0.8%, 0); } }
+@keyframes door-sweep { 0% { background-position: 150% 0; } 55%, 100% { background-position: -50% 0; } }
+@media (max-width: 760px) {
+  .doorband-art { left: 0; bottom: auto; height: 60vw; }
+  .doorband-art::after { background: linear-gradient(0deg, var(--plaster) 0%, rgba(236,231,222,0.2) 60%, rgba(236,231,222,0) 100%); }
+  .doorband-art figcaption { bottom: auto; top: 10px; }
+  .doorband-copy { min-height: 0; padding-top: 56vw; padding-bottom: 48px; }
+}
+
 /* 3-step section */
 .sub { color: #3b3934; max-width: 64ch; margin: 0 0 36px; font-size: clamp(16px, 1.2vw, 18px); }
 .steps { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0; border-top: 1px solid var(--sumi); border-left: 1px solid var(--sumi); }
