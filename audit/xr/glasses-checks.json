@@ -1,0 +1,355 @@
+{
+  "device": "IWER metaVRGlasses (emulator)",
+  "passed": 7,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "glasses profile active (Meta VR Glasses), gaze-tracking granted",
+      "ok": true,
+      "detail": [
+        "local-floor",
+        "bounded-floor",
+        "hand-tracking",
+        "anchors",
+        "hit-test",
+        "plane-detection",
+        "mesh-detection",
+        "gaze-tracking",
+        "eye-tracking",
+        "depth-sensing",
+        "viewer",
+        "local"
+      ]
+    },
+    {
+      "name": "V01 glasses gaze source connected",
+      "ok": true,
+      "detail": {
+        "headset": {
+          "position": {
+            "x": 0,
+            "y": 1.600000023841858,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          }
+        },
+        "inputMode": "controller",
+        "controllers": {
+          "left": {
+            "connected": true,
+            "position": {
+              "x": -0.25,
+              "y": 1.5,
+              "z": -0.4000000059604645
+            },
+            "orientation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            }
+          },
+          "right": {
+            "connected": true,
+            "position": {
+              "x": 0.25,
+              "y": 1.5,
+              "z": -0.4000000059604645
+            },
+            "orientation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            }
+          }
+        },
+        "hands": {
+          "left": {
+            "connected": true,
+            "position": {
+              "x": -0.25,
+              "y": 1.5,
+              "z": -0.4000000059604645
+            },
+            "orientation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "poseId": "default",
+            "pinchValue": 0
+          },
+          "right": {
+            "connected": true,
+            "position": {
+              "x": 0.25,
+              "y": 1.5,
+              "z": -0.4000000059604645
+            },
+            "orientation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "poseId": "default",
+            "pinchValue": 0
+          }
+        },
+        "gaze": {
+          "connected": true,
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          }
+        },
+        "stereoEnabled": false,
+        "fov": 90
+      }
+    },
+    {
+      "name": "gaze + pinch draws a 1.00 \u00d7 1.90 m door",
+      "ok": true,
+      "detail": {
+        "tag": "P-01",
+        "phase": "framed",
+        "planeId": "plane-28",
+        "rect": {
+          "u0": -0.4999999729777589,
+          "u1": 0.4999999978367312,
+          "v0": -1.350000023841858,
+          "v1": 0.5499999169619753
+        },
+        "width": 0.9999999708144901,
+        "height": 1.8999999408038333,
+        "corners": [
+          [
+            -0.4999999729777589,
+            2.7533531010703882e-14,
+            -3.3999998215658946
+          ],
+          [
+            0.4999999978367312,
+            2.7533531010703882e-14,
+            -3.3999998215658946
+          ],
+          [
+            0.4999999978367312,
+            1.899999940803822,
+            -3.400000206916187
+          ],
+          [
+            -0.4999999729777589,
+            1.899999940803822,
+            -3.400000206916187
+          ]
+        ],
+        "step": "room",
+        "flood": 0,
+        "summary": null,
+        "record": {}
+      }
+    },
+    {
+      "name": "door card inside the glasses view (max |h| 17.7\u00b0, v -30.1\u2026-6.5\u00b0)",
+      "ok": true,
+      "detail": [
+        {
+          "h": -17.694760630001532,
+          "v": -30.125134684735883
+        },
+        {
+          "h": 17.694761020269933,
+          "v": -30.125134754038815
+        },
+        {
+          "h": 15.521403929700023,
+          "v": -6.488977962918241
+        },
+        {
+          "h": -15.521403518821973,
+          "v": -6.488977936523456
+        }
+      ]
+    },
+    {
+      "name": "gaze + pinch on the card opens the world",
+      "ok": true,
+      "detail": {
+        "tag": "P-01",
+        "destination": "a seafront at sunset",
+        "room": {
+          "portal": {
+            "w_m": 1,
+            "h_m": 1.9,
+            "bottom_m": 0,
+            "wall": {
+              "label": "wall",
+              "w_m": 5,
+              "h_m": 2.7
+            }
+          },
+          "viewer": {
+            "eye_height_m": 1.6,
+            "distance_to_portal_m": 3.4
+          },
+          "room": {
+            "ceiling_m": 2.7,
+            "floor_area_m2": 29,
+            "objects": [
+              {
+                "label": "couch",
+                "dims_m": [
+                  2.3,
+                  0.86,
+                  0.94
+                ],
+                "side": "in front",
+                "distance_m": 0.52
+              },
+              {
+                "label": "table",
+                "dims_m": [
+                  1.15,
+                  0.44,
+                  0.6
+                ],
+                "side": "in front",
+                "distance_m": 1.45
+              },
+              {
+                "label": "lamp",
+                "dims_m": [
+                  0.4,
+                  1.72,
+                  0.4
+                ],
+                "side": "right",
+                "distance_m": 1.58
+              },
+              {
+                "label": "lamp",
+                "dims_m": [
+                  0.46,
+                  1.1,
+                  0.46
+                ],
+                "side": "left",
+                "distance_m": 1.59
+              },
+              {
+                "label": "couch",
+                "dims_m": [
+                  1.12,
+                  0.9,
+                  1.12
+                ],
+                "side": "left",
+                "distance_m": 2.77
+              },
+              {
+                "label": "shelf",
+                "dims_m": [
+                  1.9,
+                  0.52,
+                  0.42
+                ],
+                "side": "right",
+                "distance_m": 3.03
+              },
+              {
+                "label": "screen",
+                "dims_m": [
+                  1.46,
+                  0.84,
+                  0.04
+                ],
+                "side": "right",
+                "distance_m": 3.18
+              }
+            ]
+          },
+          "light": {
+            "available": false
+          },
+          "local_time": "01:23",
+          "destination_text": "a seafront at sunset"
+        },
+        "models": {},
+        "sample_id": "the_sky_is_on_fire",
+        "source": "cc0-sample",
+        "stamp": "Sample, not generated",
+        "pano_mode": "equirect",
+        "analysis": {
+          "width": 4096,
+          "height": 2048,
+          "aspect": 2,
+          "seam_delta_e": 1.1274350095497043,
+          "inner_delta_e": 1.2661719643519682,
+          "horizon_row": 126,
+          "horizon_offset": -0.0078125,
+          "pole_spread": 1.3193521506229717,
+          "horizon_hex": "#b09498"
+        },
+        "time_to_world_ms": 4324,
+        "decode_ms": 35,
+        "run_id": "7e5fc5b6-3c43-4220-94fb-4cb43b4aa12f"
+      }
+    },
+    {
+      "name": "V07 hand-only close, exit/reentry, redraw and card fit",
+      "ok": true,
+      "detail": {
+        "angles": [
+          {
+            "h": -17.694760630001532,
+            "v": -30.125134684735883
+          },
+          {
+            "h": 17.694761020269933,
+            "v": -30.125134754038815
+          },
+          {
+            "h": 15.521403929700023,
+            "v": -6.488977962918241
+          },
+          {
+            "h": -15.521403518821973,
+            "v": -6.488977936523456
+          }
+        ],
+        "pointers": [
+          {
+            "id": "none-gaze",
+            "kind": "gaze",
+            "origin": [
+              0,
+              1.600000023841858,
+              0
+            ],
+            "dir": [
+              0.13233767254821271,
+              -0.4155402420315103,
+              -0.8998961316045957
+            ],
+            "down": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "console: 0 errors",
+      "ok": true,
+      "detail": []
+    }
+  ]
+}

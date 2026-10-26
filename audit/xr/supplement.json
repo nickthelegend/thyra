@@ -1,0 +1,2718 @@
+{
+  "checks": [
+    {
+      "id": "sunlit_living_room.X03-disabled",
+      "ok": true,
+      "detail": {
+        "choose": [
+          "P-01",
+          "1.00 \u00d7 1.90 m",
+          "Where does it lead?",
+          "a misty pine forest",
+          "CC0 sample, not generated",
+          "a seafront at sunset",
+          "CC0 sample, not generated",
+          "a savanna under the stars",
+          "CC0 sample, not generated",
+          "a flooded cathedral at dawn",
+          "Setup required: MODEL_API_KEY",
+          "Say it",
+          "browser speech (not Meta)",
+          "Close door",
+          "Muse Spark: setup",
+          "Muse Image: setup",
+          "Muse Voice: setup"
+        ],
+        "phase": "framed"
+      }
+    },
+    {
+      "id": "sunlit_living_room.X04-reach",
+      "ok": true,
+      "detail": {
+        "before": [
+          0,
+          1.600000023841858,
+          0
+        ],
+        "after": [
+          0,
+          1.600000023841858,
+          0
+        ],
+        "portal": {
+          "tag": "P-01",
+          "phase": "open",
+          "planeId": "plane-28",
+          "rect": {
+            "u0": -0.5000000220444955,
+            "u1": 0.4999999672556606,
+            "v0": -1.350000023841858,
+            "v1": 0.5499999686655842
+          },
+          "width": 0.9999999893001561,
+          "height": 1.8999999925074422,
+          "corners": [
+            [
+              -0.5000000220444955,
+              2.7533531010703882e-14,
+              -3.3999998215658946
+            ],
+            [
+              0.4999999672556606,
+              2.7533531010703882e-14,
+              -3.3999998215658946
+            ],
+            [
+              0.4999999672556606,
+              1.899999992507431,
+              -3.400000206916198
+            ],
+            [
+              -0.5000000220444955,
+              1.899999992507431,
+              -3.400000206916198
+            ]
+          ],
+          "step": "inside",
+          "flood": 1,
+          "summary": {
+            "portal": {
+              "w_m": 1,
+              "h_m": 1.9,
+              "bottom_m": 0,
+              "wall": {
+                "label": "wall",
+                "w_m": 5,
+                "h_m": 2.7
+              }
+            },
+            "viewer": {
+              "eye_height_m": 1.6,
+              "distance_to_portal_m": 3.4
+            },
+            "room": {
+              "ceiling_m": 2.7,
+              "floor_area_m2": 29,
+              "objects": [
+                {
+                  "label": "couch",
+                  "dims_m": [
+                    2.3,
+                    0.86,
+                    0.94
+                  ],
+                  "side": "in front",
+                  "distance_m": 0.52
+                },
+                {
+                  "label": "table",
+                  "dims_m": [
+                    1.15,
+                    0.44,
+                    0.6
+                  ],
+                  "side": "in front",
+                  "distance_m": 1.45
+                },
+                {
+                  "label": "lamp",
+                  "dims_m": [
+                    0.4,
+                    1.72,
+                    0.4
+                  ],
+                  "side": "right",
+                  "distance_m": 1.58
+                },
+                {
+                  "label": "lamp",
+                  "dims_m": [
+                    0.46,
+                    1.1,
+                    0.46
+                  ],
+                  "side": "left",
+                  "distance_m": 1.59
+                },
+                {
+                  "label": "couch",
+                  "dims_m": [
+                    1.12,
+                    0.9,
+                    1.12
+                  ],
+                  "side": "left",
+                  "distance_m": 2.77
+                },
+                {
+                  "label": "shelf",
+                  "dims_m": [
+                    1.9,
+                    0.52,
+                    0.42
+                  ],
+                  "side": "right",
+                  "distance_m": 3.03
+                },
+                {
+                  "label": "screen",
+                  "dims_m": [
+                    1.46,
+                    0.84,
+                    0.04
+                  ],
+                  "side": "right",
+                  "distance_m": 3.18
+                }
+              ]
+            },
+            "light": {
+              "available": false
+            },
+            "local_time": "01:21",
+            "destination_text": "a misty pine forest"
+          },
+          "record": {
+            "tag": "P-01",
+            "destination": "a misty pine forest",
+            "room": {
+              "portal": {
+                "w_m": 1,
+                "h_m": 1.9,
+                "bottom_m": 0,
+                "wall": {
+                  "label": "wall",
+                  "w_m": 5,
+                  "h_m": 2.7
+                }
+              },
+              "viewer": {
+                "eye_height_m": 1.6,
+                "distance_to_portal_m": 3.4
+              },
+              "room": {
+                "ceiling_m": 2.7,
+                "floor_area_m2": 29,
+                "objects": [
+                  {
+                    "label": "couch",
+                    "dims_m": [
+                      2.3,
+                      0.86,
+                      0.94
+                    ],
+                    "side": "in front",
+                    "distance_m": 0.52
+                  },
+                  {
+                    "label": "table",
+                    "dims_m": [
+                      1.15,
+                      0.44,
+                      0.6
+                    ],
+                    "side": "in front",
+                    "distance_m": 1.45
+                  },
+                  {
+                    "label": "lamp",
+                    "dims_m": [
+                      0.4,
+                      1.72,
+                      0.4
+                    ],
+                    "side": "right",
+                    "distance_m": 1.58
+                  },
+                  {
+                    "label": "lamp",
+                    "dims_m": [
+                      0.46,
+                      1.1,
+                      0.46
+                    ],
+                    "side": "left",
+                    "distance_m": 1.59
+                  },
+                  {
+                    "label": "couch",
+                    "dims_m": [
+                      1.12,
+                      0.9,
+                      1.12
+                    ],
+                    "side": "left",
+                    "distance_m": 2.77
+                  },
+                  {
+                    "label": "shelf",
+                    "dims_m": [
+                      1.9,
+                      0.52,
+                      0.42
+                    ],
+                    "side": "right",
+                    "distance_m": 3.03
+                  },
+                  {
+                    "label": "screen",
+                    "dims_m": [
+                      1.46,
+                      0.84,
+                      0.04
+                    ],
+                    "side": "right",
+                    "distance_m": 3.18
+                  }
+                ]
+              },
+              "light": {
+                "available": false
+              },
+              "local_time": "01:21",
+              "destination_text": "a misty pine forest"
+            },
+            "models": {},
+            "sample_id": "misty_pines",
+            "source": "cc0-sample",
+            "stamp": "Sample, not generated",
+            "pano_mode": "equirect",
+            "analysis": {
+              "width": 4096,
+              "height": 2048,
+              "aspect": 2,
+              "seam_delta_e": 7.037860019692314,
+              "inner_delta_e": 5.585025717178965,
+              "horizon_row": 133,
+              "horizon_offset": 0.01953125,
+              "pole_spread": 3.4075015244125986,
+              "horizon_hex": "#9d9d97"
+            },
+            "time_to_world_ms": 4528,
+            "decode_ms": 26,
+            "run_id": "5d263327-f886-4446-bc7c-e91b90f588ce"
+          }
+        },
+        "pointers": [
+          {
+            "id": "left-tracked-pointer",
+            "kind": "hand",
+            "origin": [
+              -0.15000000596046448,
+              1.2999999523162842,
+              -0.4000000059604645
+            ],
+            "dir": [
+              0,
+              0,
+              -1
+            ],
+            "down": false
+          },
+          {
+            "id": "right-tracked-pointer",
+            "kind": "hand",
+            "origin": [
+              0,
+              1.2000000476837158,
+              -3.8000001907348633
+            ],
+            "dir": [
+              0.35311836424595916,
+              0.3925633775233437,
+              -0.8492357831955286
+            ],
+            "down": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sunlit_living_room.X04-transitions",
+      "ok": true,
+      "detail": {
+        "transitions": [
+          {
+            "at": 13969.40000000596,
+            "head": [
+              0,
+              1.600000023841858,
+              0
+            ],
+            "step": "room",
+            "flood": 0,
+            "phase": "framed"
+          },
+          {
+            "at": 16277.20000000298,
+            "head": [
+              0,
+              1.600000023841858,
+              0
+            ],
+            "step": "entering",
+            "flood": 0.013666666659216085,
+            "phase": "open"
+          },
+          {
+            "at": 17476.29999999702,
+            "head": [
+              0,
+              1.600000023841858,
+              0
+            ],
+            "step": "inside",
+            "flood": 1,
+            "phase": "open"
+          },
+          {
+            "at": 18468.5,
+            "head": [
+              0.5156124830245972,
+              1.600000023841858,
+              0
+            ],
+            "step": "exiting",
+            "flood": 1,
+            "phase": "open"
+          },
+          {
+            "at": 19668.70000000298,
+            "head": [
+              0.6499999761581421,
+              1.600000023841858,
+              0
+            ],
+            "step": "room",
+            "flood": 0,
+            "phase": "open"
+          },
+          {
+            "at": 21554.90000000596,
+            "head": [
+              0,
+              1.600000023841858,
+              -3.200000047683716
+            ],
+            "step": "entering",
+            "flood": 0.014833333330849808,
+            "phase": "open"
+          },
+          {
+            "at": 22755.79999999702,
+            "head": [
+              0,
+              1.600000023841858,
+              -3.200000047683716
+            ],
+            "step": "inside",
+            "flood": 1,
+            "phase": "open"
+          },
+          {
+            "at": 23685.29999999702,
+            "head": [
+              0,
+              1.600000023841858,
+              -2.6675000190734863
+            ],
+            "step": "exiting",
+            "flood": 1,
+            "phase": "open"
+          },
+          {
+            "at": 24915.79999999702,
+            "head": [
+              0,
+              1.600000023841858,
+              -2.450000047683716
+            ],
+            "step": "room",
+            "flood": 0,
+            "phase": "open"
+          }
+        ],
+        "texts": [
+          "P-01",
+          "1.00 \u00d7 1.90 m",
+          "Where does it lead?",
+          "a misty pine forest",
+          "CC0 sample, not generated",
+          "a seafront at sunset",
+          "a savanna under the stars",
+          "a flooded cathedral at dawn",
+          "Setup required: MODEL_API_KEY",
+          "Say it",
+          "browser speech (not Meta)",
+          "Close door",
+          "Muse Spark: setup",
+          "Muse Image: setup",
+          "Muse Voice: setup",
+          "Reading the room",
+          "door 1.00 \u00d7 1.90 m \u00b7 sill 0.00 m",
+          "wall 5.00 \u00d7 2.70 m (wall)",
+          "eye 1.60 m \u00b7 3.40 m away",
+          "ceiling 2.70 m \u00b7 floor 29 m\u00b2",
+          "couch in front 0.5 m \u00b7 table in front 1.4 m \u00b7 lamp right 1.6 m",
+          "light: not available (no light estimation) \u00b7 01:21",
+          "\"a misty pine forest\"",
+          "Setup required: Muse Spark",
+          "The room read above is real; without MODEL_API_KEY no plan is",
+          "made and no image is generated.",
+          "Misty Pines",
+          "No plan: Muse Spark needs MODEL_API_KEY (Setup required).",
+          "Defaults: eye-level horizon, neutral trim.",
+          "SAMPLE, NOT GENERATED",
+          "Misty Pines \u00b7 Greg Zaal, Poly Haven (CC0)",
+          "pano_mode  equirect",
+          "image      4096\u00d72048 \u00b7 seam \u0394E 7.0 \u00b7 horizon 2.0%",
+          "to world   4.53 s from release",
+          "Walk up to the door or reach through to step in.",
+          "Somewhere else"
+        ]
+      }
+    },
+    {
+      "id": "sunlit_living_room.X03-text",
+      "ok": true,
+      "detail": {
+        "texts": [
+          "P-01",
+          "1.00 \u00d7 1.90 m",
+          "Where does it lead?",
+          "a misty pine forest",
+          "CC0 sample, not generated",
+          "a seafront at sunset",
+          "a savanna under the stars",
+          "a flooded cathedral at dawn",
+          "Setup required: MODEL_API_KEY",
+          "Say it",
+          "browser speech (not Meta)",
+          "Close door",
+          "Muse Spark: setup",
+          "Muse Image: setup",
+          "Muse Voice: setup",
+          "Reading the room",
+          "door 1.00 \u00d7 1.90 m \u00b7 sill 0.00 m",
+          "wall 5.00 \u00d7 2.70 m (wall)",
+          "eye 1.60 m \u00b7 3.40 m away",
+          "ceiling 2.70 m \u00b7 floor 29 m\u00b2",
+          "couch in front 0.5 m \u00b7 table in front 1.4 m \u00b7 lamp right 1.6 m",
+          "light: not available (no light estimation) \u00b7 01:21",
+          "\"a misty pine forest\"",
+          "Setup required: Muse Spark",
+          "The room read above is real; without MODEL_API_KEY no plan is",
+          "made and no image is generated.",
+          "Misty Pines",
+          "No plan: Muse Spark needs MODEL_API_KEY (Setup required).",
+          "Defaults: eye-level horizon, neutral trim.",
+          "SAMPLE, NOT GENERATED",
+          "Misty Pines \u00b7 Greg Zaal, Poly Haven (CC0)",
+          "pano_mode  equirect",
+          "image      4096\u00d72048 \u00b7 seam \u0394E 7.0 \u00b7 horizon 2.0%",
+          "to world   4.53 s from release",
+          "Walk up to the door or reach through to step in.",
+          "Somewhere else"
+        ]
+      }
+    },
+    {
+      "id": "thyra_studio.X03-disabled",
+      "ok": true,
+      "detail": {
+        "choose": [
+          "to world   4.53 s from release",
+          "Walk up to the door or reach through to step in.",
+          "Close door",
+          "Somewhere else",
+          "P-01",
+          "1.00 \u00d7 1.90 m",
+          "Misty Pines",
+          "No plan: Muse Spark needs MODEL_API_KEY (Setup required).",
+          "Defaults: eye-level horizon, neutral trim.",
+          "SAMPLE, NOT GENERATED",
+          "SAMPLE, NOT GENERATED",
+          "Misty Pines \u00b7 Greg Zaal, Poly Haven (CC0)",
+          "pano_mode  equirect",
+          "image      4096\u00d72048 \u00b7 seam \u0394E 7.0 \u00b7 horizon 2.0%",
+          "to world   4.53 s from release",
+          "Walk up to the door or reach through to step in.",
+          "Close door",
+          "Somewhere else",
+          "P-01",
+          "1.00 \u00d7 1.90 m",
+          "Misty Pines",
+          "No plan: Muse Spark needs MODEL_API_KEY (Setup required).",
+          "Defaults: eye-level horizon, neutral trim.",
+          "SAMPLE, NOT GENERATED",
+          "SAMPLE, NOT GENERATED",
+          "Misty Pines \u00b7 Greg Zaal, Poly Haven (CC0)",
+          "pano_mode  equirect",
+          "image      4096\u00d72048 \u00b7 seam \u0394E 7.0 \u00b7 horizon 2.0%",
+          "to world   4.53 s from release",
+          "Walk up to the door or reach through to step in.",
+          "Close door",
+          "Somewhere else",
+          "P-01",
+          "1.00 \u00d7 1.90 m",
+          "Misty Pines",
+          "No plan: Muse Spark needs MODEL_API_KEY (Setup required).",
+          "Defaults: eye-level horizon, neutral trim.",
+          "SAMPLE, NOT GENERATED",
+          "SAMPLE, NOT GENERATED",
+          "Misty Pines \u00b7 Greg Zaal, Poly Haven (CC0)",
+          "pano_mode  equirect",
+          "image      4096\u00d72048 \u00b7 seam \u0394E 7.0 \u00b7 horizon 2.0%",
+          "to world   4.53 s from release",
+          "Walk up to the door or reach through to step in.",
+          "Close door",
+          "Somewhere else",
+          "P-01",
+          "1.00 \u00d7 1.90 m",
+          "Misty Pines",
+          "No plan: Muse Spark needs MODEL_API_KEY (Setup required).",
+          "Defaults: eye-level horizon, neutral trim.",
+          "SAMPLE, NOT GENERATED",
+          "SAMPLE, NOT GENERATED",
+          "Misty Pines \u00b7 Greg Zaal, Poly Haven (CC0)",
+          "pano_mode  equirect",
+          "image      4096\u00d72048 \u00b7 seam \u0394E 7.0 \u00b7 horizon 2.0%",
+          "to world   4.53 s from release",
+          "Walk up to the door or reach through to step in.",
+          "Close door",
+          "Somewhere else",
+          "P-01",
+          "1.00 \u00d7 1.90 m",
+          "Misty Pines",
+          "No plan: Muse Spark needs MODEL_API_KEY (Setup required).",
+          "Defaults: eye-level horizon, neutral trim.",
+          "SAMPLE, NOT GENERATED",
+          "SAMPLE, NOT GENERATED",
+          "Misty Pines \u00b7 Greg Zaal, Poly Haven (CC0)",
+          "pano_mode  equirect",
+          "image      4096\u00d72048 \u00b7 seam \u0394E 7.0 \u00b7 horizon 2.0%",
+          "to world   4.53 s from release",
+          "Walk up to the door or reach through to step in.",
+          "Close door",
+          "Somewhere else",
+          "P-01",
+          "1.00 \u00d7 1.90 m",
+          "Misty Pines",
+          "No plan: Muse Spark needs MODEL_API_KEY (Setup required).",
+          "Defaults: eye-level horizon, neutral trim.",
+          "SAMPLE, NOT GENERATED",
+          "SAMPLE, NOT GENERATED",
+          "Misty Pines \u00b7 Greg Zaal, Poly Haven (CC0)",
+          "pano_mode  equirect",
+          "image      4096\u00d72048 \u00b7 seam \u0394E 7.0 \u00b7 horizon 2.0%",
+          "to world   4.53 s from release",
+          "Walk up to the door or reach through to step in.",
+          "Close door",
+          "Somewhere else",
+          "P-01",
+          "1.00 \u00d7 1.90 m",
+          "Misty Pines",
+          "No plan: Muse Spark needs MODEL_API_KEY (Setup required).",
+          "Defaults: eye-level horizon, neutral trim.",
+          "SAMPLE, NOT GENERATED",
+          "SAMPLE, NOT GENERATED",
+          "Misty Pines \u00b7 Greg Zaal, Poly Haven (CC0)",
+          "pano_mode  equirect",
+          "image      4096\u00d72048 \u00b7 seam \u0394E 7.0 \u00b7 horizon 2.0%",
+          "to world   4.53 s from release",
+          "Walk up to the door or reach through to step in.",
+          "Close door",
+          "Somewhere else",
+          "P-01",
+          "1.00 \u00d7 1.90 m",
+          "Misty Pines",
+          "No plan: Muse Spark needs MODEL_API_KEY (Setup required).",
+          "Defaults: eye-level horizon, neutral trim.",
+          "SAMPLE, NOT GENERATED",
+          "SAMPLE, NOT GENERATED",
+          "Misty Pines \u00b7 Greg Zaal, Poly Haven (CC0)",
+          "pano_mode  equirect",
+          "image      4096\u00d72048 \u00b7 seam \u0394E 7.0 \u00b7 horizon 2.0%",
+          "to world   4.53 s from release",
+          "Walk up to the door or reach through to step in.",
+          "Close door",
+          "Somewhere else",
+          "P-02",
+          "1.00 \u00d7 1.90 m",
+          "Where does it lead?",
+          "a misty pine forest",
+          "CC0 sample, not generated",
+          "a seafront at sunset",
+          "CC0 sample, not generated",
+          "a savanna under the stars",
+          "CC0 sample, not generated",
+          "a flooded cathedral at dawn",
+          "Setup required: MODEL_API_KEY",
+          "Say it",
+          "browser speech (not Meta)",
+          "Close door",
+          "Muse Spark: setup",
+          "Muse Image: setup",
+          "Muse Voice: setup",
+          "P-02",
+          "1.00 \u00d7 1.90 m",
+          "Where does it lead?",
+          "a misty pine forest",
+          "CC0 sample, not generated",
+          "a seafront at sunset",
+          "CC0 sample, not generated",
+          "a savanna under the stars",
+          "CC0 sample, not generated",
+          "a flooded cathedral at dawn",
+          "Setup required: MODEL_API_KEY",
+          "Say it",
+          "browser speech (not Meta)",
+          "Close door",
+          "Muse Spark: setup",
+          "Muse Image: setup",
+          "Muse Voice: setup"
+        ],
+        "phase": "framed"
+      }
+    },
+    {
+      "id": "thyra_studio.X04-reach",
+      "ok": true,
+      "detail": {
+        "before": [
+          0,
+          1.600000023841858,
+          0
+        ],
+        "after": [
+          0,
+          1.600000023841858,
+          0
+        ],
+        "portal": {
+          "tag": "P-02",
+          "phase": "open",
+          "planeId": "plane-35",
+          "rect": {
+            "u0": -0.5000000028356489,
+            "u1": 0.4999999451413598,
+            "v0": -1.2000000476837158,
+            "v1": 0.6999999671110783
+          },
+          "width": 0.9999999479770088,
+          "height": 1.9000000147947942,
+          "corners": [
+            [
+              -0.5000000028356489,
+              2.4424906541753444e-14,
+              -2.5999996612534186
+            ],
+            [
+              0.4999999451413598,
+              2.4424906541753444e-14,
+              -2.5999996612534186
+            ],
+            [
+              0.4999999451413598,
+              1.90000001479478,
+              -2.6000000466037267
+            ],
+            [
+              -0.5000000028356489,
+              1.90000001479478,
+              -2.6000000466037267
+            ]
+          ],
+          "step": "inside",
+          "flood": 1,
+          "summary": {
+            "portal": {
+              "w_m": 1,
+              "h_m": 1.9,
+              "bottom_m": 0,
+              "wall": {
+                "label": "wall",
+                "w_m": 3.6,
+                "h_m": 2.4
+              }
+            },
+            "viewer": {
+              "eye_height_m": 1.6,
+              "distance_to_portal_m": 2.6
+            },
+            "room": {
+              "ceiling_m": 2.4,
+              "floor_area_m2": 15.1,
+              "objects": [
+                {
+                  "label": "couch",
+                  "dims_m": [
+                    2,
+                    0.86,
+                    0.94
+                  ],
+                  "side": "in front",
+                  "distance_m": 0.52
+                },
+                {
+                  "label": "table",
+                  "dims_m": [
+                    1,
+                    0.42,
+                    0.55
+                  ],
+                  "side": "in front",
+                  "distance_m": 1.17
+                },
+                {
+                  "label": "lamp",
+                  "dims_m": [
+                    0.4,
+                    1.72,
+                    0.4
+                  ],
+                  "side": "right",
+                  "distance_m": 1.39
+                },
+                {
+                  "label": "plant",
+                  "dims_m": [
+                    0.5,
+                    1.3,
+                    0.5
+                  ],
+                  "side": "in front",
+                  "distance_m": 3.99
+                }
+              ]
+            },
+            "light": {
+              "available": false
+            },
+            "local_time": "01:21",
+            "destination_text": "a misty pine forest"
+          },
+          "record": {
+            "tag": "P-02",
+            "destination": "a misty pine forest",
+            "room": {
+              "portal": {
+                "w_m": 1,
+                "h_m": 1.9,
+                "bottom_m": 0,
+                "wall": {
+                  "label": "wall",
+                  "w_m": 3.6,
+                  "h_m": 2.4
+                }
+              },
+              "viewer": {
+                "eye_height_m": 1.6,
+                "distance_to_portal_m": 2.6
+              },
+              "room": {
+                "ceiling_m": 2.4,
+                "floor_area_m2": 15.1,
+                "objects": [
+                  {
+                    "label": "couch",
+                    "dims_m": [
+                      2,
+                      0.86,
+                      0.94
+                    ],
+                    "side": "in front",
+                    "distance_m": 0.52
+                  },
+                  {
+                    "label": "table",
+                    "dims_m": [
+                      1,
+                      0.42,
+                      0.55
+                    ],
+                    "side": "in front",
+                    "distance_m": 1.17
+                  },
+                  {
+                    "label": "lamp",
+                    "dims_m": [
+                      0.4,
+                      1.72,
+                      0.4
+                    ],
+                    "side": "right",
+                    "distance_m": 1.39
+                  },
+                  {
+                    "label": "plant",
+                    "dims_m": [
+                      0.5,
+                      1.3,
+                      0.5
+                    ],
+                    "side": "in front",
+                    "distance_m": 3.99
+                  }
+                ]
+              },
+              "light": {
+                "available": false
+              },
+              "local_time": "01:21",
+              "destination_text": "a misty pine forest"
+            },
+            "models": {},
+            "sample_id": "misty_pines",
+            "source": "cc0-sample",
+            "stamp": "Sample, not generated",
+            "pano_mode": "equirect",
+            "analysis": {
+              "width": 4096,
+              "height": 2048,
+              "aspect": 2,
+              "seam_delta_e": 7.037860019692314,
+              "inner_delta_e": 5.585025717178965,
+              "horizon_row": 133,
+              "horizon_offset": 0.01953125,
+              "pole_spread": 3.4075015244125986,
+              "horizon_hex": "#9d9d97"
+            },
+            "time_to_world_ms": 4556,
+            "decode_ms": 5,
+            "run_id": "98617eb2-ee54-4429-ab00-4867b93f0fab"
+          }
+        },
+        "pointers": [
+          {
+            "id": "left-tracked-pointer",
+            "kind": "hand",
+            "origin": [
+              -0.15000000596046448,
+              1.2999999523162842,
+              -0.4000000059604645
+            ],
+            "dir": [
+              0,
+              0,
+              -1
+            ],
+            "down": false
+          },
+          {
+            "id": "right-tracked-pointer",
+            "kind": "hand",
+            "origin": [
+              0,
+              1.2000000476837158,
+              -3
+            ],
+            "dir": [
+              0.41878061861503624,
+              0.3917082787691499,
+              -0.8192602869760731
+            ],
+            "down": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "thyra_studio.X04-transitions",
+      "ok": true,
+      "detail": {
+        "transitions": [
+          {
+            "at": 34901.40000000596,
+            "head": [
+              0,
+              1.600000023841858,
+              0
+            ],
+            "step": "room",
+            "flood": 0,
+            "phase": "framed"
+          },
+          {
+            "at": 37149.40000000596,
+            "head": [
+              0,
+              1.600000023841858,
+              0
+            ],
+            "step": "entering",
+            "flood": 0,
+            "phase": "open"
+          },
+          {
+            "at": 38351.5,
+            "head": [
+              0,
+              1.600000023841858,
+              0
+            ],
+            "step": "inside",
+            "flood": 1,
+            "phase": "open"
+          },
+          {
+            "at": 39398.79999999702,
+            "head": [
+              0.5125249624252319,
+              1.600000023841858,
+              0
+            ],
+            "step": "exiting",
+            "flood": 1,
+            "phase": "open"
+          },
+          {
+            "at": 40599.79999999702,
+            "head": [
+              0.6499999761581421,
+              1.600000023841858,
+              0
+            ],
+            "step": "room",
+            "flood": 0,
+            "phase": "open"
+          },
+          {
+            "at": 42401.20000000298,
+            "head": [
+              0,
+              1.600000023841858,
+              -2.326079845428467
+            ],
+            "step": "entering",
+            "flood": 0,
+            "phase": "open"
+          },
+          {
+            "at": 43631.10000000894,
+            "head": [
+              0,
+              1.600000023841858,
+              -2.3999998569488525
+            ],
+            "step": "inside",
+            "flood": 1,
+            "phase": "open"
+          },
+          {
+            "at": 44590.29999999702,
+            "head": [
+              0,
+              1.600000023841858,
+              -1.77468740940094
+            ],
+            "step": "exiting",
+            "flood": 0.9885833333308498,
+            "phase": "open"
+          },
+          {
+            "at": 45790.40000000596,
+            "head": [
+              0,
+              1.600000023841858,
+              -1.6499998569488525
+            ],
+            "step": "room",
+            "flood": 0,
+            "phase": "open"
+          }
+        ],
+        "texts": [
+          "to world   4.53 s from release",
+          "Walk up to the door or reach through to step in.",
+          "Close door",
+          "Somewhere else",
+          "P-01",
+          "1.00 \u00d7 1.90 m",
+          "Misty Pines",
+          "No plan: Muse Spark needs MODEL_API_KEY (Setup required).",
+          "Defaults: eye-level horizon, neutral trim.",
+          "SAMPLE, NOT GENERATED",
+          "Misty Pines \u00b7 Greg Zaal, Poly Haven (CC0)",
+          "pano_mode  equirect",
+          "image      4096\u00d72048 \u00b7 seam \u0394E 7.0 \u00b7 horizon 2.0%",
+          "P-02",
+          "Where does it lead?",
+          "a misty pine forest",
+          "CC0 sample, not generated",
+          "a seafront at sunset",
+          "a savanna under the stars",
+          "a flooded cathedral at dawn",
+          "Setup required: MODEL_API_KEY",
+          "Say it",
+          "browser speech (not Meta)",
+          "Muse Spark: setup",
+          "Muse Image: setup",
+          "Muse Voice: setup",
+          "Reading the room",
+          "door 1.00 \u00d7 1.90 m \u00b7 sill 0.00 m",
+          "wall 3.60 \u00d7 2.40 m (wall)",
+          "eye 1.60 m \u00b7 2.60 m away",
+          "ceiling 2.40 m \u00b7 floor 15.1 m\u00b2",
+          "couch in front 0.5 m \u00b7 table in front 1.2 m \u00b7 lamp right 1.4 m",
+          "light: not available (no light estimation) \u00b7 01:21",
+          "\"a misty pine forest\"",
+          "Setup required: Muse Spark",
+          "The room read above is real; without MODEL_API_KEY no plan is",
+          "made and no image is generated.",
+          "to world   4.56 s from release"
+        ]
+      }
+    },
+    {
+      "id": "thyra_studio.X03-text",
+      "ok": true,
+      "detail": {
+        "texts": [
+          "to world   4.53 s from release",
+          "Walk up to the door or reach through to step in.",
+          "Close door",
+          "Somewhere else",
+          "P-01",
+          "1.00 \u00d7 1.90 m",
+          "Misty Pines",
+          "No plan: Muse Spark needs MODEL_API_KEY (Setup required).",
+          "Defaults: eye-level horizon, neutral trim.",
+          "SAMPLE, NOT GENERATED",
+          "Misty Pines \u00b7 Greg Zaal, Poly Haven (CC0)",
+          "pano_mode  equirect",
+          "image      4096\u00d72048 \u00b7 seam \u0394E 7.0 \u00b7 horizon 2.0%",
+          "P-02",
+          "Where does it lead?",
+          "a misty pine forest",
+          "CC0 sample, not generated",
+          "a seafront at sunset",
+          "a savanna under the stars",
+          "a flooded cathedral at dawn",
+          "Setup required: MODEL_API_KEY",
+          "Say it",
+          "browser speech (not Meta)",
+          "Muse Spark: setup",
+          "Muse Image: setup",
+          "Muse Voice: setup",
+          "Reading the room",
+          "door 1.00 \u00d7 1.90 m \u00b7 sill 0.00 m",
+          "wall 3.60 \u00d7 2.40 m (wall)",
+          "eye 1.60 m \u00b7 2.60 m away",
+          "ceiling 2.40 m \u00b7 floor 15.1 m\u00b2",
+          "couch in front 0.5 m \u00b7 table in front 1.2 m \u00b7 lamp right 1.4 m",
+          "light: not available (no light estimation) \u00b7 01:21",
+          "\"a misty pine forest\"",
+          "Setup required: Muse Spark",
+          "The room read above is real; without MODEL_API_KEY no plan is",
+          "made and no image is generated.",
+          "to world   4.56 s from release"
+        ]
+      }
+    },
+    {
+      "id": "thyra_hall.X03-disabled",
+      "ok": true,
+      "detail": {
+        "choose": [
+          "to world   4.56 s from release",
+          "Walk up to the door or reach through to step in.",
+          "Close door",
+          "Somewhere else",
+          "P-02",
+          "1.00 \u00d7 1.90 m",
+          "Misty Pines",
+          "No plan: Muse Spark needs MODEL_API_KEY (Setup required).",
+          "Defaults: eye-level horizon, neutral trim.",
+          "SAMPLE, NOT GENERATED",
+          "SAMPLE, NOT GENERATED",
+          "Misty Pines \u00b7 Greg Zaal, Poly Haven (CC0)",
+          "pano_mode  equirect",
+          "image      4096\u00d72048 \u00b7 seam \u0394E 7.0 \u00b7 horizon 2.0%",
+          "to world   4.56 s from release",
+          "Walk up to the door or reach through to step in.",
+          "Close door",
+          "Somewhere else",
+          "P-02",
+          "1.00 \u00d7 1.90 m",
+          "Misty Pines",
+          "No plan: Muse Spark needs MODEL_API_KEY (Setup required).",
+          "Defaults: eye-level horizon, neutral trim.",
+          "SAMPLE, NOT GENERATED",
+          "SAMPLE, NOT GENERATED",
+          "Misty Pines \u00b7 Greg Zaal, Poly Haven (CC0)",
+          "pano_mode  equirect",
+          "image      4096\u00d72048 \u00b7 seam \u0394E 7.0 \u00b7 horizon 2.0%",
+          "to world   4.56 s from release",
+          "Walk up to the door or reach through to step in.",
+          "Close door",
+          "Somewhere else",
+          "P-02",
+          "1.00 \u00d7 1.90 m",
+          "Misty Pines",
+          "No plan: Muse Spark needs MODEL_API_KEY (Setup required).",
+          "Defaults: eye-level horizon, neutral trim.",
+          "SAMPLE, NOT GENERATED",
+          "SAMPLE, NOT GENERATED",
+          "Misty Pines \u00b7 Greg Zaal, Poly Haven (CC0)",
+          "pano_mode  equirect",
+          "image      4096\u00d72048 \u00b7 seam \u0394E 7.0 \u00b7 horizon 2.0%",
+          "to world   4.56 s from release",
+          "Walk up to the door or reach through to step in.",
+          "Close door",
+          "Somewhere else",
+          "P-02",
+          "1.00 \u00d7 1.90 m",
+          "Misty Pines",
+          "No plan: Muse Spark needs MODEL_API_KEY (Setup required).",
+          "Defaults: eye-level horizon, neutral trim.",
+          "SAMPLE, NOT GENERATED",
+          "SAMPLE, NOT GENERATED",
+          "Misty Pines \u00b7 Greg Zaal, Poly Haven (CC0)",
+          "pano_mode  equirect",
+          "image      4096\u00d72048 \u00b7 seam \u0394E 7.0 \u00b7 horizon 2.0%",
+          "to world   4.56 s from release",
+          "Walk up to the door or reach through to step in.",
+          "Close door",
+          "Somewhere else",
+          "P-02",
+          "1.00 \u00d7 1.90 m",
+          "Misty Pines",
+          "No plan: Muse Spark needs MODEL_API_KEY (Setup required).",
+          "Defaults: eye-level horizon, neutral trim.",
+          "SAMPLE, NOT GENERATED",
+          "SAMPLE, NOT GENERATED",
+          "Misty Pines \u00b7 Greg Zaal, Poly Haven (CC0)",
+          "pano_mode  equirect",
+          "image      4096\u00d72048 \u00b7 seam \u0394E 7.0 \u00b7 horizon 2.0%",
+          "to world   4.56 s from release",
+          "Walk up to the door or reach through to step in.",
+          "Close door",
+          "Somewhere else",
+          "P-02",
+          "1.00 \u00d7 1.90 m",
+          "Misty Pines",
+          "No plan: Muse Spark needs MODEL_API_KEY (Setup required).",
+          "Defaults: eye-level horizon, neutral trim.",
+          "SAMPLE, NOT GENERATED",
+          "SAMPLE, NOT GENERATED",
+          "Misty Pines \u00b7 Greg Zaal, Poly Haven (CC0)",
+          "pano_mode  equirect",
+          "image      4096\u00d72048 \u00b7 seam \u0394E 7.0 \u00b7 horizon 2.0%",
+          "to world   4.56 s from release",
+          "Walk up to the door or reach through to step in.",
+          "Close door",
+          "Somewhere else",
+          "P-02",
+          "1.00 \u00d7 1.90 m",
+          "Misty Pines",
+          "No plan: Muse Spark needs MODEL_API_KEY (Setup required).",
+          "Defaults: eye-level horizon, neutral trim.",
+          "SAMPLE, NOT GENERATED",
+          "SAMPLE, NOT GENERATED",
+          "Misty Pines \u00b7 Greg Zaal, Poly Haven (CC0)",
+          "pano_mode  equirect",
+          "image      4096\u00d72048 \u00b7 seam \u0394E 7.0 \u00b7 horizon 2.0%",
+          "to world   4.56 s from release",
+          "Walk up to the door or reach through to step in.",
+          "Close door",
+          "Somewhere else",
+          "P-02",
+          "1.00 \u00d7 1.90 m",
+          "Misty Pines",
+          "No plan: Muse Spark needs MODEL_API_KEY (Setup required).",
+          "Defaults: eye-level horizon, neutral trim.",
+          "SAMPLE, NOT GENERATED",
+          "SAMPLE, NOT GENERATED",
+          "Misty Pines \u00b7 Greg Zaal, Poly Haven (CC0)",
+          "pano_mode  equirect",
+          "image      4096\u00d72048 \u00b7 seam \u0394E 7.0 \u00b7 horizon 2.0%",
+          "to world   4.56 s from release",
+          "Walk up to the door or reach through to step in.",
+          "Close door",
+          "Somewhere else",
+          "P-03",
+          "1.00 \u00d7 1.90 m",
+          "Where does it lead?",
+          "a misty pine forest",
+          "CC0 sample, not generated",
+          "a seafront at sunset",
+          "CC0 sample, not generated",
+          "a savanna under the stars",
+          "CC0 sample, not generated",
+          "a flooded cathedral at dawn",
+          "Setup required: MODEL_API_KEY",
+          "Say it",
+          "browser speech (not Meta)",
+          "Close door",
+          "Muse Spark: setup",
+          "Muse Image: setup",
+          "Muse Voice: setup",
+          "P-03",
+          "1.00 \u00d7 1.90 m",
+          "Where does it lead?",
+          "a misty pine forest",
+          "CC0 sample, not generated",
+          "a seafront at sunset",
+          "CC0 sample, not generated",
+          "a savanna under the stars",
+          "CC0 sample, not generated",
+          "a flooded cathedral at dawn",
+          "Setup required: MODEL_API_KEY",
+          "Say it",
+          "browser speech (not Meta)",
+          "Close door",
+          "Muse Spark: setup",
+          "Muse Image: setup",
+          "Muse Voice: setup"
+        ],
+        "phase": "framed"
+      }
+    },
+    {
+      "id": "thyra_hall.X04-reach",
+      "ok": true,
+      "detail": {
+        "before": [
+          0,
+          1.600000023841858,
+          0
+        ],
+        "after": [
+          0,
+          1.600000023841858,
+          0
+        ],
+        "portal": {
+          "tag": "P-03",
+          "phase": "open",
+          "planeId": "plane-47",
+          "rect": {
+            "u0": -0.5000000525996198,
+            "u1": 0.5000000226901808,
+            "v0": -1.0499999523162842,
+            "v1": 0.8499999940395355
+          },
+          "width": 1.0000000752898006,
+          "height": 1.8999999463558197,
+          "corners": [
+            [
+              0.75,
+              0,
+              -2.5000000525996198
+            ],
+            [
+              0.75,
+              0,
+              -1.4999999773098192
+            ],
+            [
+              0.75,
+              1.8999999463558197,
+              -1.4999999773098192
+            ],
+            [
+              0.75,
+              1.8999999463558197,
+              -2.5000000525996198
+            ]
+          ],
+          "step": "inside",
+          "flood": 1,
+          "summary": {
+            "portal": {
+              "w_m": 1,
+              "h_m": 1.9,
+              "bottom_m": 0,
+              "wall": {
+                "label": "wall",
+                "w_m": 6,
+                "h_m": 2.1
+              }
+            },
+            "viewer": {
+              "eye_height_m": 1.6,
+              "distance_to_portal_m": 0.75
+            },
+            "room": {
+              "ceiling_m": 2.1,
+              "floor_area_m2": 9,
+              "objects": [
+                {
+                  "label": "plant",
+                  "dims_m": [
+                    0.42,
+                    1.1,
+                    0.42
+                  ],
+                  "side": "left",
+                  "distance_m": 2.88
+                }
+              ]
+            },
+            "light": {
+              "available": false
+            },
+            "local_time": "01:22",
+            "destination_text": "a misty pine forest"
+          },
+          "record": {
+            "tag": "P-03",
+            "destination": "a misty pine forest",
+            "room": {
+              "portal": {
+                "w_m": 1,
+                "h_m": 1.9,
+                "bottom_m": 0,
+                "wall": {
+                  "label": "wall",
+                  "w_m": 6,
+                  "h_m": 2.1
+                }
+              },
+              "viewer": {
+                "eye_height_m": 1.6,
+                "distance_to_portal_m": 0.75
+              },
+              "room": {
+                "ceiling_m": 2.1,
+                "floor_area_m2": 9,
+                "objects": [
+                  {
+                    "label": "plant",
+                    "dims_m": [
+                      0.42,
+                      1.1,
+                      0.42
+                    ],
+                    "side": "left",
+                    "distance_m": 2.88
+                  }
+                ]
+              },
+              "light": {
+                "available": false
+              },
+              "local_time": "01:22",
+              "destination_text": "a misty pine forest"
+            },
+            "models": {},
+            "sample_id": "misty_pines",
+            "source": "cc0-sample",
+            "stamp": "Sample, not generated",
+            "pano_mode": "equirect",
+            "analysis": {
+              "width": 4096,
+              "height": 2048,
+              "aspect": 2,
+              "seam_delta_e": 7.037860019692314,
+              "inner_delta_e": 5.585025717178965,
+              "horizon_row": 133,
+              "horizon_offset": 0.01953125,
+              "pole_spread": 3.4075015244125986,
+              "horizon_hex": "#9d9d97"
+            },
+            "time_to_world_ms": 4555,
+            "decode_ms": 52,
+            "run_id": "938a4bca-cc8f-484d-8cc9-d852bbee3115"
+          }
+        },
+        "pointers": [
+          {
+            "id": "left-tracked-pointer",
+            "kind": "hand",
+            "origin": [
+              -0.15000000596046448,
+              1.2999999523162842,
+              -0.4000000059604645
+            ],
+            "dir": [
+              0,
+              0,
+              -1
+            ],
+            "down": false
+          },
+          {
+            "id": "right-tracked-pointer",
+            "kind": "hand",
+            "origin": [
+              1.149999976158142,
+              1.2000000476837158,
+              -2
+            ],
+            "dir": [
+              0.7511809330478173,
+              0.36866184392837653,
+              -0.5475542444879229
+            ],
+            "down": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "thyra_hall.X04-transitions",
+      "ok": true,
+      "detail": {
+        "transitions": [
+          {
+            "at": 55899.40000000596,
+            "head": [
+              0,
+              1.600000023841858,
+              0
+            ],
+            "step": "room",
+            "flood": 0,
+            "phase": "framed"
+          },
+          {
+            "at": 58749.20000000298,
+            "head": [
+              0,
+              1.600000023841858,
+              0
+            ],
+            "step": "entering",
+            "flood": 0,
+            "phase": "open"
+          },
+          {
+            "at": 59978.29999999702,
+            "head": [
+              0,
+              1.600000023841858,
+              0
+            ],
+            "step": "inside",
+            "flood": 1,
+            "phase": "open"
+          },
+          {
+            "at": 61031.29999999702,
+            "head": [
+              0.5398249626159668,
+              1.600000023841858,
+              0
+            ],
+            "step": "exiting",
+            "flood": 0.9863333333407839,
+            "phase": "open"
+          },
+          {
+            "at": 62257.90000000596,
+            "head": [
+              0.6499999761581421,
+              1.600000023841858,
+              0
+            ],
+            "step": "room",
+            "flood": 0,
+            "phase": "open"
+          },
+          {
+            "at": 63970.60000000894,
+            "head": [
+              0.46233001351356506,
+              1.600000023841858,
+              -1.6812000274658203
+            ],
+            "step": "entering",
+            "flood": 0,
+            "phase": "open"
+          },
+          {
+            "at": 65199.10000000894,
+            "head": [
+              0.550000011920929,
+              1.600000023841858,
+              -2
+            ],
+            "step": "inside",
+            "flood": 1,
+            "phase": "open"
+          },
+          {
+            "at": 66165.40000000596,
+            "head": [
+              0.04712500050663948,
+              1.600000023841858,
+              -2
+            ],
+            "step": "exiting",
+            "flood": 0.987999999995033,
+            "phase": "open"
+          },
+          {
+            "at": 67363.5,
+            "head": [
+              -0.20000000298023224,
+              1.600000023841858,
+              -2
+            ],
+            "step": "room",
+            "flood": 0,
+            "phase": "open"
+          }
+        ],
+        "texts": [
+          "to world   4.56 s from release",
+          "Walk up to the door or reach through to step in.",
+          "Close door",
+          "Somewhere else",
+          "P-02",
+          "1.00 \u00d7 1.90 m",
+          "Misty Pines",
+          "No plan: Muse Spark needs MODEL_API_KEY (Setup required).",
+          "Defaults: eye-level horizon, neutral trim.",
+          "SAMPLE, NOT GENERATED",
+          "Misty Pines \u00b7 Greg Zaal, Poly Haven (CC0)",
+          "pano_mode  equirect",
+          "image      4096\u00d72048 \u00b7 seam \u0394E 7.0 \u00b7 horizon 2.0%",
+          "P-03",
+          "Where does it lead?",
+          "a misty pine forest",
+          "CC0 sample, not generated",
+          "a seafront at sunset",
+          "a savanna under the stars",
+          "a flooded cathedral at dawn",
+          "Setup required: MODEL_API_KEY",
+          "Say it",
+          "browser speech (not Meta)",
+          "Muse Spark: setup",
+          "Muse Image: setup",
+          "Muse Voice: setup",
+          "Reading the room",
+          "door 1.00 \u00d7 1.90 m \u00b7 sill 0.00 m",
+          "wall 6.00 \u00d7 2.10 m (wall)",
+          "eye 1.60 m \u00b7 0.75 m away",
+          "ceiling 2.10 m \u00b7 floor 9 m\u00b2",
+          "plant left 2.9 m",
+          "light: not available (no light estimation) \u00b7 01:22",
+          "\"a misty pine forest\"",
+          "Setup required: Muse Spark",
+          "The room read above is real; without MODEL_API_KEY no plan is",
+          "made and no image is generated.",
+          "to world   4.55 s from release"
+        ]
+      }
+    },
+    {
+      "id": "thyra_hall.X03-text",
+      "ok": true,
+      "detail": {
+        "texts": [
+          "to world   4.56 s from release",
+          "Walk up to the door or reach through to step in.",
+          "Close door",
+          "Somewhere else",
+          "P-02",
+          "1.00 \u00d7 1.90 m",
+          "Misty Pines",
+          "No plan: Muse Spark needs MODEL_API_KEY (Setup required).",
+          "Defaults: eye-level horizon, neutral trim.",
+          "SAMPLE, NOT GENERATED",
+          "Misty Pines \u00b7 Greg Zaal, Poly Haven (CC0)",
+          "pano_mode  equirect",
+          "image      4096\u00d72048 \u00b7 seam \u0394E 7.0 \u00b7 horizon 2.0%",
+          "P-03",
+          "Where does it lead?",
+          "a misty pine forest",
+          "CC0 sample, not generated",
+          "a seafront at sunset",
+          "a savanna under the stars",
+          "a flooded cathedral at dawn",
+          "Setup required: MODEL_API_KEY",
+          "Say it",
+          "browser speech (not Meta)",
+          "Muse Spark: setup",
+          "Muse Image: setup",
+          "Muse Voice: setup",
+          "Reading the room",
+          "door 1.00 \u00d7 1.90 m \u00b7 sill 0.00 m",
+          "wall 6.00 \u00d7 2.10 m (wall)",
+          "eye 1.60 m \u00b7 0.75 m away",
+          "ceiling 2.10 m \u00b7 floor 9 m\u00b2",
+          "plant left 2.9 m",
+          "light: not available (no light estimation) \u00b7 01:22",
+          "\"a misty pine forest\"",
+          "Setup required: Muse Spark",
+          "The room read above is real; without MODEL_API_KEY no plan is",
+          "made and no image is generated.",
+          "to world   4.55 s from release"
+        ]
+      }
+    },
+    {
+      "id": "bedroom.X03-disabled",
+      "ok": true,
+      "detail": {
+        "choose": [
+          "to world   4.55 s from release",
+          "Walk up to the door or reach through to step in.",
+          "Close door",
+          "Somewhere else",
+          "P-03",
+          "1.00 \u00d7 1.90 m",
+          "Misty Pines",
+          "No plan: Muse Spark needs MODEL_API_KEY (Setup required).",
+          "Defaults: eye-level horizon, neutral trim.",
+          "SAMPLE, NOT GENERATED",
+          "SAMPLE, NOT GENERATED",
+          "Misty Pines \u00b7 Greg Zaal, Poly Haven (CC0)",
+          "pano_mode  equirect",
+          "image      4096\u00d72048 \u00b7 seam \u0394E 7.0 \u00b7 horizon 2.0%",
+          "to world   4.55 s from release",
+          "Walk up to the door or reach through to step in.",
+          "Close door",
+          "Somewhere else",
+          "P-03",
+          "1.00 \u00d7 1.90 m",
+          "Misty Pines",
+          "No plan: Muse Spark needs MODEL_API_KEY (Setup required).",
+          "Defaults: eye-level horizon, neutral trim.",
+          "SAMPLE, NOT GENERATED",
+          "SAMPLE, NOT GENERATED",
+          "Misty Pines \u00b7 Greg Zaal, Poly Haven (CC0)",
+          "pano_mode  equirect",
+          "image      4096\u00d72048 \u00b7 seam \u0394E 7.0 \u00b7 horizon 2.0%",
+          "to world   4.55 s from release",
+          "Walk up to the door or reach through to step in.",
+          "Close door",
+          "Somewhere else",
+          "P-03",
+          "1.00 \u00d7 1.90 m",
+          "Misty Pines",
+          "No plan: Muse Spark needs MODEL_API_KEY (Setup required).",
+          "Defaults: eye-level horizon, neutral trim.",
+          "SAMPLE, NOT GENERATED",
+          "SAMPLE, NOT GENERATED",
+          "Misty Pines \u00b7 Greg Zaal, Poly Haven (CC0)",
+          "pano_mode  equirect",
+          "image      4096\u00d72048 \u00b7 seam \u0394E 7.0 \u00b7 horizon 2.0%",
+          "to world   4.55 s from release",
+          "Walk up to the door or reach through to step in.",
+          "Close door",
+          "Somewhere else",
+          "P-03",
+          "1.00 \u00d7 1.90 m",
+          "Misty Pines",
+          "No plan: Muse Spark needs MODEL_API_KEY (Setup required).",
+          "Defaults: eye-level horizon, neutral trim.",
+          "SAMPLE, NOT GENERATED",
+          "SAMPLE, NOT GENERATED",
+          "Misty Pines \u00b7 Greg Zaal, Poly Haven (CC0)",
+          "pano_mode  equirect",
+          "image      4096\u00d72048 \u00b7 seam \u0394E 7.0 \u00b7 horizon 2.0%",
+          "to world   4.55 s from release",
+          "Walk up to the door or reach through to step in.",
+          "Close door",
+          "Somewhere else",
+          "P-03",
+          "1.00 \u00d7 1.90 m",
+          "Misty Pines",
+          "No plan: Muse Spark needs MODEL_API_KEY (Setup required).",
+          "Defaults: eye-level horizon, neutral trim.",
+          "SAMPLE, NOT GENERATED",
+          "SAMPLE, NOT GENERATED",
+          "Misty Pines \u00b7 Greg Zaal, Poly Haven (CC0)",
+          "pano_mode  equirect",
+          "image      4096\u00d72048 \u00b7 seam \u0394E 7.0 \u00b7 horizon 2.0%",
+          "to world   4.55 s from release",
+          "Walk up to the door or reach through to step in.",
+          "Close door",
+          "Somewhere else",
+          "P-03",
+          "1.00 \u00d7 1.90 m",
+          "Misty Pines",
+          "No plan: Muse Spark needs MODEL_API_KEY (Setup required).",
+          "Defaults: eye-level horizon, neutral trim.",
+          "SAMPLE, NOT GENERATED",
+          "SAMPLE, NOT GENERATED",
+          "Misty Pines \u00b7 Greg Zaal, Poly Haven (CC0)",
+          "pano_mode  equirect",
+          "image      4096\u00d72048 \u00b7 seam \u0394E 7.0 \u00b7 horizon 2.0%",
+          "to world   4.55 s from release",
+          "Walk up to the door or reach through to step in.",
+          "Close door",
+          "Somewhere else",
+          "P-03",
+          "1.00 \u00d7 1.90 m",
+          "Misty Pines",
+          "No plan: Muse Spark needs MODEL_API_KEY (Setup required).",
+          "Defaults: eye-level horizon, neutral trim.",
+          "SAMPLE, NOT GENERATED",
+          "SAMPLE, NOT GENERATED",
+          "Misty Pines \u00b7 Greg Zaal, Poly Haven (CC0)",
+          "pano_mode  equirect",
+          "image      4096\u00d72048 \u00b7 seam \u0394E 7.0 \u00b7 horizon 2.0%",
+          "to world   4.55 s from release",
+          "Walk up to the door or reach through to step in.",
+          "Close door",
+          "Somewhere else",
+          "P-03",
+          "1.00 \u00d7 1.90 m",
+          "Misty Pines",
+          "No plan: Muse Spark needs MODEL_API_KEY (Setup required).",
+          "Defaults: eye-level horizon, neutral trim.",
+          "SAMPLE, NOT GENERATED",
+          "SAMPLE, NOT GENERATED",
+          "Misty Pines \u00b7 Greg Zaal, Poly Haven (CC0)",
+          "pano_mode  equirect",
+          "image      4096\u00d72048 \u00b7 seam \u0394E 7.0 \u00b7 horizon 2.0%",
+          "to world   4.55 s from release",
+          "Walk up to the door or reach through to step in.",
+          "Close door",
+          "Somewhere else",
+          "P-04",
+          "1.00 \u00d7 1.90 m",
+          "Where does it lead?",
+          "a misty pine forest",
+          "CC0 sample, not generated",
+          "a seafront at sunset",
+          "CC0 sample, not generated",
+          "a savanna under the stars",
+          "CC0 sample, not generated",
+          "a flooded cathedral at dawn",
+          "Setup required: MODEL_API_KEY",
+          "Say it",
+          "browser speech (not Meta)",
+          "Close door",
+          "Muse Spark: setup",
+          "Muse Image: setup",
+          "Muse Voice: setup",
+          "P-04",
+          "1.00 \u00d7 1.90 m",
+          "Where does it lead?",
+          "a misty pine forest",
+          "CC0 sample, not generated",
+          "a seafront at sunset",
+          "CC0 sample, not generated",
+          "a savanna under the stars",
+          "CC0 sample, not generated",
+          "a flooded cathedral at dawn",
+          "Setup required: MODEL_API_KEY",
+          "Say it",
+          "browser speech (not Meta)",
+          "Close door",
+          "Muse Spark: setup",
+          "Muse Image: setup",
+          "Muse Voice: setup"
+        ],
+        "phase": "framed"
+      }
+    },
+    {
+      "id": "bedroom.X04-reach",
+      "ok": true,
+      "detail": {
+        "before": [
+          0,
+          1.600000023841858,
+          0
+        ],
+        "after": [
+          0,
+          1.600000023841858,
+          0
+        ],
+        "portal": {
+          "tag": "P-04",
+          "phase": "open",
+          "planeId": "plane-61",
+          "rect": {
+            "u0": -0.5000000434593082,
+            "u1": 0.5000000420283885,
+            "v0": -1.350000023841858,
+            "v1": 0.5499999467271426
+          },
+          "width": 1.0000000854876967,
+          "height": 1.8999999705690005,
+          "corners": [
+            [
+              2.25,
+              0,
+              -1.2500000434593082
+            ],
+            [
+              2.25,
+              0,
+              -0.24999995797161145
+            ],
+            [
+              2.25,
+              1.8999999705690005,
+              -0.24999995797161145
+            ],
+            [
+              2.25,
+              1.8999999705690005,
+              -1.2500000434593082
+            ]
+          ],
+          "step": "inside",
+          "flood": 1,
+          "summary": {
+            "portal": {
+              "w_m": 1,
+              "h_m": 1.9,
+              "bottom_m": 0,
+              "wall": {
+                "label": "wall",
+                "w_m": 4.5,
+                "h_m": 2.7
+              }
+            },
+            "viewer": {
+              "eye_height_m": 1.6,
+              "distance_to_portal_m": 2.25
+            },
+            "room": {
+              "ceiling_m": 2.7,
+              "floor_area_m2": 20.3,
+              "objects": [
+                {
+                  "label": "shelf",
+                  "dims_m": [
+                    1.3,
+                    0.82,
+                    0.5
+                  ],
+                  "side": "right",
+                  "distance_m": 1.08
+                },
+                {
+                  "label": "bed",
+                  "dims_m": [
+                    2.16,
+                    1.15,
+                    1.72
+                  ],
+                  "side": "left",
+                  "distance_m": 1.85
+                },
+                {
+                  "label": "table",
+                  "dims_m": [
+                    0.46,
+                    0.56,
+                    0.42
+                  ],
+                  "side": "left",
+                  "distance_m": 2.05
+                },
+                {
+                  "label": "lamp",
+                  "dims_m": [
+                    0.32,
+                    0.5,
+                    0.32
+                  ],
+                  "side": "left",
+                  "distance_m": 2.08
+                },
+                {
+                  "label": "table",
+                  "dims_m": [
+                    0.46,
+                    0.56,
+                    0.42
+                  ],
+                  "side": "left",
+                  "distance_m": 3.27
+                },
+                {
+                  "label": "lamp",
+                  "dims_m": [
+                    0.32,
+                    0.5,
+                    0.32
+                  ],
+                  "side": "left",
+                  "distance_m": 3.29
+                },
+                {
+                  "label": "couch",
+                  "dims_m": [
+                    1.11,
+                    0.88,
+                    1.08
+                  ],
+                  "side": "in front",
+                  "distance_m": 3.84
+                },
+                {
+                  "label": "shelf",
+                  "dims_m": [
+                    1.05,
+                    2.25,
+                    0.61
+                  ],
+                  "side": "in front",
+                  "distance_m": 3.87
+                }
+              ]
+            },
+            "light": {
+              "available": false
+            },
+            "local_time": "01:22",
+            "destination_text": "a misty pine forest"
+          },
+          "record": {
+            "tag": "P-04",
+            "destination": "a misty pine forest",
+            "room": {
+              "portal": {
+                "w_m": 1,
+                "h_m": 1.9,
+                "bottom_m": 0,
+                "wall": {
+                  "label": "wall",
+                  "w_m": 4.5,
+                  "h_m": 2.7
+                }
+              },
+              "viewer": {
+                "eye_height_m": 1.6,
+                "distance_to_portal_m": 2.25
+              },
+              "room": {
+                "ceiling_m": 2.7,
+                "floor_area_m2": 20.3,
+                "objects": [
+                  {
+                    "label": "shelf",
+                    "dims_m": [
+                      1.3,
+                      0.82,
+                      0.5
+                    ],
+                    "side": "right",
+                    "distance_m": 1.08
+                  },
+                  {
+                    "label": "bed",
+                    "dims_m": [
+                      2.16,
+                      1.15,
+                      1.72
+                    ],
+                    "side": "left",
+                    "distance_m": 1.85
+                  },
+                  {
+                    "label": "table",
+                    "dims_m": [
+                      0.46,
+                      0.56,
+                      0.42
+                    ],
+                    "side": "left",
+                    "distance_m": 2.05
+                  },
+                  {
+                    "label": "lamp",
+                    "dims_m": [
+                      0.32,
+                      0.5,
+                      0.32
+                    ],
+                    "side": "left",
+                    "distance_m": 2.08
+                  },
+                  {
+                    "label": "table",
+                    "dims_m": [
+                      0.46,
+                      0.56,
+                      0.42
+                    ],
+                    "side": "left",
+                    "distance_m": 3.27
+                  },
+                  {
+                    "label": "lamp",
+                    "dims_m": [
+                      0.32,
+                      0.5,
+                      0.32
+                    ],
+                    "side": "left",
+                    "distance_m": 3.29
+                  },
+                  {
+                    "label": "couch",
+                    "dims_m": [
+                      1.11,
+                      0.88,
+                      1.08
+                    ],
+                    "side": "in front",
+                    "distance_m": 3.84
+                  },
+                  {
+                    "label": "shelf",
+                    "dims_m": [
+                      1.05,
+                      2.25,
+                      0.61
+                    ],
+                    "side": "in front",
+                    "distance_m": 3.87
+                  }
+                ]
+              },
+              "light": {
+                "available": false
+              },
+              "local_time": "01:22",
+              "destination_text": "a misty pine forest"
+            },
+            "models": {},
+            "sample_id": "misty_pines",
+            "source": "cc0-sample",
+            "stamp": "Sample, not generated",
+            "pano_mode": "equirect",
+            "analysis": {
+              "width": 4096,
+              "height": 2048,
+              "aspect": 2,
+              "seam_delta_e": 7.037860019692314,
+              "inner_delta_e": 5.585025717178965,
+              "horizon_row": 133,
+              "horizon_offset": 0.01953125,
+              "pole_spread": 3.4075015244125986,
+              "horizon_hex": "#9d9d97"
+            },
+            "time_to_world_ms": 4510,
+            "decode_ms": 5,
+            "run_id": "371c1dd9-1ec5-4210-894c-a1d7296a2817"
+          }
+        },
+        "pointers": [
+          {
+            "id": "left-tracked-pointer",
+            "kind": "hand",
+            "origin": [
+              -0.15000000596046448,
+              1.2999999523162842,
+              -0.4000000059604645
+            ],
+            "dir": [
+              0,
+              0,
+              -1
+            ],
+            "down": false
+          },
+          {
+            "id": "right-tracked-pointer",
+            "kind": "hand",
+            "origin": [
+              2.6500000953674316,
+              1.2000000476837158,
+              -0.75
+            ],
+            "dir": [
+              0.8198356535031048,
+              0.2336365404933786,
+              0.5227652132567955
+            ],
+            "down": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "bedroom.X04-transitions",
+      "ok": true,
+      "detail": {
+        "transitions": [
+          {
+            "at": 77498.70000000298,
+            "head": [
+              0,
+              1.600000023841858,
+              0
+            ],
+            "step": "room",
+            "flood": 0,
+            "phase": "framed"
+          },
+          {
+            "at": 79781.29999999702,
+            "head": [
+              0,
+              1.600000023841858,
+              0
+            ],
+            "step": "entering",
+            "flood": 0,
+            "phase": "open"
+          },
+          {
+            "at": 80983.40000000596,
+            "head": [
+              0,
+              1.600000023841858,
+              0
+            ],
+            "step": "inside",
+            "flood": 1,
+            "phase": "open"
+          },
+          {
+            "at": 81999.40000000596,
+            "head": [
+              0.5156124830245972,
+              1.600000023841858,
+              0
+            ],
+            "step": "exiting",
+            "flood": 1,
+            "phase": "open"
+          },
+          {
+            "at": 83199.10000000894,
+            "head": [
+              0.6499999761581421,
+              1.600000023841858,
+              0
+            ],
+            "step": "room",
+            "flood": 0,
+            "phase": "open"
+          },
+          {
+            "at": 85032.5,
+            "head": [
+              2.049180030822754,
+              1.600000023841858,
+              -0.7497000098228455
+            ],
+            "step": "entering",
+            "flood": 0.012833333338300388,
+            "phase": "open"
+          },
+          {
+            "at": 86230.70000000298,
+            "head": [
+              2.049999952316284,
+              1.600000023841858,
+              -0.75
+            ],
+            "step": "inside",
+            "flood": 1,
+            "phase": "open"
+          },
+          {
+            "at": 87217.5,
+            "head": [
+              1.451124906539917,
+              1.600000023841858,
+              -0.75
+            ],
+            "step": "exiting",
+            "flood": 0.9865833333258828,
+            "phase": "open"
+          },
+          {
+            "at": 88418.10000000894,
+            "head": [
+              1.2999999523162842,
+              1.600000023841858,
+              -0.75
+            ],
+            "step": "room",
+            "flood": 0,
+            "phase": "open"
+          }
+        ],
+        "texts": [
+          "to world   4.55 s from release",
+          "Walk up to the door or reach through to step in.",
+          "Close door",
+          "Somewhere else",
+          "P-03",
+          "1.00 \u00d7 1.90 m",
+          "Misty Pines",
+          "No plan: Muse Spark needs MODEL_API_KEY (Setup required).",
+          "Defaults: eye-level horizon, neutral trim.",
+          "SAMPLE, NOT GENERATED",
+          "Misty Pines \u00b7 Greg Zaal, Poly Haven (CC0)",
+          "pano_mode  equirect",
+          "image      4096\u00d72048 \u00b7 seam \u0394E 7.0 \u00b7 horizon 2.0%",
+          "P-04",
+          "Where does it lead?",
+          "a misty pine forest",
+          "CC0 sample, not generated",
+          "a seafront at sunset",
+          "a savanna under the stars",
+          "a flooded cathedral at dawn",
+          "Setup required: MODEL_API_KEY",
+          "Say it",
+          "browser speech (not Meta)",
+          "Muse Spark: setup",
+          "Muse Image: setup",
+          "Muse Voice: setup",
+          "Reading the room",
+          "door 1.00 \u00d7 1.90 m \u00b7 sill 0.00 m",
+          "wall 4.50 \u00d7 2.70 m (wall)",
+          "eye 1.60 m \u00b7 2.25 m away",
+          "ceiling 2.70 m \u00b7 floor 20.3 m\u00b2",
+          "shelf right 1.1 m \u00b7 bed left 1.9 m \u00b7 table left 2.0 m",
+          "light: not available (no light estimation) \u00b7 01:22",
+          "\"a misty pine forest\"",
+          "Setup required: Muse Spark",
+          "The room read above is real; without MODEL_API_KEY no plan is",
+          "made and no image is generated.",
+          "to world   4.51 s from release"
+        ]
+      }
+    },
+    {
+      "id": "bedroom.X03-text",
+      "ok": true,
+      "detail": {
+        "texts": [
+          "to world   4.55 s from release",
+          "Walk up to the door or reach through to step in.",
+          "Close door",
+          "Somewhere else",
+          "P-03",
+          "1.00 \u00d7 1.90 m",
+          "Misty Pines",
+          "No plan: Muse Spark needs MODEL_API_KEY (Setup required).",
+          "Defaults: eye-level horizon, neutral trim.",
+          "SAMPLE, NOT GENERATED",
+          "Misty Pines \u00b7 Greg Zaal, Poly Haven (CC0)",
+          "pano_mode  equirect",
+          "image      4096\u00d72048 \u00b7 seam \u0394E 7.0 \u00b7 horizon 2.0%",
+          "P-04",
+          "Where does it lead?",
+          "a misty pine forest",
+          "CC0 sample, not generated",
+          "a seafront at sunset",
+          "a savanna under the stars",
+          "a flooded cathedral at dawn",
+          "Setup required: MODEL_API_KEY",
+          "Say it",
+          "browser speech (not Meta)",
+          "Muse Spark: setup",
+          "Muse Image: setup",
+          "Muse Voice: setup",
+          "Reading the room",
+          "door 1.00 \u00d7 1.90 m \u00b7 sill 0.00 m",
+          "wall 4.50 \u00d7 2.70 m (wall)",
+          "eye 1.60 m \u00b7 2.25 m away",
+          "ceiling 2.70 m \u00b7 floor 20.3 m\u00b2",
+          "shelf right 1.1 m \u00b7 bed left 1.9 m \u00b7 table left 2.0 m",
+          "light: not available (no light estimation) \u00b7 01:22",
+          "\"a misty pine forest\"",
+          "Setup required: Muse Spark",
+          "The room read above is real; without MODEL_API_KEY no plan is",
+          "made and no image is generated.",
+          "to world   4.51 s from release"
+        ]
+      }
+    },
+    {
+      "id": "X05-exact-minimum",
+      "ok": false,
+      "detail": {
+        "session": true,
+        "walls": [
+          {
+            "id": "plane-74",
+            "label": "wall",
+            "origin": [
+              -2.5,
+              1.350000023841858,
+              -0.5
+            ],
+            "n": [
+              1,
+              0,
+              0
+            ],
+            "bounds": {
+              "u0": -2.901999950408936,
+              "u1": 2.901999950408936,
+              "v0": -1.3519999980926516,
+              "v1": 1.3519999980926514
+            }
+          },
+          {
+            "id": "plane-75",
+            "label": "wall",
+            "origin": [
+              2.5,
+              1.350000023841858,
+              -0.5
+            ],
+            "n": [
+              -1,
+              0,
+              0
+            ],
+            "bounds": {
+              "u0": -2.901999950408936,
+              "u1": 2.901999950408936,
+              "v0": -1.3519999980926516,
+              "v1": 1.3519999980926514
+            }
+          },
+          {
+            "id": "plane-76",
+            "label": "wall",
+            "origin": [
+              0,
+              1.350000023841858,
+              -3.4000000953674316
+            ],
+            "n": [
+              0,
+              2.028159498697969e-07,
+              0.9999999999999795
+            ],
+            "bounds": {
+              "u0": -2.502000093460083,
+              "u1": 2.502000093460083,
+              "v0": -1.3519998378506146,
+              "v1": 1.3519998378506144
+            }
+          },
+          {
+            "id": "plane-77",
+            "label": "wall",
+            "origin": [
+              0,
+              1.350000023841858,
+              2.4000000953674316
+            ],
+            "n": [
+              1.2246467323298899e-16,
+              3.422854295029559e-08,
+              -0.9999999999999994
+            ],
+            "bounds": {
+              "u0": -2.5019999221804534,
+              "u1": 2.5019999221804534,
+              "v0": -1.351999951815661,
+              "v1": 1.351999951815661
+            }
+          }
+        ],
+        "floorY": 0,
+        "ceilingY": 2.700000047683716,
+        "floorArea": 29.000000953674316,
+        "objects": [
+          {
+            "label": "couch",
+            "center": [
+              0,
+              0.4300000071525574,
+              -2.880000114440918
+            ],
+            "dims": [
+              2.299999952316284,
+              0.8600000143051147,
+              0.9399999976158142
+            ]
+          },
+          {
+            "label": "lamp",
+            "center": [
+              -1.5499999523162842,
+              0.550000011920929,
+              -3.049999952316284
+            ],
+            "dims": [
+              0.46000000834465027,
+              1.100000023841858,
+              0.46000000834465027
+            ]
+          },
+          {
+            "label": "table",
+            "center": [
+              0,
+              0.2199999988079071,
+              -1.9500000476837158
+            ],
+            "dims": [
+              1.149999976158142,
+              0.4399999976158142,
+              0.6000000238418579
+            ]
+          },
+          {
+            "label": "couch",
+            "center": [
+              -1.75,
+              0.44999998807907104,
+              -1.25
+            ],
+            "dims": [
+              1.1222480423137382,
+              0.8999999761581421,
+              1.1162246739054655
+            ]
+          },
+          {
+            "label": "plant",
+            "center": [
+              -2.119999885559082,
+              0.9700000286102295,
+              0.3499999940395355
+            ],
+            "dims": [
+              0.75,
+              1.9500000476837158,
+              0.75
+            ]
+          },
+          {
+            "label": "shelf",
+            "center": [
+              2.2799999713897705,
+              0.25999999046325684,
+              -1.399999976158142
+            ],
+            "dims": [
+              1.89999983614858,
+              0.5199999809265137,
+              0.4200003224578941
+            ]
+          },
+          {
+            "label": "screen",
+            "center": [
+              2.4700000286102295,
+              1.2999999523162842,
+              -1.399999976158142
+            ],
+            "dims": [
+              1.4599998732171384,
+              0.8399999737739563,
+              0.040000290476300826
+            ]
+          },
+          {
+            "label": "shelf",
+            "center": [
+              2.319999933242798,
+              0.949999988079071,
+              0.699999988079071
+            ],
+            "dims": [
+              0.8999999384455468,
+              1.899999976158142,
+              0.34000014581304594
+            ]
+          },
+          {
+            "label": "table",
+            "center": [
+              -0.699999988079071,
+              0.4099999964237213,
+              2.2300000190734863
+            ],
+            "dims": [
+              1.100000023841858,
+              0.8199999928474426,
+              0.3400000035762787
+            ]
+          },
+          {
+            "label": "table",
+            "center": [
+              -0.949999988079071,
+              0.3799999952316284,
+              1.350000023841858
+            ],
+            "dims": [
+              0.8999999761581421,
+              0.7599999904632568,
+              0.8999999761581421
+            ]
+          },
+          {
+            "label": "other",
+            "center": [
+              -0.42828798294067383,
+              0.42500001192092896,
+              1.6849874258041382
+            ],
+            "dims": [
+              0.6041636704811695,
+              0.8500000238418579,
+              0.6002279458629376
+            ]
+          },
+          {
+            "label": "other",
+            "center": [
+              -1.4157938957214355,
+              0.42500001192092896,
+              0.9408104419708252
+            ],
+            "dims": [
+              0.6041636590583207,
+              0.8500000238418579,
+              0.6002279338961438
+            ]
+          },
+          {
+            "label": "lamp",
+            "center": [
+              1.5499999523162842,
+              0.8600000143051147,
+              -3.0999999046325684
+            ],
+            "dims": [
+              0.4000000059604645,
+              1.7200000286102295,
+              0.4000000059604645
+            ]
+          }
+        ],
+        "labelsSeen": [
+          "plane:couch",
+          "plane:wall art",
+          "plane:table",
+          "plane:door",
+          "plane:floor",
+          "plane:ceiling",
+          "plane:wall",
+          "plane:window",
+          "mesh:couch",
+          "mesh:lamp",
+          "mesh:table",
+          "mesh:plant",
+          "mesh:shelf",
+          "mesh:screen",
+          "mesh:other",
+          "plane:bed",
+          "mesh:bed"
+        ],
+        "head": [
+          0,
+          1.600000023841858,
+          0
+        ],
+        "drawing": false,
+        "pointers": [
+          {
+            "id": "left-tracked-pointer",
+            "kind": "hand",
+            "origin": [
+              -0.15000000596046448,
+              1.2999999523162842,
+              -0.4000000059604645
+            ],
+            "dir": [
+              0,
+              0,
+              -1
+            ],
+            "down": false
+          },
+          {
+            "id": "right-tracked-pointer",
+            "kind": "hand",
+            "origin": [
+              0.15000000596046448,
+              1.2999999523162842,
+              -0.4000000059604645
+            ],
+            "dir": [
+              0.015292663435119478,
+              -0.3973034104240249,
+              -0.9175598806129761
+            ],
+            "down": false
+          }
+        ],
+        "hint": "Too small: a door needs at least 0.40 \u00d7 0.60 m. Pinch and drag again.",
+        "card": null,
+        "status": {
+          "service": "thyra-gateway",
+          "spark": {
+            "ready": false,
+            "model": "muse-spark-1.3",
+            "setup": "MODEL_API_KEY"
+          },
+          "wonder": {
+            "ready": false,
+            "model": "muse-wonder-1.0",
+            "setup": "MODEL_API_KEY"
+          },
+          "image": {
+            "ready": false,
+            "model": "muse-image-1.0",
+            "setup": "MODEL_API_KEY"
+          },
+          "transcribe": {
+            "ready": false,
+            "model": "muse-voice-transcribe-1.0",
+            "setup": "MODEL_API_KEY"
+          },
+          "sam3": {
+            "ready": false,
+            "model": "sam-3.1",
+            "setup": "MODEL_API_KEY"
+          },
+          "budget": {
+            "spent_usd_today": 0,
+            "cap_usd": 5
+          },
+          "key_loaded": false
+        },
+        "portals": []
+      },
+      "input": {
+        "room": "sunlit_living_room",
+        "input": "emulated hand-right ray + pinch drag",
+        "wall": "plane-76",
+        "u0": -0.2,
+        "u1": 0.2,
+        "top_above_floor_m": 0.6,
+        "bottom_before_snap_m": 0.001,
+        "target_start": [
+          -0.1999999999999959,
+          0.6,
+          -3.4000000953674316
+        ],
+        "target_end": [
+          0.1999999999999959,
+          0.0009999999999998899,
+          -3.4000000953674316
+        ],
+        "expected": "0.40 x 0.60 m floor-snapped rect is valid",
+        "observed": "zero portals and exact Too small hint"
+      }
+    }
+  ],
+  "timing_summary": {
+    "sunlit_living_room": [
+      1.199,
+      1.201
+    ],
+    "thyra_studio": [
+      1.202,
+      1.23
+    ],
+    "thyra_hall": [
+      1.229,
+      1.228
+    ],
+    "bedroom": [
+      1.202,
+      1.198
+    ]
+  }
+}

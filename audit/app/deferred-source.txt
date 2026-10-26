@@ -1,0 +1,6 @@
+README.md:55:UI) instead of UIKitML/MSDF; the draw snap is 5 cm instead of 2 cm (hand-ray jitter). Not built yet: phone clip
+README.md:56:mode (SAM 3.1), the MCP server, the realtime ASR WebSocket proxy, persistent anchors, the virtual keyboard.
+packages/gateway/src/meta.ts:2: * Minimal client for https://api.meta.ai/v1 (OpenAI-compatible surface).
+packages/gateway/src/config.ts:24:    apiBase: (env.META_API_BASE ?? 'https://api.meta.ai/v1').replace(/\/+$/, ''),
+packages/gateway/src/prompt.ts:27:          strict: true, // UNVERIFIED on api.meta.ai
+packages/gateway/src/prompt.ts:31:    tool_choice: { type: 'function', function: { name: 'compose_portal' } }, // UNVERIFIED on api.meta.ai
