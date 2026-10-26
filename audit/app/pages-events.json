@@ -1,0 +1,6134 @@
+[
+  {
+    "label": "landing-375",
+    "type": "response",
+    "url": "http://127.0.0.1:8431/",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "landing-375",
+    "type": "response",
+    "url": "http://127.0.0.1:8431/styles.css",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "landing-375",
+    "type": "response",
+    "url": "http://127.0.0.1:8431/media/thyra-hero.jpg",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "landing-375",
+    "type": "response",
+    "url": "http://127.0.0.1:8431/app.js",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "landing-375",
+    "type": "response",
+    "url": "http://127.0.0.1:8431/media/thyra-hero.mp4",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "landing-375",
+    "type": "response",
+    "url": "https://fonts.googleapis.com/css2?family=Host+Grotesk:wght@400;500;600&family=Ubuntu+Sans+Mono:wght@400;500&display=swap",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "landing-375",
+    "type": "response",
+    "url": "http://127.0.0.1:8431/data/schedule.json",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "landing-375",
+    "type": "response",
+    "url": "https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyR7mzgBHrR5yE7ZyRg0QRJMKI45grIfDfySZU.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "landing-375",
+    "type": "response",
+    "url": "https://fonts.gstatic.com/s/hostgrotesk/v5/co3BmWBnlCJ3U42vbbfdwMjZpFjmw07Arg.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "landing-375",
+    "type": "response",
+    "url": "https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyR7mzgBHrR5yE7ZyRg0QRJMKI45gnIfDfySZWz2g.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "landing-1280",
+    "type": "response",
+    "url": "http://127.0.0.1:8431/",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "landing-1280",
+    "type": "response",
+    "url": "http://127.0.0.1:8431/styles.css",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "landing-1280",
+    "type": "response",
+    "url": "http://127.0.0.1:8431/media/thyra-hero.jpg",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "landing-1280",
+    "type": "response",
+    "url": "http://127.0.0.1:8431/app.js",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "landing-1280",
+    "type": "response",
+    "url": "http://127.0.0.1:8431/media/thyra-hero.mp4",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "landing-1280",
+    "type": "response",
+    "url": "https://fonts.googleapis.com/css2?family=Host+Grotesk:wght@400;500;600&family=Ubuntu+Sans+Mono:wght@400;500&display=swap",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "landing-1280",
+    "type": "response",
+    "url": "http://127.0.0.1:8431/data/schedule.json",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "landing-1280",
+    "type": "response",
+    "url": "https://fonts.gstatic.com/s/hostgrotesk/v5/co3BmWBnlCJ3U42vbbfdwMjZpFjmw07Arg.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "landing-1280",
+    "type": "response",
+    "url": "https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyR7mzgBHrR5yE7ZyRg0QRJMKI45grIfDfySZU.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "landing-1280",
+    "type": "response",
+    "url": "https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyR7mzgBHrR5yE7ZyRg0QRJMKI45gnIfDfySZWz2g.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "L11",
+    "type": "response",
+    "url": "http://127.0.0.1:8431/empty/",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "L11",
+    "type": "response",
+    "url": "http://127.0.0.1:8431/empty/styles.css",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "L11",
+    "type": "response",
+    "url": "http://127.0.0.1:8431/empty/media/thyra-hero.mp4",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "L11",
+    "type": "response",
+    "url": "http://127.0.0.1:8431/empty/app.js",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "L11",
+    "type": "response",
+    "url": "http://127.0.0.1:8431/empty/media/thyra-hero.jpg",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "L11",
+    "type": "response",
+    "url": "https://fonts.googleapis.com/css2?family=Host+Grotesk:wght@400;500;600&family=Ubuntu+Sans+Mono:wght@400;500&display=swap",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "L11",
+    "type": "response",
+    "url": "http://127.0.0.1:8431/empty/data/schedule.json",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "L11",
+    "type": "response",
+    "url": "https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyR7mzgBHrR5yE7ZyRg0QRJMKI45gnIfDfySZWz2g.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "L11",
+    "type": "response",
+    "url": "https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyR7mzgBHrR5yE7ZyRg0QRJMKI45grIfDfySZU.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "L11",
+    "type": "response",
+    "url": "https://fonts.gstatic.com/s/hostgrotesk/v5/co3BmWBnlCJ3U42vbbfdwMjZpFjmw07Arg.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "L12",
+    "type": "response",
+    "url": "http://127.0.0.1:8431/missing/",
+    "status": 200,
+    "negative": true
+  },
+  {
+    "label": "L12",
+    "type": "response",
+    "url": "http://127.0.0.1:8431/missing/styles.css",
+    "status": 200,
+    "negative": true
+  },
+  {
+    "label": "L12",
+    "type": "response",
+    "url": "http://127.0.0.1:8431/missing/app.js",
+    "status": 200,
+    "negative": true
+  },
+  {
+    "label": "L12",
+    "type": "response",
+    "url": "http://127.0.0.1:8431/missing/media/thyra-hero.mp4",
+    "status": 200,
+    "negative": true
+  },
+  {
+    "label": "L12",
+    "type": "response",
+    "url": "http://127.0.0.1:8431/missing/media/thyra-hero.jpg",
+    "status": 200,
+    "negative": true
+  },
+  {
+    "label": "L12",
+    "type": "response",
+    "url": "https://fonts.googleapis.com/css2?family=Host+Grotesk:wght@400;500;600&family=Ubuntu+Sans+Mono:wght@400;500&display=swap",
+    "status": 200,
+    "negative": true
+  },
+  {
+    "label": "L12",
+    "type": "response",
+    "url": "http://127.0.0.1:8431/missing/data/schedule.json",
+    "status": 404,
+    "negative": true
+  },
+  {
+    "label": "L12",
+    "type": "console",
+    "level": "error",
+    "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "negative": true
+  },
+  {
+    "label": "L12",
+    "type": "response",
+    "url": "https://fonts.gstatic.com/s/hostgrotesk/v5/co3BmWBnlCJ3U42vbbfdwMjZpFjmw07Arg.woff2",
+    "status": 200,
+    "negative": true
+  },
+  {
+    "label": "L12",
+    "type": "response",
+    "url": "https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyR7mzgBHrR5yE7ZyRg0QRJMKI45gnIfDfySZWz2g.woff2",
+    "status": 200,
+    "negative": true
+  },
+  {
+    "label": "L12",
+    "type": "response",
+    "url": "https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyR7mzgBHrR5yE7ZyRg0QRJMKI45grIfDfySZU.woff2",
+    "status": 200,
+    "negative": true
+  },
+  {
+    "label": "L13",
+    "type": "response",
+    "url": "http://127.0.0.1:8431/",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "L13",
+    "type": "response",
+    "url": "http://127.0.0.1:8431/styles.css",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "L13",
+    "type": "response",
+    "url": "http://127.0.0.1:8431/app.js",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "L13",
+    "type": "response",
+    "url": "http://127.0.0.1:8431/media/thyra-hero.mp4",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "L13",
+    "type": "response",
+    "url": "http://127.0.0.1:8431/media/thyra-hero.jpg",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "L13",
+    "type": "response",
+    "url": "https://fonts.googleapis.com/css2?family=Host+Grotesk:wght@400;500;600&family=Ubuntu+Sans+Mono:wght@400;500&display=swap",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "L13",
+    "type": "response",
+    "url": "http://127.0.0.1:8431/data/schedule.json",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "L13",
+    "type": "response",
+    "url": "https://fonts.gstatic.com/s/hostgrotesk/v5/co3BmWBnlCJ3U42vbbfdwMjZpFjmw07Arg.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "L13",
+    "type": "response",
+    "url": "https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyR7mzgBHrR5yE7ZyRg0QRJMKI45gnIfDfySZWz2g.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "L13",
+    "type": "response",
+    "url": "https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyR7mzgBHrR5yE7ZyRg0QRJMKI45grIfDfySZU.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "L13",
+    "type": "requestfailed",
+    "url": "http://127.0.0.1:8431/media/thyra-hero.mp4",
+    "message": "net::ERR_ABORTED",
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/src/index.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/@iwer-injection-runtime",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/@vite/client",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/@id/__x00__virtual:iwsdk-project",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/index.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/src/brand.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/src/hud.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/src/hud.css",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/src/perf.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/@id/__x00__virtual:iwsdk-dev-runtime/runtime.js",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/src/thyra-system.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/vite/dist/client/env.mjs",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "console",
+    "level": "debug",
+    "message": "[vite] connecting...",
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/project/index.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/@id/__x00__/@iwsdk-asset-manifest",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/@id/__x00__/@iwsdk-component-manifest",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/.vite/deps/@iwsdk_core___elics.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/version.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/runtime/three.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/.vite/deps/three.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/ecs/world.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/ecs/system.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/ecs/component-editor-metadata.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/ecs/component-manifest.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/ecs/builtin-components.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/ecs/entity.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/transform/transform-utils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/transform/transform.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/transform/synced-vector3.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/transform/synced-quaternion.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/transform/synced-euler.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/asset/asset-manager.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/asset/cache-manager.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/locomotion/slide.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/locomotion/teleport.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/locomotion/turn.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/locomotion/locomotion-input-provider.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/locomotion/locomotion.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/visibility/visibility.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/ui/uikitml-asset.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/ui/document.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/ui/ui.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/ui/uikitml.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/ui/follow.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/ui/screenspace.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/init/xr.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/init/world-initializer.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/grab/index.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/input/input-system.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/input/input-manager.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/input/input-actions.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/input/canvas-pointer-system.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/input/stateful-keyboard.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/input/state-tags.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/input/stateful-browser-gamepad.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/environment/dome-texture.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/gaze/gaze-system.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/environment/dome-gradient.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/environment/dome-fade.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/environment/ibl-gradient.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/environment/environment-system.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/environment/ground-shadows.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/environment/ibl-texture.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/environment/dome-fade-binding.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/level/level-system.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/level/level-tag.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/level/level-component-applier.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/level/level-scene-material.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/level/level-scene-json-importer.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/level/level-scene-environment.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/level/level-scene-object.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/level/level-scene-primitive.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/level/level-root.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/scene-understanding/scene-understanding-system.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/scene-understanding/anchor.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/scene-understanding/plane.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/scene-understanding/mesh.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/environment-raycast/environment-raycast.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/environment-raycast/raycast-target.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/audio/audio.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/audio/audio-system.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/audio/audio-utils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/audio/audio-pool.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/physics/physicsManipulation.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/physics/physicsBody.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/camera/types.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/physics/physics-system.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/physics/physicsShape.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/camera/camera-utils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/camera/camera-source.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/depth/depth-occludable.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/camera/camera-system.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/layers/xr-quad-layer.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/layers/xr-cylinder-layer.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/depth/depth-sensing-system.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/depth/depth-textures.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/layers/xr-layer-system.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/mcp/mcp-runtime.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/mcp/target-resolver.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/index.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/locomotor/dist/index.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/.vite/deps/@pmndrs_uikit.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/lighting/light-components.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/ui/panel-components.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/asset/loaders/cached-asset-load.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@preact/signals-core/dist/signals-core.module.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/ui/follow-component.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/asset/loaders/gltf-loader.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/grab/distance-grabbable.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/grab/grab-system.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/grab/grabbed.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/project/types.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/project/environments.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/lighting/light-binding.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/lighting/light-system.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/locomotion/locomotion-environment.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/grab/handles.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/grab/one-hand-grabbable.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/project/validation.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/ui/screenspace-component.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/project/paths.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/transform/transform-component.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/grab/two-hands-grabbable.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/visibility/visibility-component.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/layers/xr-layer-state.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/physics/physics-worker-protocol.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@fontsource/host-grotesk/400.css",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/project/normalize.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/.vite/deps/@iwsdk_scene-composition.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@fontsource/host-grotesk/500.css",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@fontsource/host-grotesk/600.css",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@fontsource/ubuntu-sans-mono/400.css",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@fontsource/ubuntu-sans-mono/500.css",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/@fs/Volumes/Extreme%20SSD/Projects/grokbot/projects/.loom-worktrees/thyra-4cadce60a69f/omvpn56n2/t5/packages/room/src/index.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/src/session-state.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/src/canvas-panel.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/src/audio.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/src/door-card.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/src/components.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/src/panorama.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/src/gateway-client.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/src/shaders.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/src/portal.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/src/pointer.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/src/voice.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/.vite/deps/chunk-PZ5AY32C.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/index.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/src/assets.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/.vite/deps/chunk-OWXYFSMV.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/init/session-grant.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/examples/jsm/geometries/RoundedBoxGeometry.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/examples/jsm/utils/SkeletonUtils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/asset/loaders/hdr-texture-loader.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/asset/loaders/audio-loader.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/asset/loaders/texture-loader.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/asset/loaders/uikitml-loader.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/examples/jsm/lines/Line2.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/examples/jsm/lines/LineGeometry.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/locomotion/materials/line.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/locomotion/geometries/beveled-cylinder.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/init/browser-camera.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/.vite/deps/@drawcall_uikitml.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/runtime/deferred-texture-uploads.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/init/player-camera.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/pointer-events/dist/index.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/grab/pointer-events-patch.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/examples/jsm/environments/RoomEnvironment.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/environment/gradient-environment.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/environment/scene-ar-environment.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/level/level-player-rig.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/physics/physics-transport.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/physics/utils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/layers/xr-layer-init.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/depth/occlusion/preprocessing-pass.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/layers/xr-layer-transform.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/mcp/ecs-debug-tools.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/mcp/scene-tools.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/mcp/ui-debug-tools.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/gamepad/stateful-gamepad.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/gamepad/stateful-button-axes-device.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/gamepad/input-profiles.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/visual/adapter/controller-visual-adapter.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/visual/impl/animated-controller-hand.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/visual/impl/base-impl.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/visual/impl/animated-controller.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/visual/adapter/hand-visual-adapter.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/visual/utils/flex-batched-mesh.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/rig/xr-origin.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/visual/impl/animated-hand.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/xr-input-manager.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/pointer/grab-pointer.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/pointer/touch-pointer.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/pointer/ray-pointer.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/pointer/multi-pointer.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/pointer/cursor-visual.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/pointer/visibility.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/pointer/filtered-eye-gaze.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/pointer/gaze-conecaster.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/.vite/deps/chunk-WNIOHBZ6.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/pointer/gaze-pointer.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/locomotor/dist/core/locomotor.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/locomotor/dist/physics/math-utils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/locomotor/dist/types/environment-types.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/examples/jsm/loaders/DRACOLoader.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/index.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/examples/jsm/loaders/KTX2Loader.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/grab/grab-warnings.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/grab/grab-helpers.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/examples/jsm/lights/RectAreaLightUniformsLib.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/examples/jsm/loaders/GLTFLoader.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/.vite/deps/chunk-OPZYYT74.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "console",
+    "level": "debug",
+    "message": "[vite] connected.",
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/@id/__x00__virtual:iwsdk-dev-runtime/chunks/injection-template-0HSd4CcE.js",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "console",
+    "level": "log",
+    "message": "[IWSDK Dev] Configuration: {device: metaQuest3, activation: always, verbose: false, sem: Object, ai: Object}",
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/@fs/Volumes/Extreme%20SSD/Projects/grokbot/projects/.loom-worktrees/thyra-4cadce60a69f/omvpn56n2/t5/packages/room/src/vec.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/@fs/Volumes/Extreme%20SSD/Projects/grokbot/projects/.loom-worktrees/thyra-4cadce60a69f/omvpn56n2/t5/packages/room/src/plane.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/@fs/Volumes/Extreme%20SSD/Projects/grokbot/projects/.loom-worktrees/thyra-4cadce60a69f/omvpn56n2/t5/packages/room/src/draw.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/@fs/Volumes/Extreme%20SSD/Projects/grokbot/projects/.loom-worktrees/thyra-4cadce60a69f/omvpn56n2/t5/packages/room/src/summary.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/@fs/Volumes/Extreme%20SSD/Projects/grokbot/projects/.loom-worktrees/thyra-4cadce60a69f/omvpn56n2/t5/packages/room/src/stepin.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/@fs/Volumes/Extreme%20SSD/Projects/grokbot/projects/.loom-worktrees/thyra-4cadce60a69f/omvpn56n2/t5/packages/room/src/status.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/@fs/Volumes/Extreme%20SSD/Projects/grokbot/projects/.loom-worktrees/thyra-4cadce60a69f/omvpn56n2/t5/packages/pano/src/index.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/BVH.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/GeometryBVH.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/MeshBVH.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/LineBVH.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/PointsBVH.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/ObjectBVH.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/SkinnedMeshBVH.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/objects/BVHHelper.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/Constants.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/debug/Debug.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/utils/ExtensionUtilities.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/utils/TriangleUtilities.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/math/ExtendedTriangle.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/math/OrientedBox.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/webgl/MeshBVHUniformStruct.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/webgl/VertexAttributeTexture.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/utils/StaticGeometryGenerator.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/webgl/BVHShaderGLSL.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/examples/jsm/loaders/HDRLoader.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/examples/jsm/lines/LineSegments2.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/examples/jsm/lines/LineMaterial.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/examples/jsm/lines/LineSegmentsGeometry.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/examples/jsm/loaders/EXRLoader.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/examples/jsm/utils/BufferGeometryUtils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/pointer-events/dist/pointer.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/pointer-events/dist/intersections/index.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/pointer-events/dist/event.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/pointer-events/dist/forward.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/pointer-events/dist/pointer/index.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/pointer-events/dist/combine.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/examples/jsm/postprocessing/Pass.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/depth/occlusion/preprocessing-shader.glsl.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/visual/utils/simple-batched-mesh.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/locomotor/dist/types/message-types.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/.vite/deps/chunk-UEHMIG6N.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/locomotor/dist/core/engine.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/store.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/index.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/screen/index.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/examples/jsm/utils/WorkerPool.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/examples/jsm/libs/ktx-parse.module.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/examples/jsm/libs/zstddec.module.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/examples/jsm/math/ColorSpaces.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/gamepad/generated-profiles.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/examples/jsm/lights/RectAreaLightTexturesLib.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/.vite/deps/chunk-JITY4T2J.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/@id/__x00__virtual:iwsdk-dev-runtime/chunks/sunlit_living_room-1m7CU_6o.js",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/@fs/Volumes/Extreme%20SSD/Projects/grokbot/projects/.loom-worktrees/thyra-4cadce60a69f/omvpn56n2/t5/packages/pano/src/color.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/@fs/Volumes/Extreme%20SSD/Projects/grokbot/projects/.loom-worktrees/thyra-4cadce60a69f/omvpn56n2/t5/packages/pano/src/analyze.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/@fs/Volumes/Extreme%20SSD/Projects/grokbot/projects/.loom-worktrees/thyra-4cadce60a69f/omvpn56n2/t5/packages/pano/src/fix.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/utils/ArrayBoxUtilities.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/utils/nodeBufferUtils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/build/buildTree.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/cast/shapecast.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/utils/ExtendedTrianglePool.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/BVHTraversalHelper.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/utils/BufferUtils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/cast/bvhcast.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/utils/iterationUtils.generated.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/build/geometryUtils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/cast/closestPointToPoint.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/cast/intersectsGeometry.generated.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/cast/raycastFirst.generated.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/cast/raycast.generated.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/utils/iterationUtils_indirect.generated.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/cast/refit_indirect.generated.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/cast/refit.generated.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/cast/raycastFirst_indirect.generated.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/cast/closestPointToGeometry.generated.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/cast/raycast_indirect.generated.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/cast/intersectsGeometry_indirect.generated.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/cast/closestPointToGeometry_indirect.generated.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/utils/GeometryRayIntersectUtilities.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/utils/PrimitivePool.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/math/SeparatingAxisBounds.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/math/MathUtilities.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/webgl/glsl/common_functions.glsl.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/webgl/glsl/bvh_distance_functions.glsl.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/webgl/glsl/bvh_ray_functions.glsl.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/webgl/glsl/bvh_struct_definitions.glsl.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/pointer-events/dist/intersections/utils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/pointer-events/dist/intersections/intersector.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/pointer-events/dist/intersections/lines.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/pointer-events/dist/intersections/ray.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/pointer-events/dist/intersections/sphere.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/pointer-events/dist/html-event.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/examples/jsm/libs/fflate.module.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/pointer-events/dist/pointer/grab.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/pointer-events/dist/pointer/ray.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/pointer-events/dist/pointer/lines.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/pointer-events/dist/pointer/touch.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/locomotor/dist/environment/environment-manager.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/locomotor/dist/physics/collision-handler.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/locomotor/dist/physics/ground-detector.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/locomotor/dist/physics/physics-utils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/locomotor/dist/core/movement-controller.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/computations/index.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/computations/one-pointer.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/computations/two-pointer.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/state.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/utils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/context.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/material.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/axis.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/drag.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/registered.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/scale/index.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/transform.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/translate/index.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/pivot/index.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/screen/store.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/rotate/index.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/screen/pan.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/screen/camera.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/screen/rotate.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/screen/zoom.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/screen/orbit.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/screen/map.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/build/computeBoundsUtils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/BVHNode.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/build/sortUtils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/utils/BufferStack.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/build/buildUtils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/build/splitUtils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/utils/ThreeRayIntersectUtilities.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/utils/intersectUtils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/@id/__x00__virtual:iwsdk-dev-runtime/chunks/index-CMmj0avE.js",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/pointer-events/dist/utils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/computations/utils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/utils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/computations/translate-as.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/scale/plane.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/scale/uniform.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/scale/axis.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/translate/delta.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/translate/axis.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/translate/free.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/translate/plane.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/pivot/scale.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/pivot/rotate.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/pivot/uniform-scale.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/rotate/axis.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/rotate/free.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/rotate/screen.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/screen/utils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/node_modules/zustand/esm/vanilla.mjs?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/src/math/MathUtils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "blob:https://localhost:8443/5ec4b37f-a633-407a-b0bf-37306981b561",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/src/utils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "blob:https://localhost:8443/16c7b7ea-9cc5-44e9-83f8-70cf5d919ee7",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "blob:https://localhost:8443/6aa8c513-cca1-41cd-ada6-b35cda3d3fa9",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "blob:https://localhost:8443/97cfba5a-5e85-4c1a-bc84-ad5ab6ded0d7",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/src/constants.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "console",
+    "level": "log",
+    "message": "                                                 \n▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ \n▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  \n  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    \n  ██     ██ ██ ██   ▀████▄   ██    ██  █████    \n  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  \n▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ \n▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                \n===============================================\nImmersive Web SDK v1.1.0-rc.2\nThree.js r185\nEliCS v3.4.2",
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@fontsource/host-grotesk/files/host-grotesk-latin-400-normal.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@fontsource/ubuntu-sans-mono/files/ubuntu-sans-mono-latin-400-normal.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@fontsource/host-grotesk/files/host-grotesk-latin-600-normal.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@fontsource/host-grotesk/files/host-grotesk-latin-500-normal.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@fontsource/ubuntu-sans-mono/files/ubuntu-sans-mono-latin-500-normal.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "console",
+    "level": "warning",
+    "message": "[.WebGL-0x11c00452200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/scenes/main.iwsdk.scene.json",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "console",
+    "level": "warning",
+    "message": "[.WebGL-0x11c00452200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/api/status",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "console",
+    "level": "warning",
+    "message": "[.WebGL-0x11c00452200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "console",
+    "level": "warning",
+    "message": "[.WebGL-0x11c00452200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)",
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@fontsource/ubuntu-sans-mono/files/ubuntu-sans-mono-greek-400-normal.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "revoked-url-negative-375",
+    "type": "requestfailed",
+    "url": "blob:https://localhost:8443/ed221780-11c9-4537-80de-6a16d2552610",
+    "message": "net::ERR_FILE_NOT_FOUND",
+    "negative": false
+  },
+  {
+    "label": "revoked-url-negative-375",
+    "type": "console",
+    "level": "error",
+    "message": "Failed to load resource: net::ERR_FILE_NOT_FOUND",
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "console",
+    "level": "warning",
+    "message": "[iwsdk][gaze] 'gaze-tracking' was NOT granted for this session, so tracked gaze is unavailable. Check that the project requests xr.features.gazeTracking, that this browser build exposes eye tracking, and that the page's permissions policy allows xr-spatial-tracking. {enabledFeatures: Array(10)}",
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "console",
+    "level": "log",
+    "message": "[SceneUnderstandingSystem] Anchor needed but not present, triggering creation",
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "console",
+    "level": "warning",
+    "message": "THREE.WebGLRenderer: Can't change size while VR device is presenting.",
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "blob:https://localhost:8443/0b5832d8-0cf9-4c5e-94ac-48040fbf7f53",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-375",
+    "type": "response",
+    "url": "blob:https://localhost:8443/9fe456e1-bc1a-4455-8338-9c869ec9a762",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/src/index.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/@iwer-injection-runtime",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/@vite/client",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/@id/__x00__virtual:iwsdk-project",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/index.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/src/brand.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/src/hud.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/src/hud.css",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/src/perf.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/@id/__x00__virtual:iwsdk-dev-runtime/runtime.js",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/vite/dist/client/env.mjs",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "console",
+    "level": "debug",
+    "message": "[vite] connecting...",
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/src/thyra-system.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/project/index.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/@id/__x00__/@iwsdk-asset-manifest",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/@id/__x00__/@iwsdk-component-manifest",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/version.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/runtime/three.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/.vite/deps/@iwsdk_core___elics.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/.vite/deps/three.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/ecs/world.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/ecs/system.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/ecs/component-editor-metadata.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/ecs/component-manifest.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/ecs/builtin-components.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/ecs/entity.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/transform/transform.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/transform/transform-utils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/transform/synced-vector3.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/transform/synced-quaternion.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/transform/synced-euler.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/asset/asset-manager.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/asset/cache-manager.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/locomotion/teleport.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/locomotion/slide.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/locomotion/turn.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/locomotion/locomotion-input-provider.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/locomotion/locomotion.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/visibility/visibility.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/ui/document.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/ui/uikitml-asset.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/ui/ui.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/ui/uikitml.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/ui/follow.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/ui/screenspace.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/init/xr.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/init/world-initializer.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/grab/index.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/input/input-system.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/input/input-manager.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/input/input-actions.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/input/canvas-pointer-system.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/input/stateful-keyboard.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/input/stateful-browser-gamepad.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/input/state-tags.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/gaze/gaze-system.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/environment/dome-texture.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/environment/dome-gradient.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/environment/dome-fade.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/environment/ibl-texture.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/environment/ibl-gradient.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/environment/ground-shadows.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/environment/environment-system.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/environment/dome-fade-binding.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/level/level-system.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/level/level-tag.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/level/level-component-applier.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/level/level-scene-json-importer.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/level/level-scene-material.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/level/level-scene-environment.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/level/level-scene-object.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/level/level-scene-primitive.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/level/level-root.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/scene-understanding/anchor.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/scene-understanding/scene-understanding-system.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/scene-understanding/plane.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/scene-understanding/mesh.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/environment-raycast/environment-raycast.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/environment-raycast/raycast-target.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/audio/audio.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/audio/audio-system.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/audio/audio-utils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/audio/audio-pool.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/physics/physicsBody.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/physics/physics-system.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/physics/physicsManipulation.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/physics/physicsShape.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/camera/types.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/camera/camera-utils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/camera/camera-source.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/camera/camera-system.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/depth/depth-occludable.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/depth/depth-sensing-system.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/depth/depth-textures.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/layers/xr-quad-layer.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/layers/xr-cylinder-layer.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/layers/xr-layer-system.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/mcp/mcp-runtime.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/index.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/mcp/target-resolver.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/locomotor/dist/index.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/.vite/deps/@pmndrs_uikit.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/lighting/light-components.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@preact/signals-core/dist/signals-core.module.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/asset/loaders/cached-asset-load.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/ui/panel-components.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/ui/follow-component.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/grab/distance-grabbable.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/asset/loaders/gltf-loader.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/grab/grabbed.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/project/types.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/project/environments.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/grab/grab-system.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/lighting/light-binding.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/locomotion/locomotion-environment.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/lighting/light-system.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/grab/one-hand-grabbable.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/project/validation.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/grab/handles.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/project/paths.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/ui/screenspace-component.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/.vite/deps/@iwsdk_scene-composition.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/transform/transform-component.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/grab/two-hands-grabbable.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/visibility/visibility-component.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/layers/xr-layer-state.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/physics/physics-worker-protocol.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/project/normalize.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@fontsource/host-grotesk/400.css",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@fontsource/host-grotesk/500.css",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@fontsource/host-grotesk/600.css",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@fontsource/ubuntu-sans-mono/400.css",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@fontsource/ubuntu-sans-mono/500.css",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/@fs/Volumes/Extreme%20SSD/Projects/grokbot/projects/.loom-worktrees/thyra-4cadce60a69f/omvpn56n2/t5/packages/room/src/index.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/src/session-state.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/src/audio.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/src/canvas-panel.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/src/components.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/src/door-card.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/src/gateway-client.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/src/panorama.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/src/pointer.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/src/portal.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/src/voice.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/src/shaders.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/src/assets.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/index.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/.vite/deps/chunk-PZ5AY32C.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/.vite/deps/chunk-OWXYFSMV.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/init/session-grant.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/examples/jsm/geometries/RoundedBoxGeometry.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/examples/jsm/utils/SkeletonUtils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/asset/loaders/audio-loader.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/asset/loaders/hdr-texture-loader.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/asset/loaders/texture-loader.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/asset/loaders/uikitml-loader.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/.vite/deps/@drawcall_uikitml.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/examples/jsm/lines/Line2.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/examples/jsm/lines/LineGeometry.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/locomotion/materials/line.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/locomotion/geometries/beveled-cylinder.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/init/browser-camera.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/runtime/deferred-texture-uploads.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/init/player-camera.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/pointer-events/dist/index.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/examples/jsm/environments/RoomEnvironment.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/environment/gradient-environment.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/environment/scene-ar-environment.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/grab/pointer-events-patch.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/level/level-player-rig.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "console",
+    "level": "debug",
+    "message": "[vite] connected.",
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/.vite/deps/chunk-WNIOHBZ6.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/physics/physics-transport.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/physics/utils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/depth/occlusion/preprocessing-pass.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/layers/xr-layer-init.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/layers/xr-layer-transform.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/mcp/ecs-debug-tools.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/mcp/scene-tools.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/mcp/ui-debug-tools.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/gamepad/stateful-button-axes-device.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/gamepad/stateful-gamepad.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/gamepad/input-profiles.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/visual/adapter/controller-visual-adapter.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/visual/impl/animated-controller.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/visual/impl/animated-controller-hand.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/visual/impl/base-impl.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/visual/impl/animated-hand.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/visual/utils/flex-batched-mesh.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/visual/adapter/hand-visual-adapter.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/rig/xr-origin.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/xr-input-manager.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/pointer/grab-pointer.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/pointer/touch-pointer.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/pointer/ray-pointer.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/pointer/multi-pointer.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/pointer/cursor-visual.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/pointer/visibility.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/pointer/filtered-eye-gaze.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/pointer/gaze-conecaster.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/pointer/gaze-pointer.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/locomotor/dist/core/locomotor.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/locomotor/dist/types/environment-types.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/locomotor/dist/physics/math-utils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/examples/jsm/loaders/DRACOLoader.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/index.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/grab/grab-helpers.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/examples/jsm/lights/RectAreaLightUniformsLib.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/grab/grab-warnings.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/examples/jsm/loaders/GLTFLoader.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/examples/jsm/loaders/KTX2Loader.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/.vite/deps/chunk-OPZYYT74.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/@fs/Volumes/Extreme%20SSD/Projects/grokbot/projects/.loom-worktrees/thyra-4cadce60a69f/omvpn56n2/t5/packages/room/src/vec.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/@fs/Volumes/Extreme%20SSD/Projects/grokbot/projects/.loom-worktrees/thyra-4cadce60a69f/omvpn56n2/t5/packages/room/src/plane.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/@fs/Volumes/Extreme%20SSD/Projects/grokbot/projects/.loom-worktrees/thyra-4cadce60a69f/omvpn56n2/t5/packages/room/src/draw.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/@fs/Volumes/Extreme%20SSD/Projects/grokbot/projects/.loom-worktrees/thyra-4cadce60a69f/omvpn56n2/t5/packages/room/src/summary.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/@fs/Volumes/Extreme%20SSD/Projects/grokbot/projects/.loom-worktrees/thyra-4cadce60a69f/omvpn56n2/t5/packages/room/src/stepin.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/@fs/Volumes/Extreme%20SSD/Projects/grokbot/projects/.loom-worktrees/thyra-4cadce60a69f/omvpn56n2/t5/packages/room/src/status.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/@fs/Volumes/Extreme%20SSD/Projects/grokbot/projects/.loom-worktrees/thyra-4cadce60a69f/omvpn56n2/t5/packages/pano/src/index.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/BVH.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/GeometryBVH.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/MeshBVH.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/LineBVH.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/PointsBVH.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/ObjectBVH.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/SkinnedMeshBVH.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/objects/BVHHelper.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/Constants.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/debug/Debug.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/utils/ExtensionUtilities.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/utils/TriangleUtilities.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/math/ExtendedTriangle.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/webgl/VertexAttributeTexture.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/webgl/BVHShaderGLSL.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/math/OrientedBox.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/utils/StaticGeometryGenerator.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/webgl/MeshBVHUniformStruct.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/examples/jsm/loaders/HDRLoader.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/examples/jsm/loaders/EXRLoader.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/examples/jsm/lines/LineSegments2.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/examples/jsm/lines/LineMaterial.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/examples/jsm/lines/LineSegmentsGeometry.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/pointer-events/dist/pointer.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/pointer-events/dist/intersections/index.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/examples/jsm/utils/BufferGeometryUtils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/pointer-events/dist/event.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/pointer-events/dist/pointer/index.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/pointer-events/dist/forward.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/pointer-events/dist/combine.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/examples/jsm/postprocessing/Pass.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/.vite/deps/chunk-UEHMIG6N.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/core/dist/depth/occlusion/preprocessing-shader.glsl.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/visual/utils/simple-batched-mesh.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/locomotor/dist/types/message-types.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/locomotor/dist/core/engine.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/store.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/index.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/screen/index.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/xr-input/dist/gamepad/generated-profiles.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/examples/jsm/utils/WorkerPool.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/examples/jsm/libs/ktx-parse.module.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/examples/jsm/math/ColorSpaces.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/examples/jsm/lights/RectAreaLightTexturesLib.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/examples/jsm/libs/zstddec.module.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/@id/__x00__virtual:iwsdk-dev-runtime/chunks/injection-template-0HSd4CcE.js",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "console",
+    "level": "log",
+    "message": "[IWSDK Dev] Configuration: {device: metaQuest3, activation: always, verbose: false, sem: Object, ai: Object}",
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/.vite/deps/chunk-JITY4T2J.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/@fs/Volumes/Extreme%20SSD/Projects/grokbot/projects/.loom-worktrees/thyra-4cadce60a69f/omvpn56n2/t5/packages/pano/src/color.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/@fs/Volumes/Extreme%20SSD/Projects/grokbot/projects/.loom-worktrees/thyra-4cadce60a69f/omvpn56n2/t5/packages/pano/src/analyze.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/@fs/Volumes/Extreme%20SSD/Projects/grokbot/projects/.loom-worktrees/thyra-4cadce60a69f/omvpn56n2/t5/packages/pano/src/fix.ts",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/utils/ArrayBoxUtilities.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/utils/nodeBufferUtils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/build/buildTree.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/cast/shapecast.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/cast/bvhcast.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/BVHTraversalHelper.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/utils/BufferUtils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/build/geometryUtils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/utils/ExtendedTrianglePool.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/cast/closestPointToPoint.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/utils/iterationUtils.generated.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/cast/refit.generated.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/cast/raycast.generated.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/cast/raycastFirst.generated.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/cast/intersectsGeometry.generated.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/cast/closestPointToGeometry.generated.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/utils/iterationUtils_indirect.generated.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/cast/refit_indirect.generated.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/cast/raycast_indirect.generated.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/cast/raycastFirst_indirect.generated.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/cast/intersectsGeometry_indirect.generated.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/cast/closestPointToGeometry_indirect.generated.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/utils/GeometryRayIntersectUtilities.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/utils/PrimitivePool.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/math/SeparatingAxisBounds.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/webgl/glsl/common_functions.glsl.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/math/MathUtilities.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/webgl/glsl/bvh_distance_functions.glsl.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/webgl/glsl/bvh_ray_functions.glsl.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/webgl/glsl/bvh_struct_definitions.glsl.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/pointer-events/dist/intersections/utils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/pointer-events/dist/intersections/intersector.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/pointer-events/dist/intersections/lines.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/pointer-events/dist/intersections/ray.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/pointer-events/dist/intersections/sphere.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/examples/jsm/libs/fflate.module.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/pointer-events/dist/html-event.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/pointer-events/dist/pointer/grab.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/pointer-events/dist/pointer/ray.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/pointer-events/dist/pointer/lines.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/pointer-events/dist/pointer/touch.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/locomotor/dist/environment/environment-manager.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/locomotor/dist/physics/collision-handler.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/locomotor/dist/physics/ground-detector.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/locomotor/dist/physics/physics-utils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@iwsdk/locomotor/dist/core/movement-controller.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/computations/index.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/computations/one-pointer.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/utils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/computations/two-pointer.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/state.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/context.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/material.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/axis.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/registered.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/drag.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/pivot/index.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/translate/index.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/scale/index.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/rotate/index.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/transform.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/screen/camera.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/screen/store.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/screen/pan.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/screen/zoom.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/screen/rotate.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/screen/orbit.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/screen/map.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/@id/__x00__virtual:iwsdk-dev-runtime/chunks/sunlit_living_room-1m7CU_6o.js",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/build/computeBoundsUtils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/BVHNode.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/build/splitUtils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/build/sortUtils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/build/buildUtils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/utils/BufferStack.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/utils/ThreeRayIntersectUtilities.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three-mesh-bvh/src/core/utils/intersectUtils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/pointer-events/dist/utils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/computations/translate-as.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/computations/utils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/pivot/scale.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/utils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/pivot/rotate.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/pivot/uniform-scale.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/translate/axis.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/translate/plane.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/translate/delta.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/translate/free.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/scale/axis.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/scale/plane.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/scale/uniform.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/rotate/axis.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/rotate/free.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/handles/rotate/screen.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/src/math/MathUtils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/node_modules/zustand/esm/vanilla.mjs?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@pmndrs/handle/dist/screen/utils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/src/utils.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/three/src/constants.js?v=1d55f44c",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "console",
+    "level": "log",
+    "message": "                                                 \n▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ \n▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  \n  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    \n  ██     ██ ██ ██   ▀████▄   ██    ██  █████    \n  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  \n▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ \n▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                \n===============================================\nImmersive Web SDK v1.1.0-rc.2\nThree.js r185\nEliCS v3.4.2",
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/@id/__x00__virtual:iwsdk-dev-runtime/chunks/index-CMmj0avE.js",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@fontsource/ubuntu-sans-mono/files/ubuntu-sans-mono-latin-400-normal.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@fontsource/host-grotesk/files/host-grotesk-latin-500-normal.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@fontsource/host-grotesk/files/host-grotesk-latin-600-normal.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@fontsource/host-grotesk/files/host-grotesk-latin-400-normal.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@fontsource/ubuntu-sans-mono/files/ubuntu-sans-mono-latin-500-normal.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "blob:https://localhost:8443/dcf7b573-7e04-4ffa-9275-b54613f34872",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "blob:https://localhost:8443/6b05b301-0c27-420f-a5c2-1581dcf4762a",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/scenes/main.iwsdk.scene.json",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "blob:https://localhost:8443/783dc1d4-7ab0-4546-8fbe-7278bbb0a7fb",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "blob:https://localhost:8443/2d139f64-1692-4fde-aec2-6a54b5b85eb6",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/node_modules/@fontsource/ubuntu-sans-mono/files/ubuntu-sans-mono-greek-400-normal.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://localhost:8443/api/status",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "revoked-url-negative-1280",
+    "type": "requestfailed",
+    "url": "blob:https://localhost:8443/df60b768-7c13-47c1-9b6b-1186567f8d1f",
+    "message": "net::ERR_FILE_NOT_FOUND",
+    "negative": false
+  },
+  {
+    "label": "revoked-url-negative-1280",
+    "type": "console",
+    "level": "error",
+    "message": "Failed to load resource: net::ERR_FILE_NOT_FOUND",
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "console",
+    "level": "warning",
+    "message": "[iwsdk][gaze] 'gaze-tracking' was NOT granted for this session, so tracked gaze is unavailable. Check that the project requests xr.features.gazeTracking, that this browser build exposes eye tracking, and that the page's permissions policy allows xr-spatial-tracking. {enabledFeatures: Array(10)}",
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "console",
+    "level": "log",
+    "message": "[SceneUnderstandingSystem] Anchor needed but not present, triggering creation",
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "console",
+    "level": "warning",
+    "message": "THREE.WebGLRenderer: Can't change size while VR device is presenting.",
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "blob:https://localhost:8443/d513d67b-b089-49d0-aa1e-bce8689627bd",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "app-1280",
+    "type": "response",
+    "url": "blob:https://localhost:8443/b02a5ed1-ce56-4b28-bbe3-3d4d86ea5e3e",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "static",
+    "type": "response",
+    "url": "http://127.0.0.1:8432/",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "static",
+    "type": "response",
+    "url": "http://127.0.0.1:8432/assets/index-3xLGLFnt.css",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "static",
+    "type": "response",
+    "url": "http://127.0.0.1:8432/assets/index-CXj23zj6.js",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "static",
+    "type": "console",
+    "level": "log",
+    "message": "[IWSDK Dev] Configuration: {device: metaQuest3, activation: always, verbose: false, sem: Object, ai: null}",
+    "negative": false
+  },
+  {
+    "label": "static",
+    "type": "console",
+    "level": "log",
+    "message": "                                                 \n▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ \n▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  \n  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    \n  ██     ██ ██ ██   ▀████▄   ██    ██  █████    \n  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  \n▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ \n▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                \n===============================================\nImmersive Web SDK v1.1.0-rc.2\nThree.js r185\nEliCS v3.4.2",
+    "negative": false
+  },
+  {
+    "label": "static",
+    "type": "response",
+    "url": "http://127.0.0.1:8432/assets/ubuntu-sans-mono-latin-500-normal-BzC7Rd_f.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "static",
+    "type": "response",
+    "url": "http://127.0.0.1:8432/assets/host-grotesk-latin-500-normal-B7155YqD.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "static",
+    "type": "response",
+    "url": "http://127.0.0.1:8432/assets/host-grotesk-latin-600-normal-D4yVz22u.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "static",
+    "type": "response",
+    "url": "http://127.0.0.1:8432/assets/host-grotesk-latin-400-normal-qDxuE_yq.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "static",
+    "type": "response",
+    "url": "http://127.0.0.1:8432/assets/ubuntu-sans-mono-latin-400-normal-IIoRDLCI.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "static",
+    "type": "response",
+    "url": "http://127.0.0.1:8432/assets/sunlit_living_room-1m7CU_6o-CeTIwFrh.js",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "static",
+    "type": "response",
+    "url": "http://127.0.0.1:8432/assets/world-initializer-Zu45rxyV.js",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "static",
+    "type": "response",
+    "url": "http://127.0.0.1:8432/assets/index-CMmj0avE-DQATDnfj.js",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "static",
+    "type": "response",
+    "url": "http://127.0.0.1:8432/scenes/main.iwsdk.scene.json",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "static",
+    "type": "response",
+    "url": "blob:http://127.0.0.1:8432/090fb12b-66f7-4c4e-8daa-5c9596d2159d",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "static",
+    "type": "response",
+    "url": "http://127.0.0.1:8432/assets/ubuntu-sans-mono-greek-400-normal-Dg-ss11H.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "static",
+    "type": "response",
+    "url": "blob:http://127.0.0.1:8432/564e9254-d8a9-4bf7-a81f-239ea01fc132",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "static",
+    "type": "response",
+    "url": "blob:http://127.0.0.1:8432/323c39d6-8129-4f2a-8fe2-03c9fdf47099",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "static",
+    "type": "response",
+    "url": "blob:http://127.0.0.1:8432/5ac75b85-fde6-4273-98e7-22a1abc1d665",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "native",
+    "type": "response",
+    "url": "http://127.0.0.1:8432/",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "native",
+    "type": "response",
+    "url": "http://127.0.0.1:8432/assets/index-3xLGLFnt.css",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "native",
+    "type": "response",
+    "url": "http://127.0.0.1:8432/assets/index-CXj23zj6.js",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "native",
+    "type": "console",
+    "level": "log",
+    "message": "[IWSDK Dev] Configuration: {device: metaQuest3, activation: always, verbose: false, sem: Object, ai: null}",
+    "negative": false
+  },
+  {
+    "label": "native",
+    "type": "console",
+    "level": "log",
+    "message": "                                                 \n▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ \n▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  \n  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    \n  ██     ██ ██ ██   ▀████▄   ██    ██  █████    \n  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  \n▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ \n▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                \n===============================================\nImmersive Web SDK v1.1.0-rc.2\nThree.js r185\nEliCS v3.4.2",
+    "negative": false
+  },
+  {
+    "label": "native",
+    "type": "response",
+    "url": "http://127.0.0.1:8432/assets/world-initializer-Zu45rxyV.js",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "native",
+    "type": "response",
+    "url": "http://127.0.0.1:8432/assets/host-grotesk-latin-500-normal-B7155YqD.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "native",
+    "type": "response",
+    "url": "http://127.0.0.1:8432/assets/host-grotesk-latin-600-normal-D4yVz22u.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "native",
+    "type": "response",
+    "url": "http://127.0.0.1:8432/assets/host-grotesk-latin-400-normal-qDxuE_yq.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "native",
+    "type": "response",
+    "url": "http://127.0.0.1:8432/assets/ubuntu-sans-mono-latin-400-normal-IIoRDLCI.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "native",
+    "type": "response",
+    "url": "http://127.0.0.1:8432/assets/ubuntu-sans-mono-latin-500-normal-BzC7Rd_f.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "native",
+    "type": "response",
+    "url": "http://127.0.0.1:8432/scenes/main.iwsdk.scene.json",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "native",
+    "type": "response",
+    "url": "http://127.0.0.1:8432/assets/ubuntu-sans-mono-greek-400-normal-Dg-ss11H.woff2",
+    "status": 200,
+    "negative": false
+  }
+]

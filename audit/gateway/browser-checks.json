@@ -1,0 +1,793 @@
+{
+  "passed": 30,
+  "failed": 0,
+  "checks": [
+    {
+      "id": "G01",
+      "ok": true,
+      "detail": {
+        "status": 200,
+        "body": {
+          "service": "thyra-gateway",
+          "spark": {
+            "ready": false,
+            "model": "muse-spark-1.3",
+            "setup": "MODEL_API_KEY"
+          },
+          "wonder": {
+            "ready": false,
+            "model": "muse-wonder-1.0",
+            "setup": "MODEL_API_KEY"
+          },
+          "image": {
+            "ready": false,
+            "model": "muse-image-1.0",
+            "setup": "MODEL_API_KEY"
+          },
+          "transcribe": {
+            "ready": false,
+            "model": "muse-voice-transcribe-1.0",
+            "setup": "MODEL_API_KEY"
+          },
+          "sam3": {
+            "ready": false,
+            "model": "sam-3.1",
+            "setup": "MODEL_API_KEY"
+          },
+          "budget": {
+            "spent_usd_today": 0,
+            "cap_usd": 5
+          },
+          "key_loaded": false
+        }
+      }
+    },
+    {
+      "id": "G01-body",
+      "ok": true,
+      "detail": {
+        "service": "thyra-gateway",
+        "spark": {
+          "ready": false,
+          "model": "muse-spark-1.3",
+          "setup": "MODEL_API_KEY"
+        },
+        "wonder": {
+          "ready": false,
+          "model": "muse-wonder-1.0",
+          "setup": "MODEL_API_KEY"
+        },
+        "image": {
+          "ready": false,
+          "model": "muse-image-1.0",
+          "setup": "MODEL_API_KEY"
+        },
+        "transcribe": {
+          "ready": false,
+          "model": "muse-voice-transcribe-1.0",
+          "setup": "MODEL_API_KEY"
+        },
+        "sam3": {
+          "ready": false,
+          "model": "sam-3.1",
+          "setup": "MODEL_API_KEY"
+        },
+        "budget": {
+          "spent_usd_today": 0,
+          "cap_usd": 5
+        },
+        "key_loaded": false
+      }
+    },
+    {
+      "id": "G02-/api/plan",
+      "ok": true,
+      "detail": {
+        "status": 503,
+        "body": {
+          "error": "setup_required",
+          "setup_required": "MODEL_API_KEY",
+          "message": "Setup required: MODEL_API_KEY is not set on the gateway."
+        }
+      }
+    },
+    {
+      "id": "G02-body-/api/plan",
+      "ok": true,
+      "detail": {
+        "error": "setup_required",
+        "setup_required": "MODEL_API_KEY",
+        "message": "Setup required: MODEL_API_KEY is not set on the gateway."
+      }
+    },
+    {
+      "id": "G02-/api/panorama",
+      "ok": true,
+      "detail": {
+        "status": 503,
+        "body": {
+          "error": "setup_required",
+          "setup_required": "MODEL_API_KEY",
+          "message": "Setup required: MODEL_API_KEY is not set on the gateway."
+        }
+      }
+    },
+    {
+      "id": "G02-body-/api/panorama",
+      "ok": true,
+      "detail": {
+        "error": "setup_required",
+        "setup_required": "MODEL_API_KEY",
+        "message": "Setup required: MODEL_API_KEY is not set on the gateway."
+      }
+    },
+    {
+      "id": "G02-/api/transcribe",
+      "ok": true,
+      "detail": {
+        "status": 503,
+        "body": {
+          "error": "setup_required",
+          "setup_required": "MODEL_API_KEY",
+          "message": "Setup required: MODEL_API_KEY is not set on the gateway."
+        }
+      }
+    },
+    {
+      "id": "G02-body-/api/transcribe",
+      "ok": true,
+      "detail": {
+        "error": "setup_required",
+        "setup_required": "MODEL_API_KEY",
+        "message": "Setup required: MODEL_API_KEY is not set on the gateway."
+      }
+    },
+    {
+      "id": "G03",
+      "ok": true,
+      "detail": {
+        "status": 201,
+        "body": {
+          "id": "29716eb7-3744-4877-85b1-3559d283e43a",
+          "created_at": "2026-10-26T20:48:16.372Z",
+          "destination": "browser audit sample",
+          "room": {
+            "portal": {
+              "w_m": 1.1,
+              "h_m": 2,
+              "bottom_m": 0,
+              "wall": {
+                "label": "wall",
+                "w_m": 3.6,
+                "h_m": 2.4
+              }
+            },
+            "viewer": {
+              "eye_height_m": 1.6,
+              "distance_to_portal_m": 2.6
+            },
+            "room": {
+              "ceiling_m": 2.4,
+              "floor_area_m2": 15.1,
+              "objects": [
+                {
+                  "label": "couch",
+                  "dims_m": [
+                    2,
+                    0.86,
+                    0.94
+                  ],
+                  "side": "in front",
+                  "distance_m": 0.52
+                },
+                {
+                  "label": "table",
+                  "dims_m": [
+                    1,
+                    0.42,
+                    0.55
+                  ],
+                  "side": "in front",
+                  "distance_m": 1.17
+                },
+                {
+                  "label": "lamp",
+                  "dims_m": [
+                    0.4,
+                    1.72,
+                    0.4
+                  ],
+                  "side": "right",
+                  "distance_m": 1.39
+                },
+                {
+                  "label": "plant",
+                  "dims_m": [
+                    0.5,
+                    1.3,
+                    0.5
+                  ],
+                  "side": "in front",
+                  "distance_m": 3.99
+                }
+              ]
+            },
+            "light": {
+              "available": false
+            },
+            "local_time": "16:34",
+            "destination_text": "a misty pine forest"
+          },
+          "plan": null,
+          "image": {
+            "source": "cc0-sample",
+            "stamp": "Sample, not generated",
+            "model": null,
+            "request_id": null,
+            "latency_ms": null,
+            "width": null,
+            "height": null,
+            "format": null,
+            "file": null,
+            "sample_id": "misty_pines",
+            "web_tools": false
+          },
+          "transcript": null,
+          "pano": null,
+          "timings": null,
+          "cost_usd": 0,
+          "errors": []
+        }
+      }
+    },
+    {
+      "id": "G03-body",
+      "ok": true,
+      "detail": {
+        "id": "29716eb7-3744-4877-85b1-3559d283e43a",
+        "created_at": "2026-10-26T20:48:16.372Z",
+        "destination": "browser audit sample",
+        "room": {
+          "portal": {
+            "w_m": 1.1,
+            "h_m": 2,
+            "bottom_m": 0,
+            "wall": {
+              "label": "wall",
+              "w_m": 3.6,
+              "h_m": 2.4
+            }
+          },
+          "viewer": {
+            "eye_height_m": 1.6,
+            "distance_to_portal_m": 2.6
+          },
+          "room": {
+            "ceiling_m": 2.4,
+            "floor_area_m2": 15.1,
+            "objects": [
+              {
+                "label": "couch",
+                "dims_m": [
+                  2,
+                  0.86,
+                  0.94
+                ],
+                "side": "in front",
+                "distance_m": 0.52
+              },
+              {
+                "label": "table",
+                "dims_m": [
+                  1,
+                  0.42,
+                  0.55
+                ],
+                "side": "in front",
+                "distance_m": 1.17
+              },
+              {
+                "label": "lamp",
+                "dims_m": [
+                  0.4,
+                  1.72,
+                  0.4
+                ],
+                "side": "right",
+                "distance_m": 1.39
+              },
+              {
+                "label": "plant",
+                "dims_m": [
+                  0.5,
+                  1.3,
+                  0.5
+                ],
+                "side": "in front",
+                "distance_m": 3.99
+              }
+            ]
+          },
+          "light": {
+            "available": false
+          },
+          "local_time": "16:34",
+          "destination_text": "a misty pine forest"
+        },
+        "plan": null,
+        "image": {
+          "source": "cc0-sample",
+          "stamp": "Sample, not generated",
+          "model": null,
+          "request_id": null,
+          "latency_ms": null,
+          "width": null,
+          "height": null,
+          "format": null,
+          "file": null,
+          "sample_id": "misty_pines",
+          "web_tools": false
+        },
+        "transcript": null,
+        "pano": null,
+        "timings": null,
+        "cost_usd": 0,
+        "errors": []
+      }
+    },
+    {
+      "id": "G04-get",
+      "ok": true,
+      "detail": {
+        "status": 200,
+        "body": {
+          "id": "29716eb7-3744-4877-85b1-3559d283e43a",
+          "created_at": "2026-10-26T20:48:16.372Z",
+          "destination": "browser audit sample",
+          "room": {
+            "portal": {
+              "w_m": 1.1,
+              "h_m": 2,
+              "bottom_m": 0,
+              "wall": {
+                "label": "wall",
+                "w_m": 3.6,
+                "h_m": 2.4
+              }
+            },
+            "viewer": {
+              "eye_height_m": 1.6,
+              "distance_to_portal_m": 2.6
+            },
+            "room": {
+              "ceiling_m": 2.4,
+              "floor_area_m2": 15.1,
+              "objects": [
+                {
+                  "label": "couch",
+                  "dims_m": [
+                    2,
+                    0.86,
+                    0.94
+                  ],
+                  "side": "in front",
+                  "distance_m": 0.52
+                },
+                {
+                  "label": "table",
+                  "dims_m": [
+                    1,
+                    0.42,
+                    0.55
+                  ],
+                  "side": "in front",
+                  "distance_m": 1.17
+                },
+                {
+                  "label": "lamp",
+                  "dims_m": [
+                    0.4,
+                    1.72,
+                    0.4
+                  ],
+                  "side": "right",
+                  "distance_m": 1.39
+                },
+                {
+                  "label": "plant",
+                  "dims_m": [
+                    0.5,
+                    1.3,
+                    0.5
+                  ],
+                  "side": "in front",
+                  "distance_m": 3.99
+                }
+              ]
+            },
+            "light": {
+              "available": false
+            },
+            "local_time": "16:34",
+            "destination_text": "a misty pine forest"
+          },
+          "plan": null,
+          "image": {
+            "source": "cc0-sample",
+            "stamp": "Sample, not generated",
+            "model": null,
+            "request_id": null,
+            "latency_ms": null,
+            "width": null,
+            "height": null,
+            "format": null,
+            "file": null,
+            "sample_id": "misty_pines",
+            "web_tools": false
+          },
+          "transcript": null,
+          "pano": null,
+          "timings": null,
+          "cost_usd": 0,
+          "errors": []
+        }
+      }
+    },
+    {
+      "id": "G04-patch",
+      "ok": true,
+      "detail": {
+        "status": 200,
+        "body": {
+          "id": "29716eb7-3744-4877-85b1-3559d283e43a",
+          "created_at": "2026-10-26T20:48:16.372Z",
+          "destination": "browser audit sample",
+          "room": {
+            "portal": {
+              "w_m": 1.1,
+              "h_m": 2,
+              "bottom_m": 0,
+              "wall": {
+                "label": "wall",
+                "w_m": 3.6,
+                "h_m": 2.4
+              }
+            },
+            "viewer": {
+              "eye_height_m": 1.6,
+              "distance_to_portal_m": 2.6
+            },
+            "room": {
+              "ceiling_m": 2.4,
+              "floor_area_m2": 15.1,
+              "objects": [
+                {
+                  "label": "couch",
+                  "dims_m": [
+                    2,
+                    0.86,
+                    0.94
+                  ],
+                  "side": "in front",
+                  "distance_m": 0.52
+                },
+                {
+                  "label": "table",
+                  "dims_m": [
+                    1,
+                    0.42,
+                    0.55
+                  ],
+                  "side": "in front",
+                  "distance_m": 1.17
+                },
+                {
+                  "label": "lamp",
+                  "dims_m": [
+                    0.4,
+                    1.72,
+                    0.4
+                  ],
+                  "side": "right",
+                  "distance_m": 1.39
+                },
+                {
+                  "label": "plant",
+                  "dims_m": [
+                    0.5,
+                    1.3,
+                    0.5
+                  ],
+                  "side": "in front",
+                  "distance_m": 3.99
+                }
+              ]
+            },
+            "light": {
+              "available": false
+            },
+            "local_time": "16:34",
+            "destination_text": "a misty pine forest"
+          },
+          "plan": null,
+          "image": {
+            "source": "cc0-sample",
+            "stamp": "Sample, not generated",
+            "model": null,
+            "request_id": null,
+            "latency_ms": null,
+            "width": 4096,
+            "height": 2048,
+            "format": null,
+            "file": null,
+            "sample_id": "misty_pines",
+            "web_tools": false
+          },
+          "transcript": null,
+          "pano": {
+            "pano_mode": "equirect"
+          },
+          "timings": {
+            "time_to_world_ms": 1234
+          },
+          "cost_usd": 0,
+          "errors": []
+        }
+      }
+    },
+    {
+      "id": "G04-body",
+      "ok": true,
+      "detail": {
+        "id": "29716eb7-3744-4877-85b1-3559d283e43a",
+        "created_at": "2026-10-26T20:48:16.372Z",
+        "destination": "browser audit sample",
+        "room": {
+          "portal": {
+            "w_m": 1.1,
+            "h_m": 2,
+            "bottom_m": 0,
+            "wall": {
+              "label": "wall",
+              "w_m": 3.6,
+              "h_m": 2.4
+            }
+          },
+          "viewer": {
+            "eye_height_m": 1.6,
+            "distance_to_portal_m": 2.6
+          },
+          "room": {
+            "ceiling_m": 2.4,
+            "floor_area_m2": 15.1,
+            "objects": [
+              {
+                "label": "couch",
+                "dims_m": [
+                  2,
+                  0.86,
+                  0.94
+                ],
+                "side": "in front",
+                "distance_m": 0.52
+              },
+              {
+                "label": "table",
+                "dims_m": [
+                  1,
+                  0.42,
+                  0.55
+                ],
+                "side": "in front",
+                "distance_m": 1.17
+              },
+              {
+                "label": "lamp",
+                "dims_m": [
+                  0.4,
+                  1.72,
+                  0.4
+                ],
+                "side": "right",
+                "distance_m": 1.39
+              },
+              {
+                "label": "plant",
+                "dims_m": [
+                  0.5,
+                  1.3,
+                  0.5
+                ],
+                "side": "in front",
+                "distance_m": 3.99
+              }
+            ]
+          },
+          "light": {
+            "available": false
+          },
+          "local_time": "16:34",
+          "destination_text": "a misty pine forest"
+        },
+        "plan": null,
+        "image": {
+          "source": "cc0-sample",
+          "stamp": "Sample, not generated",
+          "model": null,
+          "request_id": null,
+          "latency_ms": null,
+          "width": 4096,
+          "height": 2048,
+          "format": null,
+          "file": null,
+          "sample_id": "misty_pines",
+          "web_tools": false
+        },
+        "transcript": null,
+        "pano": {
+          "pano_mode": "equirect"
+        },
+        "timings": {
+          "time_to_world_ms": 1234
+        },
+        "cost_usd": 0,
+        "errors": []
+      }
+    },
+    {
+      "id": "G04-no-image",
+      "ok": true,
+      "detail": {
+        "status": 404,
+        "body": {
+          "error": "no_image"
+        }
+      }
+    },
+    {
+      "id": "G04-delete",
+      "ok": true,
+      "detail": {
+        "status": 200,
+        "body": {
+          "deleted": "29716eb7-3744-4877-85b1-3559d283e43a"
+        }
+      }
+    },
+    {
+      "id": "G04-deleted-get",
+      "ok": true,
+      "detail": {
+        "status": 404,
+        "body": {
+          "error": "no_such_run"
+        }
+      }
+    },
+    {
+      "id": "G05-json-{bad",
+      "ok": true,
+      "detail": {
+        "status": 400,
+        "body": {
+          "error": "bad_json",
+          "message": "Body must be a JSON object."
+        }
+      }
+    },
+    {
+      "id": "G05-body-{bad",
+      "ok": true,
+      "detail": {
+        "error": "bad_json",
+        "message": "Body must be a JSON object."
+      }
+    },
+    {
+      "id": "G05-json-null",
+      "ok": true,
+      "detail": {
+        "status": 400,
+        "body": {
+          "error": "bad_json",
+          "message": "Body must be a JSON object."
+        }
+      }
+    },
+    {
+      "id": "G05-body-null",
+      "ok": true,
+      "detail": {
+        "error": "bad_json",
+        "message": "Body must be a JSON object."
+      }
+    },
+    {
+      "id": "G05-json-[]",
+      "ok": true,
+      "detail": {
+        "status": 400,
+        "body": {
+          "error": "bad_json",
+          "message": "Body must be a JSON object."
+        }
+      }
+    },
+    {
+      "id": "G05-body-[]",
+      "ok": true,
+      "detail": {
+        "error": "bad_json",
+        "message": "Body must be a JSON object."
+      }
+    },
+    {
+      "id": "G05-json-2",
+      "ok": true,
+      "detail": {
+        "status": 400,
+        "body": {
+          "error": "bad_json",
+          "message": "Body must be a JSON object."
+        }
+      }
+    },
+    {
+      "id": "G05-body-2",
+      "ok": true,
+      "detail": {
+        "error": "bad_json",
+        "message": "Body must be a JSON object."
+      }
+    },
+    {
+      "id": "G05-json-\"text\"",
+      "ok": true,
+      "detail": {
+        "status": 400,
+        "body": {
+          "error": "bad_json",
+          "message": "Body must be a JSON object."
+        }
+      }
+    },
+    {
+      "id": "G05-body-\"text\"",
+      "ok": true,
+      "detail": {
+        "error": "bad_json",
+        "message": "Body must be a JSON object."
+      }
+    },
+    {
+      "id": "G05-large",
+      "ok": true,
+      "detail": {
+        "status": 413,
+        "body": {
+          "error": "too_large",
+          "limit_bytes": 65536
+        }
+      }
+    },
+    {
+      "id": "G05-unknown",
+      "ok": true,
+      "detail": {
+        "status": 404,
+        "body": {
+          "error": "not_found"
+        }
+      }
+    },
+    {
+      "id": "G08",
+      "ok": true
+    },
+    {
+      "id": "browser-console-network",
+      "ok": true,
+      "detail": []
+    }
+  ]
+}

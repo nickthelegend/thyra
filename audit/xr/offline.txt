@@ -1,0 +1,4 @@
+PASS X20-interrupted-write
+PASS A10-offline-badges
+PASS G18-restart
+PASS X20-restored-persistence

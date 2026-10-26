@@ -1,0 +1,117 @@
+{
+  "roots": [
+    51670,
+    54161,
+    61576
+  ],
+  "owned_processes": [
+    {
+      "pid": 18484,
+      "ppid": 51723,
+      "command": "/Users/jaibajrang/Library/Caches/ms-playwright/chromium-1248/chrome-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing"
+    },
+    {
+      "pid": 19266,
+      "ppid": 18484,
+      "command": "/Users/jaibajrang/Library/Caches/ms-playwright/chromium-1248/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/156.0.8078.4/Helpers/Google Chrome for Testing Helper (GPU).app/Contents/MacOS/Google Chrome for Testing Helper (GPU)"
+    },
+    {
+      "pid": 19267,
+      "ppid": 18484,
+      "command": "/Users/jaibajrang/Library/Caches/ms-playwright/chromium-1248/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/156.0.8078.4/Helpers/Google Chrome for Testing Helper.app/Contents/MacOS/Google Chrome for Testing Helper"
+    },
+    {
+      "pid": 19449,
+      "ppid": 18484,
+      "command": "/Users/jaibajrang/Library/Caches/ms-playwright/chromium-1248/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/156.0.8078.4/Helpers/Google Chrome for Testing Helper.app/Contents/MacOS/Google Chrome for Testing Helper"
+    },
+    {
+      "pid": 19722,
+      "ppid": 18484,
+      "command": "/Users/jaibajrang/Library/Caches/ms-playwright/chromium-1248/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/156.0.8078.4/Helpers/Google Chrome for Testing Helper (Renderer).app/Contents/MacOS/Google Chrome for Testing Helper (Renderer)"
+    },
+    {
+      "pid": 19723,
+      "ppid": 18484,
+      "command": "/Users/jaibajrang/Library/Caches/ms-playwright/chromium-1248/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/156.0.8078.4/Helpers/Google Chrome for Testing Helper (Renderer).app/Contents/MacOS/Google Chrome for Testing Helper (Renderer)"
+    },
+    {
+      "pid": 19724,
+      "ppid": 18484,
+      "command": "/Users/jaibajrang/Library/Caches/ms-playwright/chromium-1248/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/156.0.8078.4/Helpers/Google Chrome for Testing Helper (Renderer).app/Contents/MacOS/Google Chrome for Testing Helper (Renderer)"
+    },
+    {
+      "pid": 19818,
+      "ppid": 18484,
+      "command": "/Users/jaibajrang/Library/Caches/ms-playwright/chromium-1248/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/156.0.8078.4/Helpers/Google Chrome for Testing Helper.app/Contents/MacOS/Google Chrome for Testing Helper"
+    },
+    {
+      "pid": 51670,
+      "ppid": 38312,
+      "command": "node"
+    },
+    {
+      "pid": 51690,
+      "ppid": 51670,
+      "command": "npm run dev:runtime"
+    },
+    {
+      "pid": 51723,
+      "ppid": 51690,
+      "command": "node"
+    },
+    {
+      "pid": 51724,
+      "ppid": 51723,
+      "command": "/Volumes/Extreme SSD/Projects/grokbot/projects/.loom-worktrees/thyra-4cadce60a69f/omvpn56n2/t5/packages/xr/node_modules/@esbuild/darwin-arm64/bin/esbuild"
+    },
+    {
+      "pid": 54161,
+      "ppid": 38312,
+      "command": "node"
+    }
+  ],
+  "managed_chrome_processes": [
+    {
+      "pid": 18484,
+      "type": "browser"
+    },
+    {
+      "pid": 19723,
+      "type": "renderer"
+    },
+    {
+      "pid": 19724,
+      "type": "renderer"
+    },
+    {
+      "pid": 19722,
+      "type": "renderer"
+    },
+    {
+      "pid": 19266,
+      "type": "GPU"
+    },
+    {
+      "pid": 19267,
+      "type": "network.mojom.NetworkService"
+    },
+    {
+      "pid": 19449,
+      "type": "storage.mojom.StorageService"
+    },
+    {
+      "pid": 19818,
+      "type": "audio.mojom.AudioService"
+    }
+  ],
+  "termination": "SIGTERM by recorded PID; SIGKILL only if a recorded PID remained",
+  "remaining": [],
+  "all_owned_processes_stopped": true,
+  "gateway_interruption_stopped_pid": 51666,
+  "restart_stopped_pid": 50221,
+  "heavy_slot_released": true,
+  "cleanup_started_at": "2026-10-26T20:54:06.187Z",
+  "tests_completed_at": "2026-10-26T20:52:30.407Z",
+  "post_test_shutdown_note": "After all assertions completed, the tool session owning the replacement gateway ended. One later periodic browser status probe returned 500 and emitted its matching console entry before recorder shutdown. These two entries remain in raw evidence and are not normal-path errors."
+}

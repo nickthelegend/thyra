@@ -1,145 +1,62 @@
 # Testing
 
-## Phase 2 audit — Oct 27, 2026 (task t4)
+## Final audit — Oct 27, 2026 (Asia/Kolkata)
 
-Fresh local evidence is under `audit/xr`, `audit/app`, and `audit/gateway`. This task audited 42 plan rows:
-**39 PASS / 3 FAIL**. The existing full table now has **45 PASS / 4 FAIL / 10 UNTESTED / 68 PENDING**;
-this is not a completed full-plan audit. The ten dependencies remain MODEL_API_KEY and a physical Quest headset.
+**108 PASS / 0 FAIL / 19 UNTESTED** across the original 127 plan rows. This is the final local run, not the October 25 historical run. [AUDIT.md](AUDIT.md) preserves all expected cells and names each fix.
 
-| Fresh execution | Result | Evidence |
+The gateway started directly with explicitly empty MODEL_API_KEY, `/tmp/thyra-t5-audit-runs`, and no env-file loader. Vite used the empty `/tmp/thyra-t5-empty-env` directory. Chrome for Testing used IWER Quest 3 hands and Meta VR Glasses gaze + pinch. No physical headset or successful Meta inference was available.
+
+| Execution | Actual result | Evidence |
 |---|---|---|
-| Quest 3, IWER, hands only, four rooms + guards + paper wall | 57 / 57 harness checks | `audit/xr/quest-checks.json` |
-| Exact card text, disabled generation, fingertip + proximity Step-in, minimum boundary | 16 / 17 checks; X05 fails | `audit/xr/supplement.json` |
-| Meta VR Glasses, gaze + pinch, card fit, open, close/re-entry | 7 / 7 harness checks; V06 network evidence fails | `audit/xr/glasses-checks.json` |
-| Landing + real app page at 375 / 1280, including exact A01–A06 assertions | 22 / 22 checks | `audit/app/checks.json` |
-| Keyless gateway G01–G05/G08; G07 cites earlier unit execution | 7 / 7 rows | `audit/gateway/checks.json`, `audit/unit-results.json` |
-| Root/XR typechecks, room build and production bundle | exit 0 | `audit/xr/preflight.json` |
+| Unit tests | 56/56; 0 failed/skipped; 9 files | [unit-results.json](audit/unit-results.json) |
+| Root and XR typechecks | both exit 0; 0 diagnostics | [root-typecheck.txt](audit/unit/root-typecheck.txt) |
+| Production bundle / custom rooms | both exit 0 | [build.txt](audit/unit/build.txt) |
+| Quest 3 hands, four rooms, guards and paper wall | 56/56 | [quest-checks.json](audit/xr/quest-checks.json) |
+| Hand/card/room/Step-in supplement | 24/24 | [supplement.json](audit/xr/supplement.json) |
+| Uploads, geometry, microphone error and re-entry | 11/11 | [edges.json](audit/xr/edges.json) |
+| Rendering, eight stencil tags and three distinct worlds | 32/32 | [render.json](audit/xr/render.json) |
+| Genuine mid-hold interruptions and measured way back | 5/5 | [interrupt.json](audit/xr/interrupt.json) |
+| Glasses gaze/pinch, card fit and re-entry | 7/7 | [glasses-checks.json](audit/xr/glasses-checks.json) |
+| Real session with depth disabled | 3/3 | [no-depth.json](audit/xr/no-depth.json) |
+| Landing/app and negative/reduced/static checks | 63/63 | [pages-checks.json](audit/app/pages-checks.json) |
+| Gateway HTTP contract | 45/45 | [checks.json](audit/gateway/checks.json) |
+| Gateway fetches in actual Chrome | 30/30 | [browser-checks.json](audit/gateway/browser-checks.json) |
+| Persisted PATCH across gateway restart | 2/2 | [restart-checks.json](audit/gateway/restart-checks.json) |
+| Stopped-gateway interruption and recovery | 4/4 | [offline.json](audit/xr/offline.json) |
+| Real JSON/non-JSON errors and timeouts | 5/5 | [client.json](audit/xr/client.json) |
+| Depth occlusion A/B pixels | PASS: foreground ΔRGB 33.30; clear opening 0.95 | [occlusion.json](audit/xr/occlusion.json) |
 
-X05: an exact 0.40 × 0.60 m hand-ray target produces zero doors and the Too small hint. Q02/V06:
-the independent HTTP recorder disconnects when the glasses profile replaces managed Chrome, so Glasses HTTP
-status cleanliness is unproven. IWSDK's own capture reports zero errors and includes page errors and failed
-requests. The retained Quest trace and both app traces have zero console/page/request/HTTP errors.
-The previously recorded L03 wording failure remains in AUDIT.md. No product bugs were changed.
+Four principal page captures cover landing and app at **375×812 and 1280×812**. The complete pages suite used **9 contexts** including empty/missing schedule, reduced motion, static build and native-user-agent exclusion. Native immersive AR remains UNTESTED. Each Google Fonts URL/status is in [fonts.json](audit/landing/fonts.json).
 
-Three-door desktop-emulator CPU p50/p95/max: **2.70 / 3.30 / 4.20 ms**, 600 / 600 immersive frames;
-draw calls p50/max **244 / 304**, triangles p50/max **84,756 / 84,876**, Apple M4 Metal. These do not
-certify Quest CPU/GPU performance. Both Step-in triggers ran in all four rooms; floods measured **1.198–1.230 s**.
+## Fresh per-room measurements
 
-The gateway used an explicitly empty MODEL_API_KEY, direct Node startup without an env-file loader, and
-`/tmp/thyra-audit-runs`. No `.env` was loaded, no key was invented, and no mocks/stubs were used. Screenshot
-JPEGs are below 200 KB each. Temporary harness edits were restored. Started processes were stopped by PID,
-the heavy slot was released, and no deployment, push, or `.loom/` edit occurred. Loom owns commit/merge.
+Hands-only run: `2026-10-26T20:31:52.793Z` → `2026-10-26T20:34:03.061Z` (**130.268 s**). Each row loads the actual committed misty-pines CC0 image, stamped **Sample, not generated**, plan **Setup required**.
 
-The older recorded verification below is historical context, not evidence for this audit.
+| Room | Door | Release → world | Off-plane max, reported | Pixel ΔRGB inside/outside | Reach-through flood |
+|---|---|---|---|---|---|
+| `sunlit_living_room` | 1.20 × 2.05 m | 2.160 s | 0.00 mm | 243.10 / 7.30 | 1.216 s |
+| `thyra_studio` | 1.10 × 2.00 m | 2.109 s | 0.00 mm | 94.09 / 7.08 | 1.200 s |
+| `thyra_hall` | 1.00 × 1.95 m | 2.091 s | 0.00 mm | 117.72 / 6.92 | 1.216 s |
+| `bedroom` | 0.90 × 1.90 m | 2.090 s | 0.00 mm | 115.82 / 11.40 | 1.215 s |
 
-## Latest recorded verification (Oct 25, 2026)
+These timings include the deliberate 900 ms room-read hold and actual sample decode/upload; they are not Meta latency. Off-plane values are the harness’s rounded measurements. Proximity and actual emulated index-tip reach-through both ran in every room.
 
-These are recorded emulator runs on an Apple M4. No device run and no Meta model run has been completed.
-The latest recorded hands-only run is the 11:04 UTC file below; it was not executed as part of this documentation restore.
+## Fresh three-door frame sample
 
-| What | Recorded result | Evidence |
-|---|---|---|
-| Unit tests | **46 / 46 passed**, last recorded full run | commit `7a346bb` |
-| Root TypeScript check | Passed; 0 diagnostics | recorded check, Oct 25, 2026 |
-| XR TypeScript check | Passed; 0 diagnostics | recorded check, Oct 25, 2026 |
-| Emulator e2e, hands only, 4 rooms | **56 / 56 passed**, 0 failed; **128.253 s** | [hands-only JSON](deployments/e2e/2026-10-25T11-04-22-665Z.json) |
-| Meta VR Glasses profile (gaze + pinch) | **5 / 5 passed**, 0 failed | [glasses JSON](deployments/e2e/glasses-2026-10-25T11-06-53-722Z.json) |
-| Landing + app 2D page at 375 / 1280 px | **12 / 12 passed**, 0 failed | [full pages JSON](deployments/e2e/pages-2026-10-25T04-51-34-608Z.json) |
-| Per-room time to world, sample path | **2.10 / 2.04 / 2.01 / 2.13 s*** (living room / studio / hall / bedroom) | hands-only JSON above |
-| Three open doors, CPU p50 / p95 / max | **2.50 / 3.00 / 3.40 ms** (rounded to two decimals), 600 frames | hands-only JSON above |
-| Three open doors, draw calls p50 / max; triangles p50 | **244 / 304** draws; **84,756** triangles | hands-only JSON above |
+**600 frames / 600 immersive frames**, head panning across three worlds. CPU p50/p95/max **1.70/2.10/2.70 ms**; draw calls p50/max **244/304**; triangles p50/max **84,756/84,876**. Renderer: `ANGLE (Apple, ANGLE Metal Renderer: Apple M4, Unspecified Version)`.
 
-The hands-only duration is computed from `started` (`2026-10-25T11:04:22.665Z`) and `finished`
-(`2026-10-25T11:06:30.918Z`). Unit tests are the last recorded full run at `7a346bb`.
+These are desktop CPU submission timings. **The Quest CPU/GPU p95 ≤13.9 ms at 72 Hz gate is unmeasured. Successful Meta model calls, schemas, image quality/latency, transcription and policy refusals are unmeasured.** The existing invalid-key test reached real api.meta.ai and asserted 401→502; it proves negative authentication, not inference.
 
-The later page files [10:57 UTC](deployments/e2e/pages-2026-10-25T10-57-54-442Z.json) and
-[10:59 UTC](deployments/e2e/pages-2026-10-25T10-59-46-291Z.json) each passed **6 / 6 landing-only checks**.
-They do not cover the app 2D page; the 04:51 UTC file above is the latest recorded full 12-check pages run.
+The genuinely suspended gateway measured **4002.4 ms** for status timeout and **130003.7 ms** for ordinary-call timeout. No transport replacement or canned response was used.
 
-## Per-room measurements
+## Recording, errors and cleanup
 
-All values below come from the latest recorded [hands-only run](deployments/e2e/2026-10-25T11-04-22-665Z.json).
-Door sizes and release-to-world times come from `metrics.doors`; geometry, pixel ΔRGB and off-plane values
-come from the check names. A dash means the file has no corresponding geometry check.
+New test clip: `/tmp/thyra-t5-videos/thyra-01-tear-open.mp4` — **34.967 s, 720×692, 30/1 fps, 1049 encoded frames**, from 1295 actual variable-rate screencast frames. Emulator/CC0 test footage, not physical capture or a submitted demo. The video is not committed. [Metadata](audit/xr/recording.json).
 
-| Room | Door | To world* | Wall width (truth) | Ceiling (truth) | Floor area (truth) | Pixel ΔRGB inside / outside | Off-plane max |
-|---|---|---|---|---|---|---|---|
-| `sunlit_living_room` | 1.20 × 2.05 m | 2.10 s | 5.004 m (5 m) | 2.700 m (2.7 m) | 29.00 m² (29 m²) | 243.7 / 7.4 | 0.00 mm |
-| `thyra_studio` | 1.10 × 2.00 m | 2.04 s | 3.604 m (3.6 m) | 2.400 m (2.4 m) | 15.12 m² (15.12 m²) | 98.0 / 7.1 | 0.00 mm |
-| `thyra_hall` | 1.00 × 1.95 m | 2.01 s | 6.004 m (6 m) | 2.100 m (2.1 m) | 9.00 m² (9 m²) | 119.5 / 4.8 | 0.00 mm |
-| `bedroom` | 0.90 × 1.90 m | 2.13 s | — | — | — | 125.7 / 6.2 | 0.00 mm |
+No mocks, stubs, fabricated model results or unexpected errors occurred on tested flows. Expected negative evidence includes schedule 404, revoked-file URL, reduced-motion media cancellation, API validation/Setup errors, stopped/suspended gateway requests and a real static host’s missing API. After all assertions, owned gateway shutdown also produced one status HTTP 500 and its matching console entry. Both remain explicitly listed in [verification.json](audit/verification.json). Browser page errors were zero.
 
-*No-key sample path: includes a deliberate 0.9 s hold on the room read plus sample decoding and GPU upload.
-These times are not Muse Spark + Muse Image latency. Every door is stamped *Sample, not generated*;
-plan status is *Setup required*. `packages/landing/data/schedule.json` cites this same hands-only file,
-with these four rounded times and summary `local_time` 16:34.
+Final evidence has **12 JPEGs**, each ≤200 KB, about **6.94 MB** before the final indexes. Superseded screenshots were deleted. All owned processes stopped by recorded PID, configuration restored byte-for-byte, and `thyra-audit-reverify` released. [Process evidence](audit/processes.json). No push, deploy, commit, secret-file read or `.loom/` edit occurred; Loom owns commit/merge.
 
-## Three-door frame measurements
+MODEL_API_KEY, a physical Quest/native AR browser and usable microphone/browser speech service remain required for UNTESTED rows. Phone/SAM mode, a Thyra MCP server, realtime ASR WebSocket proxy, persistent anchors and virtual keyboard remain absent. The landing’s dated October 25 schedule remains explicitly historical; its numbers were not reused as current measurements.
 
-From `metrics.perf_three_doors` in the same hands-only file:
-
-| Metric | Recorded value |
-|---|---|
-| Frames / XR frames | 600 / 600 |
-| CPU p50 / p95 / max | 2.50 / 3.00 / 3.40 ms (rounded to two decimals) |
-| Draw calls p50 / max | 244 / 304 |
-| Triangles p50 | 84,756 |
-
-`window.__thyraPerf` samples CPU milliseconds from the ECS update start through `renderer.render` while
-three doors are open and the head pans across them. This is desktop headless Chromium on an Apple M4,
-not Quest CPU/GPU timing. The Quest target (p95 ≤ 13.9 ms at 72 Hz) remains unmeasured.
-
-## Emulator coverage and measurement method
-
-The hands-only suite uses IWER (IWSDK's browser-based immersive emulator) with SEM synthetic rooms and the
-Quest 3 profile. It switches between `sunlit_living_room`, `thyra_studio`, `thyra_hall` and `bedroom`. Per room:
-pick a wall, pinch-drag a door with the right hand ray, pinch a destination on the door card, open the sample
-world, compare pixels inside and outside the frame, step in by walking toward the door, exit and close it.
-It also checks the minimum door size, three-door limit and oldest-door replacement, no-wall paper placement,
-Setup required badges, and console errors. Emulated exact rays cannot establish real-hand registration quality.
-
-The glasses suite selects `metaVRGlasses`, checks that `gaze-tracking` is granted, draws a door using gaze
-and hand pinch, measures the door card's corner angles against the narrower glasses view, opens a sample
-world by gazing at a destination and pinching, and checks console errors. Its recorded card-angle check is:
-
-> door card inside the glasses view (max |h| 17.7°, v -30.1…-6.5°)
-
-The full pages suite checks the landing and app 2D page at 375 and 1280 px: horizontal scroll,
-rendered schedule/status badges, and console errors (12 checks total).
-
-## Unit test coverage (Vitest, no mocks)
-
-- `packages/room`: wall frames (axes, bounds, normal flipped toward the viewer, side walls), plane round trips,
-  ray/wall hits and nearest-wall picking, polygon area, door rectangle (both drag directions, clamping, edge and
-  floor snapping, the 0.40 × 0.60 m minimum, doors that overlap vs stand side by side), the room summary (spec shape, object sides and distances, nulls
-  when the floor is unknown), the Step-in state machine (proximity, reach-through, 1.2 s flood, 0.5 m exit,
-  re-arm), status → badges.
-- `packages/pano`: sRGB → Lab, the CC0 samples read as `equirect`, a cropped copy → `equirect+seamfix`, a copy
-  rolled 20 % down → `cylinder`, aspect check, seam fix (seam ΔE drops below 2, pole spread drops).
-- `packages/gateway`: without the key every model reports Setup required and plan/panorama/transcribe answer
-  503 `setup_required`; no-key run records are stamped, patched, listed and deleted; bad JSON / sources / rooms
-  are rejected; **a live call to api.meta.ai with an invalid key** returns the real 401 as a readable 502 that
-  never contains the key (also checked in the stored run record); per-IP rate limit; the daily cap refuses calls
-  without touching the network; `compose_portal` schema (unknown fields, bad hex, palette size, missing fields,
-  range); the panorama contract is always appended; JPEG header size of the committed sample.
-
-## Historical emulator clips (test recordings, not the demo video)
-
-CDP screencast of the managed page while `e2e/record.ts` runs a hands-only choreography (1280×692 after
-cropping the workspace toolbar, 30 fps). In `grokbot/videos/thyra/`:
-
-| Clip | Length | What |
-|---|---|---|
-| `thyra-01-tear-open.mp4` | 35.4 s | pinch-drag a door behind the couch, the tear, ink line, pick *a misty pine forest*, reveal, head sway |
-| `thyra-02-parallax.mp4` | 39.0 s | strafing and stepping toward the open door: the view through it shifts like a window |
-| `thyra-03-step-in.mp4` | 39.6 s | walk up, the world floods around you, look around, the lime door back to the room, walk out |
-| `thyra-04-three-doors.mp4` | 40.0 s | doors on three walls (forest, night savanna, seafront sunset), panning across them |
-
-## Not tested yet
-
-- **Device**: planes after Space Setup and their `semanticLabel` values, frame time, depth occlusion quality,
-  mic in the Quest Browser, comfort of Step-in. Checklist in README "Run it on a Quest".
-- **Meta models**: plan schema on a real response, a 2:1 image (real W×H, seam, horizon), a transcription, a
-  real 422 refusal. All written to the documented shapes; fields marked `UNVERIFIED` in
-  `packages/gateway/src/meta.ts` / `prompt.ts`.
-- Voice e2e with recorded WAVs (needs Nick's phrases), Spark vs Wonder bench, human room-fit rating.
+Re-ran `npm test`, `npm run typecheck`, `npm run xr:typecheck`, `npm run xr:build`, `npm --prefix packages/xr run rooms`, `bash e2e/audit-final.sh` (including `node e2e/run.ts` and `node e2e/glasses.ts`), `node e2e/audit-gateway-browser.mjs`, `node e2e/audit-interrupt.ts`, and `node e2e/audit-restart.mjs`.

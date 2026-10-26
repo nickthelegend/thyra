@@ -1,7 +1,6 @@
 {
-  "at": "2026-10-26T19:43:43.684959+00:00",
-  "base": "http://127.0.0.1:8430",
-  "runs_dir": "/tmp/thyra-audit-runs",
+  "passed": 45,
+  "failed": 0,
   "checks": [
     {
       "id": "G01",
@@ -41,368 +40,93 @@
       }
     },
     {
-      "id": "G02",
-      "ok": true,
-      "detail": [
-        [
-          503,
-          {
-            "error": "setup_required",
-            "setup_required": "MODEL_API_KEY",
-            "message": "Setup required: MODEL_API_KEY is not set on the gateway."
-          }
-        ],
-        [
-          503,
-          {
-            "error": "setup_required",
-            "setup_required": "MODEL_API_KEY",
-            "message": "Setup required: MODEL_API_KEY is not set on the gateway."
-          }
-        ],
-        [
-          503,
-          {
-            "error": "setup_required",
-            "setup_required": "MODEL_API_KEY",
-            "message": "Setup required: MODEL_API_KEY is not set on the gateway."
-          }
-        ]
-      ]
+      "id": "G02-/api/plan",
+      "ok": true
     },
     {
-      "id": "G03",
-      "ok": true,
-      "detail": [
-        {
-          "id": "2a8c92c5-309e-45f3-8d60-5a2f39e963bd",
-          "created_at": "2026-10-26T19:43:43.504Z",
-          "destination": "audit forest",
-          "room": {
-            "portal": {
-              "w_m": 1.2,
-              "h_m": 2.05,
-              "bottom_m": 0,
-              "wall": {
-                "label": "wall",
-                "w_m": 5,
-                "h_m": 2.7
-              }
-            },
-            "viewer": {
-              "eye_height_m": 1.62,
-              "distance_to_portal_m": 1.5
-            },
-            "room": {
-              "ceiling_m": 2.7,
-              "floor_area_m2": 29,
-              "objects": []
-            },
-            "light": {
-              "available": false
-            },
-            "local_time": "19:40",
-            "destination_text": "a misty pine forest"
-          },
-          "plan": null,
-          "image": {
-            "source": "cc0-sample",
-            "stamp": "Sample, not generated",
-            "model": null,
-            "request_id": null,
-            "latency_ms": null,
-            "width": null,
-            "height": null,
-            "format": null,
-            "file": null,
-            "sample_id": "misty_pines",
-            "web_tools": false
-          },
-          "transcript": null,
-          "pano": null,
-          "timings": null,
-          "cost_usd": 0,
-          "errors": []
-        },
-        {
-          "id": "b1abc39a-0474-46d9-b863-5ed8e7bc7f90",
-          "created_at": "2026-10-26T19:43:43.512Z",
-          "destination": "audit forest",
-          "room": {
-            "portal": {
-              "w_m": 1.2,
-              "h_m": 2.05,
-              "bottom_m": 0,
-              "wall": {
-                "label": "wall",
-                "w_m": 5,
-                "h_m": 2.7
-              }
-            },
-            "viewer": {
-              "eye_height_m": 1.62,
-              "distance_to_portal_m": 1.5
-            },
-            "room": {
-              "ceiling_m": 2.7,
-              "floor_area_m2": 29,
-              "objects": []
-            },
-            "light": {
-              "available": false
-            },
-            "local_time": "19:40",
-            "destination_text": "a misty pine forest"
-          },
-          "plan": null,
-          "image": {
-            "source": "user-upload",
-            "stamp": "Your image, not generated",
-            "model": null,
-            "request_id": null,
-            "latency_ms": null,
-            "width": null,
-            "height": null,
-            "format": null,
-            "file": null,
-            "sample_id": "misty_pines",
-            "web_tools": false
-          },
-          "transcript": null,
-          "pano": null,
-          "timings": null,
-          "cost_usd": 0,
-          "errors": []
-        }
-      ]
+      "id": "G02-/api/panorama",
+      "ok": true
     },
     {
-      "id": "G04",
+      "id": "G02-/api/transcribe",
+      "ok": true
+    },
+    {
+      "id": "G09-empty",
+      "ok": true
+    },
+    {
+      "id": "G03-cc0-sample",
       "ok": true,
       "detail": {
-        "assertions": [
-          true,
-          true,
-          true,
-          true,
-          true,
-          true,
-          true,
-          true,
-          true
-        ],
-        "stored_image_200": "needs MODEL_API_KEY; sample/upload 404 checked"
-      }
-    },
-    {
-      "id": "G05",
-      "ok": true,
-      "detail": {
-        "parser": [
-          [
-            400,
-            {
-              "error": "bad_json",
-              "message": "Body must be a JSON object."
-            }
-          ],
-          [
-            400,
-            {
-              "error": "bad_json",
-              "message": "Body must be a JSON object."
-            }
-          ],
-          [
-            400,
-            {
-              "error": "bad_json",
-              "message": "Body must be a JSON object."
-            }
-          ],
-          [
-            400,
-            {
-              "error": "bad_json",
-              "message": "Body must be a JSON object."
-            }
-          ],
-          [
-            400,
-            {
-              "error": "bad_json",
-              "message": "Body must be a JSON object."
-            }
-          ],
-          [
-            400,
-            {
-              "error": "bad_json",
-              "message": "Body must be a JSON object."
-            }
-          ]
-        ],
-        "unknown": [
-          404,
-          {
-            "error": "not_found"
-          }
-        ],
-        "large": [
-          413,
-          {
-            "error": "too_large",
-            "limit_bytes": 65536
-          }
-        ]
-      }
-    },
-    {
-      "id": "G07",
-      "ok": true,
-      "detail": {
-        "source": "audit/unit-results.json",
-        "note": "npm test: Test Files 6 passed (6); Tests 46 passed (46); Duration 968ms; exit 0. npx tsc -p tsconfig.json --noEmit: exit 0. npm run xr:typecheck: tsc --noEmit in packages/xr, exit 0. Gateway invalid-key test reached api.meta.ai and passed (response 502, meta_status 401).",
-        "limitation": "Earlier aggregate records HTTP 502/meta_status 401; this task did not repeat or capture fake-key traffic."
-      }
-    },
-    {
-      "id": "G08",
-      "ok": true,
-      "detail": {
-        "startup": "[gateway] http://127.0.0.1:8430  MODEL_API_KEY: missing (Setup required)  runs: /tmp/thyra-audit-runs",
-        "credential_value_supplied": false,
-        "persisted_records": 1,
-        "upstream_calls": 0,
-        "source": "main.ts presence-only logging; meta.ts redact(); empty explicit MODEL_API_KEY"
-      }
-    }
-  ],
-  "deferred": {
-    "/api/clips": [
-      404,
-      {
-        "error": "not_found"
-      }
-    ],
-    "/api/tracks": [
-      404,
-      {
-        "error": "not_found"
-      }
-    ],
-    "/api/asr": [
-      404,
-      {
-        "error": "not_found"
-      }
-    ]
-  },
-  "requests": [
-    {
-      "method": "GET",
-      "path": "/api/status",
-      "status": 200,
-      "body": {
-        "service": "thyra-gateway",
-        "spark": {
-          "ready": false,
-          "model": "muse-spark-1.3",
-          "setup": "MODEL_API_KEY"
-        },
-        "wonder": {
-          "ready": false,
-          "model": "muse-wonder-1.0",
-          "setup": "MODEL_API_KEY"
-        },
-        "image": {
-          "ready": false,
-          "model": "muse-image-1.0",
-          "setup": "MODEL_API_KEY"
-        },
-        "transcribe": {
-          "ready": false,
-          "model": "muse-voice-transcribe-1.0",
-          "setup": "MODEL_API_KEY"
-        },
-        "sam3": {
-          "ready": false,
-          "model": "sam-3.1",
-          "setup": "MODEL_API_KEY"
-        },
-        "budget": {
-          "spent_usd_today": 0,
-          "cap_usd": 5
-        },
-        "key_loaded": false
-      },
-      "expected_negative": false
-    },
-    {
-      "method": "POST",
-      "path": "/api/plan",
-      "status": 503,
-      "body": {
-        "error": "setup_required",
-        "setup_required": "MODEL_API_KEY",
-        "message": "Setup required: MODEL_API_KEY is not set on the gateway."
-      },
-      "expected_negative": true
-    },
-    {
-      "method": "POST",
-      "path": "/api/panorama",
-      "status": 503,
-      "body": {
-        "error": "setup_required",
-        "setup_required": "MODEL_API_KEY",
-        "message": "Setup required: MODEL_API_KEY is not set on the gateway."
-      },
-      "expected_negative": true
-    },
-    {
-      "method": "POST",
-      "path": "/api/transcribe",
-      "status": 503,
-      "body": {
-        "error": "setup_required",
-        "setup_required": "MODEL_API_KEY",
-        "message": "Setup required: MODEL_API_KEY is not set on the gateway."
-      },
-      "expected_negative": true
-    },
-    {
-      "method": "POST",
-      "path": "/api/runs",
-      "status": 201,
-      "body": {
-        "id": "2a8c92c5-309e-45f3-8d60-5a2f39e963bd",
-        "created_at": "2026-10-26T19:43:43.504Z",
-        "destination": "audit forest",
+        "id": "5e776940-1268-439e-b626-75b67693f70c",
+        "created_at": "2026-10-26T20:31:32.650Z",
+        "destination": "real audit sample",
         "room": {
           "portal": {
-            "w_m": 1.2,
-            "h_m": 2.05,
+            "w_m": 1.1,
+            "h_m": 2,
             "bottom_m": 0,
             "wall": {
               "label": "wall",
-              "w_m": 5,
-              "h_m": 2.7
+              "w_m": 3.6,
+              "h_m": 2.4
             }
           },
           "viewer": {
-            "eye_height_m": 1.62,
-            "distance_to_portal_m": 1.5
+            "eye_height_m": 1.6,
+            "distance_to_portal_m": 2.6
           },
           "room": {
-            "ceiling_m": 2.7,
-            "floor_area_m2": 29,
-            "objects": []
+            "ceiling_m": 2.4,
+            "floor_area_m2": 15.1,
+            "objects": [
+              {
+                "label": "couch",
+                "dims_m": [
+                  2,
+                  0.86,
+                  0.94
+                ],
+                "side": "in front",
+                "distance_m": 0.52
+              },
+              {
+                "label": "table",
+                "dims_m": [
+                  1,
+                  0.42,
+                  0.55
+                ],
+                "side": "in front",
+                "distance_m": 1.17
+              },
+              {
+                "label": "lamp",
+                "dims_m": [
+                  0.4,
+                  1.72,
+                  0.4
+                ],
+                "side": "right",
+                "distance_m": 1.39
+              },
+              {
+                "label": "plant",
+                "dims_m": [
+                  0.5,
+                  1.3,
+                  0.5
+                ],
+                "side": "in front",
+                "distance_m": 3.99
+              }
+            ]
           },
           "light": {
             "available": false
           },
-          "local_time": "19:40",
+          "local_time": "16:34",
           "destination_text": "a misty pine forest"
         },
         "plan": null,
@@ -424,41 +148,80 @@
         "timings": null,
         "cost_usd": 0,
         "errors": []
-      },
-      "expected_negative": false
+      }
     },
     {
-      "method": "POST",
-      "path": "/api/runs",
-      "status": 201,
-      "body": {
-        "id": "b1abc39a-0474-46d9-b863-5ed8e7bc7f90",
-        "created_at": "2026-10-26T19:43:43.512Z",
-        "destination": "audit forest",
+      "id": "G03-user-upload",
+      "ok": true,
+      "detail": {
+        "id": "4922306c-122c-45f7-983d-2696ad41bef8",
+        "created_at": "2026-10-26T20:31:32.665Z",
+        "destination": "real audit sample",
         "room": {
           "portal": {
-            "w_m": 1.2,
-            "h_m": 2.05,
+            "w_m": 1.1,
+            "h_m": 2,
             "bottom_m": 0,
             "wall": {
               "label": "wall",
-              "w_m": 5,
-              "h_m": 2.7
+              "w_m": 3.6,
+              "h_m": 2.4
             }
           },
           "viewer": {
-            "eye_height_m": 1.62,
-            "distance_to_portal_m": 1.5
+            "eye_height_m": 1.6,
+            "distance_to_portal_m": 2.6
           },
           "room": {
-            "ceiling_m": 2.7,
-            "floor_area_m2": 29,
-            "objects": []
+            "ceiling_m": 2.4,
+            "floor_area_m2": 15.1,
+            "objects": [
+              {
+                "label": "couch",
+                "dims_m": [
+                  2,
+                  0.86,
+                  0.94
+                ],
+                "side": "in front",
+                "distance_m": 0.52
+              },
+              {
+                "label": "table",
+                "dims_m": [
+                  1,
+                  0.42,
+                  0.55
+                ],
+                "side": "in front",
+                "distance_m": 1.17
+              },
+              {
+                "label": "lamp",
+                "dims_m": [
+                  0.4,
+                  1.72,
+                  0.4
+                ],
+                "side": "right",
+                "distance_m": 1.39
+              },
+              {
+                "label": "plant",
+                "dims_m": [
+                  0.5,
+                  1.3,
+                  0.5
+                ],
+                "side": "in front",
+                "distance_m": 3.99
+              }
+            ]
           },
           "light": {
             "available": false
           },
-          "local_time": "19:40",
+          "local_time": "16:34",
           "destination_text": "a misty pine forest"
         },
         "plan": null,
@@ -480,157 +243,92 @@
         "timings": null,
         "cost_usd": 0,
         "errors": []
-      },
-      "expected_negative": false
+      }
     },
     {
-      "method": "GET",
-      "path": "/api/runs/2a8c92c5-309e-45f3-8d60-5a2f39e963bd",
-      "status": 200,
-      "body": {
-        "id": "2a8c92c5-309e-45f3-8d60-5a2f39e963bd",
-        "created_at": "2026-10-26T19:43:43.504Z",
-        "destination": "audit forest",
+      "id": "G09-list",
+      "ok": true,
+      "detail": [
+        "4922306c-122c-45f7-983d-2696ad41bef8",
+        "5e776940-1268-439e-b626-75b67693f70c"
+      ]
+    },
+    {
+      "id": "G04-get",
+      "ok": true
+    },
+    {
+      "id": "G04-patch",
+      "ok": true,
+      "detail": {
+        "id": "5e776940-1268-439e-b626-75b67693f70c",
+        "created_at": "2026-10-26T20:31:32.650Z",
+        "destination": "real audit sample",
         "room": {
           "portal": {
-            "w_m": 1.2,
-            "h_m": 2.05,
+            "w_m": 1.1,
+            "h_m": 2,
             "bottom_m": 0,
             "wall": {
               "label": "wall",
-              "w_m": 5,
-              "h_m": 2.7
+              "w_m": 3.6,
+              "h_m": 2.4
             }
           },
           "viewer": {
-            "eye_height_m": 1.62,
-            "distance_to_portal_m": 1.5
+            "eye_height_m": 1.6,
+            "distance_to_portal_m": 2.6
           },
           "room": {
-            "ceiling_m": 2.7,
-            "floor_area_m2": 29,
-            "objects": []
+            "ceiling_m": 2.4,
+            "floor_area_m2": 15.1,
+            "objects": [
+              {
+                "label": "couch",
+                "dims_m": [
+                  2,
+                  0.86,
+                  0.94
+                ],
+                "side": "in front",
+                "distance_m": 0.52
+              },
+              {
+                "label": "table",
+                "dims_m": [
+                  1,
+                  0.42,
+                  0.55
+                ],
+                "side": "in front",
+                "distance_m": 1.17
+              },
+              {
+                "label": "lamp",
+                "dims_m": [
+                  0.4,
+                  1.72,
+                  0.4
+                ],
+                "side": "right",
+                "distance_m": 1.39
+              },
+              {
+                "label": "plant",
+                "dims_m": [
+                  0.5,
+                  1.3,
+                  0.5
+                ],
+                "side": "in front",
+                "distance_m": 3.99
+              }
+            ]
           },
           "light": {
             "available": false
           },
-          "local_time": "19:40",
-          "destination_text": "a misty pine forest"
-        },
-        "plan": null,
-        "image": {
-          "source": "cc0-sample",
-          "stamp": "Sample, not generated",
-          "model": null,
-          "request_id": null,
-          "latency_ms": null,
-          "width": null,
-          "height": null,
-          "format": null,
-          "file": null,
-          "sample_id": "misty_pines",
-          "web_tools": false
-        },
-        "transcript": null,
-        "pano": null,
-        "timings": null,
-        "cost_usd": 0,
-        "errors": []
-      },
-      "expected_negative": false
-    },
-    {
-      "method": "PATCH",
-      "path": "/api/runs/2a8c92c5-309e-45f3-8d60-5a2f39e963bd",
-      "status": 200,
-      "body": {
-        "id": "2a8c92c5-309e-45f3-8d60-5a2f39e963bd",
-        "created_at": "2026-10-26T19:43:43.504Z",
-        "destination": "audit forest",
-        "room": {
-          "portal": {
-            "w_m": 1.2,
-            "h_m": 2.05,
-            "bottom_m": 0,
-            "wall": {
-              "label": "wall",
-              "w_m": 5,
-              "h_m": 2.7
-            }
-          },
-          "viewer": {
-            "eye_height_m": 1.62,
-            "distance_to_portal_m": 1.5
-          },
-          "room": {
-            "ceiling_m": 2.7,
-            "floor_area_m2": 29,
-            "objects": []
-          },
-          "light": {
-            "available": false
-          },
-          "local_time": "19:40",
-          "destination_text": "a misty pine forest"
-        },
-        "plan": null,
-        "image": {
-          "source": "cc0-sample",
-          "stamp": "Sample, not generated",
-          "model": null,
-          "request_id": null,
-          "latency_ms": null,
-          "width": 4096,
-          "height": 2048,
-          "format": null,
-          "file": null,
-          "sample_id": "misty_pines",
-          "web_tools": false
-        },
-        "transcript": null,
-        "pano": {
-          "pano_mode": "equirect"
-        },
-        "timings": {
-          "decode_ms": 19
-        },
-        "cost_usd": 0,
-        "errors": []
-      },
-      "expected_negative": false
-    },
-    {
-      "method": "PATCH",
-      "path": "/api/runs/2a8c92c5-309e-45f3-8d60-5a2f39e963bd",
-      "status": 200,
-      "body": {
-        "id": "2a8c92c5-309e-45f3-8d60-5a2f39e963bd",
-        "created_at": "2026-10-26T19:43:43.504Z",
-        "destination": "audit forest",
-        "room": {
-          "portal": {
-            "w_m": 1.2,
-            "h_m": 2.05,
-            "bottom_m": 0,
-            "wall": {
-              "label": "wall",
-              "w_m": 5,
-              "h_m": 2.7
-            }
-          },
-          "viewer": {
-            "eye_height_m": 1.62,
-            "distance_to_portal_m": 1.5
-          },
-          "room": {
-            "ceiling_m": 2.7,
-            "floor_area_m2": 29,
-            "objects": []
-          },
-          "light": {
-            "available": false
-          },
-          "local_time": "19:40",
+          "local_time": "16:34",
           "destination_text": "a misty pine forest"
         },
         "plan": null,
@@ -649,175 +347,236 @@
         },
         "transcript": null,
         "pano": {
-          "pano_mode": "equirect"
+          "pano_mode": "equirect",
+          "note": "client analysis"
         },
         "timings": {
-          "decode_ms": 19
+          "time_to_world_ms": 1234
         },
         "cost_usd": 0,
         "errors": []
-      },
-      "expected_negative": false
+      }
     },
     {
-      "method": "GET",
-      "path": "/api/runs/2a8c92c5-309e-45f3-8d60-5a2f39e963bd/image",
-      "status": 404,
-      "body": {
-        "error": "no_image"
-      },
-      "expected_negative": true
+      "id": "G11-empty-patch",
+      "ok": true
     },
     {
-      "method": "DELETE",
-      "path": "/api/runs/2a8c92c5-309e-45f3-8d60-5a2f39e963bd",
-      "status": 200,
-      "body": {
-        "deleted": "2a8c92c5-309e-45f3-8d60-5a2f39e963bd"
-      },
-      "expected_negative": false
+      "id": "G04-no-image",
+      "ok": true
     },
     {
-      "method": "GET",
-      "path": "/api/runs/2a8c92c5-309e-45f3-8d60-5a2f39e963bd",
-      "status": 404,
-      "body": {
-        "error": "no_such_run"
-      },
-      "expected_negative": true
+      "id": "G04-stored-image",
+      "ok": true,
+      "detail": {
+        "fixture": "real committed CC0 JPEG in actual run store; image GET/delete route only, no generated/model result",
+        "status": 200,
+        "headers": {
+          "content-type": "image/jpeg",
+          "cache-control": "private, max-age=3600",
+          "date": "Mon, 26 Oct 2026 20:31:32 GMT",
+          "connection": "keep-alive",
+          "keep-alive": "timeout=5",
+          "transfer-encoding": "chunked"
+        },
+        "bytes": 1745316,
+        "sha256": "7ffa65744869b76f7ed36ba36479c738a109592de3fcfdb281857681ff83d9b6"
+      }
     },
     {
-      "method": "PATCH",
-      "path": "/api/runs/2a8c92c5-309e-45f3-8d60-5a2f39e963bd",
-      "status": 404,
-      "body": {
-        "error": "no_such_run"
-      },
-      "expected_negative": true
+      "id": "G04-image-deleted",
+      "ok": true
     },
     {
-      "method": "DELETE",
-      "path": "/api/runs/2a8c92c5-309e-45f3-8d60-5a2f39e963bd",
-      "status": 404,
-      "body": {
-        "error": "no_such_run"
-      },
-      "expected_negative": true
+      "id": "G04-delete",
+      "ok": true
     },
     {
-      "method": "GET",
-      "path": "/api/runs/2a8c92c5-309e-45f3-8d60-5a2f39e963bd/image",
-      "status": 404,
-      "body": {
-        "error": "no_image"
-      },
-      "expected_negative": true
+      "id": "G04-unknown-GET",
+      "ok": true
     },
     {
-      "method": "POST",
-      "path": "/api/runs",
-      "status": 400,
-      "body": {
-        "error": "bad_json",
-        "message": "Body must be a JSON object."
-      },
-      "expected_negative": true
+      "id": "G04-unknown-PATCH",
+      "ok": true
     },
     {
-      "method": "POST",
-      "path": "/api/runs",
-      "status": 400,
-      "body": {
-        "error": "bad_json",
-        "message": "Body must be a JSON object."
-      },
-      "expected_negative": true
+      "id": "G04-unknown-DELETE",
+      "ok": true
     },
     {
-      "method": "POST",
-      "path": "/api/runs",
-      "status": 400,
-      "body": {
-        "error": "bad_json",
-        "message": "Body must be a JSON object."
-      },
-      "expected_negative": true
+      "id": "G05-json-{nope",
+      "ok": true
     },
     {
-      "method": "POST",
-      "path": "/api/runs",
-      "status": 400,
-      "body": {
-        "error": "bad_json",
-        "message": "Body must be a JSON object."
-      },
-      "expected_negative": true
+      "id": "G05-json-null",
+      "ok": true
     },
     {
-      "method": "POST",
-      "path": "/api/runs",
-      "status": 400,
-      "body": {
-        "error": "bad_json",
-        "message": "Body must be a JSON object."
-      },
-      "expected_negative": true
+      "id": "G05-json-[]",
+      "ok": true
     },
     {
-      "method": "POST",
-      "path": "/api/runs",
-      "status": 400,
-      "body": {
-        "error": "bad_json",
-        "message": "Body must be a JSON object."
-      },
-      "expected_negative": true
+      "id": "G05-json-12",
+      "ok": true
     },
     {
-      "method": "GET",
-      "path": "/api/audit-missing",
-      "status": 404,
-      "body": {
-        "error": "not_found"
-      },
-      "expected_negative": true
+      "id": "G05-json-\"string\"",
+      "ok": true
     },
     {
-      "method": "POST",
-      "path": "/api/runs",
-      "status": 413,
-      "body": {
-        "error": "too_large",
-        "limit_bytes": 65536
-      },
-      "expected_negative": true
+      "id": "G05-size",
+      "ok": true
     },
     {
-      "method": "GET",
-      "path": "/api/clips",
-      "status": 404,
-      "body": {
-        "error": "not_found"
-      },
-      "expected_negative": true
+      "id": "G05-path",
+      "ok": true
     },
     {
-      "method": "GET",
-      "path": "/api/tracks",
-      "status": 404,
-      "body": {
-        "error": "not_found"
-      },
-      "expected_negative": true
+      "id": "G10-source-muse-image-1.0",
+      "ok": true
     },
     {
-      "method": "GET",
-      "path": "/api/asr",
-      "status": 404,
-      "body": {
-        "error": "not_found"
-      },
-      "expected_negative": true
+      "id": "G10-source-undefined",
+      "ok": true
+    },
+    {
+      "id": "G10-room-undefined",
+      "ok": true,
+      "detail": {
+        "error": "bad_room",
+        "details": [
+          "room: expected object"
+        ]
+      }
+    },
+    {
+      "id": "G10-room-null",
+      "ok": true,
+      "detail": {
+        "error": "bad_room",
+        "details": [
+          "room: expected object"
+        ]
+      }
+    },
+    {
+      "id": "G10-room-{}",
+      "ok": true,
+      "detail": {
+        "error": "bad_room",
+        "details": [
+          "room.portal: required",
+          "room.viewer: required",
+          "room.room: required",
+          "room.light: required",
+          "room.local_time: required",
+          "room.destination_text: required"
+        ]
+      }
+    },
+    {
+      "id": "G10-room-\"x\"",
+      "ok": true,
+      "detail": {
+        "error": "bad_room",
+        "details": [
+          "room: expected object"
+        ]
+      }
+    },
+    {
+      "id": "G11-room-size",
+      "ok": true,
+      "detail": {
+        "error": "bad_room",
+        "details": [
+          "room: too large"
+        ]
+      }
+    },
+    {
+      "id": "G11-destination",
+      "ok": true
+    },
+    {
+      "id": "G16",
+      "ok": true,
+      "detail": {
+        "allowed": {
+          "at": "2026-10-26T20:31:32.740Z",
+          "path": "/api/status",
+          "method": "OPTIONS",
+          "status": 204,
+          "expected": 204,
+          "headers": {
+            "access-control-allow-origin": "https://localhost:8443",
+            "vary": "Origin",
+            "access-control-allow-methods": "GET,POST,PATCH,DELETE,OPTIONS",
+            "access-control-allow-headers": "Content-Type",
+            "date": "Mon, 26 Oct 2026 20:31:32 GMT",
+            "connection": "keep-alive",
+            "keep-alive": "timeout=5"
+          },
+          "body": ""
+        },
+        "denied": {
+          "at": "2026-10-26T20:31:32.741Z",
+          "path": "/api/status",
+          "method": "OPTIONS",
+          "status": 204,
+          "expected": 204,
+          "headers": {
+            "date": "Mon, 26 Oct 2026 20:31:32 GMT",
+            "connection": "keep-alive",
+            "keep-alive": "timeout=5"
+          },
+          "body": ""
+        }
+      }
+    },
+    {
+      "id": "G17-/api/status-POST",
+      "ok": true
+    },
+    {
+      "id": "G17-/api/runs-PUT",
+      "ok": true
+    },
+    {
+      "id": "G17-/api/runs/not-a-uuid-GET",
+      "ok": true
+    },
+    {
+      "id": "G17-image-method",
+      "ok": true
+    },
+    {
+      "id": "G18-cache",
+      "ok": true
+    },
+    {
+      "id": "D01-D03-G22-/api/clips",
+      "ok": true
+    },
+    {
+      "id": "D01-D03-G22-/api/tracks",
+      "ok": true
+    },
+    {
+      "id": "D01-D03-G22-/api/asr",
+      "ok": true
+    },
+    {
+      "id": "D01-D03-G22-/api/panorama/upload",
+      "ok": true
+    },
+    {
+      "id": "G09-delete-reflected",
+      "ok": true
+    },
+    {
+      "id": "G08-keyless",
+      "ok": true
     }
   ]
 }

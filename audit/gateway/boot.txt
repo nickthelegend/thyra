@@ -1,0 +1,3 @@
+[gateway] http://127.0.0.1:8430  MODEL_API_KEY: missing (Setup required)  runs: /tmp/thyra-t5-audit-runs
+[gateway] http://127.0.0.1:8430  MODEL_API_KEY: missing (Setup required)  runs: /tmp/thyra-t5-audit-runs
+[gateway] http://127.0.0.1:8430  MODEL_API_KEY: missing (Setup required)  runs: /tmp/thyra-t5-audit-runs

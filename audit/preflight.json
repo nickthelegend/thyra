@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-26T20:39:29.188Z",
+  "node": "v26.5.0",
+  "iwsdk": "1.1.0-rc.2",
+  "vite": "7.3.7",
+  "chrome": "156.0.8078.4",
+  "urls": {
+    "gateway": "http://127.0.0.1:8430",
+    "managed": "https://localhost:8443/"
+  },
+  "gateway": "direct node startup, explicitly empty MODEL_API_KEY, /tmp/thyra-t5-audit-runs, no env-file loader",
+  "vite_env_dir": "/tmp/thyra-t5-empty-env",
+  "empty_env_dir_entries": 0,
+  "commands": {
+    "npm test": 0,
+    "npm run typecheck": 0,
+    "npm run xr:typecheck": 0,
+    "npm run xr:build": 0,
+    "npm --prefix packages/xr run rooms": 0
+  },
+  "assets": {
+    "dist": true,
+    "studio": true,
+    "hall": true
+  },
+  "scope": "Phases 3-6; final run only; no push/deploy/commit/.loom edit; original expected cells preserved",
+  "physical_headset": "UNTESTED: absent",
+  "meta_models": "UNTESTED: MODEL_API_KEY absent"
+}

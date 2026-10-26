@@ -1,0 +1,119 @@
+
+> @thyra/xr@0.1.0 dev:runtime
+> vite
+
+
+  VITE v7.3.7  ready in 1651 ms
+
+  ➜  Local:   https://localhost:8443/
+  ➜  Network: https://192.168.0.6:8443/
+🖥️  IWSDK: Using hardware GPU (metal)
+[IWSDK] Runtime ready at https://localhost:8443/
+[IWSDK] Managed browser command path is not ready. Use runtime_wait to observe launch progress.
+2:11:03 AM [vite] http proxy error: /api/runs
+Error: connect ECONNREFUSED 127.0.0.1:8430
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1864:16)
+[browser] Failed to load resource: the server responded with a status of 500 ()
+2:11:19 AM [vite] http proxy error: /api/status
+Error: connect ECONNREFUSED 127.0.0.1:8430
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1864:16)
+[browser] Failed to load resource: the server responded with a status of 500 ()
+
+🥽 IWSDK Dev Summary (Development):
+  - Device: metaQuest3
+  - Runtime injected: 1470.5KB
+  - Activation mode: always
+  - SEM environment: sunlit_living_room
+  - AI: agent mode (WebSocket at /__iwer_mcp)
+
+
+🥽 IWSDK Dev Summary (Development):
+  - Device: metaQuest3
+  - Runtime injected: 1470.5KB
+  - Activation mode: always
+  - SEM environment: sunlit_living_room
+  - AI: agent mode (WebSocket at /__iwer_mcp)
+
+2:12:38 AM [vite] server restarted.
+🖥️  IWSDK: Using hardware GPU (metal)
+
+🥽 IWSDK Dev Summary (Development):
+  - Device: metaVRGlasses
+  - Runtime injected: 1470.5KB
+  - Activation mode: always
+  - SEM environment: sunlit_living_room
+  - AI: agent mode (WebSocket at /__iwer_mcp)
+
+
+🥽 IWSDK Dev Summary (Development):
+  - Device: metaVRGlasses
+  - Runtime injected: 1470.5KB
+  - Activation mode: always
+  - SEM environment: sunlit_living_room
+  - AI: agent mode (WebSocket at /__iwer_mcp)
+
+2:13:07 AM [vite] server restarted.
+🖥️  IWSDK: Using hardware GPU (metal)
+
+🥽 IWSDK Dev Summary (Development):
+  - Device: metaQuest3
+  - Runtime injected: 1470.5KB
+  - Activation mode: always
+  - SEM environment: sunlit_living_room
+  - AI: agent mode (WebSocket at /__iwer_mcp)
+
+
+🥽 IWSDK Dev Summary (Development):
+  - Device: metaQuest3
+  - Runtime injected: 1470.5KB
+  - Activation mode: always
+  - SEM environment: sunlit_living_room
+  - AI: agent mode (WebSocket at /__iwer_mcp)
+
+2:13:08 AM [vite] server restarted.
+🖥️  IWSDK: Using hardware GPU (metal)
+
+🥽 IWSDK Dev Summary (Development):
+  - Device: metaQuest3
+  - Runtime injected: 1470.5KB
+  - Activation mode: always
+  - SEM environment: sunlit_living_room
+  - AI: agent mode (WebSocket at /__iwer_mcp)
+
+
+🥽 IWSDK Dev Summary (Development):
+  - Device: metaQuest3
+  - Runtime injected: 1470.5KB
+  - Activation mode: always
+  - SEM environment: sunlit_living_room
+  - AI: agent mode (WebSocket at /__iwer_mcp)
+
+2:13:32 AM [vite] server restarted.
+🖥️  IWSDK: Using hardware GPU (metal)
+[browser] Failed to load resource: the server responded with a status of 404 (Not Found)
+[browser] Failed to load resource: net::ERR_CONNECTION_REFUSED
+[browser] Failed to load resource: net::ERR_CONNECTION_RESET
+[browser] Failed to load resource: net::ERR_CONNECTION_REFUSED
+[browser] Failed to load resource: the server responded with a status of 404 (Not Found)
+[browser] Failed to load resource: the server responded with a status of 404 (Not Found)
+[browser] Failed to load resource: the server responded with a status of 503 ()
+2:23:55 AM [vite] http proxy error: /api/status
+Error: connect ECONNREFUSED 127.0.0.1:8430
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1864:16)
+[browser] Failed to load resource: the server responded with a status of 500 ()
+
+🥽 IWSDK Dev Summary (Development):
+  - Device: metaQuest3
+  - Runtime injected: 1470.5KB
+  - Activation mode: always
+  - SEM environment: sunlit_living_room
+  - AI: agent mode (WebSocket at /__iwer_mcp)
+
+
+🥽 IWSDK Dev Summary (Development):
+  - Device: metaQuest3
+  - Runtime injected: 1470.5KB
+  - Activation mode: always
+  - SEM environment: sunlit_living_room
+  - AI: agent mode (WebSocket at /__iwer_mcp)
+

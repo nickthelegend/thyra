@@ -1,0 +1,58 @@
+PASS  gateway reached; every Meta model shows Setup required
+PASS  sunlit_living_room: wall width 5.004 m vs truth 5
+PASS  sunlit_living_room: ceiling 2.700 m vs truth 2.7
+PASS  sunlit_living_room: floor area 29.00 m² vs truth 29
+PASS  sunlit_living_room: door is on wall plane-13, 1.20 × 2.05 m
+PASS  sunlit_living_room: corners within 5 mm of the wall plane (max 0.00 mm)
+PASS  sunlit_living_room: corner within 1 cm of the pinch (top-left 0.0 mm, right edge 0.0 mm)
+PASS  sunlit_living_room: opened with the CC0 sample, stamped "Sample, not generated"
+PASS  sunlit_living_room: room summary portal 1.2 × 2.05 m, sill 0
+PASS  sunlit_living_room: summary ceiling 2.7 vs truth
+PASS  sunlit_living_room: the world shows inside the door (ΔRGB in 243.1 vs outside 7.3)  {"dIn":243.09960928268896,"dOut":7.296067000628631}
+PASS  sunlit_living_room: Step-in floods the world (inside, flood 1)
+PASS  sunlit_living_room: moving 0.5 m away returns to the room
+PASS  sunlit_living_room: Close door removes it
+PASS  thyra_studio: wall width 3.604 m vs truth 3.6
+PASS  thyra_studio: ceiling 2.400 m vs truth 2.4
+PASS  thyra_studio: floor area 15.12 m² vs truth 15.12
+PASS  thyra_studio: door is on wall plane-20, 1.10 × 2.00 m
+PASS  thyra_studio: corners within 5 mm of the wall plane (max 0.00 mm)
+PASS  thyra_studio: corner within 1 cm of the pinch (top-left 0.0 mm, right edge 0.0 mm)
+PASS  thyra_studio: opened with the CC0 sample, stamped "Sample, not generated"
+PASS  thyra_studio: room summary portal 1.1 × 2 m, sill 0
+PASS  thyra_studio: summary ceiling 2.4 vs truth
+PASS  thyra_studio: the world shows inside the door (ΔRGB in 94.1 vs outside 7.1)  {"dIn":94.0860407140371,"dOut":7.082514803264773}
+PASS  thyra_studio: Step-in floods the world (inside, flood 1)
+PASS  thyra_studio: moving 0.5 m away returns to the room
+PASS  thyra_studio: Close door removes it
+PASS  thyra_hall: wall width 6.004 m vs truth 6
+PASS  thyra_hall: ceiling 2.100 m vs truth 2.1
+PASS  thyra_hall: floor area 9.00 m² vs truth 9
+PASS  thyra_hall: door is on wall plane-32, 1.00 × 1.95 m
+PASS  thyra_hall: corners within 5 mm of the wall plane (max 0.00 mm)
+PASS  thyra_hall: corner within 1 cm of the pinch (top-left 0.0 mm, right edge 0.0 mm)
+PASS  thyra_hall: opened with the CC0 sample, stamped "Sample, not generated"
+PASS  thyra_hall: room summary portal 1 × 1.95 m, sill 0
+PASS  thyra_hall: summary ceiling 2.1 vs truth
+PASS  thyra_hall: the world shows inside the door (ΔRGB in 117.7 vs outside 6.9)  {"dIn":117.72433674447322,"dOut":6.921867815187334}
+PASS  thyra_hall: Step-in floods the world (inside, flood 1)
+PASS  thyra_hall: moving 0.5 m away returns to the room
+PASS  thyra_hall: Close door removes it
+PASS  bedroom: door is on wall plane-46, 0.90 × 1.90 m
+PASS  bedroom: corners within 5 mm of the wall plane (max 0.00 mm)
+PASS  bedroom: corner within 1 cm of the pinch (top-left 0.0 mm, right edge 0.0 mm)
+PASS  bedroom: opened with the CC0 sample, stamped "Sample, not generated"
+PASS  bedroom: room summary portal 0.9 × 1.9 m, sill 0
+PASS  bedroom: the world shows inside the door (ΔRGB in 115.8 vs outside 11.4)  {"dIn":115.82317553206192,"dOut":11.402847824676595}
+PASS  bedroom: Step-in floods the world (inside, flood 1)
+PASS  bedroom: moving 0.5 m away returns to the room
+PASS  bedroom: Close door removes it
+PASS  guard: a 0.25 m door is rejected with a readable hint  "Too small: a door needs at least 0.40 × 0.60 m. Pinch and drag again."
+PASS  multiple portals: three open doors on three walls  ["P-05","P-06","P-07"]
+PASS  max 3 doors: a fourth closes the oldest (P-05)  ["P-06","P-07","P-08"]
+PASS  no walls: the paper-wall prompt appears
+PASS  paper wall: a virtual wall is placed and labelled (paper wall (virtual))
+PASS  paper wall: a door opens on it
+PASS  console: 0 errors  []
+
+56/56 passed → /Volumes/Extreme SSD/Projects/grokbot/projects/.loom-worktrees/thyra-4cadce60a69f/omvpn56n2/t5/audit/xr/quest-checks.json

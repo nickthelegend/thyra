@@ -1,0 +1,132 @@
+# Third-party assets
+
+| Asset | Where | Source | Licence |
+|---|---|---|---|
+| Misty Pines (panorama) | `packages/xr/public/panoramas/misty_pines.jpg`, test copy in `packages/pano/test/fixtures/` | Greg Zaal, [Poly Haven](https://polyhaven.com/a/misty_pines) (tonemapped JPG, downscaled to 4096×2048) | [CC0](https://polyhaven.com/license) |
+| The Sky Is On Fire (panorama) | `packages/xr/public/panoramas/the_sky_is_on_fire.jpg`, test copy in fixtures | Greg Zaal, Rico Cilliers (backplates), [Poly Haven](https://polyhaven.com/a/the_sky_is_on_fire) | CC0 |
+| Satara Night (panorama) | `packages/xr/public/panoramas/satara_night.jpg` | Greg Zaal, [Poly Haven](https://polyhaven.com/a/satara_night) | CC0 |
+| Host Grotesk, Ubuntu Sans Mono | npm `@fontsource/*` (app), Google Fonts (landing) | Fontsource / Google Fonts | SIL OFL 1.1 |
+| IWER SEM room kit | not in this repo: `eval/rooms/build.mjs` reads it from the installed `@iwsdk/vite-plugin-dev` at build time | Meta, Immersive Web Emulation Runtime | MIT |
+
+These panoramas are **stand-ins, not generated**: the app stamps them "Sample, not generated" on the door card
+and in the run record. Muse Image output is only ever shown with `source: muse-image-1.0`.
+# Method
+
+## Wall frames and door drawing (`packages/room`)
+
+A WebXR plane is a pose (plane space → world, local +Y = surface normal) plus a polygon in local X/Z. For a
+vertical plane Thyra builds a drawing frame: **N** = the normal flipped toward the viewer, **V** = world up
+projected into the plane (gravity-aligned), **U** = V × N (to the viewer's right). The polygon's (u, v) bounds
+are the drawable area. The hand ray is intersected with each facing wall; the nearest hit inside its bounds
+wins. While the pinch is held, the ray is intersected with the *same* wall's infinite plane, so dragging past
+an edge clamps instead of jumping walls. The rectangle is min/max of the two points, clamped to the bounds,
+snapped to an edge within 5 cm and to the floor (V of the floor plane's height) within 5 cm; doors under
+0.40 × 0.60 m are rejected.
+
+## Room summary
+
+Exactly what Muse Spark receives, built from planes and labelled meshes only:
+
+```json
+{
+  "portal": {"w_m": 1.2, "h_m": 2.05, "bottom_m": 0.0, "wall": {"label": "wall", "w_m": 5.0, "h_m": 2.7}},
+  "viewer": {"eye_height_m": 1.6, "distance_to_portal_m": 3.4},
+  "room": {"ceiling_m": 2.7, "floor_area_m2": 29.0,
+           "objects": [{"label": "couch", "dims_m": [2.3, 0.86, 0.94], "side": "in front", "distance_m": 0.52}]},
+  "light": {"available": false},
+  "local_time": "19:40",
+  "destination_text": "a misty pine forest"
+}
+```
+
+Floor = the plane labelled `floor`, else the lowest horizontal plane below the head; ceiling likewise above.
+Objects: bounded meshes with a semantic label, as world AABBs; `side` is left/right along the wall, `in front`
+(between wall and viewer) or `behind the wall` (dropped); distance is horizontal from the door's bottom centre;
+the nearest 8 within 4 m are kept. Unknown values are `null`, never guessed.
+
+## Panoramas (`packages/pano`)
+
+Muse Image is asked for `size: "2048x1024"` and an equirectangular prompt (the gateway appends the panorama
+contract to whatever Spark wrote). The decoded image is checked on a 512-px copy:
+
+- **size**: the real returned W×H (also read from the file header on the gateway);
+- **seam ΔE**: mean CIE76 ΔE between the first and last column, compared with the image's own typical
+  neighbouring-column ΔE (threshold max(6, 3 × inner));
+- **horizon row**: the split of the 20–80 % band that best separates rows above from below (two-segment
+  least squares on row-mean Lab). It finds the sky/ground boundary, which can sit a few % off the geometric
+  horizon (Satara Night reads 5.5 % off and falls back to `cylinder`).
+
+`pano_mode`: aspect off 2:1 by > 0.15 or horizon off by > 5 % → `cylinder`; seam over threshold →
+`equirect+seamfix` (64-px cross-fade across the seam at full res, 8 % pole caps); else `equirect`.
+
+## Rendering (`packages/xr`)
+
+- **Mask**: the door quad, 6 cm proud of the wall, writes stencil ref *k* (one per door) and nothing else. It
+  carries IWSDK `DepthOccludable` (hard occlusion), so real objects in front of the wall (couch, hand) remove
+  stencil pixels and the world never draws over them. 6 cm keeps wall-flush things and depth noise from cutting
+  holes.
+- **World**: a 12 m inside-out sphere centred where your eyes were when the world opened, whose lower part is
+  pressed onto the floor plane only where the floor is nearer than the sphere: looking steeply down gives real
+  floor parallax, while the band just below the horizon stays round, so distant trunks and walls don't bend
+  over (as they do with a fully ground-projected skybox). A shader tests stencil == *k*; the image's centre
+  column faces the door. Because the centre is fixed in the room, moving your head changes what the door frames.
+  `cylinder` mode: an open cylinder with sky/ground discs in the image's own top/bottom row colours.
+- **Reveal**: a noise-thresholded dissolve with a lime edge (1.6 s); before it, sumi ink with a rising line.
+- **Light**: additive glows on the wall around the door and on the floor in front of it (rgb added, destination
+  alpha kept, so passthrough still shows); colour from the plan's `ambient_spill`, or the image's horizon band
+  without a plan.
+- **Step-in** (`stepIn` in `packages/room`): within 0.3 m of the door (head inside its rectangle) or an index tip
+  behind the wall inside the door → flood over 1.2 s: a second copy of the world without the stencil, masked by
+  angle from the door direction (a lime ring at the front), with rays that hit the floor within 1.6 m kept
+  transparent. When inside, the windowed copy hides and a depth-only door the same size, 0.7 m behind you, keeps
+  the passthrough room visible: the way back. Leaving the entry point by 0.5 m reverses it.
+# Submission form draft: Meta Global AI Developer Hackathon 2026 (Indie track)
+
+Status: **draft**. Nothing here is submitted. Numbers come from `deployments/e2e/*.json` (emulator) and are
+labelled as such; Meta model numbers wait for `MODEL_API_KEY`.
+
+- **Project name:** Thyra (θύρα, Greek "door")
+- **Track:** Indie, "Push the Frontier"
+- **One line:** Pinch your real wall, drag a door open, say where it leads: Muse Spark reads your room's measurements and Muse Image paints the world behind the wall, with real head-tracked parallax.
+- **Repository:** _(Nick creates the GitHub repo and pushes)_
+- **Demo video (≤ 3 min):** _(to record; emulator clips in `grokbot/videos/thyra/` are test recordings, not the demo)_
+- **Try it:** _(hosted URL once Nick picks hosting; local instructions in README "Run it on a Quest")_
+
+## What it does
+
+On a Quest 3/3S (WebXR `immersive-ar`, Meta's Immersive Web SDK) you pinch a detected wall and drag a door
+frame open; it stays locked to the wall's real edges and snaps to the floor. You say or pick where it leads.
+Thyra builds a **room summary** (door size and sill, wall size, your eye height and distance, ceiling, floor
+area, labelled furniture beside the door; no pixels) and Muse Spark turns it into a `compose_portal` plan; Muse
+Image paints the destination once as a 2:1 panorama. The panorama is checked (returned size, seam ΔE, horizon
+row) and mapped as a sphere, seam-fixed sphere or cylinder. It's drawn through a stencil window centred on your
+eyes with the ground at your floor, so the view through the door shifts like a real window as you move; real
+objects in front of the wall still hide it (depth sensing). Walk up to it and the world floods around you, with
+the floor near your feet kept real and a lime door behind you leading back.
+
+## Meta models used
+
+| Model | Use | Status |
+|---|---|---|
+| `muse-spark-1.3` | room summary → `compose_portal` plan (strict schema) | client written to the documented Chat Completions shape; **Setup required** until the key exists |
+| `muse-image-1.0` | the destination panorama (`size: 2048x1024`) | same |
+| `muse-voice-transcribe-1.0` | spoken destination (WAV via the gateway) | same; browser speech is the labelled fallback |
+| `muse-wonder-1.0` | A/B planner | gateway accepts it; not benchmarked yet |
+
+## How it's built
+
+TypeScript monorepo: `packages/xr` (IWSDK app), `packages/room` (pure geometry + room summary + Step-in),
+`packages/pano` (panorama checks), `packages/gateway` (the only holder of the key; rate limit, daily cap, run
+records), `packages/landing`. Emulator e2e on IWER + SEM synthetic rooms with emulated hands only.
+
+## Honest limits
+
+- No headset session yet: plane labels, frame time on device, anchors and real parallax feel are unverified on
+  hardware. Every number in the README says emulator or device.
+- Muse Image isn't documented to make panoramas; Thyra asks for one and checks what comes back.
+- No light estimation on Quest (assumed); the summary says `light: {available: false}`.
+- Phone clip mode (SAM 3.1) from the spec is not built.
+
+## Team
+
+Nivesh Gajengi (solo). MIT licence.
