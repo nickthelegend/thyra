@@ -1,0 +1,5 @@
+PASS X21-interrupted-during-hold-room
+PASS X21-fresh-draw-room
+PASS X21-interrupted-during-hold-session
+PASS X21-fresh-draw-session
+PASS X22-way-back-placement

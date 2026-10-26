@@ -1,0 +1,8 @@
+PASS  glasses profile active (Meta VR Glasses), gaze-tracking granted  ["local-floor","bounded-floor","hand-tracking","anchors","hit-test","plane-detection","mesh-detection","gaze-tracking","eye-tracking","depth-sensing","viewer","local"]
+PASS  gaze + pinch draws a 1.00 × 1.90 m door
+PASS  door card inside the glasses view (max |h| 17.7°, v -30.1…-6.5°)  [{"h":-17.694760630001532,"v":-30.125134684735883},{"h":17.694761020269933,"v":-30.125134754038815},{"h":15.521403929700023,"v":-6.488977962918241},{"h":-15.521403518821973,"v":-6.488977936523456}]
+PASS  gaze + pinch on the card opens the world
+PASS  sample remains labelled and generation stays Setup required  {"session":true,"walls":[{"id":"plane-26","label":"wall","origin":[-2.5,1.350000023841858,-0.5],"n":[1,0,0],"bounds":{"u0":-2.901999950408936,"u1":2.901999950408936,"v0":-1.3519999980926516,"v1":1.351
+PASS  glasses close, re-enter and gaze-pinch draw retains card fit  [{"h":-17.694760630001532,"v":-30.125134684735883},{"h":17.694761020269933,"v":-30.125134754038815},{"h":15.521403929700023,"v":-6.488977962918241},{"h":-15.521403518821973,"v":-6.488977936523456}]
+PASS  console: 0 errors  []
+7/7 passed

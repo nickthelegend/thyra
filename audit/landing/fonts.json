@@ -1,0 +1,142 @@
+[
+  {
+    "label": "landing-375",
+    "type": "response",
+    "url": "https://fonts.googleapis.com/css2?family=Host+Grotesk:wght@400;500;600&family=Ubuntu+Sans+Mono:wght@400;500&display=swap",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "landing-375",
+    "type": "response",
+    "url": "https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyR7mzgBHrR5yE7ZyRg0QRJMKI45grIfDfySZU.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "landing-375",
+    "type": "response",
+    "url": "https://fonts.gstatic.com/s/hostgrotesk/v5/co3BmWBnlCJ3U42vbbfdwMjZpFjmw07Arg.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "landing-375",
+    "type": "response",
+    "url": "https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyR7mzgBHrR5yE7ZyRg0QRJMKI45gnIfDfySZWz2g.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "landing-1280",
+    "type": "response",
+    "url": "https://fonts.googleapis.com/css2?family=Host+Grotesk:wght@400;500;600&family=Ubuntu+Sans+Mono:wght@400;500&display=swap",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "landing-1280",
+    "type": "response",
+    "url": "https://fonts.gstatic.com/s/hostgrotesk/v5/co3BmWBnlCJ3U42vbbfdwMjZpFjmw07Arg.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "landing-1280",
+    "type": "response",
+    "url": "https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyR7mzgBHrR5yE7ZyRg0QRJMKI45grIfDfySZU.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "landing-1280",
+    "type": "response",
+    "url": "https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyR7mzgBHrR5yE7ZyRg0QRJMKI45gnIfDfySZWz2g.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "L11",
+    "type": "response",
+    "url": "https://fonts.googleapis.com/css2?family=Host+Grotesk:wght@400;500;600&family=Ubuntu+Sans+Mono:wght@400;500&display=swap",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "L11",
+    "type": "response",
+    "url": "https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyR7mzgBHrR5yE7ZyRg0QRJMKI45gnIfDfySZWz2g.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "L11",
+    "type": "response",
+    "url": "https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyR7mzgBHrR5yE7ZyRg0QRJMKI45grIfDfySZU.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "L11",
+    "type": "response",
+    "url": "https://fonts.gstatic.com/s/hostgrotesk/v5/co3BmWBnlCJ3U42vbbfdwMjZpFjmw07Arg.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "L12",
+    "type": "response",
+    "url": "https://fonts.googleapis.com/css2?family=Host+Grotesk:wght@400;500;600&family=Ubuntu+Sans+Mono:wght@400;500&display=swap",
+    "status": 200,
+    "negative": true
+  },
+  {
+    "label": "L12",
+    "type": "response",
+    "url": "https://fonts.gstatic.com/s/hostgrotesk/v5/co3BmWBnlCJ3U42vbbfdwMjZpFjmw07Arg.woff2",
+    "status": 200,
+    "negative": true
+  },
+  {
+    "label": "L12",
+    "type": "response",
+    "url": "https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyR7mzgBHrR5yE7ZyRg0QRJMKI45gnIfDfySZWz2g.woff2",
+    "status": 200,
+    "negative": true
+  },
+  {
+    "label": "L12",
+    "type": "response",
+    "url": "https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyR7mzgBHrR5yE7ZyRg0QRJMKI45grIfDfySZU.woff2",
+    "status": 200,
+    "negative": true
+  },
+  {
+    "label": "L13",
+    "type": "response",
+    "url": "https://fonts.googleapis.com/css2?family=Host+Grotesk:wght@400;500;600&family=Ubuntu+Sans+Mono:wght@400;500&display=swap",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "L13",
+    "type": "response",
+    "url": "https://fonts.gstatic.com/s/hostgrotesk/v5/co3BmWBnlCJ3U42vbbfdwMjZpFjmw07Arg.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "L13",
+    "type": "response",
+    "url": "https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyR7mzgBHrR5yE7ZyRg0QRJMKI45gnIfDfySZWz2g.woff2",
+    "status": 200,
+    "negative": false
+  },
+  {
+    "label": "L13",
+    "type": "response",
+    "url": "https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyR7mzgBHrR5yE7ZyRg0QRJMKI45grIfDfySZU.woff2",
+    "status": 200,
+    "negative": false
+  }
+]

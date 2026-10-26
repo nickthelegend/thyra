@@ -35,6 +35,14 @@ describe('drawRect', () => {
     expect(dimensionLabel(1.2, 2.05)).toBe('1.20 × 2.05 m');
   });
 
+  it('accepts the inclusive minimum after XR Float32 projection round-off', () => {
+    const r = drawRect([-0.2, -0.75], [Math.fround(0.2) - 1e-7, -1.32], bounds, { floorV: -1.35 });
+    expect(r.snapped.floor).toBe(true);
+    expect(r.valid).toBe(true);
+    expect(drawRect([0, 0], [0.3999, 0.6], bounds).valid).toBe(false);
+    expect(drawRect([0, 0], [0.4, 0.5999], bounds).valid).toBe(false);
+  });
+
   it('tests points against the rectangle with a margin', () => {
     const r = { u0: 0, u1: 1, v0: 0, v1: 2 };
     expect(insideRect(r, [1.05, 1])).toBe(false);
@@ -53,5 +61,10 @@ describe('rectsOverlap', () => {
     expect(rectsOverlap(door, { u0: 0.6, u1: 1.4, v0: -1.35, v1: 0.6 })).toBe(false);
     expect(rectsOverlap(door, { u0: 1.4, u1: 2.2, v0: -1.35, v1: 0.65 })).toBe(false);
     expect(rectsOverlap(door, { u0: -0.6, u1: 0.6, v0: 0.7, v1: 1.35 })).toBe(false);
+  });
+  it('accepts a shared hand-ray edge after Float32 projection, but rejects measurable overlap', () => {
+    const a = { u0: -1.0000000515913285, u1: 1.973552840595083e-8, v0: -1.35, v1: 0.55 };
+    expect(rectsOverlap(a, { u0: -2, u1: -0.99999999, v0: -1.35, v1: 0.55 })).toBe(false);
+    expect(rectsOverlap(a, { u0: -2, u1: -0.9999, v0: -1.35, v1: 0.55 })).toBe(true);
   });
 });

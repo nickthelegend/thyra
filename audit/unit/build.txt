@@ -1,0 +1,102 @@
+
+> thyra@0.1.0 xr:build
+> npm --prefix packages/xr run build
+
+
+> @thyra/xr@0.1.0 prebuild
+> node ../../eval/rooms/build.mjs
+
+rooms: thyra_hall.glts
+rooms: thyra_studio.glts
+
+> @thyra/xr@0.1.0 build
+> vite build
+
+vite v7.3.7 building client environment for production...
+transforming...
+node_modules/zod/v4/core/util.js (400:0): A comment
+
+"// Wrapped in a `@__PURE__` IIFE: esbuild never tree-shakes a top-level initializer that contains a member access on `Number`, so the bare object literal survived into every bundle."
+
+in "node_modules/zod/v4/core/util.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+node_modules/zod/v4/core/regexes.js (74:0): A comment
+
+"/** Anchors a pattern source. The interpolation lives here rather than at the call site because
+ * esbuild will not drop a `@__PURE__` call whose own argument interpolates a variable, but it
+ * will drop `anchor(dateSource)`. Keeping it inline pinned `date` into every bundle. */"
+
+in "node_modules/zod/v4/core/regexes.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+✓ 2245 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                                          0.90 kB │ gzip:     0.52 kB
+dist/assets/ubuntu-sans-mono-greek-400-normal-Dg-ss11H.woff2             4.68 kB
+dist/assets/ubuntu-sans-mono-greek-500-normal-BslXTOG8.woff2             4.68 kB
+dist/assets/ubuntu-sans-mono-greek-ext-500-normal-CMOoQa_m.woff2         4.81 kB
+dist/assets/ubuntu-sans-mono-greek-ext-400-normal-Cis38YOF.woff2         4.82 kB
+dist/assets/ubuntu-sans-mono-greek-500-normal-ChfPL5UD.woff              5.91 kB
+dist/assets/ubuntu-sans-mono-greek-400-normal-DRGI4Uk8.woff              5.92 kB
+dist/assets/ubuntu-sans-mono-greek-ext-400-normal-D1VtG4uQ.woff          6.43 kB
+dist/assets/ubuntu-sans-mono-greek-ext-500-normal-Dr_2tanF.woff          6.43 kB
+dist/assets/ubuntu-sans-mono-cyrillic-500-normal-OnTIITp7.woff2          6.95 kB
+dist/assets/ubuntu-sans-mono-cyrillic-400-normal-BiTUnBBr.woff2          7.00 kB
+dist/assets/physics-worker-C0UdwKyG.js                                   7.15 kB
+dist/assets/ubuntu-sans-mono-cyrillic-ext-500-normal-C8ABeo6G.woff2      7.83 kB
+dist/assets/ubuntu-sans-mono-cyrillic-ext-400-normal-Bxr6GnOE.woff2      7.90 kB
+dist/assets/host-grotesk-latin-ext-400-normal-2lWav77k.woff2             8.02 kB
+dist/assets/host-grotesk-latin-ext-500-normal-ll0qUnSO.woff2             8.06 kB
+dist/assets/host-grotesk-latin-ext-600-normal-8Phxb3ZY.woff2             8.08 kB
+dist/assets/ubuntu-sans-mono-cyrillic-500-normal-C0ZenFIe.woff           8.70 kB
+dist/assets/ubuntu-sans-mono-cyrillic-400-normal-75SRrGaE.woff           8.74 kB
+dist/assets/ubuntu-sans-mono-cyrillic-ext-500-normal-BCTPbfvl.woff       9.76 kB
+dist/assets/ubuntu-sans-mono-cyrillic-ext-400-normal-CWDGH7_B.woff       9.87 kB
+dist/assets/host-grotesk-latin-ext-500-normal-G3nlyK26.woff             10.79 kB
+dist/assets/host-grotesk-latin-ext-400-normal-HDUo2C87.woff             10.80 kB
+dist/assets/host-grotesk-latin-ext-600-normal-Be3M_oM0.woff             10.80 kB
+dist/assets/ubuntu-sans-mono-latin-500-normal-BzC7Rd_f.woff2            12.18 kB
+dist/assets/ubuntu-sans-mono-latin-400-normal-IIoRDLCI.woff2            12.22 kB
+dist/assets/host-grotesk-latin-400-normal-qDxuE_yq.woff2                13.68 kB
+dist/assets/host-grotesk-latin-600-normal-D4yVz22u.woff2                13.73 kB
+dist/assets/host-grotesk-latin-500-normal-B7155YqD.woff2                13.79 kB
+dist/assets/ubuntu-sans-mono-latin-400-normal-CzZhUJOI.woff             15.11 kB
+dist/assets/ubuntu-sans-mono-latin-500-normal-BrYGzVFx.woff             15.12 kB
+dist/assets/host-grotesk-latin-400-normal-B5l3BUS2.woff                 18.29 kB
+dist/assets/host-grotesk-latin-500-normal-CYkrbnPr.woff                 18.31 kB
+dist/assets/host-grotesk-latin-600-normal-Ba3Meoq5.woff                 18.32 kB
+dist/assets/ubuntu-sans-mono-latin-ext-400-normal-lYzGYGvJ.woff2        18.57 kB
+dist/assets/ubuntu-sans-mono-latin-ext-500-normal-DqEhXZcl.woff2        18.62 kB
+dist/assets/ubuntu-sans-mono-latin-ext-500-normal-DPwX6gMt.woff         23.16 kB
+dist/assets/ubuntu-sans-mono-latin-ext-400-normal-DbI1ZjCE.woff         23.17 kB
+dist/assets/worker-_Lh8Vt-i.js                                          41.91 kB
+dist/assets/index-3xLGLFnt.css                                          11.03 kB │ gzip:     2.56 kB
+dist/assets/_iwsdk-legacy-capture-B-A3EajS-B-A3EajS.js                   0.11 kB │ gzip:     0.12 kB
+dist/assets/_virtual_iwsdk-disabled-bundled-fonts-CyX98Mcx.js            0.78 kB │ gzip:     0.46 kB
+dist/assets/physics-runtime-Ba-sFohY.js                                  6.34 kB │ gzip:     2.51 kB
+dist/assets/index-Brupejm_.js                                            6.82 kB │ gzip:     2.87 kB
+dist/assets/index-3NxAOvEX.js                                           21.76 kB │ gzip:     6.56 kB
+dist/assets/world-initializer-Zu45rxyV.js                               54.45 kB │ gzip:    18.30 kB
+dist/assets/sunlit_living_room-1m7CU_6o-CeTIwFrh.js                     69.01 kB │ gzip:    20.64 kB
+dist/assets/home_office-BxWjiBZF-CRlN6AtZ.js                           103.73 kB │ gzip:    29.44 kB
+dist/assets/open_studio-CVCR0jsb-DAm65EnU.js                           104.42 kB │ gzip:    29.70 kB
+dist/assets/conference_room-CqY6mchI-E1WHtdcW.js                       106.54 kB │ gzip:    30.37 kB
+dist/assets/open_office-BEqVZ5xR-DafZ8g_A.js                           107.00 kB │ gzip:    30.44 kB
+dist/assets/bedroom-DETf9sEz-D5vS2Mae.js                               108.95 kB │ gzip:    30.87 kB
+dist/assets/kitchen-X_P3Lfoy-bcNICZb7.js                               111.65 kB │ gzip:    31.39 kB
+dist/assets/music_studio-glBmJOMe-BxB-m7DU.js                          113.06 kB │ gzip:    31.70 kB
+dist/assets/worker-D8yl70Ie.js                                         201.88 kB │ gzip:    64.49 kB
+dist/assets/msdf-worker-BUaSHgMS.js                                    455.99 kB │ gzip:   181.02 kB
+dist/assets/index-CMmj0avE-DQATDnfj.js                                 714.69 kB │ gzip:   180.38 kB
+dist/assets/index-CXj23zj6.js                                        3,974.22 kB │ gzip: 1,092.64 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 5.03s
+
+🥽 IWSDK Dev Summary (Build):
+  - Device: metaQuest3
+  - Runtime injected: 1470.5KB
+  - Activation mode: always
+  - SEM environment: sunlit_living_room
+

@@ -1,0 +1,19 @@
+{
+  "programs": [],
+  "stream_groups": [],
+  "streams": [
+    {
+      "width": 720,
+      "height": 692,
+      "r_frame_rate": "30/1",
+      "nb_frames": "1049"
+    }
+  ],
+  "format": {
+    "duration": "34.966667",
+    "size": "1690213"
+  },
+  "path": "/tmp/thyra-t5-videos/thyra-01-tear-open.mp4",
+  "capture": "Actual IWER Quest 3 hand choreography; CC0 sample; test recording, not physical capture or a submitted demo",
+  "captured_screencast_frames": 1295
+}

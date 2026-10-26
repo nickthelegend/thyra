@@ -1,0 +1,6 @@
+
+> @thyra/xr@0.1.0 rooms
+> node ../../eval/rooms/build.mjs
+
+rooms: thyra_hall.glts
+rooms: thyra_studio.glts

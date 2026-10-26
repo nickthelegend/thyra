@@ -1,0 +1,66 @@
+{
+  "at": "2026-10-26T20:47:27.699Z",
+  "passed": 5,
+  "failed": 0,
+  "checks": [
+    {
+      "id": "G19-non-json",
+      "ok": true,
+      "detail": {
+        "instance": true,
+        "status": 404,
+        "body": {
+          "error": "bad_response",
+          "message": "not found"
+        },
+        "base": "http://127.0.0.1:8431",
+        "image": "http://127.0.0.1:8431/api/image"
+      }
+    },
+    {
+      "id": "A13-query-base",
+      "ok": true,
+      "detail": {
+        "instance": true,
+        "status": 404,
+        "body": {
+          "error": "bad_response",
+          "message": "not found"
+        },
+        "base": "http://127.0.0.1:8431",
+        "image": "http://127.0.0.1:8431/api/image"
+      }
+    },
+    {
+      "id": "G19-json",
+      "ok": true,
+      "detail": {
+        "instance": true,
+        "status": 503,
+        "body": {
+          "error": "setup_required",
+          "setup_required": "MODEL_API_KEY",
+          "message": "Setup required: MODEL_API_KEY is not set on the gateway."
+        },
+        "setup": true
+      }
+    },
+    {
+      "id": "G19-status-timeout",
+      "ok": true,
+      "detail": {
+        "result": null,
+        "ms": 4002.4000000059605
+      }
+    },
+    {
+      "id": "G19-ordinary-timeout",
+      "ok": true,
+      "detail": {
+        "ok": false,
+        "name": "TimeoutError",
+        "ms": 130003.70000000298
+      }
+    }
+  ]
+}

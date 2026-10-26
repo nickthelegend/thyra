@@ -1,0 +1,9 @@
+{
+  "rows": 127,
+  "counts": {
+    "PASS": 108,
+    "UNTESTED": 19
+  },
+  "expected_cells_sha256": "4735d8de6d4bde2be3d713b32e96bf943c8b96558bb0ab693a0714cc8e9e0e3f",
+  "expected_cells_preserved": true
+}

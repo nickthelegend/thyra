@@ -1,3 +1,4 @@
+import { captureReady } from './audit-capture.ts';
 /**
  * Meta VR Glasses profile (IWER metaVRGlasses): gaze aims, a hand pinch
  * selects; the door card must sit inside the glasses' view (±37°, +25°/−43°).
@@ -31,14 +32,17 @@ async function waitReady() {
 }
 
 const startedMs = Date.now();
-const gw = spawn('node', [`${root}packages/gateway/src/main.ts`], { env: { ...process.env, MODEL_API_KEY: '', THYRA_RUNS_DIR: `${root}deployments/runs-e2e` }, stdio: 'ignore' });
+const gw = process.env.THYRA_EXTERNAL_GATEWAY ? null : spawn('node', [`${root}packages/gateway/src/main.ts`], { env: { ...process.env, MODEL_API_KEY: '', THYRA_RUNS_DIR: process.env.THYRA_RUNS_DIR ?? `${root}deployments/runs-e2e` }, stdio: 'ignore' });
 try {
   const cfg = JSON.parse(original);
   cfg.dev.emulator.device = 'metaVRGlasses';
   writeFileSync(cfgPath, `${JSON.stringify(cfg, null, 2)}\n`);
   await sleep(6000);
   await waitReady();
+  await captureReady();
+  cli('browser', 'reload', {});
   await sleep(3000);
+  await waitReady();
   for (let i = 0; i < 15; i++) {
     try {
       cli('xr', 'enter', {});
@@ -85,6 +89,26 @@ try {
   check('gaze + pinch on the card opens the world', s2.portals[0].phase === 'open');
   await sleep(2500);
   cli('browser', 'screenshot', {}, ['--output-file', 'artifacts/e2e/glasses-open.png']);
+  const openSnapshot = snapshot();
+  check('sample remains labelled and generation stays Setup required', openSnapshot.portals[0].record.stamp === 'Sample, not generated' && JSON.stringify(openSnapshot.status).includes('MODEL_API_KEY'), openSnapshot);
+  gazeAt(evalPage<Vec3>(`window.__thyra.cardTarget('close')`));
+  await sleep(300);
+  cli('xr', 'select', { device: HAND, duration: 0.2 });
+  await waitFor((x) => x.portals.length === 0, 5000, 'closed by gaze');
+  cli('xr', 'exit', {});
+  await sleep(400);
+  cli('xr', 'enter', {});
+  await sleep(1000);
+  cli('xr', 'set-input-mode', { mode: 'hand' });
+  gazeAt(wallPoint(s, back.id, -0.5, fv + 1.9));
+  cli('xr', 'set-select-value', { device: HAND, value: 1 });
+  gazeAt(wallPoint(s, back.id, 0.5, fv + 0.03));
+  cli('xr', 'set-select-value', { device: HAND, value: 0 });
+  await waitFor((x) => x.portals.length === 1 && x.card !== null, 6000, 'reentered gaze draw');
+  gazeAt(wallPoint(s, back.id, 0, fv + 1.2));
+  await sleep(1000);
+  const reentry = evalPage<Array<{h:number;v:number}>>('window.__thyraCardCorners()');
+  check('glasses close, re-enter and gaze-pinch draw retains card fit', reentry.every((x) => Math.abs(x.h) <= 35 && x.v <= 23 && x.v >= -41), reentry);
   const errors = cli<Array<{ level: string; timestamp: number; message: string }>>('browser', 'logs', { count: 200 }).filter((l) => l.level === 'error' && l.timestamp >= startedMs);
   check(`console: ${errors.length} errors`, errors.length === 0, errors.slice(0, 3).map((e) => e.message.slice(0, 160)));
   void snapshot;
@@ -92,10 +116,11 @@ try {
   check('glasses scenario completed', false, (err as Error).message);
 } finally {
   writeFileSync(cfgPath, original);
-  gw.kill();
+  gw?.kill();
 }
 const passed = checks.filter((c) => c.ok).length;
-mkdirSync(`${root}deployments/e2e`, { recursive: true });
-writeFileSync(`${root}deployments/e2e/glasses-${new Date().toISOString().replace(/[:.]/g, '-')}.json`, JSON.stringify({ device: 'IWER metaVRGlasses (emulator)', passed, failed: checks.length - passed, checks }, null, 2));
+const outputDir = process.env.THYRA_AUDIT_DIR ?? `${root}deployments/e2e`;
+mkdirSync(outputDir, { recursive: true });
+writeFileSync(`${outputDir}/${process.env.THYRA_AUDIT_DIR ? 'glasses-checks' : `glasses-${new Date().toISOString().replace(/[:.]/g, '-')}`}.json`, JSON.stringify({ device: 'IWER metaVRGlasses (emulator)', started: new Date(startedMs).toISOString(), finished: new Date().toISOString(), passed, failed: checks.length - passed, checks }, null, 2));
 console.log(`${passed}/${checks.length} passed`);
 process.exit(passed === checks.length ? 0 : 1);

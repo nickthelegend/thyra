@@ -13,6 +13,8 @@ const pkg = (name: string) => fileURLToPath(new URL(`../${name}/src/index.ts`, i
 const gateway = process.env.THYRA_GATEWAY_URL ?? 'http://127.0.0.1:8430';
 
 export default defineConfig({
+  // Audit sessions select an empty directory so Vite cannot load local .env files.
+  envDir: process.env.THYRA_ENV_DIR,
   plugins: [iwsdkDev()],
   server: {
     host: '0.0.0.0',

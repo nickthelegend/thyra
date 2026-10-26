@@ -11,7 +11,7 @@ import { cli, evalPage, sleep, snapshot, XR_DIR, type Vec3 } from './iwsdk.ts';
 import { enterSession, HAND, pressCard, waitFor, wallPoint } from './scenario.ts';
 
 const root = fileURLToPath(new URL('..', import.meta.url));
-const VIDEOS = fileURLToPath(new URL('../../../videos/thyra/', import.meta.url));
+const VIDEOS = process.env.THYRA_VIDEO_DIR ?? fileURLToPath(new URL('../../../videos/thyra/', import.meta.url));
 
 function quatLookAt(from: Vec3, to: Vec3): { x: number; y: number; z: number; w: number } {
   // rotation whose -Z axis points from `from` to `to`, +Y kept up
@@ -108,7 +108,7 @@ async function record(name: string, seconds: number, choreography: () => Promise
   console.log(`${name}: ${ts.length} frames, ${Number(dur).toFixed(1)} s → ${out}`);
 }
 
-const gw = spawn('node', [`${root}packages/gateway/src/main.ts`], { env: { ...process.env, MODEL_API_KEY: '', THYRA_RUNS_DIR: `${root}deployments/runs-e2e` }, stdio: 'ignore' });
+const gw = process.env.THYRA_EXTERNAL_GATEWAY ? null : spawn('node', [`${root}packages/gateway/src/main.ts`], { env: { ...process.env, MODEL_API_KEY: '', THYRA_RUNS_DIR: process.env.THYRA_RUNS_DIR ?? `${root}deployments/runs-e2e` }, stdio: 'ignore' });
 try {
   try {
     cli('xr', 'exit', {});
@@ -217,5 +217,5 @@ try {
     });
   }
 } finally {
-  gw.kill();
+  gw?.kill();
 }
